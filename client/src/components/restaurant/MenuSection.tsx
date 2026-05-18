@@ -83,51 +83,62 @@ export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectio
               </h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {menu.filter((item) => item.category === cat).map((item) => (
-                  <motion.button
-                    key={item.id}
-                    layoutId={item.id}
-                    onClick={() => onSelectItem(item)}
-                    className={`flex gap-5 p-4 rounded-2xl text-left border transition-all duration-300 group relative ${
-                      selectedMenuItem?.id === item.id
-                        ? "bg-secondary/50 border-ring shadow-xl shadow-ring/10 ring-1 ring-ring/50"
-                        : "bg-card border-border hover:border-ring/40 hover:shadow-lg"
-                    }`}
-                  >
-                    <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden flex-shrink-0 shadow-md">
-                      <img
-                        src={item.imageUrl}
-                        alt={item.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                    </div>
-                    
-                    <div className="flex-1 py-1 flex flex-col justify-between">
-                      <div>
-                        <div className="flex items-start justify-between gap-2 mb-1.5">
-                          <p className={`font-bold text-sm leading-tight ${
-                            selectedMenuItem?.id === item.id ? "text-ring" : "text-foreground"
-                          }`}>
-                            {item.name}
-                          </p>
-                          {selectedMenuItem?.id === item.id && (
-                            <Zap className="w-4 h-4 text-ring fill-ring flex-shrink-0 drop-shadow-sm" />
-                          )}
-                        </div>
-                        <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed">
-                          {item.description}
-                        </p>
+                {menu.filter((item) => item.category === cat).map((item) => {
+                  const minPrice = item.prices && item.prices.length > 0
+                    ? Math.min(...item.prices.filter(p => p.available && p.price > 0).map(p => p.price))
+                    : null;
+
+                  return (
+                    <motion.button
+                      key={item.id}
+                      layoutId={item.id}
+                      onClick={() => onSelectItem(item)}
+                      className={`flex gap-5 p-4 rounded-2xl text-left border transition-all duration-300 group relative ${
+                        selectedMenuItem?.id === item.id
+                          ? "bg-secondary/50 border-ring shadow-xl shadow-ring/10 ring-1 ring-ring/50"
+                          : "bg-card border-border hover:border-ring/40 hover:shadow-lg"
+                      }`}
+                    >
+                      <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden flex-shrink-0 shadow-md">
+                        <img
+                          src={item.imageUrl}
+                          alt={item.name}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                       </div>
                       
-                      <div className="mt-3 flex items-center gap-2">
-                        <span className="text-[10px] font-bold bg-secondary text-secondary-foreground px-2.5 py-1 rounded-md uppercase tracking-wider group-hover:bg-ring/10 group-hover:text-ring transition-colors">
-                          Compară Preț
-                        </span>
+                      <div className="flex-1 py-1 flex flex-col justify-between">
+                        <div>
+                          <div className="flex items-start justify-between gap-2 mb-1.5">
+                            <p className={`font-bold text-sm leading-tight ${
+                              selectedMenuItem?.id === item.id ? "text-ring" : "text-foreground"
+                            }`}>
+                              {item.name}
+                            </p>
+                            {selectedMenuItem?.id === item.id && (
+                              <Zap className="w-4 h-4 text-ring fill-ring flex-shrink-0 drop-shadow-sm" />
+                            )}
+                          </div>
+                          <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed">
+                            {item.description}
+                          </p>
+                        </div>
+                        
+                        <div className="mt-3 flex items-center justify-between gap-2">
+                          {minPrice !== null && (
+                            <span className="text-xs font-extrabold text-ring font-['Outfit']">
+                              {minPrice.toFixed(2)} RON
+                            </span>
+                          )}
+                          <span className="text-[10px] font-bold bg-secondary text-secondary-foreground px-2.5 py-1 rounded-md uppercase tracking-wider group-hover:bg-ring/10 group-hover:text-ring transition-colors">
+                            Compară Preț
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                  </motion.button>
-                ))}
+                    </motion.button>
+                  );
+                })}
               </div>
             </div>
           ))}
