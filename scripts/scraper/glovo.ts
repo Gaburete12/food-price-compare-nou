@@ -121,13 +121,32 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
 
         // 3. Extragem datele reale din DOM (cu fallback pe valorile default dacă selectorii nu găsesc nimic)
         let extracted = {
-          deliveryFee: 8.99,
-          serviceFeePercent: 0.06,
-          serviceFeeMin: 2.49,
-          serviceFeeMax: 7.99,
+          deliveryFee: 2.99,
+          serviceFeePercent: 0.05,
+          serviceFeeMin: 1.50,
+          serviceFeeMax: 5.00,
           smallOrderFee: 5.99,
-          smallOrderThreshold: 40,
+          smallOrderThreshold: 40.0,
         };
+
+        // Încercăm să citim taxa de livrare direct din header-ul paginii magazinului (foarte robust)
+        try {
+          const headerText = await page.locator('.store-header, [data-test-id="store-header"], header, .store-info-content').first().textContent() || "";
+          log(`Store header text parsed: ${headerText}`);
+          
+          if (headerText.toLowerCase().includes("gratuit") || headerText.toLowerCase().includes("free")) {
+            extracted.deliveryFee = 0;
+            log(`Smart header parser found free delivery!`);
+          } else {
+            const feeMatch = headerText.match(/([\d,]+)\s*(lei|RON)/i);
+            if (feeMatch) {
+              extracted.deliveryFee = parseFloat(feeMatch[1].replace(',', '.'));
+              log(`Smart header parser found delivery fee: ${extracted.deliveryFee} RON`);
+            }
+          }
+        } catch (e: any) {
+          log(`Eroare la smart header parser: ${e.message}`);
+        }
 
         const feeBlocks = await page.locator('[class*="FeesModal_feeInformation"]').all();
         
