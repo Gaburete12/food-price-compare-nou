@@ -78,52 +78,62 @@ export function normalizeRestaurantMenusDataset(
   };
 }
 
-function cleanMcDonaldsCategory(name: string, originalCategory: string): string {
+function cleanRestaurantCategory(restaurantId: string, name: string, originalCategory: string): string {
   const n = name.toLowerCase();
-  
-  if (n.includes("promo") || n.includes("noutat") || n.includes("ediție limitat") || n.includes("limitata") || n.includes("ediție specială")) {
+  const c = (originalCategory || "").toLowerCase();
+
+  // 1. Promoții & Noutăți
+  if (n.includes("promo") || n.includes("noutat") || n.includes("ediție limitat") || n.includes("limitata") || n.includes("ediție specială") || n.includes("speciala") || n.includes("oferta") || n.includes("ofertă") || c.includes("promo") || c.includes("noutat")) {
     return "Promoții și Noutăți";
   }
-  
-  // Cele mai vândute / Meniuri reprezentative
-  if (n.includes("meniu maxi big tasty") || n.includes("meniu maxi big mac") || n.includes("meniu 5 crispy") || n.includes("meniu 8 crispy") || n.includes("dublu cheeseburger") || n.includes("mctoast")) {
-    return "Cele mai vândute";
-  }
 
-  // McCafé
-  if (n.includes("café") || n.includes("espresso") || n.includes("cappuccino") || n.includes("latte") || n.includes("macchiato") || n.includes("ceai") || n.includes("croissant") || n.includes("gogoașă") || n.includes("gogosa") || n.includes("muffin")) {
-    return "McCafé";
-  }
-
-  // Deserturi
-  if (n.includes("plăcintă") || n.includes("placinta") || n.includes("înghețată") || n.includes("inghetata") || n.includes("cookie") || n.includes("shake") || n.includes("mcflurry") || n.includes("sundae") || n.includes("donut") || n.includes("clătit") || n.includes("clatit") || n.includes("desert") || n.includes("tiramisu")) {
-    return "Deserturi";
-  }
-
-  // Cartofi și sosuri
-  if (n.includes("cartofi") || n.includes("sos") || n.includes("sour") || n.includes("garlic") || n.includes("ketchup") || n.includes("sweet") || n.includes("barbeque") || n.includes("muștar") || n.includes("mustar")) {
-    return "Cartofi și sosuri";
-  }
-
-  // Burgeri și pui
-  if (n.includes("burger") || n.includes("big mac") || n.includes("mcchicken") || n.includes("cheeseburger") || n.includes("tasty") || n.includes("dublu") || n.includes("hamburger") || n.includes("crispy") || n.includes("chicken") || n.includes("pui") || n.includes("junior") || n.includes("royal") || n.includes("quarter") || n.includes("strips") || n.includes("nuggets") || n.includes("wings")) {
-    return "Burgeri și pui";
-  }
-
-  // Sandvișuri
-  if (n.includes("sandviș") || n.includes("sandvis") || n.includes("toast") || n.includes("wrap") || n.includes("baghetă") || n.includes("bagheta")) {
-    return "Sandvișuri";
-  }
-
-  // Băuturi
-  if (n.includes("cola") || n.includes("sprite") || n.includes("fanta") || n.includes("lipton") || n.includes("fuzetea") || n.includes("suc") || n.includes("băutură") || n.includes("bautura") || n.includes("nectar") || n.includes("shake")) {
+  // 2. Băuturi
+  if (n.includes("cola") || n.includes("sprite") || n.includes("fanta") || n.includes("lipton") || n.includes("fuzetea") || n.includes("suc") || n.includes("băutură") || n.includes("bautura") || n.includes("nectar") || n.includes("shake") || n.includes("apa") || n.includes("apă") || n.includes("limonada") || n.includes("limonadă") || n.includes("fresh") || c.includes("băutur") || c.includes("bautur") || c.includes("bauturi") || c.includes("băuturi") || c.includes("suc")) {
     return "Băuturi";
   }
 
-  if (originalCategory && !originalCategory.toLowerCase().includes("meniu maxi") && !originalCategory.toLowerCase().includes("meniu mediu")) {
-    return originalCategory;
+  // 3. Cafea & McCafé & Croissante
+  if (n.includes("café") || n.includes("cafe") || n.includes("espresso") || n.includes("cappuccino") || n.includes("latte") || n.includes("macchiato") || n.includes("ceai") || n.includes("croissant") || n.includes("gogoașă") || n.includes("gogosa") || n.includes("muffin") || n.includes("briosa") || n.includes("brioșă") || n.includes("flat white") || n.includes("americano") || n.includes("frappe") || c.includes("cafe") || c.includes("mccaf") || c.includes("croiss") || c.includes("muffin")) {
+    return "McCafé și Croissante";
   }
-  
+
+  // 4. Deserturi
+  if (n.includes("plăcintă") || n.includes("placinta") || n.includes("înghețată") || n.includes("inghetata") || n.includes("cookie") || n.includes("mcflurry") || n.includes("sundae") || n.includes("donut") || n.includes("clătit") || n.includes("clatit") || n.includes("desert") || n.includes("tiramisu") || n.includes("cheesecake") || n.includes("cake") || n.includes("prajitura") || n.includes("prăjitură") || n.includes("profiterol") || c.includes("desert") || c.includes("dulce")) {
+    return "Deserturi";
+  }
+
+  // 5. Cartofi, Sosuri & Garnituri
+  if (n.includes("cartofi") || n.includes("fries") || n.includes("sos") || n.includes("sauce") || n.includes("sour") || n.includes("garlic") || n.includes("ketchup") || n.includes("sweet") || n.includes("barbeque") || n.includes("bbq") || n.includes("muștar") || n.includes("mustar") || n.includes("cheddar") || n.includes("dip") || n.includes("maioneza") || n.includes("maioneză") || n.includes("usturoi") || c.includes("cartofi") || c.includes("sos") || c.includes("garnitur") || c.includes("dressing")) {
+    return "Cartofi și sosuri";
+  }
+
+  // 6. Pizza & Paste (în special pentru Pizza Hut)
+  if (n.includes("pizza") || n.includes("paste") || n.includes("spaghetti") || n.includes("lasagna") || n.includes("penne") || c.includes("pizza") || c.includes("paste")) {
+    return "Pizza și Paste";
+  }
+
+  // 7. Burgeri, Pui & Sandvișuri
+  if (n.includes("burger") || n.includes("mac") || n.includes("chicken") || n.includes("pui") || n.includes("cheeseburger") || n.includes("tasty") || n.includes("dublu") || n.includes("hamburger") || n.includes("crispy") || n.includes("junior") || n.includes("royal") || n.includes("quarter") || n.includes("strips") || n.includes("nuggets") || n.includes("wings") || n.includes("fillet") || n.includes("bites") || n.includes("hot wings") || n.includes("mcpuisor") || n.includes("mctoast") || n.includes("sandviș") || n.includes("sandvis") || n.includes("toast") || n.includes("wrap") || n.includes("baghetă") || n.includes("bagheta") || n.includes("chili cheese") || n.includes("doner") || n.includes("kebab") || n.includes("shawarma") || c.includes("burger") || c.includes("pui") || c.includes("sandviș") || c.includes("mancare") || c.includes("kebab") || c.includes("sandvis")) {
+    return "Burgeri și Pui";
+  }
+
+  // 8. Cele mai vândute (Implicit pentru restul meniurilor mari / combo)
+  if (n.includes("meniu") || n.includes("bucket") || n.includes("box") || n.includes("combo") || n.includes("family") || n.includes("smart") || c.includes("meniu") || c.includes("bucket") || c.includes("cele mai") || c.includes("popular")) {
+    return "Cele mai vândute";
+  }
+
+  // Fallback absolut în funcție de restaurant:
+  const restLower = restaurantId.toLowerCase();
+  if (restLower.includes("pizza")) {
+    return "Pizza și Paste";
+  }
+  if (restLower.includes("kfc")) {
+    return "Burgeri și Pui";
+  }
+  if (restLower.includes("dabo")) {
+    return "Burgeri și Pui";
+  }
+
   return "Cele mai vândute";
 }
 
@@ -191,23 +201,27 @@ export function applyRestaurantMenus(
   dataset: RestaurantMenusDataset
 ): Restaurant[] {
   return restaurants.map((restaurant) => {
-    let menu = dataset.menus[restaurant.id];
+    // Încercăm să luăm meniul folosind ID-ul curent din baza de date sau echivalentele lor
+    let menuKey = restaurant.id;
+    if (restaurant.id === "kfc-constanta") menuKey = "kfc-ct-1";
+    if (restaurant.id === "pizzahut-constanta") menuKey = "pizza-hut-ct-1";
+
+    let menu = dataset.menus[menuKey] || dataset.menus[restaurant.id];
     if (!menu) {
-      return restaurant;
+      // Dacă nu există meniu în baza de date, folosim meniul static și îi normalizăm categoriile
+      menu = restaurant.menu || [];
     }
 
     // Curățăm și normalizăm categoriile și imaginile pentru o experiență perfectă
-    if (restaurant.id === "mcdonalds-constanta") {
-      menu = menu.map((item) => {
-        const cleanedCategory = cleanMcDonaldsCategory(item.name, item.category);
-        const cleanedImage = getMcDonaldsImage(item.name, item.imageUrl);
-        return {
-          ...item,
-          category: cleanedCategory,
-          imageUrl: cleanedImage
-        };
-      });
-    }
+    menu = menu.map((item) => {
+      const cleanedCategory = cleanRestaurantCategory(restaurant.id, item.name, item.category);
+      const cleanedImage = getMcDonaldsImage(item.name, item.imageUrl);
+      return {
+        ...item,
+        category: cleanedCategory,
+        imageUrl: cleanedImage
+      };
+    });
 
     return {
       ...restaurant,
