@@ -37,51 +37,48 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
           }
       } catch(e) {}
 
-      // Verificăm dacă apare popup-ul de 'în afara zonei' pe pagina McDonald's
+      // Verificăm dacă apare popup-ul de 'în afara zonei' sau butonul de adresă și setăm manual locația corectă:
       try {
-          const editBtn = page.locator('button:has-text("Editeaz"), button:has-text("Edit")').first();
+          const editBtn = page.locator('button:has-text("Editeaz"), button:has-text("Edit"), [data-test-id="address-button"], button:has-text("Livrăm la")').first();
           if (await editBtn.count() > 0) {
-              log("Found 'Edit address' button in the Out of Zone modal. Clicking naturally...");
-              await editBtn.click(); // Fără force:true pentru a ne asigura că e vizibil și interactiv
+              log("Found address trigger button. Clicking it to set address manually...");
+              await editBtn.click();
               await page.waitForTimeout(2000);
+          }
+
+          // Căutăm câmpul de text pentru introducerea adresei
+          const addressInput = page.locator('input[placeholder*="caută"], input[placeholder*="adresă"], input[placeholder*="Address"], input[placeholder*="Unde dorești"], input[placeholder*="livrăm"], #delivery-address-input, .address-input input').first();
+          
+          if (await addressInput.count() > 0) {
+              log("Found address input field! Typing address: Bulevardul Tomis 47, Constanța...");
+              await addressInput.fill("Bulevardul Tomis 47, Constanța");
+              await page.waitForTimeout(2500);
               
-              log("Waiting for 'Use current location' button...");
-              const currentLocationBtn = page.locator('button:has-text("Utilizează locația curentă"), button:has-text("Use current location")').first();
-              
-              await currentLocationBtn.waitFor({ state: 'visible', timeout: 5000 }).catch(() => log("Current location button not visible after 5s!"));
-              
-              if (await currentLocationBtn.count() > 0 && await currentLocationBtn.isVisible()) {
-                  log("Found 'Use current location' button! Clicking it...");
-                  await currentLocationBtn.click();
-                  
-                  log("Waiting for location to be resolved by HTML5 Geolocation...");
+              // Selectăm prima sugestie din listă care conține textul relevant
+              const firstSuggestion = page.locator('[class*="address-suggestion"], [class*="Suggestion"], [class*="suggestion"], li:has-text("Tomis"), div:has-text("Tomis"), [class*="SuggestionRow"]').first();
+              if (await firstSuggestion.count() > 0) {
+                  log("Clicking address suggestion...");
+                  await firstSuggestion.click();
                   await page.waitForTimeout(3000);
-                  
-                  // Chiar și cu GPS, Glovo cere confirmarea tipului de locație și confirmarea finală!
-                  log("Looking for Location Type confirmation modal...");
-                  const typeBtn = page.locator('button:has-text("Altele"), button:has-text("Other"), button:has-text("Acasă"), button:has-text("Home"), button:has-text("Casă")').first();
-                  if (await typeBtn.count() > 0) {
-                      await typeBtn.click();
-                      await page.waitForTimeout(2000);
-                  }
-                  
-                  log("Looking for final Confirm button...");
-                  const confirmBtn = page.locator('button:has-text("Confirm"), button:has-text("Confirmă")').first();
-                  if (await confirmBtn.count() > 0) {
-                      log("Confirming GPS address!");
-                      await confirmBtn.click();
-                      await page.waitForTimeout(4000);
-                  } else {
-                      log("Nu am găsit butonul final de Confirmă după locația curentă!");
-                  }
-              } else {
-                  log("No 'Use current location' button found.");
               }
-          } else {
-              log("No 'Edit address' button found. Maybe we are already in zone!");
+              
+              // Dacă cere tipul de locație
+              const typeBtn = page.locator('button:has-text("Altele"), button:has-text("Other"), button:has-text("Acasă"), button:has-text("Home"), button:has-text("Casă")').first();
+              if (await typeBtn.count() > 0) {
+                  await typeBtn.click();
+                  await page.waitForTimeout(1500);
+              }
+
+              // Confirmare finală
+              const confirmBtn = page.locator('button:has-text("Confirm"), button:has-text("Confirmă"), button:has-text("Salvează")').first();
+              if (await confirmBtn.count() > 0) {
+                  log("Clicking final Confirm button to save address!");
+                  await confirmBtn.click();
+                  await page.waitForTimeout(4000);
+              }
           }
       } catch (e: any) {
-          log(`Eroare la setarea adresei pe pagina magazinului: ${e.message}`);
+          log(`Eroare la setarea manuală a adresei: ${e.message}`);
       }
 
       try {
