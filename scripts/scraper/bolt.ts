@@ -115,13 +115,13 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
           console.warn(`[Bolt] Eroare la extragerea timpului de livrare pentru ${rest.id}:`, timeErr);
         }
 
-        // Deoarece Bolt Food nu are taxă de serviciu în România și pragul de comandă mică este de 40.00 lei,
+        // Deoarece Bolt Food are o taxă fixă de serviciu de 3.00 lei în Constanța și pragul de comandă mică de 40.00 lei,
         // definim aceste reguli direct. Frontend-ul va calcula automat taxa dinamică de comandă mică
         // (Math.max(0, 40.00 - pretProdus)) în mod impecabil!
         fees[rest.id] = {
           deliveryFee,
           serviceFeePercent: null,
-          serviceFee: 0,
+          serviceFee: 3.00,
           smallOrderFee: 0,
           smallOrderThreshold: 40.00,
           dynamicSmallOrderFee: true,
