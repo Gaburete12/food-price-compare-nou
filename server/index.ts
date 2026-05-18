@@ -137,6 +137,34 @@ async function startServer() {
     }
   });
 
+  app.post("/api/admin/delivery-fees/update", async (req, res) => {
+    try {
+      const payload = req.body;
+      if (!payload || typeof payload !== "object" || !payload.fees) {
+        res.status(400).json({ error: "Invalid payload" });
+        return;
+      }
+      
+      const dataset = {
+        updatedAt: new Date().toISOString(),
+        source: "admin-dashboard-manual",
+        fees: payload.fees
+      };
+      
+      await writeDeliveryFeeDataset(dataset as any);
+      
+      res.json({ 
+        ok: true, 
+        updatedAt: dataset.updatedAt,
+        source: dataset.source,
+        fees: dataset.fees
+      });
+    } catch (error: any) {
+      console.error("Failed to update delivery fees manually", error);
+      res.status(500).json({ error: error.message || "Failed to update delivery fees" });
+    }
+  });
+
   // Handle client-side routing - serve index.html for all routes
   app.get("*", (_req, res) => {
     res.sendFile(path.join(staticPath, "index.html"));
