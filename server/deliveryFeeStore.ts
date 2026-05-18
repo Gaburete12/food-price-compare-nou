@@ -16,7 +16,8 @@ async function ensureDataDir() {
 export async function readDeliveryFeeDataset(): Promise<DeliveryFeeDataset> {
   try {
     const raw = await fs.readFile(DELIVERY_FEES_FILE, "utf8");
-    return normalizeDeliveryFeeDataset(JSON.parse(raw));
+    const cleanJson = raw.trim().replace(/^\uFEFF/, "");
+    return normalizeDeliveryFeeDataset(JSON.parse(cleanJson));
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") {
       return { ...EMPTY_DELIVERY_FEE_DATASET };
