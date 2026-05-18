@@ -196,6 +196,52 @@ function getMcDonaldsImage(name: string, originalImage: string): string {
   return "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80"; // General food
 }
 
+function shouldExcludeMenuItem(name: string): boolean {
+  const n = name.trim().toLowerCase();
+  
+  const badNames = [
+    "cele mai vândute",
+    "cele mai vandute",
+    "cele mai vãndute",
+    "cele mai vndute",
+    "cele mai vândute?",
+    "promoții",
+    "promotii",
+    "ediție limitată și noutăți",
+    "editie limitata si noutati",
+    "burgeri și pui",
+    "burgeri si pui",
+    "sandvișuri",
+    "sandvisuri",
+    "cartofi și sosuri",
+    "cartofi si sosuri",
+    "happy meal",
+    "happy meal™",
+    "salate",
+    "deserturi",
+    "deserturi?",
+    "mccafé",
+    "mccafe",
+    "mccafé?",
+    "băuturi",
+    "bauturi",
+    "intrebari frecvente",
+    "întrebări frecvente",
+    "informații comerciale",
+    "informatii comerciale",
+    "cafea rece cu lapte",
+    "galerie",
+    "meniu",
+    "meniuri",
+    "sos",
+    "sosuri",
+    "desert",
+    "cafea"
+  ];
+
+  return badNames.includes(n);
+}
+
 export function applyRestaurantMenus(
   restaurants: Restaurant[],
   dataset: RestaurantMenusDataset
@@ -213,15 +259,17 @@ export function applyRestaurantMenus(
     }
 
     // Curățăm și normalizăm categoriile și imaginile pentru o experiență perfectă
-    menu = menu.map((item) => {
-      const cleanedCategory = cleanRestaurantCategory(restaurant.id, item.name, item.category);
-      const cleanedImage = getMcDonaldsImage(item.name, item.imageUrl);
-      return {
-        ...item,
-        category: cleanedCategory,
-        imageUrl: cleanedImage
-      };
-    });
+    menu = menu
+      .filter((item) => !shouldExcludeMenuItem(item.name))
+      .map((item) => {
+        const cleanedCategory = cleanRestaurantCategory(restaurant.id, item.name, item.category);
+        const cleanedImage = getMcDonaldsImage(item.name, item.imageUrl);
+        return {
+          ...item,
+          category: cleanedCategory,
+          imageUrl: cleanedImage
+        };
+      });
 
     return {
       ...restaurant,
