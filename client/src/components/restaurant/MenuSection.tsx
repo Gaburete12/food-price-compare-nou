@@ -13,11 +13,11 @@ export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectio
   const categoryOrder = [
     "Promoții și Noutăți",
     "Cele mai vândute",
-    "Burgeri și pui",
-    "Sandvișuri",
+    "Burgeri și Pui",
+    "Pizza și Paste",
     "Cartofi și sosuri",
     "Deserturi",
-    "McCafé",
+    "McCafé și Croissante",
     "Băuturi"
   ];
 
