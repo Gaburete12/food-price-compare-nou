@@ -264,10 +264,28 @@ export function applyRestaurantMenus(
       .map((item) => {
         const cleanedCategory = cleanRestaurantCategory(restaurant.id, item.name, item.category);
         const cleanedImage = getMcDonaldsImage(item.name, item.imageUrl);
+
+        // Replicăm prețurile pe toate platformele active pentru a permite comparația
+        const refPriceObj = item.prices.find(p => p.available && p.price > 0) || item.prices[0];
+        const replicatedPrices = restaurant.platforms.map((platformData) => {
+          const existing = item.prices.find(p => p.platform === platformData.platform);
+          if (existing) {
+            return existing;
+          }
+          // Dacă nu există preț pe această platformă, îl creăm folosind prețul de referință de pe Glovo
+          return {
+            platform: platformData.platform,
+            available: platformData.available,
+            price: refPriceObj ? refPriceObj.price : 0,
+            deepLink: platformData.deepLink
+          };
+        });
+
         return {
           ...item,
           category: cleanedCategory,
-          imageUrl: cleanedImage
+          imageUrl: cleanedImage,
+          prices: replicatedPrices
         };
       });
 
