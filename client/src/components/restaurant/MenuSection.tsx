@@ -10,7 +10,26 @@ interface MenuSectionProps {
 }
 
 export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectionProps) {
-  const categories = Array.from(new Set(menu.map((i) => i.category)));
+  const categoryOrder = [
+    "Promoții și Noutăți",
+    "Cele mai vândute",
+    "Burgeri și pui",
+    "Sandvișuri",
+    "Cartofi și sosuri",
+    "Deserturi",
+    "McCafé",
+    "Băuturi"
+  ];
+
+  const categories = Array.from(new Set(menu.map((i) => i.category))).sort((a, b) => {
+    const idxA = categoryOrder.indexOf(a);
+    const idxB = categoryOrder.indexOf(b);
+    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+    if (idxA !== -1) return -1;
+    if (idxB !== -1) return 1;
+    return a.localeCompare(b);
+  });
+
   const [activeCategory, setActiveCategory] = useState(categories[0] || "");
 
   const scrollToCategory = (cat: string) => {
