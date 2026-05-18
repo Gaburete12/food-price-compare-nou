@@ -129,23 +129,33 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
           smallOrderThreshold: 40.0,
         };
 
-        // Încercăm să citim taxa de livrare direct din header-ul paginii magazinului (foarte robust)
+        // Încercăm să citim taxa de livrare direct din textul paginii magazinului (extrem de robust la A/B testing)
         try {
-          const headerText = await page.locator('.store-header, [data-test-id="store-header"], header, .store-info-content').first().textContent() || "";
-          log(`Store header text parsed: ${headerText}`);
-          
+          const bodyText = await page.locator('body').textContent() || "";
+          const headerText = bodyText.substring(0, 3000);
+          log(`Smart header parser read top page text: ${headerText}`);
+
+          let foundFee = 2.99; // Fallback implicit
+          const priceMatches = [...headerText.matchAll(/([\d,]+)\s*(lei|RON)/gi)].map(m => parseFloat(m[1].replace(',', '.')));
+          log(`All parsed prices in header: ${priceMatches.join(', ')}`);
+
+          // Filtrăm prețurile mici care sunt specifice taxelor de livrare (sub 20 RON)
+          const candidateFees = priceMatches.filter(p => p < 20);
+          if (candidateFees.length > 0) {
+            foundFee = candidateFees[0];
+            log(`Found candidate standard delivery fee: ${foundFee} RON`);
+          }
+
+          // Verificăm dacă există promoție activă de livrare gratuită
           if (headerText.toLowerCase().includes("gratuit") || headerText.toLowerCase().includes("free")) {
             extracted.deliveryFee = 0;
-            log(`Smart header parser found free delivery!`);
+            log(`Smart header parser resolved delivery fee: 0.00 RON (GRATUIT)`);
           } else {
-            const feeMatch = headerText.match(/([\d,]+)\s*(lei|RON)/i);
-            if (feeMatch) {
-              extracted.deliveryFee = parseFloat(feeMatch[1].replace(',', '.'));
-              log(`Smart header parser found delivery fee: ${extracted.deliveryFee} RON`);
-            }
+            extracted.deliveryFee = foundFee;
+            log(`Smart header parser resolved delivery fee: ${extracted.deliveryFee} RON`);
           }
         } catch (e: any) {
-          log(`Eroare la smart header parser: ${e.message}`);
+          log(`Eroare la noul smart header parser: ${e.message}`);
         }
 
         const feeBlocks = await page.locator('[class*="FeesModal_feeInformation"]').all();
