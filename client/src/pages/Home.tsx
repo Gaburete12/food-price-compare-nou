@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, TrendingDown, ShoppingBag, Zap, ArrowRight } from "lucide-react";
+import { Search, TrendingDown, ShoppingBag, Zap, ArrowRight, Settings } from "lucide-react";
 import {
   RESTAURANTS,
   getCheapestPlatform,
@@ -435,7 +435,12 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-            <p>© {new Date().getFullYear()} FoodRadar · Toate drepturile rezervate.</p>
+            <p>
+              © {new Date().getFullYear()} FoodRadar · Toate drepturile rezervate.
+              <a href="/admin" className="inline-flex ml-2 align-middle text-muted-foreground hover:text-foreground opacity-30 hover:opacity-100 transition-all">
+                <Settings className="w-3.5 h-3.5" />
+              </a>
+            </p>
             <p className="text-center md:text-right font-medium">Creat pentru economii destoinice. 🍔💸</p>
           </div>
         </div>
