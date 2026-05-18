@@ -182,7 +182,7 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
 
         fees[rest.id] = {
           ...extracted,
-          dynamicSmallOrderFee: false, // Glovo folosește o suprataxă fixă de 5.99 lei sub pragul de comandă!
+          dynamicSmallOrderFee: true, // Glovo folosește o suprataxă dinamică limitată (cap) la 5.99 lei sub pragul de comandă!
           deliveryTime: 30
         };
 
