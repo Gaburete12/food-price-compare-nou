@@ -53,7 +53,7 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
     const restaurantsToScrape = [
       { id: "pizzahut-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/86990-pizza-hut-constanta/" },
       { id: "kfc-buc-1", url: "https://food.bolt.eu/ro-ro/462-constanta/p/135512-kfc-city-park-constanta/" },
-      { id: "mcdonalds-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/99435-mcdonalds-vivo-mall/" },
+      { id: "mcdonalds-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/97105-mcdonalds-tomis/" },
       { id: "dabo-doner-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/200293-dabo-doner-mircea-constanta/" }
     ];
 
@@ -64,55 +64,72 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
       
       try {
         await restPage.goto(rest.url, { waitUntil: 'domcontentloaded' });
-        await restPage.waitForTimeout(2000);
+        await restPage.waitForTimeout(3000);
 
-        // 1. Apăsăm pe primul produs din listă
-        const firstProduct = restPage.locator('div[data-test="restaurant-menu-item"]').first();
-        if (await firstProduct.count() > 0) {
-          await firstProduct.click();
-          await restPage.waitForTimeout(1000);
+        let deliveryFee = 3.00; // Valoare inițială fallback rezonabilă
+        let deliveryTime = 25;
 
-          // 2. Apăsăm adaugă în coș
-          const addToCartBtn = restPage.locator('button[data-test="add-to-cart"]').first();
-          if (await addToCartBtn.count() > 0) {
-            await addToCartBtn.click();
-            await restPage.waitForTimeout(2000); // așteptăm ca produsul să fie adăugat și coșul să se deschidă
+        // --- Extragere Taxă Livrare folosind strategia relațională cu Text-Content ---
+        try {
+          const deliveryLabel = restPage.locator('div').filter({ hasText: /^(livrare|delivery)$/i }).first();
+          if (await deliveryLabel.count() > 0) {
+            const parent = deliveryLabel.locator('xpath=..');
+            const feeEl = parent.locator('div').first();
+            const text = await feeEl.innerText() || "";
+            console.log(`[Bolt] Raw delivery text for ${rest.id}:`, text);
+            
+            if (text.toLowerCase().includes('gratuit') || text.toLowerCase().includes('free')) {
+              deliveryFee = 0;
+            } else {
+              const match = text.match(/([\d,.]+)/);
+              if (match) {
+                deliveryFee = parseFloat(match[1].replace(',', '.'));
+              }
+            }
           }
+        } catch (feeErr) {
+          console.warn(`[Bolt] Eroare la extragerea taxei de livrare pentru ${rest.id}:`, feeErr);
         }
 
-        // 3. Extragem datele reale din componentele de prețuri ale coșului Bolt Food
-        let extracted = {
-          deliveryFee: 3.00, // Valoare inițială fallback rezonabilă
-          serviceFeePercent: null,
-          serviceFee: 0,
-          smallOrderFee: 0,
-          smallOrderThreshold: 40, // Pragul standard
-        };
-
-        const feeItems = await restPage.locator('[data-testid="components.OrderFees.feeItem"]').all();
-
-        for (const item of feeItems) {
-          const text = await item.textContent() || "";
-          const match = text.match(/([\d,]+)\s*lei/i);
-          const val = match ? parseFloat(match[1].replace(',', '.')) : 0;
-
-          if (text.toLowerCase().includes('livrare') || text.toLowerCase().includes('delivery')) {
-            extracted.deliveryFee = val;
-          } else if (text.toLowerCase().includes('serviciu') || text.toLowerCase().includes('service')) {
-            extracted.serviceFee = val;
-          } else if (text.toLowerCase().includes('minimă') || text.toLowerCase().includes('comandă mică') || text.toLowerCase().includes('small')) {
-            extracted.smallOrderFee = val;
+        // --- Extragere Timp de Livrare ---
+        try {
+          const timeLabel = restPage.locator('div').filter({ hasText: /^(min|mins)$/i }).first();
+          if (await timeLabel.count() > 0) {
+            const parent = timeLabel.locator('xpath=..');
+            const timeEl = parent.locator('div').first();
+            const text = await timeEl.innerText() || "";
+            console.log(`[Bolt] Raw delivery time text for ${rest.id}:`, text);
+            
+            // Dacă e un interval (ex: "15-20" sau "15–20"), luăm valoarea maximă
+            const match = text.match(/(\d+)\s*[–-]\s*(\d+)/);
+            if (match) {
+              deliveryTime = parseInt(match[2]);
+            } else {
+              const singleMatch = text.match(/(\d+)/);
+              if (singleMatch) {
+                deliveryTime = parseInt(singleMatch[1]);
+              }
+            }
           }
+        } catch (timeErr) {
+          console.warn(`[Bolt] Eroare la extragerea timpului de livrare pentru ${rest.id}:`, timeErr);
         }
 
+        // Deoarece Bolt Food nu are taxă de serviciu în România și pragul de comandă mică este de 40.00 lei,
+        // definim aceste reguli direct. Frontend-ul va calcula automat taxa dinamică de comandă mică
+        // (Math.max(0, 40.00 - pretProdus)) în mod impecabil!
         fees[rest.id] = {
           bolt: {
-            ...extracted,
-            dynamicSmallOrderFee: false, // Folosim suma fixă extrasă din coș
-            deliveryTime: 25
+            deliveryFee,
+            serviceFeePercent: null,
+            serviceFee: 0,
+            smallOrderFee: 0,
+            smallOrderThreshold: 40.00,
+            dynamicSmallOrderFee: true,
+            deliveryTime
           }
         };
-        console.log(`Bolt Fees extrase pentru ${rest.id}:`, extracted);
+        console.log(`Bolt Fees extrase pentru ${rest.id}:`, fees[rest.id].bolt);
 
       } catch (e) {
         console.error(`Eroare scraping Bolt pentru ${rest.id}:`, e);
