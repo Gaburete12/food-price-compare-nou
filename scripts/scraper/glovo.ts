@@ -15,12 +15,64 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
   const log = (msg: string) => { console.log(msg); debugLogs.push(msg); };
 
   try {
+    // PASUL 1: Mergem pe pagina principală Glovo pentru a seta adresa corectă în cookie-uri
+    log("Navigating to Glovo homepage to set the address cookie...");
+    await page.goto("https://glovoapp.com/ro/ro/", { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(3000);
+
+    // Acceptăm cookies pe pagina principală
+    try {
+        const cookieBtn = page.locator('button:has-text("Acceptați toate"), button:has-text("Accept all"), #onetrust-accept-btn-handler').first();
+        if (await cookieBtn.count() > 0) {
+           log("Accepting cookies...");
+           await cookieBtn.click();
+           await page.waitForTimeout(1000);
+        }
+    } catch(e) {}
+
+    // Căutăm câmpul de adresă de pe prima pagină
+    try {
+        const addressInput = page.locator('input[placeholder*="caută"], input[placeholder*="adresă"], input[placeholder*="Address"], input[placeholder*="livrăm"], #delivery-address-input, .address-input input').first();
+        if (await addressInput.count() > 0) {
+            log("Found home address input! Typing address: Bulevardul Tomis 47, Constanța...");
+            await addressInput.fill("Bulevardul Tomis 47, Constanța");
+            await page.waitForTimeout(3000);
+
+            // Selectăm prima sugestie
+            const firstSuggestion = page.locator('[class*="address-suggestion"], [class*="Suggestion"], [class*="suggestion"], li:has-text("Tomis"), div:has-text("Tomis"), [class*="SuggestionRow"]').first();
+            if (await firstSuggestion.count() > 0) {
+                log("Clicking address suggestion...");
+                await firstSuggestion.click();
+                await page.waitForTimeout(3000);
+            }
+
+            // Confirmare tip
+            const typeBtn = page.locator('button:has-text("Altele"), button:has-text("Other"), button:has-text("Acasă"), button:has-text("Home"), button:has-text("Casă")').first();
+            if (await typeBtn.count() > 0) {
+                await typeBtn.click();
+                await page.waitForTimeout(1500);
+            }
+
+            // Confirmare finală
+            const confirmBtn = page.locator('button:has-text("Confirm"), button:has-text("Confirmă"), button:has-text("Salvează")').first();
+            if (await confirmBtn.count() > 0) {
+                log("Confirming address!");
+                await confirmBtn.click();
+                await page.waitForTimeout(4000);
+            }
+        } else {
+            log("Warning: No address input found on homepage!");
+        }
+    } catch (e: any) {
+        log(`Eroare la setarea adresei pe prima pagină: ${e.message}`);
+    }
+
     const restaurantsToScrape = [
       { id: "mcdonalds-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/mcdonald-s-cta" }
     ];
 
     for (const rest of restaurantsToScrape) {
-      log(`Navigating directly to ${rest.url}`);
+      log(`Navigating to store ${rest.url} in already-authenticated address context...`);
       await page.goto(rest.url, { waitUntil: 'domcontentloaded' });
       await page.waitForTimeout(3000);
 
@@ -41,59 +93,14 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         throw new Error("Scraper-ul a fost blocat de o provocare CAPTCHA Glovo!");
       }
 
-      // Accept cookies if they appear
+      // Accept cookies on store page if they appear again
       try {
           const cookieBtn = page.locator('button:has-text("Acceptați toate"), button:has-text("Accept all"), #onetrust-accept-btn-handler').first();
           if (await cookieBtn.count() > 0) {
-             log("Accepting cookies...");
              await cookieBtn.click();
              await page.waitForTimeout(1000);
           }
       } catch(e) {}
-
-      // Verificăm dacă apare popup-ul de 'în afara zonei' sau butonul de adresă și setăm manual locația corectă:
-      try {
-          const editBtn = page.locator('button:has-text("Editeaz"), button:has-text("Edit"), [data-test-id="address-button"], button:has-text("Livrăm la")').first();
-          if (await editBtn.count() > 0) {
-              log("Found address trigger button. Clicking it to set address manually...");
-              await editBtn.click();
-              await page.waitForTimeout(2000);
-          }
-
-          // Căutăm câmpul de text pentru introducerea adresei
-          const addressInput = page.locator('input[placeholder*="caută"], input[placeholder*="adresă"], input[placeholder*="Address"], input[placeholder*="Unde dorești"], input[placeholder*="livrăm"], #delivery-address-input, .address-input input').first();
-          
-          if (await addressInput.count() > 0) {
-              log("Found address input field! Typing address: Bulevardul Tomis 47, Constanța...");
-              await addressInput.fill("Bulevardul Tomis 47, Constanța");
-              await page.waitForTimeout(2500);
-              
-              // Selectăm prima sugestie din listă care conține textul relevant
-              const firstSuggestion = page.locator('[class*="address-suggestion"], [class*="Suggestion"], [class*="suggestion"], li:has-text("Tomis"), div:has-text("Tomis"), [class*="SuggestionRow"]').first();
-              if (await firstSuggestion.count() > 0) {
-                  log("Clicking address suggestion...");
-                  await firstSuggestion.click();
-                  await page.waitForTimeout(3000);
-              }
-              
-              // Dacă cere tipul de locație
-              const typeBtn = page.locator('button:has-text("Altele"), button:has-text("Other"), button:has-text("Acasă"), button:has-text("Home"), button:has-text("Casă")').first();
-              if (await typeBtn.count() > 0) {
-                  await typeBtn.click();
-                  await page.waitForTimeout(1500);
-              }
-
-              // Confirmare finală
-              const confirmBtn = page.locator('button:has-text("Confirm"), button:has-text("Confirmă"), button:has-text("Salvează")').first();
-              if (await confirmBtn.count() > 0) {
-                  log("Clicking final Confirm button to save address!");
-                  await confirmBtn.click();
-                  await page.waitForTimeout(4000);
-              }
-          }
-      } catch (e: any) {
-          log(`Eroare la setarea manuală a adresei: ${e.message}`);
-      }
 
       try {
         // 1. Dăm click pe primul produs disponibil
