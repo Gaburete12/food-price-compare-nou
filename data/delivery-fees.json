@@ -15,12 +15,12 @@
         "available": true
       },
       "bolt": {
-        "deliveryFee": 3.00,
-        "serviceFee": 1.99,
+        "deliveryFee": 3.08,
+        "serviceFee": 3.00,
         "smallOrderFee": 0.0,
         "smallOrderThreshold": 40.0,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 30,
+        "deliveryTime": 20,
         "available": true
       },
       "wolt": {
