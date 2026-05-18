@@ -122,9 +122,9 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         // 3. Extragem datele reale din DOM (cu fallback pe valorile default dacă selectorii nu găsesc nimic)
         let extracted = {
           deliveryFee: 2.99,
-          serviceFeePercent: 0.05,
-          serviceFeeMin: 1.50,
-          serviceFeeMax: 5.00,
+          serviceFeePercent: 0.08,
+          serviceFeeMin: 1.99,
+          serviceFeeMax: 9.99,
           smallOrderFee: 5.99,
           smallOrderThreshold: 40.0,
         };
@@ -182,7 +182,7 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
 
         fees[rest.id] = {
           ...extracted,
-          dynamicSmallOrderFee: true, // Specific Glovo
+          dynamicSmallOrderFee: false, // Glovo folosește o suprataxă fixă de 5.99 lei sub pragul de comandă!
           deliveryTime: 30
         };
 
