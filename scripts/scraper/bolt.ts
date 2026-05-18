@@ -119,17 +119,16 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
         // definim aceste reguli direct. Frontend-ul va calcula automat taxa dinamică de comandă mică
         // (Math.max(0, 40.00 - pretProdus)) în mod impecabil!
         fees[rest.id] = {
-          bolt: {
-            deliveryFee,
-            serviceFeePercent: null,
-            serviceFee: 0,
-            smallOrderFee: 0,
-            smallOrderThreshold: 40.00,
-            dynamicSmallOrderFee: true,
-            deliveryTime
-          }
+          deliveryFee,
+          serviceFeePercent: null,
+          serviceFee: 0,
+          smallOrderFee: 0,
+          smallOrderThreshold: 40.00,
+          dynamicSmallOrderFee: true,
+          deliveryTime,
+          available: true
         };
-        console.log(`Bolt Fees extrase pentru ${rest.id}:`, fees[rest.id].bolt);
+        console.log(`Bolt Fees extrase pentru ${rest.id}:`, fees[rest.id]);
 
       } catch (e) {
         console.error(`Eroare scraping Bolt pentru ${rest.id}:`, e);
