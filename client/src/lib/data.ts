@@ -2621,12 +2621,12 @@ export const RESTAURANTS: Restaurant[] = [
       {
         platform: "glovo",
         available: true,
-        deliveryFee: 5.99,
+        deliveryFee: 2.99,
         serviceFeePercent: 0.05,
-        serviceFeeMin: 2.0,
+        serviceFeeMin: 1.50,
         serviceFeeMax: 5.0,
         smallOrderFee: 5.99,
-        smallOrderThreshold: 45.0,
+        smallOrderThreshold: 40.0,
         dynamicSmallOrderFee: true,
         deliveryTime: 25,
         deepLink: "https://glovoapp.com/ro/ro/constanta/stores/mcdonald-s-cta"
@@ -2634,16 +2634,20 @@ export const RESTAURANTS: Restaurant[] = [
       {
         platform: "bolt",
         available: true,
-        deliveryFee: 6.99,
+        deliveryFee: 3.00,
         serviceFee: 1.99,
+        smallOrderThreshold: 40.0,
+        smallOrderFee: 0,
         deliveryTime: 30,
         deepLink: "https://food.bolt.eu/ro-ro/462-constanta/p/99435-mcdonalds-vivo-mall/"
       },
       {
         platform: "wolt",
         available: true,
-        deliveryFee: 7.99,
+        deliveryFee: 4.99,
         serviceFee: 2.49,
+        smallOrderThreshold: 35.0,
+        smallOrderFee: 0,
         deliveryTime: 20,
         deepLink: "https://wolt.com/en/rou/constanta/restaurant/mcdonalds-tomis-67ed2703c86a467a0cecf401"
       }
