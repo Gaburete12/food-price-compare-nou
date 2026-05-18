@@ -75,27 +75,46 @@ async function startServer() {
       const addressToScrape = req.body.address || "Bulevardul Tomis 47, Constanta";
       const scrapedData = await runScrapers(addressToScrape);
 
-      // Save Fees
+      // Încărcăm datele existente din baza de date pentru a le îmbina (mergui) cu cele noi
+      const existingDataset = await readDeliveryFeeDataset();
+      const updatedFees = { ...existingDataset.fees };
+
+      const restaurantIds = ["kfc-buc-1", "pizzahut-constanta", "mcdonalds-constanta"];
+      
+      for (const restId of restaurantIds) {
+        if (!updatedFees[restId]) {
+          updatedFees[restId] = {};
+        }
+
+        // Glovo: actualizăm doar dacă scraper-ul a returnat date noi valide
+        if (scrapedData.fees.glovo?.[restId] && Object.keys(scrapedData.fees.glovo[restId]).length > 0) {
+          updatedFees[restId].glovo = {
+            ...updatedFees[restId].glovo,
+            ...scrapedData.fees.glovo[restId]
+          };
+        }
+
+        // Bolt: actualizăm doar dacă scraper-ul a returnat date noi valide
+        if (scrapedData.fees.bolt?.[restId] && Object.keys(scrapedData.fees.bolt[restId]).length > 0) {
+          updatedFees[restId].bolt = {
+            ...updatedFees[restId].bolt,
+            ...scrapedData.fees.bolt[restId]
+          };
+        }
+
+        // Wolt: actualizăm doar dacă scraper-ul a returnat date noi valide
+        if (scrapedData.fees.wolt?.[restId] && Object.keys(scrapedData.fees.wolt[restId]).length > 0) {
+          updatedFees[restId].wolt = {
+            ...updatedFees[restId].wolt,
+            ...scrapedData.fees.wolt[restId]
+          };
+        }
+      }
+
       const dataset = {
         updatedAt: new Date().toISOString(),
-        source: "playwright-scraper",
-        fees: {
-          "kfc-buc-1": {
-            ...(scrapedData.fees.glovo?.["kfc-buc-1"] ? { glovo: scrapedData.fees.glovo["kfc-buc-1"] } : {}),
-            ...(scrapedData.fees.bolt?.["kfc-buc-1"] ? { bolt: scrapedData.fees.bolt["kfc-buc-1"] } : {}),
-            ...(scrapedData.fees.wolt?.["kfc-buc-1"] ? { wolt: scrapedData.fees.wolt["kfc-buc-1"] } : {})
-          },
-          "pizzahut-constanta": {
-            ...(scrapedData.fees.glovo?.["pizzahut-constanta"] ? { glovo: scrapedData.fees.glovo["pizzahut-constanta"] } : {}),
-            ...(scrapedData.fees.bolt?.["pizzahut-constanta"] ? { bolt: scrapedData.fees.bolt["pizzahut-constanta"] } : {}),
-            ...(scrapedData.fees.wolt?.["pizzahut-constanta"] ? { wolt: scrapedData.fees.wolt["pizzahut-constanta"] } : {})
-          },
-          "mcdonalds-constanta": {
-            ...(scrapedData.fees.glovo?.["mcdonalds-constanta"] ? { glovo: scrapedData.fees.glovo["mcdonalds-constanta"] } : {}),
-            ...(scrapedData.fees.bolt?.["mcdonalds-constanta"] ? { bolt: scrapedData.fees.bolt["mcdonalds-constanta"] } : {}),
-            ...(scrapedData.fees.wolt?.["mcdonalds-constanta"] ? { wolt: scrapedData.fees.wolt["mcdonalds-constanta"] } : {})
-          }
-        }
+        source: "playwright-scraper-merged",
+        fees: updatedFees
       };
 
       await writeDeliveryFeeDataset(dataset as any);
