@@ -1,67 +1,75 @@
 {
-  "updatedAt": "2026-04-25T09:30:00.000Z",
+  "updatedAt": "2026-05-18T19:22:00.000Z",
   "source": "manual-constanta-tomis-47",
   "fees": {
-    "mcdonalds-ct-1": {
+    "mcdonalds-constanta": {
       "glovo": {
-        "deliveryFee": 0,
-        "serviceFee": 0.62,
+        "deliveryFee": 0.0,
+        "serviceFeePercent": 0.08,
+        "serviceFeeMin": 1.99,
+        "serviceFeeMax": 9.99,
         "smallOrderFee": 5.99,
-        "smallOrderThreshold": 40,
-        "dynamicSmallOrderFee": false,
-        "deliveryTime": 20,
+        "smallOrderThreshold": 40.0,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 25,
         "available": true
       },
       "bolt": {
-        "deliveryFee": 3.08,
-        "serviceFee": 3,
-        "smallOrderFee": 7.1,
-        "smallOrderThreshold": 40,
-        "dynamicSmallOrderFee": false,
-        "deliveryTime": 25,
+        "deliveryFee": 3.00,
+        "serviceFee": 1.99,
+        "smallOrderFee": 0.0,
+        "smallOrderThreshold": 40.0,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 30,
         "available": true
       },
       "wolt": {
         "deliveryFee": 4.99,
         "serviceFee": 2.49,
-        "smallOrderFee": 0.2,
-        "smallOrderThreshold": 40,
-        "deliveryTime": 35,
+        "smallOrderFee": 0.0,
+        "smallOrderThreshold": 35.0,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 20,
         "available": true
       }
     },
-    "kfc-ct-1": {
+    "kfc-buc-1": {
       "glovo": {
-        "deliveryFee": 0,
-        "serviceFee": 0.62,
+        "deliveryFee": 0.0,
+        "serviceFeePercent": 0.08,
+        "serviceFeeMin": 1.99,
+        "serviceFeeMax": 9.99,
         "smallOrderFee": 5.99,
-        "smallOrderThreshold": 40,
+        "smallOrderThreshold": 40.0,
+        "dynamicSmallOrderFee": true,
         "deliveryTime": 35,
         "available": true
       },
       "bolt": {
-        "deliveryFee": 0,
+        "deliveryFee": 0.0,
         "serviceFee": 0.62,
         "smallOrderFee": 5.99,
-        "smallOrderThreshold": 40,
+        "smallOrderThreshold": 40.0,
         "deliveryTime": 35,
         "available": true
       },
       "wolt": {
         "deliveryFee": 4.69,
         "serviceFee": 2.65,
-        "smallOrderFee": 0,
-        "smallOrderThreshold": 0,
+        "smallOrderFee": 0.0,
+        "smallOrderThreshold": 0.0,
         "deliveryTime": 30,
         "available": true
       }
     },
-    "pizza-hut-ct-1": {
+    "pizzahut-constanta": {
       "glovo": {
-        "deliveryFee": 0,
-        "serviceFee": 0,
+        "deliveryFee": 0.0,
+        "serviceFeePercent": 0.08,
+        "serviceFeeMin": 1.99,
+        "serviceFeeMax": 9.99,
         "smallOrderFee": 4.62,
-        "smallOrderThreshold": 40,
+        "smallOrderThreshold": 40.0,
         "dynamicSmallOrderFee": false,
         "deliveryTime": 45,
         "available": true
@@ -70,16 +78,16 @@
         "deliveryFee": 7.95,
         "serviceFee": 0.99,
         "smallOrderFee": 4.62,
-        "smallOrderThreshold": 40,
+        "smallOrderThreshold": 40.0,
         "dynamicSmallOrderFee": false,
         "deliveryTime": 50,
         "available": true
       },
       "wolt": {
-        "deliveryFee": 0,
+        "deliveryFee": 0.0,
         "serviceFee": 2.49,
-        "smallOrderFee": 4,
-        "smallOrderThreshold": 35,
+        "smallOrderFee": 4.0,
+        "smallOrderThreshold": 35.0,
         "deliveryTime": 35,
         "available": true
       }
