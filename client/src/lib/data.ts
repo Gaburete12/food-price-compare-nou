@@ -109,7 +109,8 @@ export function calculateTotalFees(
     productPrice < platformData.smallOrderThreshold
   ) {
     if (platformData.dynamicSmallOrderFee) {
-      smallOrderFee = Math.max(0, platformData.smallOrderThreshold - productPrice);
+      const diff = Math.max(0, platformData.smallOrderThreshold - productPrice);
+      smallOrderFee = platformData.smallOrderFee != null ? Math.min(platformData.smallOrderFee, diff) : diff;
     } else if (platformData.smallOrderFee) {
       smallOrderFee = platformData.smallOrderFee;
     }
@@ -2627,7 +2628,7 @@ export const RESTAURANTS: Restaurant[] = [
         serviceFeeMax: 9.99,
         smallOrderFee: 5.99,
         smallOrderThreshold: 40.0,
-        dynamicSmallOrderFee: false,
+        dynamicSmallOrderFee: true,
         deliveryTime: 25,
         deepLink: "https://glovoapp.com/ro/ro/constanta/stores/mcdonald-s-cta"
       },
