@@ -12,7 +12,8 @@ const RESTAURANT_MENUS_FILE = path.join(DATA_DIR, "restaurant-menus.json");
 export async function readRestaurantMenusDataset(): Promise<RestaurantMenusDataset> {
   try {
     const raw = await fs.readFile(RESTAURANT_MENUS_FILE, "utf8");
-    return normalizeRestaurantMenusDataset(JSON.parse(raw));
+    const cleanJson = raw.trim().replace(/^\uFEFF/, "");
+    return normalizeRestaurantMenusDataset(JSON.parse(cleanJson));
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") {
       return { ...EMPTY_RESTAURANT_MENUS_DATASET };
