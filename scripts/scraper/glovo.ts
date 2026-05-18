@@ -227,11 +227,11 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         await page.mouse.click(10, 10);
         await page.waitForTimeout(1000);
 
-        // Scroll pentru lazy loading
+        // Scroll mai lent și mai profund pentru a permite imaginilor lazy-loaded să se încarce
         await page.evaluate(async () => {
-          for(let i = 0; i < 8; i++) {
-             window.scrollBy(0, 1200);
-             await new Promise(r => setTimeout(r, 800));
+          for(let i = 0; i < 15; i++) {
+             window.scrollBy(0, 900);
+             await new Promise(r => setTimeout(r, 900));
           }
         });
 
