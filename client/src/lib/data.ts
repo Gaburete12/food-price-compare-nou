@@ -2641,6 +2641,7 @@ export const RESTAURANTS: Restaurant[] = [
         serviceFee: 1.99,
         smallOrderThreshold: 40.0,
         smallOrderFee: 0,
+        dynamicSmallOrderFee: true,
         deliveryTime: 30,
         deepLink: "https://food.bolt.eu/ro-ro/462-constanta/p/99435-mcdonalds-vivo-mall/"
       },
@@ -2651,6 +2652,7 @@ export const RESTAURANTS: Restaurant[] = [
         serviceFee: 2.49,
         smallOrderThreshold: 35.0,
         smallOrderFee: 0,
+        dynamicSmallOrderFee: true,
         deliveryTime: 20,
         deepLink: "https://wolt.com/en/rou/constanta/restaurant/mcdonalds-tomis-67ed2703c86a467a0cecf401"
       }
