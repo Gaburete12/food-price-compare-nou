@@ -2648,10 +2648,12 @@ export const RESTAURANTS: Restaurant[] = [
       {
         platform: "wolt",
         available: true,
-        deliveryFee: 4.99,
-        serviceFee: 2.49,
+        deliveryFee: 5.79,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 2.49,
+        serviceFeeMax: 7.99,
         smallOrderThreshold: 35.0,
-        smallOrderFee: 0,
+        smallOrderFee: 7.50,
         dynamicSmallOrderFee: true,
         deliveryTime: 20,
         deepLink: "https://wolt.com/en/rou/constanta/restaurant/mcdonalds-tomis-67ed2703c86a467a0cecf401"
