@@ -110,7 +110,9 @@ export function calculateTotalFees(
   ) {
     if (platformData.dynamicSmallOrderFee) {
       const diff = Math.max(0, platformData.smallOrderThreshold - productPrice);
-      smallOrderFee = platformData.smallOrderFee != null ? Math.min(platformData.smallOrderFee, diff) : diff;
+      smallOrderFee = (platformData.smallOrderFee != null && platformData.smallOrderFee > 0)
+        ? Math.min(platformData.smallOrderFee, diff)
+        : diff;
     } else if (platformData.smallOrderFee) {
       smallOrderFee = platformData.smallOrderFee;
     }
