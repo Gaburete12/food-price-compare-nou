@@ -24,9 +24,11 @@
         "available": true
       },
       "wolt": {
-        "deliveryFee": 4.99,
-        "serviceFee": 2.49,
-        "smallOrderFee": 0.0,
+        "deliveryFee": 5.79,
+        "serviceFeePercent": 0.08,
+        "serviceFeeMin": 2.49,
+        "serviceFeeMax": 7.99,
+        "smallOrderFee": 7.50,
         "smallOrderThreshold": 35.0,
         "dynamicSmallOrderFee": true,
         "deliveryTime": 20,
