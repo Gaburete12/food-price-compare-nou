@@ -112,14 +112,14 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
     return "Pizza și Paste";
   }
 
-  // 7. Burgeri, Pui & Sandvișuri
-  if (n.includes("burger") || n.includes("mac") || n.includes("chicken") || n.includes("pui") || n.includes("cheeseburger") || n.includes("tasty") || n.includes("dublu") || n.includes("hamburger") || n.includes("crispy") || n.includes("junior") || n.includes("royal") || n.includes("quarter") || n.includes("strips") || n.includes("nuggets") || n.includes("wings") || n.includes("fillet") || n.includes("bites") || n.includes("hot wings") || n.includes("mcpuisor") || n.includes("mctoast") || n.includes("sandviș") || n.includes("sandvis") || n.includes("toast") || n.includes("wrap") || n.includes("baghetă") || n.includes("bagheta") || n.includes("chili cheese") || n.includes("doner") || n.includes("kebab") || n.includes("shawarma") || c.includes("burger") || c.includes("pui") || c.includes("sandviș") || c.includes("mancare") || c.includes("kebab") || c.includes("sandvis")) {
-    return "Burgeri și Pui";
+  // 7. Meniuri și Buckets
+  if (n.includes("meniu") || n.includes("bucket") || n.includes("box") || n.includes("combo") || n.includes("family") || n.includes("smart") || c.includes("meniu") || c.includes("bucket") || c.includes("cele mai") || c.includes("popular")) {
+    return "Meniuri și Buckets";
   }
 
-  // 8. Cele mai vândute (Implicit pentru restul meniurilor mari / combo)
-  if (n.includes("meniu") || n.includes("bucket") || n.includes("box") || n.includes("combo") || n.includes("family") || n.includes("smart") || c.includes("meniu") || c.includes("bucket") || c.includes("cele mai") || c.includes("popular")) {
-    return "Cele mai vândute";
+  // 8. Burgeri, Pui & Sandvișuri
+  if (n.includes("burger") || n.includes("mac") || n.includes("chicken") || n.includes("pui") || n.includes("cheeseburger") || n.includes("tasty") || n.includes("dublu") || n.includes("hamburger") || n.includes("crispy") || n.includes("junior") || n.includes("royal") || n.includes("quarter") || n.includes("strips") || n.includes("nuggets") || n.includes("wings") || n.includes("fillet") || n.includes("bites") || n.includes("hot wings") || n.includes("mcpuisor") || n.includes("mctoast") || n.includes("sandviș") || n.includes("sandvis") || n.includes("toast") || n.includes("wrap") || n.includes("baghetă") || n.includes("bagheta") || n.includes("chili cheese") || n.includes("doner") || n.includes("kebab") || n.includes("shawarma") || c.includes("burger") || c.includes("pui") || c.includes("sandviș") || c.includes("mancare") || c.includes("kebab") || c.includes("sandvis")) {
+    return "Burgeri și Pui";
   }
 
   // Fallback absolut în funcție de restaurant:
@@ -134,7 +134,7 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
     return "Burgeri și Pui";
   }
 
-  return "Cele mai vândute";
+  return "Meniuri și Buckets";
 }
 
 function getMcDonaldsImage(name: string, originalImage: string): string {
