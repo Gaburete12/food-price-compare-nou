@@ -12,6 +12,7 @@ interface MenuSectionProps {
 export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectionProps) {
   const categoryOrder = [
     "Promoții și Noutăți",
+    "Meniuri și Buckets",
     "Cele mai vândute",
     "Burgeri și Pui",
     "Pizza și Paste",
