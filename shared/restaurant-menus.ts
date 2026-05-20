@@ -82,24 +82,27 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
   const n = name.toLowerCase();
   const c = (originalCategory || "").toLowerCase();
 
-  // 1. Promoții & Noutăți
-  if (n.includes("promo") || n.includes("noutat") || n.includes("ediție limitat") || n.includes("limitata") || n.includes("ediție specială") || n.includes("speciala") || n.includes("oferta") || n.includes("ofertă") || c.includes("promo") || c.includes("noutat")) {
+  // 1. Meniuri și Buckets (High priority!)
+  if (
+    (n.includes("meniu") || n.includes("bucket") || n.includes("box") || n.includes("combo") || n.includes("family") || n.includes("smart") || c.includes("meniu") || c.includes("bucket") || c.includes("cele mai") || c.includes("popular")) &&
+    !n.includes("sos") && !n.includes("sauce") && !n.includes("dip") && !n.includes("jucărie") && !n.includes("jucarie") && !n.includes("pahar") && !n.includes("carte") && !n.includes("cărți") && !n.includes("carti")
+  ) {
+    return "Meniuri și Buckets";
+  }
+
+  // 2. Promoții & Noutăți (Including toys, books, cards, special promos)
+  if (n.includes("promo") || n.includes("noutat") || n.includes("ediție limitat") || n.includes("limitata") || n.includes("ediție specială") || n.includes("speciala") || n.includes("oferta") || n.includes("ofertă") || n.includes("jucărie") || n.includes("jucarie") || n.includes("carte") || n.includes("cărți") || n.includes("carti") || c.includes("promo") || c.includes("noutat")) {
     return "Promoții și Noutăți";
   }
 
-  // 2. Băuturi
+  // 3. Băuturi
   if (n.includes("cola") || n.includes("sprite") || n.includes("fanta") || n.includes("lipton") || n.includes("fuzetea") || n.includes("suc") || n.includes("băutură") || n.includes("bautura") || n.includes("nectar") || n.includes("shake") || n.includes("apa") || n.includes("apă") || n.includes("limonada") || n.includes("limonadă") || n.includes("fresh") || c.includes("băutur") || c.includes("bautur") || c.includes("bauturi") || c.includes("băuturi") || c.includes("suc")) {
     return "Băuturi";
   }
 
-  // 3. Cafea & McCafé & Croissante
+  // 4. Cafea & McCafé & Croissante
   if (n.includes("café") || n.includes("cafe") || n.includes("espresso") || n.includes("cappuccino") || n.includes("latte") || n.includes("macchiato") || n.includes("ceai") || n.includes("croissant") || n.includes("gogoașă") || n.includes("gogosa") || n.includes("muffin") || n.includes("briosa") || n.includes("brioșă") || n.includes("flat white") || n.includes("americano") || n.includes("frappe") || c.includes("cafe") || c.includes("mccaf") || c.includes("croiss") || c.includes("muffin")) {
     return "McCafé și Croissante";
-  }
-
-  // 4. Deserturi
-  if (n.includes("plăcintă") || n.includes("placinta") || n.includes("înghețată") || n.includes("inghetata") || n.includes("cookie") || n.includes("mcflurry") || n.includes("sundae") || n.includes("donut") || n.includes("clătit") || n.includes("clatit") || n.includes("desert") || n.includes("tiramisu") || n.includes("cheesecake") || n.includes("cake") || n.includes("prajitura") || n.includes("prăjitură") || n.includes("profiterol") || c.includes("desert") || c.includes("dulce")) {
-    return "Deserturi";
   }
 
   // 5. Cartofi, Sosuri & Garnituri
@@ -107,14 +110,14 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
     return "Cartofi și sosuri";
   }
 
-  // 6. Pizza & Paste (în special pentru Pizza Hut)
-  if (n.includes("pizza") || n.includes("paste") || n.includes("spaghetti") || n.includes("lasagna") || n.includes("penne") || c.includes("pizza") || c.includes("paste")) {
-    return "Pizza și Paste";
+  // 6. Deserturi (Including pineapple, apple slices, fruits)
+  if (n.includes("plăcintă") || n.includes("placinta") || n.includes("înghețată") || n.includes("inghetata") || n.includes("cookie") || n.includes("mcflurry") || n.includes("sundae") || n.includes("donut") || n.includes("clătit") || n.includes("clatit") || n.includes("desert") || n.includes("tiramisu") || n.includes("cheesecake") || n.includes("cake") || n.includes("prajitura") || n.includes("prăjitură") || n.includes("profiterol") || n.includes("ananas") || n.includes("mere") || n.includes("măr") || n.includes("fruct") || c.includes("desert") || c.includes("dulce")) {
+    return "Deserturi";
   }
 
-  // 7. Meniuri și Buckets
-  if (n.includes("meniu") || n.includes("bucket") || n.includes("box") || n.includes("combo") || n.includes("family") || n.includes("smart") || c.includes("meniu") || c.includes("bucket") || c.includes("cele mai") || c.includes("popular")) {
-    return "Meniuri și Buckets";
+  // 7. Pizza & Paste (în special pentru Pizza Hut)
+  if (n.includes("pizza") || n.includes("paste") || n.includes("spaghetti") || n.includes("lasagna") || n.includes("penne") || c.includes("pizza") || c.includes("paste")) {
+    return "Pizza și Paste";
   }
 
   // 8. Burgeri, Pui & Sandvișuri
@@ -133,8 +136,11 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
   if (restLower.includes("dabo")) {
     return "Burgeri și Pui";
   }
+  if (restLower.includes("mcdonald")) {
+    return "Burgeri și Pui";
+  }
 
-  return "Meniuri și Buckets";
+  return "Promoții și Noutăți";
 }
 
 function getMcDonaldsImage(name: string, originalImage: string): string {
