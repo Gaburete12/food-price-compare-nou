@@ -312,6 +312,11 @@ function getMcDonaldsImage(name: string, originalImage: string): string {
     return "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&q=80"; // French Fries
   }
 
+  // Sosuri / Dressing
+  if (n.includes("sos") || n.includes("dressing") || n.includes("ketchup") || n.includes("maionez") || n.includes("muștar") || n.includes("mustar")) {
+    return "https://images.unsplash.com/photo-1585325701956-60dd9c8553bc?w=400&q=80"; // Sauce bowl
+  }
+
   // Deserturi
   if (n.includes("flurry") || n.includes("flur") || n.includes("înghețată") || n.includes("inghetata") || n.includes("shake")) {
     return "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400&q=80"; // Milkshake
@@ -340,7 +345,7 @@ function getMcDonaldsImage(name: string, originalImage: string): string {
 }
 
 function shouldExcludeMenuItem(name: string): boolean {
-  const n = name.trim().toLowerCase();
+  const n = name.replace(/\u200E/g, "").trim().toLowerCase();
   
   const badNames = [
     "cele mai vândute",
@@ -379,7 +384,8 @@ function shouldExcludeMenuItem(name: string): boolean {
     "sos",
     "sosuri",
     "desert",
-    "cafea"
+    "cafea",
+    "comanda ta"
   ];
 
   return badNames.includes(n);
