@@ -68,7 +68,10 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
     }
 
     const restaurantsToScrape = [
-      { id: "mcdonalds-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/mcdonald-s-cta" }
+      { id: "mcdonalds-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/mcdonald-s-cta" },
+      { id: "kfc-ct-1", url: "https://glovoapp.com/ro/ro/constanta/stores/kfc-cta" },
+      { id: "pizza-hut-ct-1", url: "https://glovoapp.com/ro/ro/constanta/stores/pizza-hut-ct" },
+      { id: "dabo-doner-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/dabo-doner-cta" }
     ];
 
     for (const rest of restaurantsToScrape) {
@@ -139,8 +142,11 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
 
         // Verificăm dacă suntem pe o pagină validă de magazin și nu s-a încărcat greșit sau incomplet
         const bodyText = await page.locator('body').textContent() || "";
-        if (!bodyText.toLowerCase().includes("mcdonald") && !bodyText.toLowerCase().includes("big mac")) {
-          throw new Error("Eroare: Pagina magazinului McDonald's nu s-a încărcat complet (sau a fost blocată de securitate)!");
+        const lowerBody = bodyText.toLowerCase();
+        // Căutăm cuvinte cheie specifice în funcție de ID-ul restaurantului sau cuvinte universale
+        const keyword = rest.id.split('-')[0].toLowerCase(); // e.g. "mcdonalds", "kfc", "dabo", "pizza"
+        if (!lowerBody.includes(keyword) && !lowerBody.includes("lei") && !lowerBody.includes("comandă")) {
+          throw new Error(`Eroare: Pagina magazinului ${rest.id} nu s-a încărcat complet (sau a fost blocată de securitate)!`);
         }
 
         // 3. Extragem datele reale din DOM (cu fallback pe valorile default dacă selectorii nu găsesc nimic)

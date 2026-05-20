@@ -79,7 +79,14 @@ async function startServer() {
       const existingDataset = await readDeliveryFeeDataset();
       const updatedFees = { ...existingDataset.fees };
 
-      const restaurantIds = ["kfc-buc-1", "pizzahut-constanta", "mcdonalds-constanta"];
+      const restaurantIds = [
+        "kfc-buc-1", 
+        "kfc-ct-1", 
+        "pizzahut-constanta", 
+        "pizza-hut-ct-1", 
+        "mcdonalds-constanta", 
+        "dabo-doner-constanta"
+      ];
       
       for (const restId of restaurantIds) {
         if (!updatedFees[restId]) {
@@ -123,9 +130,20 @@ async function startServer() {
       const existingMenusDataset = await readRestaurantMenusDataset();
       const updatedMenus = { ...existingMenusDataset.menus };
 
-      // Momentan salvăm doar ce găsim pe glovo pentru McDonalds
-      if (scrapedData.menus.glovo?.["mcdonalds-constanta"] && scrapedData.menus.glovo["mcdonalds-constanta"].length > 0) {
-        updatedMenus["mcdonalds-constanta"] = scrapedData.menus.glovo["mcdonalds-constanta"];
+      // Salvăm toate meniurile returnate de Glovo pentru restaurantele configurate
+      if (scrapedData.menus.glovo) {
+        for (const [restId, items] of Object.entries(scrapedData.menus.glovo)) {
+          if (Array.isArray(items) && items.length > 0) {
+            // Filtrăm elementele de debug din meniu înainte de salvare
+            const cleanItems = items.filter(
+              (item) => item.id !== "debug-logs" && item.id !== "debug-screenshot"
+            );
+            if (cleanItems.length > 0) {
+              updatedMenus[restId] = cleanItems;
+              console.log(`[Sync] Saved scraped menu for ${restId} (${cleanItems.length} products)`);
+            }
+          }
+        }
       }
 
       const menusDatasetToSave = {
