@@ -67,3 +67,5 @@ npm run sync:delivery-fees
 ```
 
 Pentru persistenta reala intre deploy-uri, sursa de adevar trebuie sa fie externa. Fisierul local `data/delivery-fees.json` e bun pentru dezvoltare si fallback, dar nu ar trebui sa fie singura sursa in productie.
+
+<!-- Trigger for Railway build: 2026-05-20T17:36:00 -->
