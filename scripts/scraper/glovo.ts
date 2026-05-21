@@ -76,37 +76,39 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
     ];
 
     for (const rest of restaurantsToScrape) {
-      log(`Navigating to store ${rest.url} in already-authenticated address context...`);
-      await page.goto(rest.url, { waitUntil: 'domcontentloaded' });
-      await page.waitForTimeout(3000);
-
-      const title = await page.title();
-      log(`Page title: ${title}`);
-
-      // Detecție blocare anti-bot (Datadome/Cloudflare)
-      if (title.toLowerCase().includes("access denied") || 
-          title.toLowerCase().includes("attention required") || 
-          title.toLowerCase().includes("security check") ||
-          title.toLowerCase().includes("cloudflare") ||
-          title.toLowerCase().includes("datadome")) {
-        throw new Error(`Scraper-ul a fost blocat de sistemul anti-bot Glovo (Datadome/Cloudflare)! Titlul paginii: "${title}"`);
-      }
-
-      const bodyHtml = await page.locator('body').innerHTML().catch(() => "");
-      if (bodyHtml.includes("dd-captcha") || bodyHtml.toLowerCase().includes("captcha") || bodyHtml.toLowerCase().includes("please enable js")) {
-        throw new Error("Scraper-ul a fost blocat de o provocare CAPTCHA Glovo!");
-      }
-
-      // Accept cookies on store page if they appear again
       try {
-          const cookieBtn = page.locator('button:has-text("Acceptați toate"), button:has-text("Accept all"), #onetrust-accept-btn-handler').first();
-          if (await cookieBtn.count() > 0) {
-             await cookieBtn.click();
-             await page.waitForTimeout(1000);
-          }
-      } catch(e) {}
+        log(`Navigating to store ${rest.url} in already-authenticated address context...`);
+        await page.goto(rest.url, { waitUntil: 'domcontentloaded' });
+        await page.waitForTimeout(3000);
 
-      try {
+        const title = await page.title();
+        log(`Page title: ${title}`);
+
+        // Detecție blocare anti-bot (Datadome/Cloudflare)
+        if (title.toLowerCase().includes("access denied") || 
+            title.toLowerCase().includes("attention required") || 
+            title.toLowerCase().includes("security check") ||
+            title.toLowerCase().includes("cloudflare") ||
+            title.toLowerCase().includes("datadome")) {
+          log(`Warning: Scraper-ul a fost blocat de sistemul anti-bot Glovo pe restaurantul ${rest.id}! Titlul paginii: "${title}"`);
+          continue;
+        }
+
+        const bodyHtml = await page.locator('body').innerHTML().catch(() => "");
+        if (bodyHtml.includes("dd-captcha") || bodyHtml.toLowerCase().includes("captcha") || bodyHtml.toLowerCase().includes("please enable js")) {
+          log(`Warning: Scraper-ul a fost blocat de o provocare CAPTCHA Glovo pe restaurantul ${rest.id}!`);
+          continue;
+        }
+
+        // Accept cookies on store page if they appear again
+        try {
+            const cookieBtn = page.locator('button:has-text("Acceptați toate"), button:has-text("Accept all"), #onetrust-accept-btn-handler').first();
+            if (await cookieBtn.count() > 0) {
+               await cookieBtn.click();
+               await page.waitForTimeout(1000);
+            }
+        } catch(e) {}
+
         // 1. Dăm click pe primul produs disponibil
         const firstAddButton = page.locator('button[data-test-id="add-button"]').first();
         if (await firstAddButton.count() > 0) {
@@ -147,7 +149,8 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         // Căutăm cuvinte cheie specifice în funcție de ID-ul restaurantului sau cuvinte universale
         const keyword = rest.id.split('-')[0].toLowerCase(); // e.g. "mcdonalds", "kfc", "dabo", "pizza"
         if (!lowerBody.includes(keyword) && !lowerBody.includes("lei") && !lowerBody.includes("comandă")) {
-          throw new Error(`Eroare: Pagina magazinului ${rest.id} nu s-a încărcat complet (sau a fost blocată de securitate)!`);
+          log(`Warning: Pagina magazinului ${rest.id} nu s-a încărcat complet (sau a fost blocată de securitate)!`);
+          continue;
         }
 
         // 3. Extragem datele reale din DOM (cu fallback pe valorile default dacă selectorii nu găsesc nimic)
@@ -397,8 +400,9 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         console.log(`Au fost extrase ${finalItems.length} produse pentru ${rest.id}.`);
         menus[rest.id] = finalItems;
 
-      } catch (e) {
+      } catch (e: any) {
         console.error(`Eroare scraping pentru ${rest.id}:`, e);
+        log(`Eroare scraping pentru ${rest.id}: ${e.message}`);
       }
     }
 
