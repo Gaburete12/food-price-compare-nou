@@ -183,1652 +183,1652 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     menu: [
       {
-            id: 'bk-sir-bacon-beef-tortilla',
-            name: 'Sir Bacon Beef Tortilla',
-            description: 'Tortilla cu portie dublă de bacon crocant, carne de vită 100% la grătar, branza, ceapă sos picant Chili Cheese.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-sir-bacon-beef-tortilla.png',
+            id: "bk-sir-bacon-beef-tortilla",
+            name: "Sir Bacon Beef Tortilla",
+            description: "Tortilla cu portie dublă de bacon crocant, carne de vită 100% la grătar, branza, ceapă sos picant Chili Cheese.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-sir-bacon-beef-tortilla.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 30.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-chicken',
-            name: 'Sir Bacon Chicken',
-            description: 'Burger cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brânză, inele de ceapă sos picant Chili Cheese.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-sir-bacon-chicken.png',
+            id: "bk-sir-bacon-chicken",
+            name: "Sir Bacon Chicken",
+            description: "Burger cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brânză, inele de ceapă sos picant Chili Cheese.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-sir-bacon-chicken.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-double',
-            name: 'Sir Bacon Double',
-            description: 'Burger cu carne de vită la dublu și bacon crocant, completat cu brânză, inele de ceapă și un sos picant Chili Cheese.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-sir-bacon-double.png',
+            id: "bk-sir-bacon-double",
+            name: "Sir Bacon Double",
+            description: "Burger cu carne de vită la dublu și bacon crocant, completat cu brânză, inele de ceapă și un sos picant Chili Cheese.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-sir-bacon-double.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 40.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-big-king-xxl',
-            name: 'Meniu Big King XXL',
-            description: 'Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include 0m',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-big-king-xxl.png',
+            id: "bk-meniu-big-king-xxl",
+            name: "Meniu Big King XXL",
+            description: "Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include 0m",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-big-king-xxl.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 59.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-dublu-cheesy',
-            name: 'Meniu Dublu Cheesy',
-            description: 'Alege-ti două meniuri Crazy Cheesy preferate - burgeri sau wraps, clasice sau plant- based: Nachos Beef, Nachos Plant-Based, BBQ Beef sau BBQ Plant-Based. Servite cum',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-dublu-cheesy.png',
+            id: "bk-meniu-dublu-cheesy",
+            name: "Meniu Dublu Cheesy",
+            description: "Alege-ti două meniuri Crazy Cheesy preferate - burgeri sau wraps, clasice sau plant- based: Nachos Beef, Nachos Plant-Based, BBQ Beef sau BBQ Plant-Based. Servite cum",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-dublu-cheesy.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 72.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-dublu-cheeseburger',
-            name: 'Meniu Dublu Cheeseburger',
-            description: 'O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveti murati, ketchup și muștar. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-dublu-cheeseburger.png',
+            id: "bk-meniu-dublu-cheeseburger",
+            name: "Meniu Dublu Cheeseburger",
+            description: "O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveti murati, ketchup și muștar. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-dublu-cheeseburger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-double-meniu',
-            name: 'Sir Bacon Double Meniu',
-            description: 'Sir Bacon Double Meniu',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-sir-bacon-double-meniu.png',
+            id: "bk-sir-bacon-double-meniu",
+            name: "Sir Bacon Double Meniu",
+            description: "Sir Bacon Double Meniu",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-sir-bacon-double-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 79.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-burger-meniu',
-            name: 'Sir Bacon Burger Meniu',
-            description: 'Sir Bacon Burger Meniu',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-sir-bacon-burger-meniu.png',
+            id: "bk-sir-bacon-burger-meniu",
+            name: "Sir Bacon Burger Meniu",
+            description: "Sir Bacon Burger Meniu",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-sir-bacon-burger-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-tortilla-meniu',
-            name: 'Sir Bacon Tortilla Meniu',
-            description: 'Sir Bacon Tortilla Meniu',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-sir-bacon-tortilla-meniu.png',
+            id: "bk-sir-bacon-tortilla-meniu",
+            name: "Sir Bacon Tortilla Meniu",
+            description: "Sir Bacon Tortilla Meniu",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-sir-bacon-tortilla-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon',
-            name: 'Sir Bacon',
-            description: 'Burger cu portie dublă de bacon crocant, carne de vită 100% la gratar, brănză, inele de ceapă sos picant Chili Cheese.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-sir-bacon.png',
+            id: "bk-sir-bacon",
+            name: "Sir Bacon",
+            description: "Burger cu portie dublă de bacon crocant, carne de vită 100% la gratar, brănză, inele de ceapă sos picant Chili Cheese.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-sir-bacon.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 30.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-chicken-tortilla',
-            name: 'Sir Bacon Chicken Tortilla',
-            description: 'Tortilla cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brănză, inele de ceapă sos picant Chili Cheese.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-sir-bacon-chicken-tortilla.png',
+            id: "bk-sir-bacon-chicken-tortilla",
+            name: "Sir Bacon Chicken Tortilla",
+            description: "Tortilla cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brănză, inele de ceapă sos picant Chili Cheese.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-sir-bacon-chicken-tortilla.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sir-bacon-snack-meniu',
-            name: 'Sir Bacon Snack Meniu',
-            description: 'Sir Bacon Snack Meniu',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-sir-bacon-snack-meniu.png',
+            id: "bk-sir-bacon-snack-meniu",
+            name: "Sir Bacon Snack Meniu",
+            description: "Sir Bacon Snack Meniu",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-sir-bacon-snack-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chilli-cheese-loaded-fries',
-            name: 'Chilli Cheese Loaded Fries',
-            description: 'Cartofi prăjiti aurși crocanti cu sos Chili Cheese, felși de jalapeno picante și ceapă prăjită crocantă. Perfecti ca gustare sau garnitură la un meniu.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-chilli-cheese-loaded-fries.png',
+            id: "bk-chilli-cheese-loaded-fries",
+            name: "Chilli Cheese Loaded Fries",
+            description: "Cartofi prăjiti aurși crocanti cu sos Chili Cheese, felși de jalapeno picante și ceapă prăjită crocantă. Perfecti ca gustare sau garnitură la un meniu.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-chilli-cheese-loaded-fries.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 18.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-galacticfamilymenu',
-            name: 'GalacticFamilyMenu',
-            description: 'Simte puterea ascunsă intr-un meniu de familie venit direct dintr-o galaxie indepărtată! Galactic Family include un Mandalorian Whopper, un Long Chicken burger, cartofi prăjitim',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-galacticfamilymenu.png',
+            id: "bk-galacticfamilymenu",
+            name: "GalacticFamilyMenu",
+            description: "Simte puterea ascunsă intr-un meniu de familie venit direct dintr-o galaxie indepărtată! Galactic Family include un Mandalorian Whopper, un Long Chicken burger, cartofi prăjitim",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-galacticfamilymenu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 76.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-galactic-menu',
-            name: 'Galactic Menu',
-            description: 'Simte puterea ascunsă intr-un meniu venit direct dintr-o galaxie indepărtată! Galactic Combo este un Mandalorian Whopper cu carne de vită la grătar, bacon sos Sweetm',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-galactic-menu.png',
+            id: "bk-galactic-menu",
+            name: "Galactic Menu",
+            description: "Simte puterea ascunsă intr-un meniu venit direct dintr-o galaxie indepărtată! Galactic Combo este un Mandalorian Whopper cu carne de vită la grătar, bacon sos Sweetm",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-galactic-menu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 47.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-king-jr-plus-menu',
-            name: 'King Jr Plus Menu',
-            description: 'Porne$e intr-o aventură cosmică cu un meniu special pentru cei mici și cei mari! Long Chicken este servit cu cartofi prăjiti portie mică, 6 bucăti de Chili Cheese Nuggets unam',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-king-jr-plus-menu.png',
+            id: "bk-king-jr-plus-menu",
+            name: "King Jr Plus Menu",
+            description: "Porne$e intr-o aventură cosmică cu un meniu special pentru cei mici și cei mari! Long Chicken este servit cu cartofi prăjiti portie mică, 6 bucăti de Chili Cheese Nuggets unam",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-king-jr-plus-menu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 37.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-mandalorian-whopper',
-            name: 'Mandalorian Whopper',
-            description: 'Simte puterea ascunsă intr-un burger venit direct dintr-o galaxie indepărtată! Mandalorian Whopper este combinatia de carne de vită gătită la grătar cu bacon, brănză„.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-mandalorian-whopper.png',
+            id: "bk-mandalorian-whopper",
+            name: "Mandalorian Whopper",
+            description: "Simte puterea ascunsă intr-un burger venit direct dintr-o galaxie indepărtată! Mandalorian Whopper este combinatia de carne de vită gătită la grătar cu bacon, brănză„.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-mandalorian-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 31.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-plant-based-mandalorian-whopper',
-            name: 'Plant - Based Mandalorian Whopper',
-            description: 'Alege calea puterși in versiune plant-based! Mandalorian Whopper este combinatia dintre un patty vegetal, brânză, ceapă crocantă, salată, roșși castraveti murati, toate intr-om',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-plant-based-mandalorian-whopper.png',
+            id: "bk-plant-based-mandalorian-whopper",
+            name: "Plant - Based Mandalorian Whopper",
+            description: "Alege calea puterși in versiune plant-based! Mandalorian Whopper este combinatia dintre un patty vegetal, brânză, ceapă crocantă, salată, roșși castraveti murati, toate intr-om",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-plant-based-mandalorian-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 31.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-lord-pepper',
-            name: 'Meniu Lord Pepper',
-            description: '150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă. Meniul„.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-lord-pepper.png',
+            id: "bk-meniu-lord-pepper",
+            name: "Meniu Lord Pepper",
+            description: "150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă. Meniul„.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-lord-pepper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 51.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-combo-lord-pepper',
-            name: 'Combo Lord Pepper',
-            description: 'Alege Lord Pepper - gust intens de carne de vită, servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-combo-lord-pepper.png',
+            id: "bk-combo-lord-pepper",
+            name: "Combo Lord Pepper",
+            description: "Alege Lord Pepper - gust intens de carne de vită, servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-combo-lord-pepper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 51.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-lord-pepper-chicken-meniu',
-            name: 'Lord Pepper Chicken Meniu',
-            description: 'Piept de pui in crustă crocantă cu brânză, ceapă prăjită, roșși, rucola, iuncă un sos unic de ardei iaurt, toate intr-un chifle delicat de brioche. Servite alaturi de o portie mediem',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-lord-pepper-chicken-meniu.png',
+            id: "bk-lord-pepper-chicken-meniu",
+            name: "Lord Pepper Chicken Meniu",
+            description: "Piept de pui in crustă crocantă cu brânză, ceapă prăjită, roșși, rucola, iuncă un sos unic de ardei iaurt, toate intr-un chifle delicat de brioche. Servite alaturi de o portie mediem",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-lord-pepper-chicken-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 51.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-lord-pepper',
-            name: 'Lord Pepper',
-            description: '150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-lord-pepper.png',
+            id: "bk-lord-pepper",
+            name: "Lord Pepper",
+            description: "150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-lord-pepper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 33.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-lord-pepper-chicken',
-            name: 'Lord Pepper Chicken',
-            description: 'Pui in crusta crocanta cu brânză, ceapă prăjită, roșși, rucola, >uncă un sos unic de ardei și iaurt, servite intr-o chiflă delicată de brioche.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-lord-pepper-chicken.png',
+            id: "bk-lord-pepper-chicken",
+            name: "Lord Pepper Chicken",
+            description: "Pui in crusta crocanta cu brânză, ceapă prăjită, roșși, rucola, >uncă un sos unic de ardei și iaurt, servite intr-o chiflă delicată de brioche.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-lord-pepper-chicken.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 33.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-dublu-bacon-cheese-whopper',
-            name: 'Meniu Dublu Bacon& Cheese Whopper',
-            description: 'Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturăm',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-dublu-bacon-cheese-whopper.png',
+            id: "bk-meniu-dublu-bacon-cheese-whopper",
+            name: "Meniu Dublu Bacon& Cheese Whopper",
+            description: "Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturăm",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-dublu-bacon-cheese-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 59.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-combo-big-king-xxl',
-            name: 'Combo Big King XXL',
-            description: 'Alege Big King XXL - dublu de carne și maximum de gust. Servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-combo-big-king-xxl.png',
+            id: "bk-combo-big-king-xxl",
+            name: "Combo Big King XXL",
+            description: "Alege Big King XXL - dublu de carne și maximum de gust. Servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-combo-big-king-xxl.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 59.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-dublu-steakhouse',
-            name: 'Meniu Dublu Steakhouse',
-            description: 'O portie dublă de 100% carne de vită preparată pe grătar, bacon și brănză, salată proaspătă, roșși, ceapă prăjită, plus maioneză și sos BBQ, servite intr-o chiflă pufoasă„.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-dublu-steakhouse.png',
+            id: "bk-meniu-dublu-steakhouse",
+            name: "Meniu Dublu Steakhouse",
+            description: "O portie dublă de 100% carne de vită preparată pe grătar, bacon și brănză, salată proaspătă, roșși, ceapă prăjită, plus maioneză și sos BBQ, servite intr-o chiflă pufoasă„.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-dublu-steakhouse.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 59.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-dublu-whopper',
-            name: 'Meniu Dublu Whopper',
-            description: 'O portie dublă de carne de vită 100% facută la grătar, roșși, ceapă, salată castraveCi murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan. Meniul include on.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-dublu-whopper.png',
+            id: "bk-meniu-dublu-whopper",
+            name: "Meniu Dublu Whopper",
+            description: "O portie dublă de carne de vită 100% facută la grătar, roșși, ceapă, salată castraveCi murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan. Meniul include on.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-dublu-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 56.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-bacon-king',
-            name: 'Meniu Bacon King',
-            description: 'Carne de vită 100% facută la grătar, bacon, roșși, brânză maioneză, totul intr-o chiflă pufoasă. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-bacon-king.png',
+            id: "bk-meniu-bacon-king",
+            name: "Meniu Bacon King",
+            description: "Carne de vită 100% facută la grătar, bacon, roșși, brânză maioneză, totul intr-o chiflă pufoasă. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-bacon-king.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 50.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-steakhouse',
-            name: 'Meniu Steakhouse',
-            description: '100% carne de vită preparată pe grătar, bacon brânză, salată proaspătă, roșși, ceapă prăjită, plus maioneză sos BBQ, servite intr-o chiflă pufoasă brioche. Include cartofim',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-steakhouse.png',
+            id: "bk-meniu-steakhouse",
+            name: "Meniu Steakhouse",
+            description: "100% carne de vită preparată pe grătar, bacon brânză, salată proaspătă, roșși, ceapă prăjită, plus maioneză sos BBQ, servite intr-o chiflă pufoasă brioche. Include cartofim",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-steakhouse.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 49.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-extra-long-chili-cheese',
-            name: 'Meniu Extra Long Chili Cheese',
-            description: '100% carne de vită la grătar, sos de brănză cu ardei chili, brânză, totul intr-o chiflă bachetă cu susan. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-extra-long-chili-cheese.png',
+            id: "bk-meniu-extra-long-chili-cheese",
+            name: "Meniu Extra Long Chili Cheese",
+            description: "100% carne de vită la grătar, sos de brănză cu ardei chili, brânză, totul intr-o chiflă bachetă cu susan. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-extra-long-chili-cheese.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 49.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-7-buc-king-wings',
-            name: 'Meniu 7 buc. King Wings',
-            description: '7 Aripioare de pui, aurși delicioase. Meniul include o portie medie de cartofi prăjiti și o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-7-buc-king-wings.png',
+            id: "bk-meniu-7-buc-king-wings",
+            name: "Meniu 7 buc. King Wings",
+            description: "7 Aripioare de pui, aurși delicioase. Meniul include o portie medie de cartofi prăjiti și o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-7-buc-king-wings.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 49.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-cheesy-burger',
-            name: 'Meniu Cheesy Burger',
-            description: 'Alege-ti meniul preferat Make it Cheesy din patru optiuni delicioase! Cheesy Nachos Beef - vită, brănză, nachos crocanti jalapenos.Cheesy Nachos Plant-Based - aceea$.„',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-cheesy-burger.png',
+            id: "bk-meniu-cheesy-burger",
+            name: "Meniu Cheesy Burger",
+            description: "Alege-ti meniul preferat Make it Cheesy din patru optiuni delicioase! Cheesy Nachos Beef - vită, brănză, nachos crocanti jalapenos.Cheesy Nachos Plant-Based - aceea$.„",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-cheesy-burger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 48.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-cheesy-wrap',
-            name: 'Meniu Cheesy Wrap',
-            description: 'Alege-ti meniul preferat Crazy Cheesy din patru optiuni delicioase! Crazy Cheesy Nachos Beef Wrap - vită, brânză, nachos crocanti și jalapeöos, invelite intr-o tortilla delicată.m',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-cheesy-wrap.png',
+            id: "bk-meniu-cheesy-wrap",
+            name: "Meniu Cheesy Wrap",
+            description: "Alege-ti meniul preferat Crazy Cheesy din patru optiuni delicioase! Crazy Cheesy Nachos Beef Wrap - vită, brânză, nachos crocanti și jalapeöos, invelite intr-o tortilla delicată.m",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-cheesy-wrap.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 48.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-bacon-cheese-whopper',
-            name: 'Meniu Bacon& Cheese Whopper',
-            description: '100% carne de vită la grătar, brânză, bacon roșși, ceapă castraveti murati, maioneză ketchup, intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturm',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-bacon-cheese-whopper.png',
+            id: "bk-meniu-bacon-cheese-whopper",
+            name: "Meniu Bacon& Cheese Whopper",
+            description: "100% carne de vită la grătar, brânză, bacon roșși, ceapă castraveti murati, maioneză ketchup, intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturm",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-bacon-cheese-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 47.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chick-n-crunch-supreme-meniu',
-            name: 'Chick'n Crunch Supreme Meniu',
-            description: 'Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză. Meniul include o portie medie de cartofi„.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-chick-n-crunch-supreme-meniu.png',
+            id: "bk-chick-n-crunch-supreme-meniu",
+            name: "Chick'n Crunch Supreme Meniu",
+            description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză. Meniul include o portie medie de cartofi„.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-chick-n-crunch-supreme-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 46.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-whopper-beef-pocket-menu',
-            name: 'Whopper Beef Pocket Menu',
-            description: 'O legendă a gustului care nu are nevoie de prezentare. Carne de vită 100% la gratar, salată crocantă, roșși proaspete castraveti muraq - toate intr-o tortilla crocantă.Meniulm',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-whopper-beef-pocket-menu.png',
+            id: "bk-whopper-beef-pocket-menu",
+            name: "Whopper Beef Pocket Menu",
+            description: "O legendă a gustului care nu are nevoie de prezentare. Carne de vită 100% la gratar, salată crocantă, roșși proaspete castraveti muraq - toate intr-o tortilla crocantă.Meniulm",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-whopper-beef-pocket-menu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 46.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-chicken-wrap',
-            name: 'Meniu Chicken Wrap',
-            description: 'Pui crocant delicios, salată, maioneză roșși proaspete. Toate invelite intr-o tortilla la grill. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-chicken-wrap.png',
+            id: "bk-meniu-chicken-wrap",
+            name: "Meniu Chicken Wrap",
+            description: "Pui crocant delicios, salată, maioneză roșși proaspete. Toate invelite intr-o tortilla la grill. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-chicken-wrap.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 46.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chick-n-crunch-spicy-meniu',
-            name: 'Chick'n Crunch Spicy Meniu',
-            description: 'Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, Jalapefios sos Chili Cheese. Meniul include o portie medie dm',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-chick-n-crunch-spicy-meniu.png',
+            id: "bk-chick-n-crunch-spicy-meniu",
+            name: "Chick'n Crunch Spicy Meniu",
+            description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, Jalapefios sos Chili Cheese. Meniul include o portie medie dm",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-chick-n-crunch-spicy-meniu.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 45.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-5-buc-king-wings',
-            name: 'Meniu 5 buc. King Wings',
-            description: '5 Aripioare de pui, aurși delicioase. Meniul include o portie medie de cartofi prăjiti și o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-5-buc-king-wings.png',
+            id: "bk-meniu-5-buc-king-wings",
+            name: "Meniu 5 buc. King Wings",
+            description: "5 Aripioare de pui, aurși delicioase. Meniul include o portie medie de cartofi prăjiti și o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-5-buc-king-wings.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 45.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-combo-long-chicken',
-            name: 'Combo Long Chicken',
-            description: 'Alege Long Chicken pui crocant intr-o chiflă ovală, servit cu cartofi prăjiti portie medie 4 Chicken Nuggets - o combinatie clasică care merge de fiecare dată!',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-combo-long-chicken.png',
+            id: "bk-combo-long-chicken",
+            name: "Combo Long Chicken",
+            description: "Alege Long Chicken pui crocant intr-o chiflă ovală, servit cu cartofi prăjiti portie medie 4 Chicken Nuggets - o combinatie clasică care merge de fiecare dată!",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-combo-long-chicken.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 43.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-plant-based-royale',
-            name: 'Meniu Plant-Based Royale',
-            description: 'Burger pe bază de plante intr-un înveliș crocant, salată proaspătă maioneză intr-o chiflă baghetă cu seminte de susan. Meniul include o portie medie de cartofi prăjiti o băutur„.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-plant-based-royale.png',
+            id: "bk-meniu-plant-based-royale",
+            name: "Meniu Plant-Based Royale",
+            description: "Burger pe bază de plante intr-un înveliș crocant, salată proaspătă maioneză intr-o chiflă baghetă cu seminte de susan. Meniul include o portie medie de cartofi prăjiti o băutur„.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-plant-based-royale.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 43.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-big-king',
-            name: 'Meniu Big King',
-            description: 'O portie dublă de vită 100% la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include o portie medie de cartofi„.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-big-king.png',
+            id: "bk-meniu-big-king",
+            name: "Meniu Big King",
+            description: "O portie dublă de vită 100% la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include o portie medie de cartofi„.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-big-king.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-crispy-chicken',
-            name: 'Meniu Crispy Chicken',
-            description: 'Pui pane crocant, salată proaspătă maioneză, totul intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-crispy-chicken.png',
+            id: "bk-meniu-crispy-chicken",
+            name: "Meniu Crispy Chicken",
+            description: "Pui pane crocant, salată proaspătă maioneză, totul intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-crispy-chicken.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-whopper-jr',
-            name: 'Meniu Whopper Jr.',
-            description: 'Gustul unic BK in varianta junior. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cum',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-whopper-jr.png',
+            id: "bk-meniu-whopper-jr",
+            name: "Meniu Whopper Jr.",
+            description: "Gustul unic BK in varianta junior. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cum",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-whopper-jr.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 35.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-meniu-cheesy-snack',
-            name: 'Meniu Cheesy Snack',
-            description: '5 Chilli Cheese Nuggets 6 nuggets clasici (disponibili in variantă plant-based), serviti cu cartofi prăjiti două sosuri. Perfect ca gustare sau de impărtit cu prietenși!',
-            category: 'Meniuri și Buckets',
-            imageUrl: '/burgerking/bk-meniu-cheesy-snack.png',
+            id: "bk-meniu-cheesy-snack",
+            name: "Meniu Cheesy Snack",
+            description: "5 Chilli Cheese Nuggets 6 nuggets clasici (disponibili in variantă plant-based), serviti cu cartofi prăjiti două sosuri. Perfect ca gustare sau de impărtit cu prietenși!",
+            category: "Meniuri și Buckets",
+            imageUrl: "/burgerking/bk-meniu-cheesy-snack.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-dublu-bacon-cheese-whopper',
-            name: 'Dublu Bacon& Cheese Whopper',
-            description: 'Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-dublu-bacon-cheese-whopper.png',
+            id: "bk-dublu-bacon-cheese-whopper",
+            name: "Dublu Bacon& Cheese Whopper",
+            description: "Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-dublu-bacon-cheese-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-big-king-xxl',
-            name: 'Big King XXL',
-            description: 'Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-big-king-xxl.png',
+            id: "bk-big-king-xxl",
+            name: "Big King XXL",
+            description: "Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-big-king-xxl.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 41.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-dublu-whopper',
-            name: 'Dublu Whopper',
-            description: 'O portie dublă de carne de vită 100% facută la grătar, roșși, ceapă, salată castraveCi murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-dublu-whopper.png',
+            id: "bk-dublu-whopper",
+            name: "Dublu Whopper",
+            description: "O portie dublă de carne de vită 100% facută la grătar, roșși, ceapă, salată castraveCi murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-dublu-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 38.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-bacon-king',
-            name: 'Bacon King',
-            description: 'Carne de vită 100% facută la grătar, bacon, roșși, brânză maioneză, totul intr-o chiflă pufoasă.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-bacon-king.png',
+            id: "bk-bacon-king",
+            name: "Bacon King",
+            description: "Carne de vită 100% facută la grătar, bacon, roșși, brânză maioneză, totul intr-o chiflă pufoasă.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-bacon-king.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 32.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-steakhouse',
-            name: 'Steakhouse',
-            description: '100% vită preparată pe grătar, bacon brănză, salată proaspătă, roșși, ceapă prăjită, plus maioneză sos BBQ, servite intr-o chiflă pufoasă brioche.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-steakhouse.png',
+            id: "bk-steakhouse",
+            name: "Steakhouse",
+            description: "100% vită preparată pe grătar, bacon brănză, salată proaspătă, roșși, ceapă prăjită, plus maioneză sos BBQ, servite intr-o chiflă pufoasă brioche.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-steakhouse.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 31.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-cheesy-bbq-beef-burger',
-            name: 'Cheesy BBQ Beef Burger',
-            description: 'Carne de vită suculentă la grătar, două felși de brănză, bacon crocant ceapă caramelizată, completate de sos BBQ un sos de brânză delicios. Totul servit intr-o chifl„.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-cheesy-bbq-beef-burger.png',
+            id: "bk-cheesy-bbq-beef-burger",
+            name: "Cheesy BBQ Beef Burger",
+            description: "Carne de vită suculentă la grătar, două felși de brănză, bacon crocant ceapă caramelizată, completate de sos BBQ un sos de brânză delicios. Totul servit intr-o chifl„.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-cheesy-bbq-beef-burger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-cheesy-nachos-beef-burger',
-            name: 'Cheesy Nachos Beef Burger',
-            description: 'Carne de vită la grătar suculentă, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti și felși de jalapeno. Totul servit intr-o chiflă pufoasăm',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-cheesy-nachos-beef-burger.png',
+            id: "bk-cheesy-nachos-beef-burger",
+            name: "Cheesy Nachos Beef Burger",
+            description: "Carne de vită la grătar suculentă, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti și felși de jalapeno. Totul servit intr-o chiflă pufoasăm",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-cheesy-nachos-beef-burger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-plant-based-cheesy-bbq-burger',
-            name: 'Plant-Based Cheesy BBQ Burger',
-            description: 'Plant-based, două felși de brănză, facon crocant (alternativă vegetală la bacon), ceapă caramelizată, sos BBQ aromat sos cremos de brănză. Totul servit intr-o chiflă pufoasă cm',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-plant-based-cheesy-bbq-burger.png',
+            id: "bk-plant-based-cheesy-bbq-burger",
+            name: "Plant-Based Cheesy BBQ Burger",
+            description: "Plant-based, două felși de brănză, facon crocant (alternativă vegetală la bacon), ceapă caramelizată, sos BBQ aromat sos cremos de brănză. Totul servit intr-o chiflă pufoasă cm",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-plant-based-cheesy-bbq-burger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-plant-based-cheesy-nachos-burger',
-            name: 'Plant-Based Cheesy Nachos Burger',
-            description: 'Plant-based, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti felși de jalapeno. Totul servit intr-o chiflă pufoasă cu susan. Gust intensm',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-plant-based-cheesy-nachos-burger.png',
+            id: "bk-plant-based-cheesy-nachos-burger",
+            name: "Plant-Based Cheesy Nachos Burger",
+            description: "Plant-based, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti felși de jalapeno. Totul servit intr-o chiflă pufoasă cu susan. Gust intensm",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-plant-based-cheesy-nachos-burger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-bacon-cheese-whopper',
-            name: 'Bacon& Cheese Whopper',
-            description: '100% carne de vită la grătar, brânză, bacon roșși, ceapă castraveti murati, maioneză ketchup, intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-bacon-cheese-whopper.png',
+            id: "bk-bacon-cheese-whopper",
+            name: "Bacon& Cheese Whopper",
+            description: "100% carne de vită la grătar, brânză, bacon roșși, ceapă castraveti murati, maioneză ketchup, intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-bacon-cheese-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chick-n-crunch-supreme',
-            name: 'Chick'n Crunch Supreme',
-            description: 'Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-chick-n-crunch-supreme.png',
+            id: "bk-chick-n-crunch-supreme",
+            name: "Chick'n Crunch Supreme",
+            description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-chick-n-crunch-supreme.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 28.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chick-n-crunch-spicy',
-            name: 'Chick'n Crunch Spicy',
-            description: 'Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, jalapenos sos Chili Cheese.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-chick-n-crunch-spicy.png',
+            id: "bk-chick-n-crunch-spicy",
+            name: "Chick'n Crunch Spicy",
+            description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, jalapenos sos Chili Cheese.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-chick-n-crunch-spicy.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 27.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chick-n-crunch-classic',
-            name: 'Chick'n Crunch Classic',
-            description: 'Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar sos maioneză.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-chick-n-crunch-classic.png',
+            id: "bk-chick-n-crunch-classic",
+            name: "Chick'n Crunch Classic",
+            description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar sos maioneză.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-chick-n-crunch-classic.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 26.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-whopper',
-            name: 'Whopper',
-            description: 'Gustul unic BK. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă și castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-whopper.png',
+            id: "bk-whopper",
+            name: "Whopper",
+            description: "Gustul unic BK. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă și castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 26.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-plant-based-whopper',
-            name: 'Plant-Based Whopper',
-            description: 'Whopper 100% pe bază de plant? făcut pe grătar, roșși proaspete, salată, maioneză, ketchup, castraveti murati ceapă, toate intr-o chiflă cu susan. *Pregatirea produselorm',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-plant-based-whopper.png',
+            id: "bk-plant-based-whopper",
+            name: "Plant-Based Whopper",
+            description: "Whopper 100% pe bază de plant? făcut pe grătar, roșși proaspete, salată, maioneză, ketchup, castraveti murati ceapă, toate intr-o chiflă cu susan. *Pregatirea produselorm",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-plant-based-whopper.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 26.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-long-chicken',
-            name: 'Long Chicken',
-            description: 'Pui pane crocant intr-o chiflă baghetă, două felși de brănză, salată maioneză.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-long-chicken.png',
+            id: "bk-long-chicken",
+            name: "Long Chicken",
+            description: "Pui pane crocant intr-o chiflă baghetă, două felși de brănză, salată maioneză.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-long-chicken.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 25.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-plant-based-long',
-            name: 'Plant-Based Long',
-            description: 'Fire grilled plant- based patty in a crispy coating, fresh lettuce and mayonnaise. All this encased in a long sesame seeds bun. *The preparation of products from the Plant-Based„.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-plant-based-long.png',
+            id: "bk-plant-based-long",
+            name: "Plant-Based Long",
+            description: "Fire grilled plant- based patty in a crispy coating, fresh lettuce and mayonnaise. All this encased in a long sesame seeds bun. *The preparation of products from the Plant-Based„.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-plant-based-long.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 25.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-big-king',
-            name: 'Big King',
-            description: 'O portie dublă de vită 100% la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-big-king.png',
+            id: "bk-big-king",
+            name: "Big King",
+            description: "O portie dublă de vită 100% la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-big-king.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 23.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-crispy-chicken',
-            name: 'Crispy Chicken',
-            description: 'Pui pane crocant, salată proaspătă, roșși și maioneză, totul intr-o chiflă cu susan.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-crispy-chicken.png',
+            id: "bk-crispy-chicken",
+            name: "Crispy Chicken",
+            description: "Pui pane crocant, salată proaspătă, roșși și maioneză, totul intr-o chiflă cu susan.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-crispy-chicken.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 23.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-dublu-cheeseburger',
-            name: 'Dublu Cheeseburger',
-            description: 'O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveCi murati, ketchup și muștar.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-dublu-cheeseburger.png',
+            id: "bk-dublu-cheeseburger",
+            name: "Dublu Cheeseburger",
+            description: "O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveCi murati, ketchup și muștar.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-dublu-cheeseburger.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 23.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-whopper-jr',
-            name: 'Whopper Jr.',
-            description: 'Gustul unic BK in varianta junior. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cum',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-whopper-jr.png',
+            id: "bk-whopper-jr",
+            name: "Whopper Jr.",
+            description: "Gustul unic BK in varianta junior. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cum",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-whopper-jr.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 17.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-plant-based-whopper-tortilla',
-            name: 'Plant-Based Whopper Tortilla',
-            description: 'O legendă a gustului care nu are nevoie de prezentare. Plant -Base* la gratar, salată crocantă, roșși proaspete și castraveti murati - toate intr-o tortilla crocantă.*Pregatiream',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-plant-based-whopper-tortilla.png',
+            id: "bk-plant-based-whopper-tortilla",
+            name: "Plant-Based Whopper Tortilla",
+            description: "O legendă a gustului care nu are nevoie de prezentare. Plant -Base* la gratar, salată crocantă, roșși proaspete și castraveti murati - toate intr-o tortilla crocantă.*Pregatiream",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-plant-based-whopper-tortilla.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 29.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-whopper-tortilla-beef',
-            name: 'Whopper Tortilla Beef',
-            description: 'O legendă a gustului care nu are nevoie de prezentare. Carne de vită 100% la gratar, salată crocantă, roșși proaspete castraveti muraq - toate intr-o tortilla crocantă.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-whopper-tortilla-beef.png',
+            id: "bk-whopper-tortilla-beef",
+            name: "Whopper Tortilla Beef",
+            description: "O legendă a gustului care nu are nevoie de prezentare. Carne de vită 100% la gratar, salată crocantă, roșși proaspete castraveti muraq - toate intr-o tortilla crocantă.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-whopper-tortilla-beef.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 28.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chicken-wrap',
-            name: 'Chicken Wrap',
-            description: 'Pui crocant delicios, salată, maioneză roșși proaspete. Toate invelite intr-o tortilla la grill.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-chicken-wrap.png',
+            id: "bk-chicken-wrap",
+            name: "Chicken Wrap",
+            description: "Pui crocant delicios, salată, maioneză roșși proaspete. Toate invelite intr-o tortilla la grill.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-chicken-wrap.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 28.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-chick-n-crunch-wrap',
-            name: 'Chick'n Crunch Wrap',
-            description: 'Wrap cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-chick-n-crunch-wrap.png',
+            id: "bk-chick-n-crunch-wrap",
+            name: "Chick'n Crunch Wrap",
+            description: "Wrap cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-chick-n-crunch-wrap.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 26.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-salata-cu-vita',
-            name: 'Salata cu vita',
-            description: 'Incearca o salata crunch cu 100% carne de vita la gratar, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata!',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-salata-cu-vita.png',
+            id: "bk-salata-cu-vita",
+            name: "Salata cu vita",
+            description: "Incearca o salata crunch cu 100% carne de vita la gratar, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata!",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-salata-cu-vita.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 24.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-salata-cu-pui',
-            name: 'Salata cu pui',
-            description: 'Incearca o salata crunch cu pui pane crocant, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata!',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-salata-cu-pui.png',
+            id: "bk-salata-cu-pui",
+            name: "Salata cu pui",
+            description: "Incearca o salata crunch cu pui pane crocant, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata!",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-salata-cu-pui.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 24.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-salata-cu-plant-based',
-            name: 'Salata cu Plant Based',
-            description: 'Incearca o salata crunch pe baza de plante la gratar, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata! *Pregatirea produselor Plant-Based are loc pen.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-salata-cu-plant-based.png',
+            id: "bk-salata-cu-plant-based",
+            name: "Salata cu Plant Based",
+            description: "Incearca o salata crunch pe baza de plante la gratar, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata! *Pregatirea produselor Plant-Based are loc pen.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-salata-cu-plant-based.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 24.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-7-buc-king-wings',
-            name: '7 buc. King Wings',
-            description: '7 Aripioare de pui, aurși delicioase.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-7-buc-king-wings.png',
+            id: "bk-7-buc-king-wings",
+            name: "7 buc. King Wings",
+            description: "7 Aripioare de pui, aurși delicioase.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-7-buc-king-wings.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 31.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-9-buc-king-nuggets',
-            name: '9 buc. King Nuggets',
-            description: '9 Nuggets de pui in înveliș auriu crocant, alături de două sosuri la alegere.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-9-buc-king-nuggets.png',
+            id: "bk-9-buc-king-nuggets",
+            name: "9 buc. King Nuggets",
+            description: "9 Nuggets de pui in înveliș auriu crocant, alături de două sosuri la alegere.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-9-buc-king-nuggets.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 28.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-9-buc-plant-based-nuggets',
-            name: '9 buc. Plant-Based Nuggets',
-            description: '9 Nuggets pe bază de plante in înveliș auriu si crocant, alături de două sosuri la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folositem',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-9-buc-plant-based-nuggets.png',
+            id: "bk-9-buc-plant-based-nuggets",
+            name: "9 buc. Plant-Based Nuggets",
+            description: "9 Nuggets pe bază de plante in înveliș auriu si crocant, alături de două sosuri la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folositem",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-9-buc-plant-based-nuggets.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 28.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-5-buc-king-wings',
-            name: '5 buc. King Wings',
-            description: '5 Aripioare de pui, aurși delicioase.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-5-buc-king-wings.png',
+            id: "bk-5-buc-king-wings",
+            name: "5 buc. King Wings",
+            description: "5 Aripioare de pui, aurși delicioase.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-5-buc-king-wings.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 27.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-6-buc-king-nuggets',
-            name: '6 buc. King Nuggets',
-            description: '6 Nuggets de pui in înveliș auriu crocant, alături de un sos la alegere.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-6-buc-king-nuggets.png',
+            id: "bk-6-buc-king-nuggets",
+            name: "6 buc. King Nuggets",
+            description: "6 Nuggets de pui in înveliș auriu crocant, alături de un sos la alegere.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-6-buc-king-nuggets.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 24.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-6-buc-plant-based-nuggets',
-            name: '6 buc. Plant-Based Nuggets',
-            description: '6 Nuggets pe bază de plante in înveliș auriu si crocant, alături de un sos la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite„.',
-            category: 'Burgeri și Pui',
-            imageUrl: '/burgerking/bk-6-buc-plant-based-nuggets.png',
+            id: "bk-6-buc-plant-based-nuggets",
+            name: "6 buc. Plant-Based Nuggets",
+            description: "6 Nuggets pe bază de plante in înveliș auriu si crocant, alături de un sos la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite„.",
+            category: "Burgeri și Pui",
+            imageUrl: "/burgerking/bk-6-buc-plant-based-nuggets.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 24.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-bacon-cheese-fries',
-            name: 'Bacon& Cheese Fries',
-            description: 'Cartofi prăjiti cu sos de brânză bacon.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-bacon-cheese-fries.png',
+            id: "bk-bacon-cheese-fries",
+            name: "Bacon& Cheese Fries",
+            description: "Cartofi prăjiti cu sos de brânză bacon.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-bacon-cheese-fries.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 18.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-angry-fries',
-            name: 'Angry Fries',
-            description: 'Cartofi prăjiti cu sos de brânză Jalapeno.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-angry-fries.png',
+            id: "bk-angry-fries",
+            name: "Angry Fries",
+            description: "Cartofi prăjiti cu sos de brânză Jalapeno.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-angry-fries.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 17.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-cartofi-pr-jici-portie-xxl',
-            name: 'Cartofi prăjiCi portie XXL',
-            description: 'O portie de cartofi prăjiti XXL, aurși crocanti, perfecti că o gustare caldă sau la meniu.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-cartofi-pr-jici-portie-xxl.png',
+            id: "bk-cartofi-pr-jici-portie-xxl",
+            name: "Cartofi prăjiCi portie XXL",
+            description: "O portie de cartofi prăjiti XXL, aurși crocanti, perfecti că o gustare caldă sau la meniu.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-cartofi-pr-jici-portie-xxl.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 16.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-criss-cuts',
-            name: 'Criss Cuts',
-            description: 'Crocanti si perfect asezonati - Criss Cut versiunea unică a clasicilor cartofi prăjiti. Datorita formei (or, fiecare bucatica iti ofera o experienta placut si crocanta.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-criss-cuts.png',
+            id: "bk-criss-cuts",
+            name: "Criss Cuts",
+            description: "Crocanti si perfect asezonati - Criss Cut versiunea unică a clasicilor cartofi prăjiti. Datorita formei (or, fiecare bucatica iti ofera o experienta placut si crocanta.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-criss-cuts.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 15.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-6-buc-chili-cheese-nuggets',
-            name: '6 buc. Chili Cheese Nuggets',
-            description: 'O combinatie picantă și crocantă, cu brânză ardei jalapeno la interior. Perfectă ca o gustare sau la meniu.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-6-buc-chili-cheese-nuggets.png',
+            id: "bk-6-buc-chili-cheese-nuggets",
+            name: "6 buc. Chili Cheese Nuggets",
+            description: "O combinatie picantă și crocantă, cu brânză ardei jalapeno la interior. Perfectă ca o gustare sau la meniu.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-6-buc-chili-cheese-nuggets.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 14.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-cartofi-pr-jici-portie-medie',
-            name: 'Cartofi prăjiCi portie medie',
-            description: 'O portie medie de cartofi prăjiti aurși crocanti, perfecti ca o gustare caldă sau la meniu.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-cartofi-pr-jici-portie-medie.png',
+            id: "bk-cartofi-pr-jici-portie-medie",
+            name: "Cartofi prăjiCi portie medie",
+            description: "O portie medie de cartofi prăjiti aurși crocanti, perfecti ca o gustare caldă sau la meniu.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-cartofi-pr-jici-portie-medie.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 12.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-3-sosuri-la-alegere',
-            name: '3 Sosuri la alegere',
-            description: '3 sosuri la alegere 75ml: usturoi/ babeque/ muștar cu miere/ dulce cu ardei iute/ salsa/ curry',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-3-sosuri-la-alegere.png',
+            id: "bk-3-sosuri-la-alegere",
+            name: "3 Sosuri la alegere",
+            description: "3 sosuri la alegere 75ml: usturoi/ babeque/ muștar cu miere/ dulce cu ardei iute/ salsa/ curry",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-3-sosuri-la-alegere.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 12,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-6-buc-inele-de-ceap',
-            name: '6 buc. Inele de ceapă',
-            description: 'Inele de ceapă in înveliș auriu. Aromate, crocante la exterior, delicate la interior. Perfecte ca o gustare sau la meniu.',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-6-buc-inele-de-ceap.png',
+            id: "bk-6-buc-inele-de-ceap",
+            name: "6 buc. Inele de ceapă",
+            description: "Inele de ceapă in înveliș auriu. Aromate, crocante la exterior, delicate la interior. Perfecte ca o gustare sau la meniu.",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-6-buc-inele-de-ceap.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 11.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-babeque',
-            name: 'Sos babeque',
-            description: 'Sos babeque 25ml.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-babeque.png',
+            id: "bk-sos-babeque",
+            name: "Sos babeque",
+            description: "Sos babeque 25ml.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-babeque.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-muitar-cu-miere',
-            name: 'Sos muitar cu miere',
-            description: 'Sos mustar cu miere 25ml.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-muitar-cu-miere.png',
+            id: "bk-sos-muitar-cu-miere",
+            name: "Sos muitar cu miere",
+            description: "Sos mustar cu miere 25ml.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-muitar-cu-miere.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-curry',
-            name: 'Sos curry',
-            description: 'Sos curry 25ml.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-curry.png',
+            id: "bk-sos-curry",
+            name: "Sos curry",
+            description: "Sos curry 25ml.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-curry.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-chipotle-ranch',
-            name: 'Sos Chipotle Ranch',
-            description: 'Sos Chipotle Ranch',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-chipotle-ranch.png',
+            id: "bk-sos-chipotle-ranch",
+            name: "Sos Chipotle Ranch",
+            description: "Sos Chipotle Ranch",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-chipotle-ranch.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-dulce-acripr',
-            name: 'Sos dulce-acripr',
-            description: 'Sos dulce-acrisor 25ml.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-dulce-acripr.png',
+            id: "bk-sos-dulce-acripr",
+            name: "Sos dulce-acripr",
+            description: "Sos dulce-acrisor 25ml.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-dulce-acripr.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-extra-mayonnaise',
-            name: 'Sos extra mayonnaise',
-            description: 'Sos extra mayonnaise 10ml.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-extra-mayonnaise.png',
+            id: "bk-sos-extra-mayonnaise",
+            name: "Sos extra mayonnaise",
+            description: "Sos extra mayonnaise 10ml.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-extra-mayonnaise.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 4.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-sos-extra-ketchup',
-            name: 'Sos extra ketchup',
-            description: 'Sos extra ketchup 10ml.',
-            category: 'Cartofi și sosuri',
-            imageUrl: '/burgerking/bk-sos-extra-ketchup.png',
+            id: "bk-sos-extra-ketchup",
+            name: "Sos extra ketchup",
+            description: "Sos extra ketchup 10ml.",
+            category: "Cartofi și sosuri",
+            imageUrl: "/burgerking/bk-sos-extra-ketchup.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 4.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-churros-20-pcs',
-            name: 'Churros 20 pcs.',
-            description: 'Try the unique churros with your choice of topping, chocolate , caramel or raspberry. Crunchy on the outside and delicious on the inside - they are irresistible.',
-            category: 'Deserturi',
-            imageUrl: '/burgerking/bk-churros-20-pcs.png',
+            id: "bk-churros-20-pcs",
+            name: "Churros 20 pcs.",
+            description: "Try the unique churros with your choice of topping, chocolate , caramel or raspberry. Crunchy on the outside and delicious on the inside - they are irresistible.",
+            category: "Deserturi",
+            imageUrl: "/burgerking/bk-churros-20-pcs.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 17.9,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-espresso-shake-0-3l',
-            name: 'Espresso Shake 0.3L',
-            description: 'Un shake cremos cu aromă intensă de espresso imbinata armonios cu gustul inconfundabil de vanilie . Pentru un plus de savoare, adauga extra topping de caramel sau vanilie!',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-espresso-shake-0-3l.png',
+            id: "bk-espresso-shake-0-3l",
+            name: "Espresso Shake 0.3L",
+            description: "Un shake cremos cu aromă intensă de espresso imbinata armonios cu gustul inconfundabil de vanilie . Pentru un plus de savoare, adauga extra topping de caramel sau vanilie!",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-espresso-shake-0-3l.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 16.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-choco-shake-o-3l',
-            name: 'Choco Shake O,3L',
-            description: 'BK Choco Shake.',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-choco-shake-o-3l.png',
+            id: "bk-choco-shake-o-3l",
+            name: "Choco Shake O,3L",
+            description: "BK Choco Shake.",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-choco-shake-o-3l.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 16.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-caramel-shake-o-3l',
-            name: 'Caramel Shake O,3L',
-            description: 'BK Caramel Shake.',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-caramel-shake-o-3l.png',
+            id: "bk-caramel-shake-o-3l",
+            name: "Caramel Shake O,3L",
+            description: "BK Caramel Shake.",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-caramel-shake-o-3l.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 16.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-pepsi-0-331',
-            name: 'Pepsi 0,33l',
-            description: 'Pepsi 0,33l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-pepsi-0-331.png',
+            id: "bk-pepsi-0-331",
+            name: "Pepsi 0,33l",
+            description: "Pepsi 0,33l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-pepsi-0-331.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-pepsi-max-0-331',
-            name: 'Pepsi Max 0,33l',
-            description: 'Pepsi Max 0,33l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-pepsi-max-0-331.png',
+            id: "bk-pepsi-max-0-331",
+            name: "Pepsi Max 0,33l",
+            description: "Pepsi Max 0,33l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-pepsi-max-0-331.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-pepsi-twist-0-331',
-            name: 'Pepsi Twist 0,33l',
-            description: 'Pepsi Twist 0,33l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-pepsi-twist-0-331.png',
+            id: "bk-pepsi-twist-0-331",
+            name: "Pepsi Twist 0,33l",
+            description: "Pepsi Twist 0,33l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-pepsi-twist-0-331.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-7up-0331',
-            name: '7Up 0,33l',
-            description: '0,33l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-7up-0331.png',
+            id: "bk-7up-0331",
+            name: "7Up 0,33l",
+            description: "0,33l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-7up-0331.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-mirinda-orange-0-331',
-            name: 'Mirinda Orange 0,33l',
-            description: 'Mirinda Orange 0,33l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-mirinda-orange-0-331.png',
+            id: "bk-mirinda-orange-0-331",
+            name: "Mirinda Orange 0,33l",
+            description: "Mirinda Orange 0,33l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-mirinda-orange-0-331.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-lipton-icetea-l-m-ie-0-51',
-            name: 'Lipton IceTea lămâie 0,5l',
-            description: 'Lipton IceTea lămâie 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-lipton-icetea-l-m-ie-0-51.png',
+            id: "bk-lipton-icetea-l-m-ie-0-51",
+            name: "Lipton IceTea lămâie 0,5l",
+            description: "Lipton IceTea lămâie 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-lipton-icetea-l-m-ie-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-lipton-icetea-piersic-0-51',
-            name: 'Lipton IceTea piersică 0,5l',
-            description: 'Lipton IceTea piersică 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-lipton-icetea-piersic-0-51.png',
+            id: "bk-lipton-icetea-piersic-0-51",
+            name: "Lipton IceTea piersică 0,5l",
+            description: "Lipton IceTea piersică 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-lipton-icetea-piersic-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-lipton-icetea-green-original-0-51',
-            name: 'Lipton IceTea green original 0,5l',
-            description: 'Lipton IceTea green original 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-lipton-icetea-green-original-0-51.png',
+            id: "bk-lipton-icetea-green-original-0-51",
+            name: "Lipton IceTea green original 0,5l",
+            description: "Lipton IceTea green original 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-lipton-icetea-green-original-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-prigat-portocal-0-51',
-            name: 'Prigat Portocală 0,5l',
-            description: 'Prigat Portocală 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-prigat-portocal-0-51.png',
+            id: "bk-prigat-portocal-0-51",
+            name: "Prigat Portocală 0,5l",
+            description: "Prigat Portocală 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-prigat-portocal-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-prigat-piersic-0-51',
-            name: 'Prigat Piersică 0,5l',
-            description: 'Prigat Piersică 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-prigat-piersic-0-51.png',
+            id: "bk-prigat-piersic-0-51",
+            name: "Prigat Piersică 0,5l",
+            description: "Prigat Piersică 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-prigat-piersic-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10.5,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-ap-plat-aqua-carpatica-0-51',
-            name: 'Apă plată Aqua Carpatica 0,5l',
-            description: 'Apă plată Aqua Carpatica 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-ap-plat-aqua-carpatica-0-51.png',
+            id: "bk-ap-plat-aqua-carpatica-0-51",
+            name: "Apă plată Aqua Carpatica 0,5l",
+            description: "Apă plată Aqua Carpatica 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-ap-plat-aqua-carpatica-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       },
       {
-            id: 'bk-ap-mineral-aqua-carpatica-0-51',
-            name: 'Apă minerală Aqua Carpatica 0,5l',
-            description: 'Apă minerală Aqua Carpatica 0,5l',
-            category: 'Băuturi',
-            imageUrl: '/burgerking/bk-ap-mineral-aqua-carpatica-0-51.png',
+            id: "bk-ap-mineral-aqua-carpatica-0-51",
+            name: "Apă minerală Aqua Carpatica 0,5l",
+            description: "Apă minerală Aqua Carpatica 0,5l",
+            category: "Băuturi",
+            imageUrl: "/burgerking/bk-ap-mineral-aqua-carpatica-0-51.png",
             prices: [
                   {
-                        platform: 'glovo',
+                        platform: "glovo",
                         available: true,
                         price: 10,
-                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
                   }
             ]
       }
