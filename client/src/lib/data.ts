@@ -140,6 +140,49 @@ export function calculateTotalFees(
 }
 
 export const RESTAURANTS: Restaurant[] = [
+  {
+    id: "burgerking-constanta",
+    name: "Burger King",
+    category: "Burger",
+    city: "Constanța",
+    address: "Bulevardul Tomis 391 (VIVO Mall), Constanța",
+    rating: 4.5,
+    reviewCount: 920,
+    imageUrl: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 0.00,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 1.99,
+        serviceFeeMax: 9.99,
+        smallOrderFee: 5.99,
+        smallOrderThreshold: 40.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 30,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta"
+      },
+      {
+        platform: "bolt",
+        available: false,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        deliveryTime: 30,
+        deepLink: ""
+      },
+      {
+        platform: "wolt",
+        available: false,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        deliveryTime: 30,
+        deepLink: ""
+      }
+    ],
+    menu: []
+  },
   { id: "dabo-doner-constanta",
     name: "DAbo Doner",
     category: "Doner & Kebab",

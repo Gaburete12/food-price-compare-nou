@@ -181,6 +181,9 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
   if (restLower.includes("mcdonald")) {
     return "Burgeri și Pui";
   }
+  if (restLower.includes("burger") || restLower.includes("king")) {
+    return "Burgeri și Pui";
+  }
 
   return "Promoții și Noutăți";
 }
