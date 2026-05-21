@@ -184,8 +184,8 @@ export const RESTAURANTS: Restaurant[] = [
     menu: [
       {
             id: 'bk-sir-bacon-beef-tortilla',
-            name: 'ăSăiără ăBăaăcăoănă ăBăeăeăfă ăTăoărătăiălălăaă',
-            description: 'ăTăoărătăiălălăaă ăcăuă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăăătăaără,ă ăbărăaănăzăaă,ă ăcăeăaăpăăă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            name: 'Sir Bacon Beef Tortilla',
+            description: 'Tortilla cu portie dublă de bacon crocant, carne de vită 100% la grătar, branza, ceapă sos picant Chili Cheese.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-sir-bacon-beef-tortilla.png',
             prices: [
@@ -199,8 +199,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-sir-bacon-chicken',
-            name: 'ăSăiără ăBăaăcăoănă ăCăhăiăcăkăeănă',
-            description: 'ăBăuărăgăeără ăcăuă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăpăiăeăpătă ădăeă ăpăuăiă ăiănă ăcărăuăsătăăă ăcărăoăcăaănătăăă,ă ăbărăaănăzăăă,ă ăiănăeălăeă ădăeă ăcăeăaăpăăă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            name: 'Sir Bacon Chicken',
+            description: 'Burger cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brânză, inele de ceapă sos picant Chili Cheese.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-sir-bacon-chicken.png',
             prices: [
@@ -214,8 +214,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-sir-bacon-double',
-            name: 'ăSăiără ăBăaăcăoănă ăDăoăuăbălăeă',
-            description: 'ăBăuărăgăeără ăcăuă ăcăaărănăeă ădăeă ăvăiătăăă ălăaă ădăuăbălăuă ăiăiă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăcăoămăpălăeătăaătă ăcăuă ăbărăaănăzăăă,ă ăiănăeălăeă ădăeă ăcăeăaăpăăă ăiăiă ăuănă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            name: 'Sir Bacon Double',
+            description: 'Burger cu carne de vită la dublu și bacon crocant, completat cu brânză, inele de ceapă și un sos picant Chili Cheese.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-sir-bacon-double.png',
             prices: [
@@ -229,9 +229,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-meniu-big-king-xxl',
-            name: 'ăMăeănăiăuă ăBăiăgă ăKăiănăgă ăXăXăLă',
-            description: 'ăUănă ăbăuărăgăeără ăiănă ăvăaărăiăaănătăaă ăXăXăLă ă-ă ă2ă2ă0ăgă ădăeă ăvăiătăăă ă1ă0ă0ă%ă,ă ăfăăăcăuătăăă ălăaă ăgărăăătăaără,ă ăbărăaănăzăăă ăiăiă ăsăaălăaătăăă,ă ăcăeăaăpăăă,ă ăcăaăsătărăaăvăeătăiă ămăuărăaătăiă ăsăoăsăuălă ăoărăiăgăiănăaălă ăBăiăgă ăKăiănăgă,ă ătăoătăuălă ăiănătără-ăoă ăcăhăiăfălăăă ăcăuă ăsăuăsăaănă.ă ăMăeănăiăuălă ăiănăcălăuădăeă ă0ămă',
-            category: 'Burgeri și Pui',
+            name: 'Meniu Big King XXL',
+            description: 'Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include 0m',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-meniu-big-king-xxl.png',
             prices: [
                   {
@@ -244,9 +244,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-meniu-dublu-cheesy',
-            name: 'ăMăeănăiăuă ăDăuăbălăuă ăCăhăeăeăsăyă',
-            description: 'ăAălăeăgăeă-ătăiă ădăoăuăăă ămăeănăiăuărăiă ăCărăaăzăyă ăCăhăeăeăsăyă ăpărăeăfăeărăaătăeă ă-ă ăbăuărăgăeărăiă ăsăaăuă ăwărăaăpăsă,ă ăcălăaăsăiăcăeă ăsăaăuă ăpălăaănătă-ă ăbăaăsăeădă:ă ăNăaăcăhăoăsă ăBăeăeăfă,ă ăNăaăcăhăoăsă ăPălăaănătă-ăBăaăsăeădă,ă ăBăBăQă ăBăeăeăfă ăsăaăuă ăBăBăQă ăPălăaănătă-ăBăaăsăeădă.ă ăSăeărăvăiătăeă ăcăuămă',
-            category: 'Burgeri și Pui',
+            name: 'Meniu Dublu Cheesy',
+            description: 'Alege-ti două meniuri Crazy Cheesy preferate - burgeri sau wraps, clasice sau plant- based: Nachos Beef, Nachos Plant-Based, BBQ Beef sau BBQ Plant-Based. Servite cum',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-meniu-dublu-cheesy.png',
             prices: [
                   {
@@ -259,9 +259,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-meniu-dublu-cheeseburger',
-            name: 'ăMăeănăiăuă ăDăuăbălăuă ăCăhăeăeăsăeăbăuărăgăeără',
-            description: 'ăOă ăpăoărătăiăeă ădăuăbălăăă ădăeă ă1ă0ă0ă%ă ăcăaărănăeă ădăeă ăvăiătăăă ălăaă ăgărăăătăaără,ă ădăoăuăăă ăfăeălăiăiă ădăeă ăbărăăănăzăăă,ă ăcăaăsătărăaăvăeătăiă ămăuărăaătăiă,ă ăkăeătăcăhăuăpă ăiăiă ămăuă$ăaără.ă ăMăeănăiăuălă ăiănăcălăuădăeă ăoă ăpăoărătăiăeă ămăeădăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăoă ăbăăăuătăuărăăă ărăăăcăoărăiătăoăaărăeă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Meniu Dublu Cheeseburger',
+            description: 'O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveti murati, ketchup și muștar. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-meniu-dublu-cheeseburger.png',
             prices: [
                   {
@@ -274,9 +274,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-sir-bacon-double-meniu',
-            name: 'ăSăiără ăBăaăcăoănă ăDăoăuăbălăeă ăMăeănăiăuă',
-            description: 'ăSăiără ăBăaăcăoănă ăDăoăuăbălăeă ăMăeănăiăuă',
-            category: 'Burgeri și Pui',
+            name: 'Sir Bacon Double Meniu',
+            description: 'Sir Bacon Double Meniu',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-sir-bacon-double-meniu.png',
             prices: [
                   {
@@ -289,9 +289,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-sir-bacon-burger-meniu',
-            name: 'ăSăiără ăBăaăcăoănă ăBăuărăgăeără ăMăeănăiăuă',
-            description: 'ăSăiără ăBăaăcăoănă ăBăuărăgăeără ăMăeănăiăuă',
-            category: 'Burgeri și Pui',
+            name: 'Sir Bacon Burger Meniu',
+            description: 'Sir Bacon Burger Meniu',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-sir-bacon-burger-meniu.png',
             prices: [
                   {
@@ -304,9 +304,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-sir-bacon-tortilla-meniu',
-            name: 'ăSăiără ăBăaăcăoănă ăTăoărătăiălălăaă ăMăeănăiăuă',
-            description: 'ăSăiără ăBăaăcăoănă ăTăoărătăiălălăaă ăMăeănăiăuă',
-            category: 'Burgeri și Pui',
+            name: 'Sir Bacon Tortilla Meniu',
+            description: 'Sir Bacon Tortilla Meniu',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-sir-bacon-tortilla-meniu.png',
             prices: [
                   {
@@ -319,8 +319,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-sir-bacon',
-            name: 'ăSăiără ăBăaăcăoănă',
-            description: 'ăBăuărăgăeără ăcăuă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăaătăaără,ă ăbărăăănăzăăă,ă ăiănăeălăeă ădăeă ăcăeăaăpăăă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            name: 'Sir Bacon',
+            description: 'Burger cu portie dublă de bacon crocant, carne de vită 100% la gratar, brănză, inele de ceapă sos picant Chili Cheese.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-sir-bacon.png',
             prices: [
@@ -334,9 +334,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-galacticfamilymenu',
-            name: 'ăGăaălăaăcătăiăcăFăaămăiălăyăMăeănăuă',
-            description: 'ăSăiămătăeă ăpăuătăeărăeăaă ăaăsăcăuănăsăăă ăiănătără-ăuănă ămăeănăiăuă ădăeă ăfăaămăiălăiăeă ăvăeănăiătă ădăiărăeăcătă ădăiănătără-ăoă ăgăaălăaăxăiăeă ăiănădăeăpăăărătăaătăăă!ă ăGăaălăaăcătăiăcă ăFăaămăiălăyă ăiănăcălăuădăeă ăuănă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără,ă ăuănă ăLăoănăgă ăCăhăiăcăkăeănă ăbăuărăgăeără,ă ăcăaărătăoăfăiă ăpărăăăjăiătăiămă',
-            category: 'Burgeri și Pui',
+            name: 'GalacticFamilyMenu',
+            description: 'Simte puterea ascunsă intr-un meniu de familie venit direct dintr-o galaxie indepărtată! Galactic Family include un Mandalorian Whopper, un Long Chicken burger, cartofi prăjitim',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-galacticfamilymenu.png',
             prices: [
                   {
@@ -349,8 +349,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-galactic-menu',
-            name: 'ăGăaălăaăcătăiăcă ăMăeănăuă',
-            description: 'ăSăiămătăeă ăpăuătăeărăeăaă ăaăsăcăuănăsăăă ăiănătără-ăuănă ămăeănăiăuă ăvăeănăiătă ădăiărăeăcătă ădăiănătără-ăoă ăgăaălăaăxăiăeă ăiănădăeăpăăărătăaătăăă!ă ăGăaălăaăcătăiăcă ăCăoămăbăoă ăeăsătăeă ăuănă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără ăcăuă ăcăaărănăeă ădăeă ăvăiătăăă ălăaă ăgărăăătăaără,ă ăbăaăcăoănă ăsăoăsă ăSăwăeăeătămă',
+            name: 'Galactic Menu',
+            description: 'Simte puterea ascunsă intr-un meniu venit direct dintr-o galaxie indepărtată! Galactic Combo este un Mandalorian Whopper cu carne de vită la grătar, bacon sos Sweetm',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-galactic-menu.png',
             prices: [
@@ -364,8 +364,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-king-jr-plus-menu',
-            name: 'ăKăiănăgă ăJără ăPălăuăsă ăMăeănăuă',
-            description: 'ăPăoărănăeă$ăeă ăiănătără-ăoă ăaăvăeănătăuărăăă ăcăoăsămăiăcăăă ăcăuă ăuănă ămăeănăiăuă ăsăpăeăcăiăaălă ăpăeănătărăuă ăcăeăiă ămăiăcăiă ăiăiă ăcăeăiă ămăaărăiă!ă ăLăoănăgă ăCăhăiăcăkăeănă ăeăsătăeă ăsăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăiăcăăă,ă ă6ă ăbăuăcăăătăiă ădăeă ăCăhăiălăiă ăCăhăeăeăsăeă ăNăuăgăgăeătăsă ăuănăaămă',
+            name: 'King Jr Plus Menu',
+            description: 'Porne$e intr-o aventură cosmică cu un meniu special pentru cei mici și cei mari! Long Chicken este servit cu cartofi prăjiti portie mică, 6 bucăti de Chili Cheese Nuggets unam',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-king-jr-plus-menu.png',
             prices: [
@@ -379,8 +379,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-mandalorian-whopper',
-            name: 'ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără',
-            description: 'ăSăiămătăeă ăpăuătăeărăeăaă ăaăsăcăuănăsăăă ăiănătără-ăuănă ăbăuărăgăeără ăvăeănăiătă ădăiărăeăcătă ădăiănătără-ăoă ăgăaălăaăxăiăeă ăiănădăeăpăăărătăaătăăă!ă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără ăeăsătăeă ăcăoămăbăiănăaătăiăaă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă ăgăăătăiătăăă ălăaă ăgărăăătăaără ăcăuă ăbăaăcăoănă,ă ăbărăăănăzăăă„ă.ă',
+            name: 'Mandalorian Whopper',
+            description: 'Simte puterea ascunsă intr-un burger venit direct dintr-o galaxie indepărtată! Mandalorian Whopper este combinatia de carne de vită gătită la grătar cu bacon, brănză„.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-mandalorian-whopper.png',
             prices: [
@@ -394,8 +394,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-plant-based-mandalorian-whopper',
-            name: 'ăPălăaănătă ă-ă ăBăaăsăeădă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără',
-            description: 'ăAălăeăgăeă ăcăaălăeăaă ăpăuătăeărăiăiă ăiănă ăvăeărăsăiăuănăeă ăpălăaănătă-ăbăaăsăeădă!ă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără ăeăsătăeă ăcăoămăbăiănăaătăiăaă ădăiănătărăeă ăuănă ăpăaătătăyă ăvăeăgăeătăaălă,ă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăcărăoăcăaănătăăă,ă ăsăaălăaătăăă,ă ărăoă$ăiă ăcăaăsătărăaăvăeătăiă ămăuărăaătăiă,ă ătăoăaătăeă ăiănătără-ăoămă',
+            name: 'Plant - Based Mandalorian Whopper',
+            description: 'Alege calea puterși in versiune plant-based! Mandalorian Whopper este combinatia dintre un patty vegetal, brânză, ceapă crocantă, salată, roșși castraveti murati, toate intr-om',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-plant-based-mandalorian-whopper.png',
             prices: [
@@ -409,9 +409,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-meniu-lord-pepper',
-            name: 'ăMăeănăiăuă ăLăoărădă ăPăeăpăpăeără',
-            description: 'ă1ă5ă0ă ădăeă ăgărăaămăeă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăăătăaără,ă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă ăpărăoăaăsăpăaătăăă,ă ăbăaăcăoănă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăpăiăpăeără ăiăiă ăiăaăuărătă,ă ătăoătăuălă ăiănătără-ăoă ăcăhăiăfălăăă ădăeălăiăcăiăoăaăsăăă.ă ăMăeănăiăuălă„ă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Meniu Lord Pepper',
+            description: '150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă. Meniul„.',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-meniu-lord-pepper.png',
             prices: [
                   {
@@ -424,9 +424,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-combo-lord-pepper',
-            name: 'ăCăoămăbăoă ăLăoărădă ăPăeăpăpăeără',
-            description: 'ăAălăeăgăeă ăLăoărădă ăPăeăpăpăeără ă-ă ăgăuăsătă ăiănătăeănăsă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă,ă ăsăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăeădăiăeă ăiăiă ă4ă ăCăhăiăcăkăeănă ăNăuăgăgăeătăsă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Combo Lord Pepper',
+            description: 'Alege Lord Pepper - gust intens de carne de vită, servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-combo-lord-pepper.png',
             prices: [
                   {
@@ -439,9 +439,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-lord-pepper-chicken-meniu',
-            name: 'ăLăoărădă ăPăeăpăpăeără ăCăhăiăcăkăeănă ăMăeănăiăuă',
-            description: 'ăPăiăeăpătă ădăeă ăpăuăiă ăiănă ăcărăuăsătăăă ăcărăoăcăaănătăăă ăcăuă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăpărăăăjăiătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă,ă ăiăuănăcăăă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăaărădăeăiă ăiăaăuărătă,ă ătăoăaătăeă ăiănătără-ăuănă ăcăhăiăfălăeă ădăeălăiăcăaătă ădăeă ăbărăiăoăcăhăeă.ă ăSăeărăvăiătăeă ăaălăaătăuărăiă ădăeă ăoă ăpăoărătăiăeă ămăeădăiăeămă',
-            category: 'Burgeri și Pui',
+            name: 'Lord Pepper Chicken Meniu',
+            description: 'Piept de pui in crustă crocantă cu brânză, ceapă prăjită, roșși, rucola, iuncă un sos unic de ardei iaurt, toate intr-un chifle delicat de brioche. Servite alaturi de o portie mediem',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-lord-pepper-chicken-meniu.png',
             prices: [
                   {
@@ -454,8 +454,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-lord-pepper',
-            name: 'ăLăoărădă ăPăeăpăpăeără',
-            description: 'ă1ă5ă0ă ădăeă ăgărăaămăeă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăăătăaără,ă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă ăpărăoăaăsăpăaătăăă,ă ăbăaăcăoănă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăpăiăpăeără ăiăiă ăiăaăuărătă,ă ătăoătăuălă ăiănătără-ăoă ăcăhăiăfălăăă ădăeălăiăcăiăoăaăsăăă.ă',
+            name: 'Lord Pepper',
+            description: '150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-lord-pepper.png',
             prices: [
@@ -469,8 +469,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-lord-pepper-chicken',
-            name: 'ăLăoărădă ăPăeăpăpăeără ăCăhăiăcăkăeănă',
-            description: 'ăPăuăiă ăiănă ăcărăuăsătăaă ăcărăoăcăaănătăaă ăcăuă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăpărăăăjăiătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă,ă ă>ăuănăcăăă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăaărădăeăiă ăiăiă ăiăaăuărătă,ă ăsăeărăvăiătăeă ăiănătără-ăoă ăcăhăiăfălăăă ădăeălăiăcăaătăăă ădăeă ăbărăiăoăcăhăeă.ă',
+            name: 'Lord Pepper Chicken',
+            description: 'Pui in crusta crocanta cu brânză, ceapă prăjită, roșși, rucola, >uncă un sos unic de ardei și iaurt, servite intr-o chiflă delicată de brioche.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-lord-pepper-chicken.png',
             prices: [
@@ -484,9 +484,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-meniu-dublu-bacon-cheese-whopper',
-            name: 'ăMăeănăiăuă ăDăuăbălăuă ăBăaăcăoănă&ă ăCăhăeăeăsăeă ăWăhăoăpăpăeără',
-            description: 'ăCăaărănăeă ădăeă ăvăiătăăă ălăaă ădăuăbălăuă,ă ăbărăaănăzăăă ăbăaăcăoănă,ă ălăeăgăuămăeă ăpărăoăaăsăpăeătăeă,ă ămăaăiăoănăeăzăăă ăkăeătăcăhăuăpă,ă ătăoăaătăeă ăiănătără-ăoă ăcăhăiăfălăăă ăcăuă ăsăuăsăaănă.ă ăMăeănăiăuălă ăiănăcălăuădăeă ăoă ăpăoărătăiăeă ămăeădăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăoă ăbăăăuătăuărăăămă',
-            category: 'Burgeri și Pui',
+            name: 'Meniu Dublu Bacon& Cheese Whopper',
+            description: 'Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturăm',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-meniu-dublu-bacon-cheese-whopper.png',
             prices: [
                   {
@@ -499,9 +499,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-combo-big-king-xxl',
-            name: 'ăCăoămăbăoă ăBăiăgă ăKăiănăgă ăXăXăLă',
-            description: 'ăAălăeăgăeă ăBăiăgă ăKăiănăgă ăXăXăLă ă-ă ădăuăbălăuă ădăeă ăcăaărănăeă ăiăiă ămăaăxăiămăuămă ădăeă ăgăuăsătă.ă ăSăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăeădăiăeă ăiăiă ă4ă ăCăhăiăcăkăeănă ăNăuăgăgăeătăsă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Combo Big King XXL',
+            description: 'Alege Big King XXL - dublu de carne și maximum de gust. Servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-combo-big-king-xxl.png',
             prices: [
                   {
@@ -514,9 +514,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-combo-long-chicken',
-            name: 'ăCăoămăbăoă ăLăoănăgă ăCăhăiăcăkăeănă',
-            description: 'ăAălăeăgăeă ăLăoănăgă ăCăhăiăcăkăeănă ăpăuăiă ăcărăoăcăaănătă ăiănătără-ăoă ăcăhăiăfălăăă ăoăvăaălăăă,ă ăsăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăeădăiăeă ă4ă ăCăhăiăcăkăeănă ăNăuăgăgăeătăsă ă-ă ăoă ăcăoămăbăiănăaătăiăeă ăcălăaăsăiăcăăă ăcăaărăeă ămăeărăgăeă ădăeă ăfăiăeăcăaărăeă ădăaătăăă!ă',
-            category: 'Burgeri și Pui',
+            name: 'Combo Long Chicken',
+            description: 'Alege Long Chicken pui crocant intr-o chiflă ovală, servit cu cartofi prăjiti portie medie 4 Chicken Nuggets - o combinatie clasică care merge de fiecare dată!',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-combo-long-chicken.png',
             prices: [
                   {
@@ -529,9 +529,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-meniu-plant-based-royale',
-            name: 'ăMăeănăiăuă ăPălăaănătă-ăBăaăsăeădă ăRăoăyăaălăeă',
-            description: 'ăBăuărăgăeără ăpăeă ăbăaăzăăă ădăeă ăpălăaănătăeă ăiănătără-ăuănă ăiănăvăeălăiă>ă ăcărăoăcăaănătă,ă ăsăaălăaătăăă ăpărăoăaăsăpăăătăăă ămăaăiăoănăeăzăăă ăiănătără-ăoă ăcăhăiăfălăăă ăbăaăgăhăeătăăă ăcăuă ăsăeămăiănătăeă ădăeă ăsăuăsăaănă.ă ăMăeănăiăuălă ăiănăcălăuădăeă ăoă ăpăoărătăiăeă ămăeădăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăoă ăbăăăuătăuără„ă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Meniu Plant-Based Royale',
+            description: 'Burger pe bază de plante intr-un înveliș crocant, salată proaspătă maioneză intr-o chiflă baghetă cu seminte de susan. Meniul include o portie medie de cartofi prăjiti o băutur„.',
+            category: 'Meniuri și Buckets',
             imageUrl: '/burgerking/bk-meniu-plant-based-royale.png',
             prices: [
                   {
@@ -544,9 +544,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-cheesy-bbq-beef-burger',
-            name: 'ăCăhăeăeăsăyă ăBăBăQă ăBăeăeăfă ăBăuărăgăeără',
-            description: 'ăCăaărănăeă ădăeă ăvăiătăăă ăsăuăcăuălăeănătăăă ălăaă ăgărăăătăaără,ă ădăoăuăăă ăfăeălăiăiă ădăeă ăbărăăănăzăăă,ă ăbăaăcăoănă ăcărăoăcăaănătă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ăcăoămăpălăeătăaătăeă ădăeă ăsăoăsă ăBăBăQă ăuănă ăsăoăsă ădăeă ăbărăaănăzăăă ădăeălăiăcăiăoăsă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălă„ă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Cheesy BBQ Beef Burger',
+            description: 'Carne de vită suculentă la grătar, două felși de brănză, bacon crocant ceapă caramelizată, completate de sos BBQ un sos de brânză delicios. Totul servit intr-o chifl„.',
+            category: 'Cartofi și sosuri',
             imageUrl: '/burgerking/bk-cheesy-bbq-beef-burger.png',
             prices: [
                   {
@@ -559,8 +559,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-cheesy-nachos-beef-burger',
-            name: 'ăCăhăeăeăsăyă ăNăaăcăhăoăsă ăBăeăeăfă ăBăuărăgăeără',
-            description: 'ăCăaărănăeă ădăeă ăvăiătăăă ălăaă ăgărăăătăaără ăsăuăcăuălăeănătăăă,ă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăsăoăsă ăcărăeămăoăsă ădăeă ăbărăăănăzăăă ăcăhăiălăiă ăcăhăeăeăsăeă ăpăiăcăaănătă,ă ăeăcăhăiălăiăbărăaătăeă ăcăuă ănăaăcăhăoăsă ăcărăoăcăaănătăiă ăiăiă ăfăeălăiăiă ădăeă ăjăaălăaăpăeăfăiăoă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălăăă ăpăuăfăoăaăsăăămă',
+            name: 'Cheesy Nachos Beef Burger',
+            description: 'Carne de vită la grătar suculentă, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti și felși de jalapeno. Totul servit intr-o chiflă pufoasăm',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-cheesy-nachos-beef-burger.png',
             prices: [
@@ -574,9 +574,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-plant-based-cheesy-bbq-burger',
-            name: 'ăPălăaănătă-ăBăaăsăeădă ăCăhăeăeăsăyă ăBăBăQă ăBăuărăgăeără',
-            description: 'ăPălăaănătă-ăbăaăsăeădă,ă ădăoăuăăă ăfăeălăiăiă ădăeă ăbărăăănăzăăă,ă ăfăaăcăoănă ăcărăoăcăaănătă ă(ăaălătăeărănăaătăiăvăăă ăvăeăgăeătăaălăăă ălăaă ăbăaăcăoănă)ă,ă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ăsăoăsă ăBăBăQă ăaărăoămăaătă ăsăoăsă ăcărăeămăoăsă ădăeă ăbărăăănăzăăă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălăăă ăpăuăfăoăaăsăăă ăcămă',
-            category: 'Burgeri și Pui',
+            name: 'Plant-Based Cheesy BBQ Burger',
+            description: 'Plant-based, două felși de brănză, facon crocant (alternativă vegetală la bacon), ceapă caramelizată, sos BBQ aromat sos cremos de brănză. Totul servit intr-o chiflă pufoasă cm',
+            category: 'Cartofi și sosuri',
             imageUrl: '/burgerking/bk-plant-based-cheesy-bbq-burger.png',
             prices: [
                   {
@@ -589,8 +589,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-plant-based-cheesy-nachos-burger',
-            name: 'ăPălăaănătă-ăBăaăsăeădă ăCăhăeăeăsăyă ăNăaăcăhăoăsă ăBăuărăgăeără',
-            description: 'ăPălăaănătă-ăbăaăsăeădă,ă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăsăoăsă ăcărăeămăoăsă ădăeă ăbărăăănăzăăă ăcăhăiălăiă ăcăhăeăeăsăeă ăpăiăcăaănătă,ă ăeăcăhăiălăiăbărăaătăeă ăcăuă ănăaăcăhăoăsă ăcărăoăcăaănătăiă ăfăeălăiăiă ădăeă ăjăaălăaăpăeăfăiăoă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălăăă ăpăuăfăoăaăsăăă ăcăuă ăsăuăsăaănă.ă ăGăuăsătă ăiănătăeănăsămă',
+            name: 'Plant-Based Cheesy Nachos Burger',
+            description: 'Plant-based, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti felși de jalapeno. Totul servit intr-o chiflă pufoasă cu susan. Gust intensm',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-plant-based-cheesy-nachos-burger.png',
             prices: [
@@ -604,7 +604,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-bacon-cheese-whopper',
-            name: 'ăBăaăcăoănă&ă ăCăhăeăeăsăeă ăWăhăoăpăpăeără',
+            name: 'Bacon& Cheese Whopper',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-bacon-cheese-whopper.png',
@@ -619,7 +619,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-plant-based-whopper',
-            name: 'ăPălăaănătă-ăBăaăsăeădă ăWăhăoăpăpăeără',
+            name: 'Plant-Based Whopper',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-plant-based-whopper.png',
@@ -634,7 +634,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-long-chicken',
-            name: 'ăLăoănăgă ăCăhăiăcăkăeănă',
+            name: 'Long Chicken',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-long-chicken.png',
@@ -649,7 +649,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-plant-based-long',
-            name: 'ăPălăaănătă-ăBăaăsăeădă ăLăoănăgă',
+            name: 'Plant-Based Long',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-plant-based-long.png',
@@ -664,7 +664,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-big-king',
-            name: 'ăBăiăgă ăKăiănăgă',
+            name: 'Big King',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-big-king.png',
@@ -679,8 +679,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-7-buc-king-wings',
-            name: 'ă7ă ăbăuăcă.ă ăKăiănăgă ăWăiănăgăsă',
-            description: 'ă7ă ăAărăiăpăiăoăaărăeă ădăeă ăpăuăiă,ă ăaăuărăiăiă ădăeălăiăcăiăoăaăsăeă.ă',
+            name: '7 buc. King Wings',
+            description: '7 Aripioare de pui, aurși delicioase.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-7-buc-king-wings.png',
             prices: [
@@ -694,8 +694,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-9-buc-king-nuggets',
-            name: 'ă9ă ăbăuăcă.ă ăKăiănăgă ăNăuăgăgăeătăsă',
-            description: 'ă9ă ăNăuăgăgăeătăsă ădăeă ăpăuăiă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ădăoăuăăă ăsăoăsăuărăiă ălăaă ăaălăeăgăeărăeă.ă',
+            name: '9 buc. King Nuggets',
+            description: '9 Nuggets de pui in înveliș auriu crocant, alături de două sosuri la alegere.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-9-buc-king-nuggets.png',
             prices: [
@@ -709,8 +709,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-9-buc-plant-based-nuggets',
-            name: 'ă9ă ăbăuăcă.ă ăPălăaănătă-ăBăaăsăeădă ăNăuăgăgăeătăsă',
-            description: 'ă9ă ăNăuăgăgăeătăsă ăpăeă ăbăaăzăăă ădăeă ăpălăaănătăeă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăsăiă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ădăoăuăăă ăsăoăsăuărăiă ălăaă ăaălăeăgăeărăeă.ă ă*ăPărăeăgăaătăiărăeăaă ăpărăoădăuăsăeălăoără ăPălăaănătă-ăBăaăsăeădă ăaăuă ălăoăcă ăpăeă ăaăcăeălăeăaă$ă ăaăpăaărăaătăeă ădăeă ăgăăătăiătă ăcăaărăeă ăsăuănătă ăfăoălăoăsăiătăeămă',
+            name: '9 buc. Plant-Based Nuggets',
+            description: '9 Nuggets pe bază de plante in înveliș auriu si crocant, alături de două sosuri la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folositem',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-9-buc-plant-based-nuggets.png',
             prices: [
@@ -724,8 +724,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-5-buc-king-wings',
-            name: 'ă5ă ăbăuăcă.ă ăKăiănăgă ăWăiănăgăsă',
-            description: 'ă5ă ăAărăiăpăiăoăaărăeă ădăeă ăpăuăiă,ă ăaăuărăiăiă ădăeălăiăcăiăoăaăsăeă.ă',
+            name: '5 buc. King Wings',
+            description: '5 Aripioare de pui, aurși delicioase.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-5-buc-king-wings.png',
             prices: [
@@ -739,8 +739,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-6-buc-king-nuggets',
-            name: 'ă6ă ăbăuăcă.ă ăKăiănăgă ăNăuăgăgăeătăsă',
-            description: 'ă6ă ăNăuăgăgăeătăsă ădăeă ăpăuăiă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ăuănă ăsăoăsă ălăaă ăaălăeăgăeărăeă.ă',
+            name: '6 buc. King Nuggets',
+            description: '6 Nuggets de pui in înveliș auriu crocant, alături de un sos la alegere.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-6-buc-king-nuggets.png',
             prices: [
@@ -754,8 +754,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-6-buc-plant-based-nuggets',
-            name: 'ă6ă ăbăuăcă.ă ăPălăaănătă-ăBăaăsăeădă ăNăuăgăgăeătăsă',
-            description: 'ă6ă ăNăuăgăgăeătăsă ăpăeă ăbăaăzăăă ădăeă ăpălăaănătăeă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăsăiă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ăuănă ăsăoăsă ălăaă ăaălăeăgăeărăeă.ă ă*ăPărăeăgăaătăiărăeăaă ăpărăoădăuăsăeălăoără ăPălăaănătă-ăBăaăsăeădă ăaăuă ălăoăcă ăpăeă ăaăcăeălăeăaă$ă ăaăpăaărăaătăeă ădăeă ăgăăătăiătă ăcăaărăeă ăsăuănătă ăfăoălăoăsăiătăeă„ă.ă',
+            name: '6 buc. Plant-Based Nuggets',
+            description: '6 Nuggets pe bază de plante in înveliș auriu si crocant, alături de un sos la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite„.',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-6-buc-plant-based-nuggets.png',
             prices: [
@@ -769,9 +769,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-chilli-cheese-loaded-fries',
-            name: 'ăCăhăiălălăiă ăCăhăeăeăsăeă ăLăoăaădăeădă ăFărăiăeăsă',
-            description: 'ăCăaărătăoăfăiă ăpărăăăjăiătăiă ăaăuărăiăiă ăcărăoăcăaănătăiă ăcăuă ăsăoăsă ăCăhăiălăiă ăCăhăeăeăsăeă,ă ăfăeălăiăiă ădăeă ăjăaălăaăpăeăfăiăoă ăpăiăcăaănătăeă ăcăeăaăpăăă ăpărăăăjăiătăăă ăcărăoăcăaănătăăă.ă ăPăeărăfăeăcătăiă ăcăaă ăgăuăsătăaărăeă ăsăaăuă ăgăaărănăiătăuărăăă ălăaă ăuănă ămăeănăiăuă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Chilli Cheese Loaded Fries',
+            description: 'Cartofi prăjiti aurși crocanti cu sos Chili Cheese, felși de jalapeno picante ceapă prăjită crocantă. Perfecti ca gustare sau garnitură la un meniu.',
+            category: 'Cartofi și sosuri',
             imageUrl: '/burgerking/bk-chilli-cheese-loaded-fries.png',
             prices: [
                   {
@@ -784,9 +784,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-bacon-cheese-fries',
-            name: 'ăBăaăcăoănă&ă ăCăhăeăeăsăeă ăFărăiăeăsă',
-            description: 'ăCăaărătăoăfăiă ăpărăăăjăiătăiă ăcăuă ăsăoăsă ădăeă ăbărăaănăzăăă ăbăaăcăoănă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Bacon& Cheese Fries',
+            description: 'Cartofi prăjiti cu sos de brânză bacon.',
+            category: 'Cartofi și sosuri',
             imageUrl: '/burgerking/bk-bacon-cheese-fries.png',
             prices: [
                   {
@@ -799,9 +799,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-angry-fries',
-            name: 'ăAănăgărăyă ăFărăiăeăsă',
-            description: 'ăCăaărătăoăfăiă ăpărăăăjăiătăiă ăcăuă ăsăoăsă ădăeă ăbărăaănăzăăă ăJăaălăaăpăeănăoă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Angry Fries',
+            description: 'Cartofi prăjiti cu sos de brânză Jalapeno.',
+            category: 'Cartofi și sosuri',
             imageUrl: '/burgerking/bk-angry-fries.png',
             prices: [
                   {
@@ -814,9 +814,9 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-cartofi-pr-jici-portie-xxl',
-            name: 'ăCăaărătăoăfăiă ăpărăăăjăiăCăiă ăpăoărătăiăeă ăXăXăLă',
-            description: 'ăOă ăpăoărătăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăXăXăLă,ă ăaăuărăiăiă ăcărăoăcăaănătăiă,ă ăpăeărăfăeăcătăiă ăcăăă ăoă ăgăuăsătăaărăeă ăcăaălădăăă ăsăaăuă ălăaă ămăeănăiăuă.ă',
-            category: 'Burgeri și Pui',
+            name: 'Cartofi prăjiCi portie XXL',
+            description: 'O portie de cartofi prăjiti XXL, aurși crocanti, perfecti că o gustare caldă sau la meniu.',
+            category: 'Cartofi și sosuri',
             imageUrl: '/burgerking/bk-cartofi-pr-jici-portie-xxl.png',
             prices: [
                   {
@@ -829,7 +829,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-pepsi-0-331',
-            name: 'ăPăeăpăsăiă ă0ă,ă3ă3ă1ă',
+            name: 'Pepsi 0,331',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-pepsi-0-331.png',
@@ -844,7 +844,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-pepsi-max-0-331',
-            name: 'ăPăeăpăsăiă ăMăaăxă ă0ă,ă3ă3ă1ă',
+            name: 'Pepsi Max 0,331',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-pepsi-max-0-331.png',
@@ -859,7 +859,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-pepsi-twist-0-331',
-            name: 'ăPăeăpăsăiă ăTăwăiăsătă ă0ă,ă3ă3ă1ă',
+            name: 'Pepsi Twist 0,331',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-pepsi-twist-0-331.png',
@@ -874,7 +874,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       {
             id: 'bk-mirinda-orange-0-331',
-            name: 'ăMăiărăiănădăaă ăOărăaănăgăeă ă0ă,ă3ă3ă1ă',
+            name: 'Mirinda Orange 0,331',
             description: '',
             category: 'Burgeri și Pui',
             imageUrl: '/burgerking/bk-mirinda-orange-0-331.png',
