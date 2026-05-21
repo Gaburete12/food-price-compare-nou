@@ -108,7 +108,7 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
     return "Promoții și Noutăți";
   }
 
-  // 4. Băuturi (Avoid matching "rucola" as "cola")
+  // 4. Băuturi (Avoid matching "rucola" as "cola", and support beers, water, brand sodas, and corrupted characters like 'buturi')
   if (
     (n.includes("cola") && !n.includes("rucola")) ||
     n.includes("sprite") ||
@@ -122,6 +122,16 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
     n.includes("shake") ||
     n.includes("apa") ||
     n.includes("apă") ||
+    n.includes("water") ||
+    n.includes("schweppes") ||
+    n.includes("kinley") ||
+    n.includes("bere") ||
+    n.includes("beer") ||
+    n.includes("carlsberg") ||
+    n.includes("ursus") ||
+    n.includes("tuborg") ||
+    n.includes("heineken") ||
+    n.includes("somersby") ||
     n.includes("limonada") ||
     n.includes("limonadă") ||
     n.includes("fresh") ||
@@ -129,6 +139,9 @@ function cleanRestaurantCategory(restaurantId: string, name: string, originalCat
     c.includes("bautur") ||
     c.includes("bauturi") ||
     c.includes("băuturi") ||
+    c.includes("butur") ||
+    c.includes("beer") ||
+    c.includes("bere") ||
     c.includes("suc")
   ) {
     return "Băuturi";
