@@ -447,8 +447,8 @@ export function applyRestaurantMenus(
     if (restaurant.id === "pizzahut-constanta") menuKey = "pizza-hut-ct-1";
 
     let menu = dataset.menus[menuKey] || dataset.menus[restaurant.id];
-    if (!menu) {
-      // Dacă nu există meniu în baza de date, folosim meniul static și îi normalizăm categoriile
+    if (!menu || menu.length === 0) {
+      // Dacă nu există meniu în baza de date sau e gol, folosim meniul static și îi normalizăm categoriile
       menu = restaurant.menu || [];
     }
 

@@ -181,7 +181,713 @@ export const RESTAURANTS: Restaurant[] = [
         deepLink: ""
       }
     ],
-    menu: []
+    menu: [
+      {
+            id: 'bk-sir-bacon-beef-tortilla',
+            name: 'ăSăiără ăBăaăcăoănă ăBăeăeăfă ăTăoărătăiălălăaă',
+            description: 'ăTăoărătăiălălăaă ăcăuă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăăătăaără,ă ăbărăaănăzăaă,ă ăcăeăaăpăăă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon-beef-tortilla.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 30.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-sir-bacon-chicken',
+            name: 'ăSăiără ăBăaăcăoănă ăCăhăiăcăkăeănă',
+            description: 'ăBăuărăgăeără ăcăuă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăpăiăeăpătă ădăeă ăpăuăiă ăiănă ăcărăuăsătăăă ăcărăoăcăaănătăăă,ă ăbărăaănăzăăă,ă ăiănăeălăeă ădăeă ăcăeăaăpăăă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon-chicken.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 29.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-sir-bacon-double',
+            name: 'ăSăiără ăBăaăcăoănă ăDăoăuăbălăeă',
+            description: 'ăBăuărăgăeără ăcăuă ăcăaărănăeă ădăeă ăvăiătăăă ălăaă ădăuăbălăuă ăiăiă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăcăoămăpălăeătăaătă ăcăuă ăbărăaănăzăăă,ă ăiănăeălăeă ădăeă ăcăeăaăpăăă ăiăiă ăuănă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon-double.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 40.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-meniu-big-king-xxl',
+            name: 'ăMăeănăiăuă ăBăiăgă ăKăiănăgă ăXăXăLă',
+            description: 'ăUănă ăbăuărăgăeără ăiănă ăvăaărăiăaănătăaă ăXăXăLă ă-ă ă2ă2ă0ăgă ădăeă ăvăiătăăă ă1ă0ă0ă%ă,ă ăfăăăcăuătăăă ălăaă ăgărăăătăaără,ă ăbărăaănăzăăă ăiăiă ăsăaălăaătăăă,ă ăcăeăaăpăăă,ă ăcăaăsătărăaăvăeătăiă ămăuărăaătăiă ăsăoăsăuălă ăoărăiăgăiănăaălă ăBăiăgă ăKăiănăgă,ă ătăoătăuălă ăiănătără-ăoă ăcăhăiăfălăăă ăcăuă ăsăuăsăaănă.ă ăMăeănăiăuălă ăiănăcălăuădăeă ă0ămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-meniu-big-king-xxl.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 59.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-meniu-dublu-cheesy',
+            name: 'ăMăeănăiăuă ăDăuăbălăuă ăCăhăeăeăsăyă',
+            description: 'ăAălăeăgăeă-ătăiă ădăoăuăăă ămăeănăiăuărăiă ăCărăaăzăyă ăCăhăeăeăsăyă ăpărăeăfăeărăaătăeă ă-ă ăbăuărăgăeărăiă ăsăaăuă ăwărăaăpăsă,ă ăcălăaăsăiăcăeă ăsăaăuă ăpălăaănătă-ă ăbăaăsăeădă:ă ăNăaăcăhăoăsă ăBăeăeăfă,ă ăNăaăcăhăoăsă ăPălăaănătă-ăBăaăsăeădă,ă ăBăBăQă ăBăeăeăfă ăsăaăuă ăBăBăQă ăPălăaănătă-ăBăaăsăeădă.ă ăSăeărăvăiătăeă ăcăuămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-meniu-dublu-cheesy.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 72.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-meniu-dublu-cheeseburger',
+            name: 'ăMăeănăiăuă ăDăuăbălăuă ăCăhăeăeăsăeăbăuărăgăeără',
+            description: 'ăOă ăpăoărătăiăeă ădăuăbălăăă ădăeă ă1ă0ă0ă%ă ăcăaărănăeă ădăeă ăvăiătăăă ălăaă ăgărăăătăaără,ă ădăoăuăăă ăfăeălăiăiă ădăeă ăbărăăănăzăăă,ă ăcăaăsătărăaăvăeătăiă ămăuărăaătăiă,ă ăkăeătăcăhăuăpă ăiăiă ămăuă$ăaără.ă ăMăeănăiăuălă ăiănăcălăuădăeă ăoă ăpăoărătăiăeă ămăeădăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăoă ăbăăăuătăuărăăă ărăăăcăoărăiătăoăaărăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-meniu-dublu-cheeseburger.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 41.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-sir-bacon-double-meniu',
+            name: 'ăSăiără ăBăaăcăoănă ăDăoăuăbălăeă ăMăeănăiăuă',
+            description: 'ăSăiără ăBăaăcăoănă ăDăoăuăbălăeă ăMăeănăiăuă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon-double-meniu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 79.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-sir-bacon-burger-meniu',
+            name: 'ăSăiără ăBăaăcăoănă ăBăuărăgăeără ăMăeănăiăuă',
+            description: 'ăSăiără ăBăaăcăoănă ăBăuărăgăeără ăMăeănăiăuă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon-burger-meniu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 41.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-sir-bacon-tortilla-meniu',
+            name: 'ăSăiără ăBăaăcăoănă ăTăoărătăiălălăaă ăMăeănăiăuă',
+            description: 'ăSăiără ăBăaăcăoănă ăTăoărătăiălălăaă ăMăeănăiăuă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon-tortilla-meniu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 41.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-sir-bacon',
+            name: 'ăSăiără ăBăaăcăoănă',
+            description: 'ăBăuărăgăeără ăcăuă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăbăaăcăoănă ăcărăoăcăaănătă,ă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăaătăaără,ă ăbărăăănăzăăă,ă ăiănăeălăeă ădăeă ăcăeăaăpăăă ăsăoăsă ăpăiăcăaănătă ăCăhăiălăiă ăCăhăeăeăsăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-sir-bacon.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 30.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-galacticfamilymenu',
+            name: 'ăGăaălăaăcătăiăcăFăaămăiălăyăMăeănăuă',
+            description: 'ăSăiămătăeă ăpăuătăeărăeăaă ăaăsăcăuănăsăăă ăiănătără-ăuănă ămăeănăiăuă ădăeă ăfăaămăiălăiăeă ăvăeănăiătă ădăiărăeăcătă ădăiănătără-ăoă ăgăaălăaăxăiăeă ăiănădăeăpăăărătăaătăăă!ă ăGăaălăaăcătăiăcă ăFăaămăiălăyă ăiănăcălăuădăeă ăuănă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără,ă ăuănă ăLăoănăgă ăCăhăiăcăkăeănă ăbăuărăgăeără,ă ăcăaărătăoăfăiă ăpărăăăjăiătăiămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-galacticfamilymenu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 76.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-galactic-menu',
+            name: 'ăGăaălăaăcătăiăcă ăMăeănăuă',
+            description: 'ăSăiămătăeă ăpăuătăeărăeăaă ăaăsăcăuănăsăăă ăiănătără-ăuănă ămăeănăiăuă ăvăeănăiătă ădăiărăeăcătă ădăiănătără-ăoă ăgăaălăaăxăiăeă ăiănădăeăpăăărătăaătăăă!ă ăGăaălăaăcătăiăcă ăCăoămăbăoă ăeăsătăeă ăuănă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără ăcăuă ăcăaărănăeă ădăeă ăvăiătăăă ălăaă ăgărăăătăaără,ă ăbăaăcăoănă ăsăoăsă ăSăwăeăeătămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-galactic-menu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 47.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-king-jr-plus-menu',
+            name: 'ăKăiănăgă ăJără ăPălăuăsă ăMăeănăuă',
+            description: 'ăPăoărănăeă$ăeă ăiănătără-ăoă ăaăvăeănătăuărăăă ăcăoăsămăiăcăăă ăcăuă ăuănă ămăeănăiăuă ăsăpăeăcăiăaălă ăpăeănătărăuă ăcăeăiă ămăiăcăiă ăiăiă ăcăeăiă ămăaărăiă!ă ăLăoănăgă ăCăhăiăcăkăeănă ăeăsătăeă ăsăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăiăcăăă,ă ă6ă ăbăuăcăăătăiă ădăeă ăCăhăiălăiă ăCăhăeăeăsăeă ăNăuăgăgăeătăsă ăuănăaămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-king-jr-plus-menu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 37.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-mandalorian-whopper',
+            name: 'ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără',
+            description: 'ăSăiămătăeă ăpăuătăeărăeăaă ăaăsăcăuănăsăăă ăiănătără-ăuănă ăbăuărăgăeără ăvăeănăiătă ădăiărăeăcătă ădăiănătără-ăoă ăgăaălăaăxăiăeă ăiănădăeăpăăărătăaătăăă!ă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără ăeăsătăeă ăcăoămăbăiănăaătăiăaă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă ăgăăătăiătăăă ălăaă ăgărăăătăaără ăcăuă ăbăaăcăoănă,ă ăbărăăănăzăăă„ă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-mandalorian-whopper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 31.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-plant-based-mandalorian-whopper',
+            name: 'ăPălăaănătă ă-ă ăBăaăsăeădă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără',
+            description: 'ăAălăeăgăeă ăcăaălăeăaă ăpăuătăeărăiăiă ăiănă ăvăeărăsăiăuănăeă ăpălăaănătă-ăbăaăsăeădă!ă ăMăaănădăaălăoărăiăaănă ăWăhăoăpăpăeără ăeăsătăeă ăcăoămăbăiănăaătăiăaă ădăiănătărăeă ăuănă ăpăaătătăyă ăvăeăgăeătăaălă,ă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăcărăoăcăaănătăăă,ă ăsăaălăaătăăă,ă ărăoă$ăiă ăcăaăsătărăaăvăeătăiă ămăuărăaătăiă,ă ătăoăaătăeă ăiănătără-ăoămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-plant-based-mandalorian-whopper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 31.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-meniu-lord-pepper',
+            name: 'ăMăeănăiăuă ăLăoărădă ăPăeăpăpăeără',
+            description: 'ă1ă5ă0ă ădăeă ăgărăaămăeă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăăătăaără,ă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă ăpărăoăaăsăpăaătăăă,ă ăbăaăcăoănă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăpăiăpăeără ăiăiă ăiăaăuărătă,ă ătăoătăuălă ăiănătără-ăoă ăcăhăiăfălăăă ădăeălăiăcăiăoăaăsăăă.ă ăMăeănăiăuălă„ă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-meniu-lord-pepper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 51.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-combo-lord-pepper',
+            name: 'ăCăoămăbăoă ăLăoărădă ăPăeăpăpăeără',
+            description: 'ăAălăeăgăeă ăLăoărădă ăPăeăpăpăeără ă-ă ăgăuăsătă ăiănătăeănăsă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă,ă ăsăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăeădăiăeă ăiăiă ă4ă ăCăhăiăcăkăeănă ăNăuăgăgăeătăsă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-combo-lord-pepper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 51.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-lord-pepper-chicken-meniu',
+            name: 'ăLăoărădă ăPăeăpăpăeără ăCăhăiăcăkăeănă ăMăeănăiăuă',
+            description: 'ăPăiăeăpătă ădăeă ăpăuăiă ăiănă ăcărăuăsătăăă ăcărăoăcăaănătăăă ăcăuă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăpărăăăjăiătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă,ă ăiăuănăcăăă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăaărădăeăiă ăiăaăuărătă,ă ătăoăaătăeă ăiănătără-ăuănă ăcăhăiăfălăeă ădăeălăiăcăaătă ădăeă ăbărăiăoăcăhăeă.ă ăSăeărăvăiătăeă ăaălăaătăuărăiă ădăeă ăoă ăpăoărătăiăeă ămăeădăiăeămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-lord-pepper-chicken-meniu.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 51.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-lord-pepper',
+            name: 'ăLăoărădă ăPăeăpăpăeără',
+            description: 'ă1ă5ă0ă ădăeă ăgărăaămăeă ădăeă ăcăaărănăeă ădăeă ăvăiătăăă ă1ă0ă0ă%ă ălăaă ăgărăăătăaără,ă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă ăpărăoăaăsăpăaătăăă,ă ăbăaăcăoănă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăpăiăpăeără ăiăiă ăiăaăuărătă,ă ătăoătăuălă ăiănătără-ăoă ăcăhăiăfălăăă ădăeălăiăcăiăoăaăsăăă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-lord-pepper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 33.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-lord-pepper-chicken',
+            name: 'ăLăoărădă ăPăeăpăpăeără ăCăhăiăcăkăeănă',
+            description: 'ăPăuăiă ăiănă ăcărăuăsătăaă ăcărăoăcăaănătăaă ăcăuă ăbărăaănăzăăă,ă ăcăeăaăpăăă ăpărăăăjăiătăăă,ă ărăoă$ăiă,ă ărăuăcăoălăaă,ă ă>ăuănăcăăă ăuănă ăsăoăsă ăuănăiăcă ădăeă ăaărădăeăiă ăiăiă ăiăaăuărătă,ă ăsăeărăvăiătăeă ăiănătără-ăoă ăcăhăiăfălăăă ădăeălăiăcăaătăăă ădăeă ăbărăiăoăcăhăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-lord-pepper-chicken.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 33.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-meniu-dublu-bacon-cheese-whopper',
+            name: 'ăMăeănăiăuă ăDăuăbălăuă ăBăaăcăoănă&ă ăCăhăeăeăsăeă ăWăhăoăpăpăeără',
+            description: 'ăCăaărănăeă ădăeă ăvăiătăăă ălăaă ădăuăbălăuă,ă ăbărăaănăzăăă ăbăaăcăoănă,ă ălăeăgăuămăeă ăpărăoăaăsăpăeătăeă,ă ămăaăiăoănăeăzăăă ăkăeătăcăhăuăpă,ă ătăoăaătăeă ăiănătără-ăoă ăcăhăiăfălăăă ăcăuă ăsăuăsăaănă.ă ăMăeănăiăuălă ăiănăcălăuădăeă ăoă ăpăoărătăiăeă ămăeădăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăoă ăbăăăuătăuărăăămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-meniu-dublu-bacon-cheese-whopper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 59.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-combo-big-king-xxl',
+            name: 'ăCăoămăbăoă ăBăiăgă ăKăiănăgă ăXăXăLă',
+            description: 'ăAălăeăgăeă ăBăiăgă ăKăiănăgă ăXăXăLă ă-ă ădăuăbălăuă ădăeă ăcăaărănăeă ăiăiă ămăaăxăiămăuămă ădăeă ăgăuăsătă.ă ăSăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăeădăiăeă ăiăiă ă4ă ăCăhăiăcăkăeănă ăNăuăgăgăeătăsă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-combo-big-king-xxl.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 59.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-combo-long-chicken',
+            name: 'ăCăoămăbăoă ăLăoănăgă ăCăhăiăcăkăeănă',
+            description: 'ăAălăeăgăeă ăLăoănăgă ăCăhăiăcăkăeănă ăpăuăiă ăcărăoăcăaănătă ăiănătără-ăoă ăcăhăiăfălăăă ăoăvăaălăăă,ă ăsăeărăvăiătă ăcăuă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăpăoărătăiăeă ămăeădăiăeă ă4ă ăCăhăiăcăkăeănă ăNăuăgăgăeătăsă ă-ă ăoă ăcăoămăbăiănăaătăiăeă ăcălăaăsăiăcăăă ăcăaărăeă ămăeărăgăeă ădăeă ăfăiăeăcăaărăeă ădăaătăăă!ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-combo-long-chicken.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 43.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-meniu-plant-based-royale',
+            name: 'ăMăeănăiăuă ăPălăaănătă-ăBăaăsăeădă ăRăoăyăaălăeă',
+            description: 'ăBăuărăgăeără ăpăeă ăbăaăzăăă ădăeă ăpălăaănătăeă ăiănătără-ăuănă ăiănăvăeălăiă>ă ăcărăoăcăaănătă,ă ăsăaălăaătăăă ăpărăoăaăsăpăăătăăă ămăaăiăoănăeăzăăă ăiănătără-ăoă ăcăhăiăfălăăă ăbăaăgăhăeătăăă ăcăuă ăsăeămăiănătăeă ădăeă ăsăuăsăaănă.ă ăMăeănăiăuălă ăiănăcălăuădăeă ăoă ăpăoărătăiăeă ămăeădăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăoă ăbăăăuătăuără„ă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-meniu-plant-based-royale.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 43.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-cheesy-bbq-beef-burger',
+            name: 'ăCăhăeăeăsăyă ăBăBăQă ăBăeăeăfă ăBăuărăgăeără',
+            description: 'ăCăaărănăeă ădăeă ăvăiătăăă ăsăuăcăuălăeănătăăă ălăaă ăgărăăătăaără,ă ădăoăuăăă ăfăeălăiăiă ădăeă ăbărăăănăzăăă,ă ăbăaăcăoănă ăcărăoăcăaănătă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ăcăoămăpălăeătăaătăeă ădăeă ăsăoăsă ăBăBăQă ăuănă ăsăoăsă ădăeă ăbărăaănăzăăă ădăeălăiăcăiăoăsă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălă„ă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-cheesy-bbq-beef-burger.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 29.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-cheesy-nachos-beef-burger',
+            name: 'ăCăhăeăeăsăyă ăNăaăcăhăoăsă ăBăeăeăfă ăBăuărăgăeără',
+            description: 'ăCăaărănăeă ădăeă ăvăiătăăă ălăaă ăgărăăătăaără ăsăuăcăuălăeănătăăă,ă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăsăoăsă ăcărăeămăoăsă ădăeă ăbărăăănăzăăă ăcăhăiălăiă ăcăhăeăeăsăeă ăpăiăcăaănătă,ă ăeăcăhăiălăiăbărăaătăeă ăcăuă ănăaăcăhăoăsă ăcărăoăcăaănătăiă ăiăiă ăfăeălăiăiă ădăeă ăjăaălăaăpăeăfăiăoă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălăăă ăpăuăfăoăaăsăăămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-cheesy-nachos-beef-burger.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 29.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-plant-based-cheesy-bbq-burger',
+            name: 'ăPălăaănătă-ăBăaăsăeădă ăCăhăeăeăsăyă ăBăBăQă ăBăuărăgăeără',
+            description: 'ăPălăaănătă-ăbăaăsăeădă,ă ădăoăuăăă ăfăeălăiăiă ădăeă ăbărăăănăzăăă,ă ăfăaăcăoănă ăcărăoăcăaănătă ă(ăaălătăeărănăaătăiăvăăă ăvăeăgăeătăaălăăă ălăaă ăbăaăcăoănă)ă,ă ăcăeăaăpăăă ăcăaărăaămăeălăiăzăaătăăă,ă ăsăoăsă ăBăBăQă ăaărăoămăaătă ăsăoăsă ăcărăeămăoăsă ădăeă ăbărăăănăzăăă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălăăă ăpăuăfăoăaăsăăă ăcămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-plant-based-cheesy-bbq-burger.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 29.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-plant-based-cheesy-nachos-burger',
+            name: 'ăPălăaănătă-ăBăaăsăeădă ăCăhăeăeăsăyă ăNăaăcăhăoăsă ăBăuărăgăeără',
+            description: 'ăPălăaănătă-ăbăaăsăeădă,ă ăpăoărătăiăeă ădăuăbălăăă ădăeă ăsăoăsă ăcărăeămăoăsă ădăeă ăbărăăănăzăăă ăcăhăiălăiă ăcăhăeăeăsăeă ăpăiăcăaănătă,ă ăeăcăhăiălăiăbărăaătăeă ăcăuă ănăaăcăhăoăsă ăcărăoăcăaănătăiă ăfăeălăiăiă ădăeă ăjăaălăaăpăeăfăiăoă.ă ăTăoătăuălă ăsăeărăvăiătă ăiănătără-ăoă ăcăhăiăfălăăă ăpăuăfăoăaăsăăă ăcăuă ăsăuăsăaănă.ă ăGăuăsătă ăiănătăeănăsămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-plant-based-cheesy-nachos-burger.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 29.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-bacon-cheese-whopper',
+            name: 'ăBăaăcăoănă&ă ăCăhăeăeăsăeă ăWăhăoăpăpăeără',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-bacon-cheese-whopper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 29.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-plant-based-whopper',
+            name: 'ăPălăaănătă-ăBăaăsăeădă ăWăhăoăpăpăeără',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-plant-based-whopper.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 26.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-long-chicken',
+            name: 'ăLăoănăgă ăCăhăiăcăkăeănă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-long-chicken.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 25.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-plant-based-long',
+            name: 'ăPălăaănătă-ăBăaăsăeădă ăLăoănăgă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-plant-based-long.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 25.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-big-king',
+            name: 'ăBăiăgă ăKăiănăgă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-big-king.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 23.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-7-buc-king-wings',
+            name: 'ă7ă ăbăuăcă.ă ăKăiănăgă ăWăiănăgăsă',
+            description: 'ă7ă ăAărăiăpăiăoăaărăeă ădăeă ăpăuăiă,ă ăaăuărăiăiă ădăeălăiăcăiăoăaăsăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-7-buc-king-wings.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 31.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-9-buc-king-nuggets',
+            name: 'ă9ă ăbăuăcă.ă ăKăiănăgă ăNăuăgăgăeătăsă',
+            description: 'ă9ă ăNăuăgăgăeătăsă ădăeă ăpăuăiă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ădăoăuăăă ăsăoăsăuărăiă ălăaă ăaălăeăgăeărăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-9-buc-king-nuggets.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 28.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-9-buc-plant-based-nuggets',
+            name: 'ă9ă ăbăuăcă.ă ăPălăaănătă-ăBăaăsăeădă ăNăuăgăgăeătăsă',
+            description: 'ă9ă ăNăuăgăgăeătăsă ăpăeă ăbăaăzăăă ădăeă ăpălăaănătăeă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăsăiă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ădăoăuăăă ăsăoăsăuărăiă ălăaă ăaălăeăgăeărăeă.ă ă*ăPărăeăgăaătăiărăeăaă ăpărăoădăuăsăeălăoără ăPălăaănătă-ăBăaăsăeădă ăaăuă ălăoăcă ăpăeă ăaăcăeălăeăaă$ă ăaăpăaărăaătăeă ădăeă ăgăăătăiătă ăcăaărăeă ăsăuănătă ăfăoălăoăsăiătăeămă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-9-buc-plant-based-nuggets.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 28.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-5-buc-king-wings',
+            name: 'ă5ă ăbăuăcă.ă ăKăiănăgă ăWăiănăgăsă',
+            description: 'ă5ă ăAărăiăpăiăoăaărăeă ădăeă ăpăuăiă,ă ăaăuărăiăiă ădăeălăiăcăiăoăaăsăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-5-buc-king-wings.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 27.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-6-buc-king-nuggets',
+            name: 'ă6ă ăbăuăcă.ă ăKăiănăgă ăNăuăgăgăeătăsă',
+            description: 'ă6ă ăNăuăgăgăeătăsă ădăeă ăpăuăiă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ăuănă ăsăoăsă ălăaă ăaălăeăgăeărăeă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-6-buc-king-nuggets.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 24.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-6-buc-plant-based-nuggets',
+            name: 'ă6ă ăbăuăcă.ă ăPălăaănătă-ăBăaăsăeădă ăNăuăgăgăeătăsă',
+            description: 'ă6ă ăNăuăgăgăeătăsă ăpăeă ăbăaăzăăă ădăeă ăpălăaănătăeă ăiănă ăiănăvăeălăiă>ă ăaăuărăiăuă ăsăiă ăcărăoăcăaănătă,ă ăaălăăătăuărăiă ădăeă ăuănă ăsăoăsă ălăaă ăaălăeăgăeărăeă.ă ă*ăPărăeăgăaătăiărăeăaă ăpărăoădăuăsăeălăoără ăPălăaănătă-ăBăaăsăeădă ăaăuă ălăoăcă ăpăeă ăaăcăeălăeăaă$ă ăaăpăaărăaătăeă ădăeă ăgăăătăiătă ăcăaărăeă ăsăuănătă ăfăoălăoăsăiătăeă„ă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-6-buc-plant-based-nuggets.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 24.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-chilli-cheese-loaded-fries',
+            name: 'ăCăhăiălălăiă ăCăhăeăeăsăeă ăLăoăaădăeădă ăFărăiăeăsă',
+            description: 'ăCăaărătăoăfăiă ăpărăăăjăiătăiă ăaăuărăiăiă ăcărăoăcăaănătăiă ăcăuă ăsăoăsă ăCăhăiălăiă ăCăhăeăeăsăeă,ă ăfăeălăiăiă ădăeă ăjăaălăaăpăeăfăiăoă ăpăiăcăaănătăeă ăcăeăaăpăăă ăpărăăăjăiătăăă ăcărăoăcăaănătăăă.ă ăPăeărăfăeăcătăiă ăcăaă ăgăuăsătăaărăeă ăsăaăuă ăgăaărănăiătăuărăăă ălăaă ăuănă ămăeănăiăuă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-chilli-cheese-loaded-fries.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 18.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-bacon-cheese-fries',
+            name: 'ăBăaăcăoănă&ă ăCăhăeăeăsăeă ăFărăiăeăsă',
+            description: 'ăCăaărătăoăfăiă ăpărăăăjăiătăiă ăcăuă ăsăoăsă ădăeă ăbărăaănăzăăă ăbăaăcăoănă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-bacon-cheese-fries.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 18.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-angry-fries',
+            name: 'ăAănăgărăyă ăFărăiăeăsă',
+            description: 'ăCăaărătăoăfăiă ăpărăăăjăiătăiă ăcăuă ăsăoăsă ădăeă ăbărăaănăzăăă ăJăaălăaăpăeănăoă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-angry-fries.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 17.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-cartofi-pr-jici-portie-xxl',
+            name: 'ăCăaărătăoăfăiă ăpărăăăjăiăCăiă ăpăoărătăiăeă ăXăXăLă',
+            description: 'ăOă ăpăoărătăiăeă ădăeă ăcăaărătăoăfăiă ăpărăăăjăiătăiă ăXăXăLă,ă ăaăuărăiăiă ăcărăoăcăaănătăiă,ă ăpăeărăfăeăcătăiă ăcăăă ăoă ăgăuăsătăaărăeă ăcăaălădăăă ăsăaăuă ălăaă ămăeănăiăuă.ă',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-cartofi-pr-jici-portie-xxl.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 16.9,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-pepsi-0-331',
+            name: 'ăPăeăpăsăiă ă0ă,ă3ă3ă1ă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-pepsi-0-331.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 10.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-pepsi-max-0-331',
+            name: 'ăPăeăpăsăiă ăMăaăxă ă0ă,ă3ă3ă1ă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-pepsi-max-0-331.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 10.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-pepsi-twist-0-331',
+            name: 'ăPăeăpăsăiă ăTăwăiăsătă ă0ă,ă3ă3ă1ă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-pepsi-twist-0-331.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 10.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      },
+      {
+            id: 'bk-mirinda-orange-0-331',
+            name: 'ăMăiărăiănădăaă ăOărăaănăgăeă ă0ă,ă3ă3ă1ă',
+            description: '',
+            category: 'Burgeri și Pui',
+            imageUrl: '/burgerking/bk-mirinda-orange-0-331.png',
+            prices: [
+                  {
+                        platform: 'glovo',
+                        available: true,
+                        price: 10.5,
+                        deepLink: 'https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta'
+                  }
+            ]
+      }
+]
   },
   { id: "dabo-doner-constanta",
     name: "DAbo Doner",
