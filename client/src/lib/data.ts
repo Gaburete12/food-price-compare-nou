@@ -187,7 +187,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Beef Tortilla",
             description: "Tortilla cu portie dublă de bacon crocant, carne de vită 100% la grătar, branza, ceapă sos picant Chili Cheese.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-sir-bacon-beef-tortilla.png",
+            imageUrl: "/burgerking/Sir Bacon Beef Tortilla.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -202,7 +202,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Chicken",
             description: "Burger cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brânză, inele de ceapă sos picant Chili Cheese.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-sir-bacon-chicken.png",
+            imageUrl: "/burgerking/Sir Bacon Chicken.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -217,7 +217,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Double",
             description: "Burger cu carne de vită la dublu și bacon crocant, completat cu brânză, inele de ceapă și un sos picant Chili Cheese.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-sir-bacon-double.png",
+            imageUrl: "/burgerking/Sir Bacon Double.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -232,7 +232,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Big King XXL",
             description: "Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include 0m",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-big-king-xxl.png",
+            imageUrl: "/burgerking/Meniu Big King XXL.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -247,7 +247,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Dublu Cheesy",
             description: "Alege-ti două meniuri Crazy Cheesy preferate - burgeri sau wraps, clasice sau plant- based: Nachos Beef, Nachos Plant-Based, BBQ Beef sau BBQ Plant-Based. Servite cum",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-dublu-cheesy.png",
+            imageUrl: "/burgerking/Meniu Dublu Cheesy.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -262,7 +262,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Dublu Cheeseburger",
             description: "O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveti murati, ketchup și muștar. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-dublu-cheeseburger.png",
+            imageUrl: "/burgerking/Meniu Dublu Cheeseburger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -277,7 +277,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Double Meniu",
             description: "Sir Bacon Double Meniu",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-sir-bacon-double-meniu.png",
+            imageUrl: "/burgerking/Sir Bacon Double Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -292,7 +292,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Burger Meniu",
             description: "Sir Bacon Burger Meniu",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-sir-bacon-burger-meniu.png",
+            imageUrl: "/burgerking/Sir Bacon Burger Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -307,7 +307,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Tortilla Meniu",
             description: "Sir Bacon Tortilla Meniu",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-sir-bacon-tortilla-meniu.png",
+            imageUrl: "/burgerking/Sir Bacon Tortilla Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -322,7 +322,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon",
             description: "Burger cu portie dublă de bacon crocant, carne de vită 100% la gratar, brănză, inele de ceapă sos picant Chili Cheese.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-sir-bacon.png",
+            imageUrl: "/burgerking/Sir Bacon.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -337,7 +337,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Chicken Tortilla",
             description: "Tortilla cu portie dublă de bacon crocant, piept de pui in crustă crocantă, brănză, inele de ceapă sos picant Chili Cheese.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-sir-bacon-chicken-tortilla.png",
+            imageUrl: "/burgerking/Sir Bacon Chicken Tortilla.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -352,7 +352,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sir Bacon Snack Meniu",
             description: "Sir Bacon Snack Meniu",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-sir-bacon-snack-meniu.png",
+            imageUrl: "/burgerking/Sir Bacon Snack Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -367,7 +367,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chilli Cheese Loaded Fries",
             description: "Cartofi prăjiti aurși crocanti cu sos Chili Cheese, felși de jalapeno picante și ceapă prăjită crocantă. Perfecti ca gustare sau garnitură la un meniu.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-chilli-cheese-loaded-fries.png",
+            imageUrl: "/burgerking/Chilli Cheese Loaded Fries.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -382,7 +382,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "GalacticFamilyMenu",
             description: "Simte puterea ascunsă intr-un meniu de familie venit direct dintr-o galaxie indepărtată! Galactic Family include un Mandalorian Whopper, un Long Chicken burger, cartofi prăjitim",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-galacticfamilymenu.png",
+            imageUrl: "/burgerking/GalacticFamilyMenu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -397,7 +397,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Galactic Menu",
             description: "Simte puterea ascunsă intr-un meniu venit direct dintr-o galaxie indepărtată! Galactic Combo este un Mandalorian Whopper cu carne de vită la grătar, bacon sos Sweetm",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-galactic-menu.png",
+            imageUrl: "/burgerking/Galactic Menu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -412,7 +412,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "King Jr Plus Menu",
             description: "Porne$e intr-o aventură cosmică cu un meniu special pentru cei mici și cei mari! Long Chicken este servit cu cartofi prăjiti portie mică, 6 bucăti de Chili Cheese Nuggets unam",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-king-jr-plus-menu.png",
+            imageUrl: "/burgerking/King Jr Plus Menu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -427,7 +427,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Mandalorian Whopper",
             description: "Simte puterea ascunsă intr-un burger venit direct dintr-o galaxie indepărtată! Mandalorian Whopper este combinatia de carne de vită gătită la grătar cu bacon, brănză„.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-mandalorian-whopper.png",
+            imageUrl: "/burgerking/Mandalorian Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -442,7 +442,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Plant - Based Mandalorian Whopper",
             description: "Alege calea puterși in versiune plant-based! Mandalorian Whopper este combinatia dintre un patty vegetal, brânză, ceapă crocantă, salată, roșși castraveti murati, toate intr-om",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-plant-based-mandalorian-whopper.png",
+            imageUrl: "/burgerking/Plant - Based Mandalorian Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -457,7 +457,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Lord Pepper",
             description: "150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă. Meniul„.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-lord-pepper.png",
+            imageUrl: "/burgerking/Meniu Lord Pepper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -472,7 +472,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Combo Lord Pepper",
             description: "Alege Lord Pepper - gust intens de carne de vită, servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-combo-lord-pepper.png",
+            imageUrl: "/burgerking/Combo Lord Pepper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -487,7 +487,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Lord Pepper Chicken Meniu",
             description: "Piept de pui in crustă crocantă cu brânză, ceapă prăjită, roșși, rucola, iuncă un sos unic de ardei iaurt, toate intr-un chifle delicat de brioche. Servite alaturi de o portie mediem",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-lord-pepper-chicken-meniu.png",
+            imageUrl: "/burgerking/Lord Pepper Chicken Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -502,7 +502,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Lord Pepper",
             description: "150 de grame de carne de vită 100% la grătar, brânză, ceapă caramelizată, roșși, rucola proaspată, bacon un sos unic de piper și iaurt, totul intr-o chiflă delicioasă.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-lord-pepper.png",
+            imageUrl: "/burgerking/Lord Pepper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -517,7 +517,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Lord Pepper Chicken",
             description: "Pui in crusta crocanta cu brânză, ceapă prăjită, roșși, rucola, >uncă un sos unic de ardei și iaurt, servite intr-o chiflă delicată de brioche.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-lord-pepper-chicken.png",
+            imageUrl: "/burgerking/Lord Pepper Chicken.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -532,7 +532,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Dublu Bacon& Cheese Whopper",
             description: "Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturăm",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-dublu-bacon-cheese-whopper.png",
+            imageUrl: "/burgerking/Meniu Dublu Bacon& Cheese Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -547,7 +547,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Combo Big King XXL",
             description: "Alege Big King XXL - dublu de carne și maximum de gust. Servit cu cartofi prăjiti portie medie și 4 Chicken Nuggets.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-combo-big-king-xxl.png",
+            imageUrl: "/burgerking/Combo Big King XXL.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -562,7 +562,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Dublu Steakhouse",
             description: "O portie dublă de 100% carne de vită preparată pe grătar, bacon și brănză, salată proaspătă, roșși, ceapă prăjită, plus maioneză și sos BBQ, servite intr-o chiflă pufoasă„.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-dublu-steakhouse.png",
+            imageUrl: "/burgerking/Meniu Dublu Steakhouse.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -577,7 +577,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Dublu Whopper",
             description: "O portie dublă de carne de vită 100% facută la grătar, roșși, ceapă, salată castraveCi murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan. Meniul include on.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-dublu-whopper.png",
+            imageUrl: "/burgerking/Meniu Dublu Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -592,7 +592,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Bacon King",
             description: "Carne de vită 100% facută la grătar, bacon, roșși, brânză maioneză, totul intr-o chiflă pufoasă. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-bacon-king.png",
+            imageUrl: "/burgerking/Meniu Bacon King.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -607,7 +607,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Steakhouse",
             description: "100% carne de vită preparată pe grătar, bacon brânză, salată proaspătă, roșși, ceapă prăjită, plus maioneză sos BBQ, servite intr-o chiflă pufoasă brioche. Include cartofim",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-steakhouse.png",
+            imageUrl: "/burgerking/Meniu Steakhouse.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -622,7 +622,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Extra Long Chili Cheese",
             description: "100% carne de vită la grătar, sos de brănză cu ardei chili, brânză, totul intr-o chiflă bachetă cu susan. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-extra-long-chili-cheese.png",
+            imageUrl: "/burgerking/Meniu Extra Long Chili Cheese.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -637,7 +637,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu 7 buc. King Wings",
             description: "7 Aripioare de pui, aurși delicioase. Meniul include o portie medie de cartofi prăjiti și o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-7-buc-king-wings.png",
+            imageUrl: "/burgerking/Meniu 7 buc. King Wings.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -652,7 +652,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Cheesy Burger",
             description: "Alege-ti meniul preferat Make it Cheesy din patru optiuni delicioase! Cheesy Nachos Beef - vită, brănză, nachos crocanti jalapenos.Cheesy Nachos Plant-Based - aceea$.„",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-cheesy-burger.png",
+            imageUrl: "/burgerking/Meniu Cheesy Burger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -667,7 +667,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Cheesy Wrap",
             description: "Alege-ti meniul preferat Crazy Cheesy din patru optiuni delicioase! Crazy Cheesy Nachos Beef Wrap - vită, brânză, nachos crocanti și jalapeöos, invelite intr-o tortilla delicată.m",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-cheesy-wrap.png",
+            imageUrl: "/burgerking/Meniu Cheesy Wrap.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -682,7 +682,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Bacon& Cheese Whopper",
             description: "100% carne de vită la grătar, brânză, bacon roșși, ceapă castraveti murati, maioneză ketchup, intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băuturm",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-bacon-cheese-whopper.png",
+            imageUrl: "/burgerking/Meniu Bacon& Cheese Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -697,7 +697,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chick'n Crunch Supreme Meniu",
             description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză. Meniul include o portie medie de cartofi„.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-chick-n-crunch-supreme-meniu.png",
+            imageUrl: "/burgerking/Chick'n Crunch Supreme Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -712,7 +712,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Whopper Beef Pocket Menu",
             description: "O legendă a gustului care nu are nevoie de prezentare. Carne de vită 100% la gratar, salată crocantă, roșși proaspete castraveti muraq - toate intr-o tortilla crocantă.Meniulm",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-whopper-beef-pocket-menu.png",
+            imageUrl: "/burgerking/Whopper Beef Pocket Menu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -727,7 +727,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Chicken Wrap",
             description: "Pui crocant delicios, salată, maioneză roșși proaspete. Toate invelite intr-o tortilla la grill. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-chicken-wrap.png",
+            imageUrl: "/burgerking/Meniu Chicken Wrap.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -742,7 +742,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chick'n Crunch Spicy Meniu",
             description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, Jalapefios sos Chili Cheese. Meniul include o portie medie dm",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-chick-n-crunch-spicy-meniu.png",
+            imageUrl: "/burgerking/Chick'n Crunch Spicy Meniu.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -757,7 +757,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu 5 buc. King Wings",
             description: "5 Aripioare de pui, aurși delicioase. Meniul include o portie medie de cartofi prăjiti și o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-5-buc-king-wings.png",
+            imageUrl: "/burgerking/Meniu 5 buc. King Wings.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -772,7 +772,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Combo Long Chicken",
             description: "Alege Long Chicken pui crocant intr-o chiflă ovală, servit cu cartofi prăjiti portie medie 4 Chicken Nuggets - o combinatie clasică care merge de fiecare dată!",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-combo-long-chicken.png",
+            imageUrl: "/burgerking/Combo Long Chicken.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -787,7 +787,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Plant-Based Royale",
             description: "Burger pe bază de plante intr-un înveliș crocant, salată proaspătă maioneză intr-o chiflă baghetă cu seminte de susan. Meniul include o portie medie de cartofi prăjiti o băutur„.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-plant-based-royale.png",
+            imageUrl: "/burgerking/Meniu Plant-Based Royale.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -802,7 +802,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Big King",
             description: "O portie dublă de vită 100% la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan. Meniul include o portie medie de cartofi„.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-big-king.png",
+            imageUrl: "/burgerking/Meniu Big King.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -817,7 +817,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Crispy Chicken",
             description: "Pui pane crocant, salată proaspătă maioneză, totul intr-o chiflă cu susan. Meniul include o portie medie de cartofi prăjiti o băutură răcoritoare.",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-crispy-chicken.png",
+            imageUrl: "/burgerking/Meniu Crispy Chicken.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -832,7 +832,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Whopper Jr.",
             description: "Gustul unic BK in varianta junior. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cum",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-whopper-jr.png",
+            imageUrl: "/burgerking/Meniu Whopper Jr..webp",
             prices: [
                   {
                         platform: "glovo",
@@ -847,7 +847,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Meniu Cheesy Snack",
             description: "5 Chilli Cheese Nuggets 6 nuggets clasici (disponibili in variantă plant-based), serviti cu cartofi prăjiti două sosuri. Perfect ca gustare sau de impărtit cu prietenși!",
             category: "Meniuri și Buckets",
-            imageUrl: "/burgerking/bk-meniu-cheesy-snack.png",
+            imageUrl: "/burgerking/Meniu Cheesy Snack.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -862,7 +862,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Dublu Bacon& Cheese Whopper",
             description: "Carne de vită la dublu, brânză bacon, legume proaspete, maioneză ketchup, toate intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-dublu-bacon-cheese-whopper.png",
+            imageUrl: "/burgerking/Dublu Bacon& Cheese Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -877,7 +877,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Big King XXL",
             description: "Un burger in varianta XXL - 220g de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-big-king-xxl.png",
+            imageUrl: "/burgerking/Big King XXL.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -892,7 +892,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Dublu Whopper",
             description: "O portie dublă de carne de vită 100% facută la grătar, roșși, ceapă, salată castraveCi murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-dublu-whopper.png",
+            imageUrl: "/burgerking/Dublu Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -907,7 +907,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Bacon King",
             description: "Carne de vită 100% facută la grătar, bacon, roșși, brânză maioneză, totul intr-o chiflă pufoasă.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-bacon-king.png",
+            imageUrl: "/burgerking/Bacon King.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -922,7 +922,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Steakhouse",
             description: "100% vită preparată pe grătar, bacon brănză, salată proaspătă, roșși, ceapă prăjită, plus maioneză sos BBQ, servite intr-o chiflă pufoasă brioche.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-steakhouse.png",
+            imageUrl: "/burgerking/Steakhouse.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -937,7 +937,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Cheesy BBQ Beef Burger",
             description: "Carne de vită suculentă la grătar, două felși de brănză, bacon crocant ceapă caramelizată, completate de sos BBQ un sos de brânză delicios. Totul servit intr-o chifl„.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-cheesy-bbq-beef-burger.png",
+            imageUrl: "/burgerking/Cheesy BBQ Beef Burger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -952,7 +952,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Cheesy Nachos Beef Burger",
             description: "Carne de vită la grătar suculentă, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti și felși de jalapeno. Totul servit intr-o chiflă pufoasăm",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-cheesy-nachos-beef-burger.png",
+            imageUrl: "/burgerking/Cheesy Nachos Beef Burger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -967,7 +967,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Plant-Based Cheesy BBQ Burger",
             description: "Plant-based, două felși de brănză, facon crocant (alternativă vegetală la bacon), ceapă caramelizată, sos BBQ aromat sos cremos de brănză. Totul servit intr-o chiflă pufoasă cm",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-plant-based-cheesy-bbq-burger.png",
+            imageUrl: "/burgerking/Plant-Based Cheesy BBQ Burger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -982,7 +982,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Plant-Based Cheesy Nachos Burger",
             description: "Plant-based, portie dublă de sos cremos de brănză chili cheese picant, echilibrate cu nachos crocanti felși de jalapeno. Totul servit intr-o chiflă pufoasă cu susan. Gust intensm",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-plant-based-cheesy-nachos-burger.png",
+            imageUrl: "/burgerking/Plant-Based Cheesy Nachos Burger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -997,7 +997,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Bacon& Cheese Whopper",
             description: "100% carne de vită la grătar, brânză, bacon roșși, ceapă castraveti murati, maioneză ketchup, intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-bacon-cheese-whopper.png",
+            imageUrl: "/burgerking/Bacon& Cheese Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1012,7 +1012,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chick'n Crunch Supreme",
             description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-chick-n-crunch-supreme.png",
+            imageUrl: "/burgerking/Chick'n Crunch Supreme.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1027,7 +1027,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chick'n Crunch Spicy",
             description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, jalapenos sos Chili Cheese.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-chick-n-crunch-spicy.png",
+            imageUrl: "/burgerking/Chick'n Crunch Spicy.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1042,7 +1042,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chick'n Crunch Classic",
             description: "Burger cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar sos maioneză.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-chick-n-crunch-classic.png",
+            imageUrl: "/burgerking/Chick'n Crunch Classic.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1057,7 +1057,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Whopper",
             description: "Gustul unic BK. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă și castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-whopper.png",
+            imageUrl: "/burgerking/Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1072,7 +1072,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Plant-Based Whopper",
             description: "Whopper 100% pe bază de plant? făcut pe grătar, roșși proaspete, salată, maioneză, ketchup, castraveti murati ceapă, toate intr-o chiflă cu susan. *Pregatirea produselorm",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-plant-based-whopper.png",
+            imageUrl: "/burgerking/Plant-Based Whopper.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1087,7 +1087,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Long Chicken",
             description: "Pui pane crocant intr-o chiflă baghetă, două felși de brănză, salată maioneză.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-long-chicken.png",
+            imageUrl: "/burgerking/Long Chicken.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1102,7 +1102,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Plant-Based Long",
             description: "Fire grilled plant- based patty in a crispy coating, fresh lettuce and mayonnaise. All this encased in a long sesame seeds bun. *The preparation of products from the Plant-Based„.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-plant-based-long.png",
+            imageUrl: "/burgerking/Plant-Based Long.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1117,7 +1117,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Big King",
             description: "O portie dublă de vită 100% la grătar, brânză și salată, ceapă, castraveti murati sosul original Big King, totul intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-big-king.png",
+            imageUrl: "/burgerking/Big King.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1132,7 +1132,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Crispy Chicken",
             description: "Pui pane crocant, salată proaspătă, roșși și maioneză, totul intr-o chiflă cu susan.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-crispy-chicken.png",
+            imageUrl: "/burgerking/Crispy Chicken.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1147,7 +1147,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Dublu Cheeseburger",
             description: "O portie dublă de 100% carne de vită la grătar, două felși de brănză, castraveCi murati, ketchup și muștar.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-dublu-cheeseburger.png",
+            imageUrl: "/burgerking/Dublu Cheeseburger.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1162,7 +1162,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Whopper Jr.",
             description: "Gustul unic BK in varianta junior. Carne de vită 100% facută la grătar, roșși, ceapă proaspătă castraveti murati, totul asezonat cu maioneză ketchup, intr-o chiflă cum",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-whopper-jr.png",
+            imageUrl: "/burgerking/Whopper Jr..webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1177,7 +1177,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Plant-Based Whopper Tortilla",
             description: "O legendă a gustului care nu are nevoie de prezentare. Plant -Base* la gratar, salată crocantă, roșși proaspete și castraveti murati - toate intr-o tortilla crocantă.*Pregatiream",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-plant-based-whopper-tortilla.png",
+            imageUrl: "/burgerking/Plant-Based Whopper Tortilla.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1192,7 +1192,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Whopper Tortilla Beef",
             description: "O legendă a gustului care nu are nevoie de prezentare. Carne de vită 100% la gratar, salată crocantă, roșși proaspete castraveti muraq - toate intr-o tortilla crocantă.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-whopper-tortilla-beef.png",
+            imageUrl: "/burgerking/Whopper Tortilla Beef.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1207,7 +1207,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chicken Wrap",
             description: "Pui crocant delicios, salată, maioneză roșși proaspete. Toate invelite intr-o tortilla la grill.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-chicken-wrap.png",
+            imageUrl: "/burgerking/Chicken Wrap.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1222,7 +1222,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Chick'n Crunch Wrap",
             description: "Wrap cu piept de pui in crustă crocantă, salată rucola, castraveti proaspeti, o felie de brânză topită cu Cheddar, roșși sos maioneză",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-chick-n-crunch-wrap.png",
+            imageUrl: "/burgerking/Chick'n Crunch Wrap.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1237,7 +1237,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Salata cu vita",
             description: "Incearca o salata crunch cu 100% carne de vita la gratar, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata!",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-salata-cu-vita.png",
+            imageUrl: "/burgerking/Salata cu vita.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1252,7 +1252,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Salata cu pui",
             description: "Incearca o salata crunch cu pui pane crocant, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata!",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-salata-cu-pui.png",
+            imageUrl: "/burgerking/Salata cu pui.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1267,7 +1267,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Salata cu Plant Based",
             description: "Incearca o salata crunch pe baza de plante la gratar, castraveti proaspeti, rosși si ceapa pentru pofticiosi. Inclus un sos de salata! *Pregatirea produselor Plant-Based are loc pen.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-salata-cu-plant-based.png",
+            imageUrl: "/burgerking/Salata cu Plant Based.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1282,7 +1282,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "7 buc. King Wings",
             description: "7 Aripioare de pui, aurși delicioase.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-7-buc-king-wings.png",
+            imageUrl: "/burgerking/7 buc. King Wings.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1297,7 +1297,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "9 buc. King Nuggets",
             description: "9 Nuggets de pui in înveliș auriu crocant, alături de două sosuri la alegere.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-9-buc-king-nuggets.png",
+            imageUrl: "/burgerking/9 buc. King Nuggets.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1312,7 +1312,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "9 buc. Plant-Based Nuggets",
             description: "9 Nuggets pe bază de plante in înveliș auriu si crocant, alături de două sosuri la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folositem",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-9-buc-plant-based-nuggets.png",
+            imageUrl: "/burgerking/9 buc. Plant-Based Nuggets.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1327,7 +1327,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "5 buc. King Wings",
             description: "5 Aripioare de pui, aurși delicioase.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-5-buc-king-wings.png",
+            imageUrl: "/burgerking/5 buc. King Wings.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1342,7 +1342,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "6 buc. King Nuggets",
             description: "6 Nuggets de pui in înveliș auriu crocant, alături de un sos la alegere.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-6-buc-king-nuggets.png",
+            imageUrl: "/burgerking/6 buc. King Nuggets.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1357,7 +1357,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "6 buc. Plant-Based Nuggets",
             description: "6 Nuggets pe bază de plante in înveliș auriu si crocant, alături de un sos la alegere. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite„.",
             category: "Burgeri și Pui",
-            imageUrl: "/burgerking/bk-6-buc-plant-based-nuggets.png",
+            imageUrl: "/burgerking/6 buc. Plant-Based Nuggets.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1372,7 +1372,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Bacon& Cheese Fries",
             description: "Cartofi prăjiti cu sos de brânză bacon.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-bacon-cheese-fries.png",
+            imageUrl: "/burgerking/Bacon& Cheese Fries.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1387,7 +1387,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Angry Fries",
             description: "Cartofi prăjiti cu sos de brânză Jalapeno.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-angry-fries.png",
+            imageUrl: "/burgerking/Angry Fries.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1402,7 +1402,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Cartofi prăjiCi portie XXL",
             description: "O portie de cartofi prăjiti XXL, aurși crocanti, perfecti că o gustare caldă sau la meniu.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-cartofi-pr-jici-portie-xxl.png",
+            imageUrl: "/burgerking/Cartofi prăjiți porție XXL.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1417,7 +1417,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Criss Cuts",
             description: "Crocanti si perfect asezonati - Criss Cut versiunea unică a clasicilor cartofi prăjiti. Datorita formei (or, fiecare bucatica iti ofera o experienta placut si crocanta.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-criss-cuts.png",
+            imageUrl: "/burgerking/Criss Cuts.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1432,7 +1432,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "6 buc. Chili Cheese Nuggets",
             description: "O combinatie picantă și crocantă, cu brânză ardei jalapeno la interior. Perfectă ca o gustare sau la meniu.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-6-buc-chili-cheese-nuggets.png",
+            imageUrl: "/burgerking/6 buc. Chili Cheese Nuggets.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1447,7 +1447,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Cartofi prăjiCi portie medie",
             description: "O portie medie de cartofi prăjiti aurși crocanti, perfecti ca o gustare caldă sau la meniu.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-cartofi-pr-jici-portie-medie.png",
+            imageUrl: "/burgerking/Cartofi prăjiți porție medie.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1462,7 +1462,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "3 Sosuri la alegere",
             description: "3 sosuri la alegere 75ml: usturoi/ babeque/ muștar cu miere/ dulce cu ardei iute/ salsa/ curry",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-3-sosuri-la-alegere.png",
+            imageUrl: "/burgerking/3 Sosuri la alegere.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1477,7 +1477,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "6 buc. Inele de ceapă",
             description: "Inele de ceapă in înveliș auriu. Aromate, crocante la exterior, delicate la interior. Perfecte ca o gustare sau la meniu.",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-6-buc-inele-de-ceap.png",
+            imageUrl: "/burgerking/6 buc. Inele de ceapă.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1492,7 +1492,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos babeque",
             description: "Sos babeque 25ml.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-babeque.png",
+            imageUrl: "/burgerking/Sos babeque.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1507,7 +1507,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos muitar cu miere",
             description: "Sos mustar cu miere 25ml.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-muitar-cu-miere.png",
+            imageUrl: "/burgerking/Sos muștar cu miere.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1522,7 +1522,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos curry",
             description: "Sos curry 25ml.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-curry.png",
+            imageUrl: "/burgerking/Sos curry.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1537,7 +1537,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos Chipotle Ranch",
             description: "Sos Chipotle Ranch",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-chipotle-ranch.png",
+            imageUrl: "/burgerking/Sos Chipotle Ranch.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1552,7 +1552,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos dulce-acripr",
             description: "Sos dulce-acrisor 25ml.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-dulce-acripr.png",
+            imageUrl: "/burgerking/Sos dulce-acrișor.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1567,7 +1567,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos extra mayonnaise",
             description: "Sos extra mayonnaise 10ml.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-extra-mayonnaise.png",
+            imageUrl: "/burgerking/Sos extra mayonnaise.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1582,7 +1582,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Sos extra ketchup",
             description: "Sos extra ketchup 10ml.",
             category: "Cartofi și sosuri",
-            imageUrl: "/burgerking/bk-sos-extra-ketchup.png",
+            imageUrl: "/burgerking/Sos extra ketchup.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1597,7 +1597,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Churros 20 pcs.",
             description: "Try the unique churros with your choice of topping, chocolate , caramel or raspberry. Crunchy on the outside and delicious on the inside - they are irresistible.",
             category: "Deserturi",
-            imageUrl: "/burgerking/bk-churros-20-pcs.png",
+            imageUrl: "/burgerking/Churros 20 pcs..webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1612,7 +1612,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Espresso Shake 0.3L",
             description: "Un shake cremos cu aromă intensă de espresso imbinata armonios cu gustul inconfundabil de vanilie . Pentru un plus de savoare, adauga extra topping de caramel sau vanilie!",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-espresso-shake-0-3l.png",
+            imageUrl: "/burgerking/Espresso Shake 0.3L.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1627,7 +1627,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Choco Shake O,3L",
             description: "BK Choco Shake.",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-choco-shake-o-3l.png",
+            imageUrl: "/burgerking/Choco Shake 0,3L.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1642,7 +1642,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Caramel Shake O,3L",
             description: "BK Caramel Shake.",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-caramel-shake-o-3l.png",
+            imageUrl: "/burgerking/Caramel Shake 0,3L.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1657,7 +1657,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Pepsi 0,33l",
             description: "Pepsi 0,33l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-pepsi-0-331.png",
+            imageUrl: "/burgerking/Pepsi 0,33l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1672,7 +1672,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Pepsi Max 0,33l",
             description: "Pepsi Max 0,33l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-pepsi-max-0-331.png",
+            imageUrl: "/burgerking/Pepsi Max 0,33l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1687,7 +1687,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Pepsi Twist 0,33l",
             description: "Pepsi Twist 0,33l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-pepsi-twist-0-331.png",
+            imageUrl: "/burgerking/Pepsi Twist 0,33l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1702,7 +1702,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "7Up 0,33l",
             description: "0,33l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-7up-0331.png",
+            imageUrl: "/burgerking/7Up 0,33l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1717,7 +1717,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Mirinda Orange 0,33l",
             description: "Mirinda Orange 0,33l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-mirinda-orange-0-331.png",
+            imageUrl: "/burgerking/Mirinda Orange 0,33l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1732,7 +1732,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Lipton IceTea lămâie 0,5l",
             description: "Lipton IceTea lămâie 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-lipton-icetea-l-m-ie-0-51.png",
+            imageUrl: "/burgerking/Lipton IceTea lămâie 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1747,7 +1747,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Lipton IceTea piersică 0,5l",
             description: "Lipton IceTea piersică 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-lipton-icetea-piersic-0-51.png",
+            imageUrl: "/burgerking/Lipton IceTea piersică 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1762,7 +1762,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Lipton IceTea green original 0,5l",
             description: "Lipton IceTea green original 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-lipton-icetea-green-original-0-51.png",
+            imageUrl: "/burgerking/Lipton IceTea green original 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1777,7 +1777,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Prigat Portocală 0,5l",
             description: "Prigat Portocală 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-prigat-portocal-0-51.png",
+            imageUrl: "/burgerking/Prigat Portocală 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1792,7 +1792,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Prigat Piersică 0,5l",
             description: "Prigat Piersică 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-prigat-piersic-0-51.png",
+            imageUrl: "/burgerking/Prigat Piersică 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1807,7 +1807,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Apă plată Aqua Carpatica 0,5l",
             description: "Apă plată Aqua Carpatica 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-ap-plat-aqua-carpatica-0-51.png",
+            imageUrl: "/burgerking/Apă plată Aqua Carpatica 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
@@ -1822,7 +1822,7 @@ export const RESTAURANTS: Restaurant[] = [
             name: "Apă minerală Aqua Carpatica 0,5l",
             description: "Apă minerală Aqua Carpatica 0,5l",
             category: "Băuturi",
-            imageUrl: "/burgerking/bk-ap-mineral-aqua-carpatica-0-51.png",
+            imageUrl: "/burgerking/Apă minerală Aqua Carpatica 0,5l.webp",
             prices: [
                   {
                         platform: "glovo",
