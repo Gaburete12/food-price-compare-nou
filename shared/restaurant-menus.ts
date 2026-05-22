@@ -325,7 +325,12 @@ function getMcDonaldsImage(name: string, originalImage: string): string {
     return MCDONALDS_IMAGE_MAP[name];
   }
 
-  // 2. Fallback to scrape image if valid
+  // 2. If the original image is a local path (starts with /), return it directly!
+  if (originalImage && originalImage.startsWith("/")) {
+    return originalImage;
+  }
+
+  // 3. Fallback to scrape image if valid
   if (originalImage && originalImage.trim() !== "" && !originalImage.includes("placeholder") && originalImage.startsWith("http")) {
     return originalImage;
   }
