@@ -1834,6 +1834,58 @@ export const RESTAURANTS: Restaurant[] = [
       }
 ]
   },
+  {
+    id: "sabroso-constanta",
+    name: "Sabroso",
+    category: "Mixt",
+    city: "Constanța",
+    address: "Bulevardul Alexandru Lăpușneanu 194, Constanța",
+    rating: 4.6,
+    reviewCount: 1420,
+    imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 0.00,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 1.99,
+        serviceFeeMax: 9.99,
+        smallOrderFee: 5.99,
+        smallOrderThreshold: 40.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 30,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/sabrosso"
+      },
+      {
+        platform: "bolt",
+        available: true,
+        deliveryFee: 0.00,
+        serviceFee: 3.00,
+        smallOrderFee: 0.00,
+        smallOrderThreshold: 40.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 25,
+        deepLink: "https://food.bolt.eu/ro-ro/462-constanta/p/55329-sabroso/"
+      },
+      {
+        platform: "wolt",
+        available: true,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        serviceFeePercent: 0.07,
+        serviceFeeMin: 2.49,
+        serviceFeeMax: 7.99,
+        smallOrderFee: 0.00,
+        smallOrderThreshold: 35.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 30,
+        deepLink: "https://wolt.com/ro/rou/constanta/restaurant/sabroso-67dac2825416f96b8fd40493"
+      }
+    ],
+    menu: []
+  },
   { id: "dabo-doner-constanta",
     name: "DAbo Doner",
     category: "Doner & Kebab",

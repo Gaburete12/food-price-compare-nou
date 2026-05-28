@@ -72,7 +72,8 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
       { id: "kfc-ct-1", url: "https://glovoapp.com/ro/ro/constanta/stores/kfc-cta" },
       { id: "pizza-hut-ct-1", url: "https://glovoapp.com/ro/ro/constanta/stores/pizza-hut-ct" },
       { id: "dabo-doner-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/dabo-doner-cta" },
-      { id: "burgerking-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta" }
+      { id: "burgerking-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/burger-king-cta" },
+      { id: "sabroso-constanta", url: "https://glovoapp.com/ro/ro/constanta/stores/sabrosso" }
     ];
 
     for (const rest of restaurantsToScrape) {

@@ -86,7 +86,8 @@ async function startServer() {
         "pizza-hut-ct-1", 
         "mcdonalds-constanta", 
         "dabo-doner-constanta",
-        "burgerking-constanta"
+        "burgerking-constanta",
+        "sabroso-constanta"
       ];
       
       for (const restId of restaurantIds) {
