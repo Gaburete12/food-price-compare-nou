@@ -43,6 +43,7 @@ export default function AdminPanel() {
   const [dataset, setDataset] = useState<DeliveryFeeDataset | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [extracting, setExtracting] = useState(false);
 
   // Load data
   useEffect(() => {
@@ -112,10 +113,10 @@ export default function AdminPanel() {
       });
 
       if (!res.ok) throw new Error("Salvare eșuată");
-      
+
       const updatedData = await res.json();
       toast.success("Taxele și modificările au fost salvate cu succes pe server!");
-      
+
       // Update local state with normalized server state
       setDataset({
         updatedAt: updatedData.updatedAt,
@@ -128,6 +129,27 @@ export default function AdminPanel() {
       toast.error("Eroare la salvare: " + error.message);
     } finally {
       setSaving(false);
+    }
+  };
+
+  const handleExtractSabrosoMenu = async () => {
+    setExtracting(true);
+    try {
+      const res = await fetch("/api/admin/extract-sabroso-menu", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" }
+      });
+
+      if (!res.ok) throw new Error("Extragere eșuată");
+
+      const data = await res.json();
+      toast.success(`Meniu Sabroso extras cu succes! ${data.itemCount} produse`);
+      console.log("Meniu extras:", data);
+    } catch (error: any) {
+      console.error(error);
+      toast.error("Eroare la extragere: " + error.message);
+    } finally {
+      setExtracting(false);
     }
   };
 
@@ -216,6 +238,15 @@ export default function AdminPanel() {
           </div>
           
           <div className="flex items-center gap-3">
+            <Button
+              onClick={handleExtractSabrosoMenu}
+              disabled={extracting || loading}
+              variant="outline"
+              className="border-orange-200 hover:bg-orange-50 text-orange-700 font-medium px-4 shadow-sm flex items-center gap-2 transition-all active:scale-95"
+            >
+              {extracting ? <RefreshCw className="w-4 h-4 animate-spin" /> : <CheckCircle className="w-4 h-4" />}
+              {extracting ? "Se extrage..." : "Extrage Meniu Sabroso"}
+            </Button>
             <Button
               onClick={handleSave}
               disabled={saving || loading}
