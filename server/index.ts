@@ -312,6 +312,8 @@ async function startServer() {
         const items: any[] = [];
         const productElements = Array.from(document.querySelectorAll('[data-test-id="MenuItem"], [class*="MenuItem"], [class*="ProductItem"], .product-card, .item-card'));
 
+        console.log(`Found ${productElements.length} product elements`);
+
         productElements.forEach(card => {
           const nameEl = card.querySelector('[data-test-id="MenuItemName"], h3, h4, [class*="name"], [class*="title"]');
           let name = nameEl ? nameEl.textContent?.trim() || "" : "";
@@ -396,7 +398,11 @@ async function startServer() {
         success: true,
         itemCount: menuItems.length,
         categories: [...new Set(menuItems.map((i: any) => i.category))],
-        sampleItems: menuItems.slice(0, 3)
+        sampleItems: menuItems.slice(0, 3),
+        debug: {
+          elementsFound: menuItems.length > 0 ? "OK" : "No elements found",
+          url: sabrosoUrl
+        }
       });
 
     } catch (e) {
