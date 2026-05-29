@@ -3,6 +3,7 @@ import { BrowserContext } from "playwright";
 export async function scrapeWolt(context: BrowserContext, address: string) {
   const page = await context.newPage();
   const fees: Record<string, any> = {};
+  const menus: Record<string, any[]> = {};
 
   try {
     await page.goto("https://wolt.com/ro/rou/constanta/", { waitUntil: 'domcontentloaded' });
@@ -70,6 +71,91 @@ export async function scrapeWolt(context: BrowserContext, address: string) {
           }
         };
 
+        // --- Extragere Meniu ---
+        console.log(`Începem extragerea meniului pentru ${rest.id} de pe Wolt...`);
+
+        // Scroll pentru a încărca produsele lazy-loaded
+        await page.evaluate(async () => {
+          for(let i = 0; i < 10; i++) {
+             window.scrollBy(0, 800);
+             await new Promise(r => setTimeout(r, 600));
+          }
+        });
+
+        const menuItems = await page.evaluate((url) => {
+          const items: any[] = [];
+          // Wolt folosește data-test-id pentru produse
+          const productElements = Array.from(document.querySelectorAll('[data-test-id="MenuItem"], [class*="MenuItem"], [class*="ProductItem"], .product-card, .item-card'));
+
+          console.log(`Wolt: Found ${productElements.length} product elements`);
+
+          productElements.forEach(card => {
+            // Numele produsului
+            const nameEl = card.querySelector('[data-test-id="MenuItemName"], h3, h4, [class*="name"], [class*="title"]');
+            let name = nameEl ? nameEl.textContent?.trim() || "" : "";
+
+            // Prețul produsului
+            const priceEl = card.querySelector('[data-test-id="MenuItemPrice"], [class*="price"], .price');
+            const priceText = priceEl ? priceEl.textContent?.trim() || "" : "";
+            const priceMatch = priceText.match(/([\d,]+)/);
+            const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
+
+            // Descrierea
+            const descEl = card.querySelector('[data-test-id="MenuItemDescription"], [class*="description"], p');
+            const description = descEl ? descEl.textContent?.trim() || "" : "";
+
+            // Imaginea
+            const imgEl = card.querySelector('img');
+            const imageUrl = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || "") : "";
+
+            // Categoria
+            let category = "Meniu";
+            let parent = card.parentElement;
+            let depth = 0;
+            while(parent && depth < 8) {
+              const heading = parent.querySelector('h2, h3, [class*="category"], [class*="Category"]');
+              if (heading && heading.textContent) {
+                category = heading.textContent.trim();
+                break;
+              }
+              parent = parent.parentElement;
+              depth++;
+            }
+
+            if (name && price > 0 && name.length < 100) {
+              const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+              items.push({
+                id,
+                name,
+                description,
+                category,
+                imageUrl,
+                prices: [{
+                  platform: "wolt",
+                  available: true,
+                  price: price,
+                  deepLink: url
+                }]
+              });
+            }
+          });
+
+          // Eliminăm duplicatele după id
+          const uniqueItems: any[] = [];
+          const seenIds = new Set();
+          for (const item of items) {
+            if (!seenIds.has(item.id)) {
+              seenIds.add(item.id);
+              uniqueItems.push(item);
+            }
+          }
+
+          return uniqueItems;
+        }, rest.url);
+
+        console.log(`Au fost extrase ${menuItems.length} produse pentru ${rest.id} de pe Wolt.`);
+        menus[rest.id] = menuItems;
+
       } catch (e) {
         console.error(`Eroare scraping Wolt pentru ${rest.id}:`, e);
       }
@@ -79,5 +165,5 @@ export async function scrapeWolt(context: BrowserContext, address: string) {
     await page.close();
   }
 
-  return fees;
+  return { fees, menus };
 }

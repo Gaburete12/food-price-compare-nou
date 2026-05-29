@@ -27,28 +27,28 @@ export async function runScrapers(address: string) {
     });
 
     console.log("-> Începem scraping pe Wolt...");
-    const woltFees = await scrapeWolt(context, address).catch(e => {
+    const woltData = await scrapeWolt(context, address).catch(e => {
       console.error("Eroare la Wolt:", e.message);
-      return {};
+      return { fees: {}, menus: {} };
     });
 
     console.log("-> Începem scraping pe Bolt Food...");
-    const boltFees = await scrapeBolt(context, address).catch(e => {
+    const boltData = await scrapeBolt(context, address).catch(e => {
       console.error("Eroare la Bolt:", e.message);
-      return {};
+      return { fees: {}, menus: {} };
     });
 
     console.log("Scraping finalizat cu succes.");
     return {
       fees: {
         glovo: glovoData.fees,
-        wolt: woltFees,
-        bolt: boltFees
+        wolt: woltData.fees,
+        bolt: boltData.fees
       },
       menus: {
         glovo: glovoData.menus || {},
-        wolt: {},
-        bolt: {}
+        wolt: woltData.menus || {},
+        bolt: boltData.menus || {}
       }
     };
   } finally {

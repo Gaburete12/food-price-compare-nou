@@ -3,6 +3,7 @@ import { BrowserContext } from "playwright";
 export async function scrapeBolt(context: BrowserContext, address: string) {
   const page = await context.newPage();
   const fees: Record<string, any> = {};
+  const menus: Record<string, any[]> = {};
 
   try {
     console.log("Navigăm pe pagina principală Bolt Food Constanța...");
@@ -62,7 +63,7 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
       console.log(`Deschidem pagina restaurantului Bolt: ${rest.id}`);
       // Folosim o pagină nouă izolată per restaurant pentru a evita cumularea coșului de cumpărături
       const restPage = await context.newPage();
-      
+
       try {
         await restPage.goto(rest.url, { waitUntil: 'domcontentloaded' });
         await restPage.waitForTimeout(3000);
@@ -131,6 +132,91 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
         };
         console.log(`Bolt Fees extrase pentru ${rest.id}:`, fees[rest.id]);
 
+        // --- Extragere Meniu ---
+        console.log(`Începem extragerea meniului pentru ${rest.id} de pe Bolt...`);
+
+        // Scroll pentru a încărca produsele lazy-loaded
+        await restPage.evaluate(async () => {
+          for(let i = 0; i < 10; i++) {
+             window.scrollBy(0, 800);
+             await new Promise(r => setTimeout(r, 600));
+          }
+        });
+
+        const menuItems = await restPage.evaluate((url) => {
+          const items: any[] = [];
+          // Bolt Food folosește structuri de produse în carduri
+          const productElements = Array.from(document.querySelectorAll('[class*="MenuItem"], [class*="ProductItem"], [class*="menu-item"], .product-card, .item-card'));
+
+          console.log(`Bolt: Found ${productElements.length} product elements`);
+
+          productElements.forEach(card => {
+            // Numele produsului
+            const nameEl = card.querySelector('h3, h4, [class*="name"], [class*="title"], [class*="Name"], [class*="Title"]');
+            let name = nameEl ? nameEl.textContent?.trim() || "" : "";
+
+            // Prețul produsului
+            const priceEl = card.querySelector('[class*="price"], [class*="Price"], .price, span:has-text("RON")');
+            const priceText = priceEl ? priceEl.textContent?.trim() || "" : "";
+            const priceMatch = priceText.match(/([\d,]+)/);
+            const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
+
+            // Descrierea
+            const descEl = card.querySelector('[class*="description"], [class*="Description"], p');
+            const description = descEl ? descEl.textContent?.trim() || "" : "";
+
+            // Imaginea
+            const imgEl = card.querySelector('img');
+            const imageUrl = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || "") : "";
+
+            // Categoria
+            let category = "Meniu";
+            let parent = card.parentElement;
+            let depth = 0;
+            while(parent && depth < 8) {
+              const heading = parent.querySelector('h2, h3, [class*="category"], [class*="Category"]');
+              if (heading && heading.textContent) {
+                category = heading.textContent.trim();
+                break;
+              }
+              parent = parent.parentElement;
+              depth++;
+            }
+
+            if (name && price > 0 && name.length < 100) {
+              const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+              items.push({
+                id,
+                name,
+                description,
+                category,
+                imageUrl,
+                prices: [{
+                  platform: "bolt",
+                  available: true,
+                  price: price,
+                  deepLink: url
+                }]
+              });
+            }
+          });
+
+          // Eliminăm duplicatele după id
+          const uniqueItems: any[] = [];
+          const seenIds = new Set();
+          for (const item of items) {
+            if (!seenIds.has(item.id)) {
+              seenIds.add(item.id);
+              uniqueItems.push(item);
+            }
+          }
+
+          return uniqueItems;
+        }, rest.url);
+
+        console.log(`Au fost extrase ${menuItems.length} produse pentru ${rest.id} de pe Bolt.`);
+        menus[rest.id] = menuItems;
+
       } catch (e) {
         console.error(`Eroare scraping Bolt pentru ${rest.id}:`, e);
       } finally {
@@ -142,5 +228,5 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
     await page.close(); // Închidem pagina principală de geolocalizare
   }
 
-  return fees;
+  return { fees, menus };
 }
