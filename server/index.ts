@@ -1,4 +1,4 @@
-import express from "express";
+import express, { Router } from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -11,6 +11,7 @@ import {
 } from "./deliveryFeeStore";
 import { readRestaurantMenusDataset } from "./restaurantMenuStore";
 import { runScrapers } from "../scripts/scraper/index.js";
+import { setupProductRoutes } from "./productRoutes";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -142,69 +143,7 @@ async function startServer() {
             );
             if (cleanItems.length > 0) {
               updatedMenus[restId] = cleanItems;
-              console.log(`[Sync] Saved scraped Glovo menu for ${restId} (${cleanItems.length} products)`);
-            }
-          }
-        }
-      }
-
-      // Salvăm toate meniurile returnate de Bolt pentru restaurantele configurate
-      if (scrapedData.menus.bolt) {
-        for (const [restId, items] of Object.entries(scrapedData.menus.bolt)) {
-          if (Array.isArray(items) && items.length > 0) {
-            // Dacă există deja meniu de la Glovo, îmbinăm prețurile pe aceleași produse
-            if (updatedMenus[restId]) {
-              updatedMenus[restId] = updatedMenus[restId].map((existingItem) => {
-                const boltItem = items.find((b) => b.id === existingItem.id);
-                if (boltItem && boltItem.prices && boltItem.prices.length > 0) {
-                  // Adăugăm prețul Bolt la lista de prețuri existentă
-                  const existingPrices = existingItem.prices || [];
-                  const boltPrice = boltItem.prices.find((p) => p.platform === "bolt");
-                  if (boltPrice && !existingPrices.find((p) => p.platform === "bolt")) {
-                    return {
-                      ...existingItem,
-                      prices: [...existingPrices, boltPrice]
-                    };
-                  }
-                }
-                return existingItem;
-              });
-              console.log(`[Sync] Merged Bolt prices for ${restId}`);
-            } else {
-              // Dacă nu există meniu de la Glovo, salvăm meniul Bolt ca sursă principală
-              updatedMenus[restId] = items;
-              console.log(`[Sync] Saved scraped Bolt menu for ${restId} (${items.length} products)`);
-            }
-          }
-        }
-      }
-
-      // Salvăm toate meniurile returnate de Wolt pentru restaurantele configurate
-      if (scrapedData.menus.wolt) {
-        for (const [restId, items] of Object.entries(scrapedData.menus.wolt)) {
-          if (Array.isArray(items) && items.length > 0) {
-            // Dacă există deja meniu, îmbinăm prețurile pe aceleași produse
-            if (updatedMenus[restId]) {
-              updatedMenus[restId] = updatedMenus[restId].map((existingItem) => {
-                const woltItem = items.find((w) => w.id === existingItem.id);
-                if (woltItem && woltItem.prices && woltItem.prices.length > 0) {
-                  // Adăugăm prețul Wolt la lista de prețuri existentă
-                  const existingPrices = existingItem.prices || [];
-                  const woltPrice = woltItem.prices.find((p) => p.platform === "wolt");
-                  if (woltPrice && !existingPrices.find((p) => p.platform === "wolt")) {
-                    return {
-                      ...existingItem,
-                      prices: [...existingPrices, woltPrice]
-                    };
-                  }
-                }
-                return existingItem;
-              });
-              console.log(`[Sync] Merged Wolt prices for ${restId}`);
-            } else {
-              // Dacă nu există meniu, salvăm meniul Wolt ca sursă principală
-              updatedMenus[restId] = items;
-              console.log(`[Sync] Saved scraped Wolt menu for ${restId} (${items.length} products)`);
+              console.log(`[Sync] Saved scraped menu for ${restId} (${cleanItems.length} products)`);
             }
           }
         }
@@ -212,7 +151,7 @@ async function startServer() {
 
       const menusDatasetToSave = {
         updatedAt: new Date().toISOString(),
-        source: "playwright-scraper-multi-platform",
+        source: "playwright-scraper-glovo",
         menus: updatedMenus
       };
 
@@ -266,150 +205,10 @@ async function startServer() {
     }
   });
 
-  // Endpoint temporar pentru extragerea meniului Sabroso
-  app.post("/api/admin/extract-sabroso-menu", async (req, res) => {
-    try {
-      console.log("Începem extragerea meniului Sabroso...");
-      const { chromium } = await import("playwright");
-      const sabrosoUrl = "https://glovoapp.com/ro/ro/constanta/stores/sabrosso";
-
-      const browser = await chromium.launch({
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-      });
-
-      const context = await browser.newContext({
-        userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        viewport: { width: 1280, height: 720 },
-        geolocation: { longitude: 28.6348, latitude: 44.1792 },
-        permissions: ['geolocation']
-      });
-
-      const page = await context.newPage();
-      await page.goto(sabrosoUrl, { waitUntil: 'domcontentloaded' });
-      await page.waitForTimeout(3000);
-
-      // Acceptăm cookies
-      try {
-        const cookieButton = page.locator('button').filter({ hasText: /accept/i }).first();
-        if (await cookieButton.isVisible({ timeout: 2000 })) {
-          await cookieButton.click();
-          await page.waitForTimeout(1000);
-        }
-      } catch (e) {
-        console.log("Nu am găsit banner cookies");
-      }
-
-      // Scroll pentru a încărca produsele
-      await page.evaluate(async () => {
-        for(let i = 0; i < 15; i++) {
-           window.scrollBy(0, 800);
-           await new Promise(r => setTimeout(r, 600));
-        }
-      });
-
-      const menuItems = await page.evaluate(() => {
-        const items: any[] = [];
-        const productElements = Array.from(document.querySelectorAll('[data-test-id="MenuItem"], [class*="MenuItem"], [class*="ProductItem"], .product-card, .item-card'));
-
-        console.log(`Found ${productElements.length} product elements`);
-
-        productElements.forEach(card => {
-          const nameEl = card.querySelector('[data-test-id="MenuItemName"], h3, h4, [class*="name"], [class*="title"]');
-          let name = nameEl ? nameEl.textContent?.trim() || "" : "";
-
-          const priceEl = card.querySelector('[data-test-id="MenuItemPrice"], [class*="price"], .price');
-          const priceText = priceEl ? priceEl.textContent?.trim() || "" : "";
-          const priceMatch = priceText.match(/([\d,]+)/);
-          const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
-
-          const descEl = card.querySelector('[data-test-id="MenuItemDescription"], [class*="description"], p');
-          const description = descEl ? descEl.textContent?.trim() || "" : "";
-
-          const imgEl = card.querySelector('img');
-          const imageUrl = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || "") : "";
-
-          let category = "Meniu";
-          let parent = card.parentElement;
-          let depth = 0;
-          while(parent && depth < 8) {
-            const heading = parent.querySelector('h2, h3, [class*="category"], [class*="Category"]');
-            if (heading && heading.textContent) {
-              category = heading.textContent.trim();
-              break;
-            }
-            parent = parent.parentElement;
-            depth++;
-          }
-
-          if (name && price > 0 && name.length < 100) {
-            const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-            items.push({
-              id,
-              name,
-              description,
-              category,
-              imageUrl,
-              prices: [{
-                platform: "glovo",
-                available: true,
-                price: price,
-                deepLink: sabrosoUrl
-              }]
-            });
-          }
-        });
-
-        const uniqueItems: any[] = [];
-        const seenIds = new Set();
-        for (const item of items) {
-          if (!seenIds.has(item.id)) {
-            seenIds.add(item.id);
-            uniqueItems.push(item);
-          }
-        }
-
-        return uniqueItems;
-      });
-
-      await browser.close();
-
-      // Adăugăm meniul în baza de date
-      const existingMenusDataset = await readRestaurantMenusDataset();
-      const updatedMenus = { ...existingMenusDataset.menus };
-      updatedMenus["sabroso-constanta"] = menuItems;
-
-      const menusDatasetToSave = {
-        updatedAt: new Date().toISOString(),
-        source: "manual-sabroso-extraction",
-        menus: updatedMenus
-      };
-
-      const fs = await import("node:fs/promises");
-      const path = await import("node:path");
-      await fs.writeFile(
-        path.resolve(process.cwd(), "data", "restaurant-menus.json"),
-        JSON.stringify(menusDatasetToSave, null, 2),
-        "utf8"
-      );
-
-      console.log(`Meniu Sabroso extras și salvat: ${menuItems.length} produse`);
-      res.json({
-        success: true,
-        itemCount: menuItems.length,
-        categories: [...new Set(menuItems.map((i: any) => i.category))],
-        sampleItems: menuItems.slice(0, 3),
-        debug: {
-          elementsFound: menuItems.length > 0 ? "OK" : "No elements found",
-          url: sabrosoUrl
-        }
-      });
-
-    } catch (e) {
-      console.error("Error extracting Sabroso menu:", e);
-      res.status(500).json({ error: "Failed to extract Sabroso menu", details: (e as any).message });
-    }
-  });
+  // Setup product search routes
+  const productRouter = Router();
+  setupProductRoutes(productRouter);
+  app.use(productRouter);
 
   // Handle client-side routing - serve index.html for all routes
   app.get("*", (_req, res) => {

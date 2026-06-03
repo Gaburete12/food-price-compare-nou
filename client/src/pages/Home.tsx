@@ -14,6 +14,8 @@ import { RestaurantCard } from "@/components/restaurant/RestaurantCard";
 import { PlatformCard } from "@/components/restaurant/PlatformCard";
 import { MenuSection } from "@/components/restaurant/MenuSection";
 import { ComparisonModal } from "@/components/restaurant/ComparisonModal";
+import { ProductSearch } from "@/components/ProductSearch";
+import { useProductSearch } from "@/hooks/useProductSearch";
 
 export default function Home() {
   const [restaurants, setRestaurants] = useState<Restaurant[]>(RESTAURANTS);
@@ -26,6 +28,9 @@ export default function Home() {
   const [isSyncing, setIsSyncing] = useState(false);
   const [lastSyncTime, setLastSyncTime] = useState<string | null>(null);
   const [selectedMenuItem, setSelectedMenuItem] = useState<MenuItem | null>(null);
+
+  // Product search hook
+  const { results: productResults, isLoading: isSearchingProducts, search: searchProducts } = useProductSearch();
 
   const syncFeesLive = async () => {
     if (!selectedRestaurant) return;
@@ -126,6 +131,32 @@ export default function Home() {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* Product Search Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mb-12 pt-8"
+        >
+          <h2 className="text-2xl font-extrabold font-['Outfit'] mb-6 text-foreground">
+            🔍 Comparare de Prețuri
+          </h2>
+          <ProductSearch onSearch={searchProducts} />
+          
+          {productResults && productResults.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="mt-8"
+            >
+              <div className="bg-card/50 rounded-lg p-6 border border-border/50">
+                <p className="text-sm text-muted-foreground mb-4">
+                  Am găsit <span className="font-bold text-foreground">{productResults.length}</span> produse
+                </p>
+              </div>
+            </motion.div>
+          )}
+        </motion.section>
 
         <AnimatePresence mode="wait">
           {hasSearched && !selectedRestaurant && (
