@@ -13263,7 +13263,50 @@ export const RESTAURANTS: Restaurant[] = [
       { platform: "wolt", available: true, deliveryFee: 7.99, serviceFee: 0, deliveryTime: 25, deepLink: "https://wolt.com/ro/rou/brasov" },
     ],
   },
-  // ===== MCDONALD'S CONSTANTA =====,
+  // ===== CIN CIN CONSTAN?A =====
+  {
+    id: "cin-cin-constanta",
+    name: "Cin Cin Restaurant",
+    category: "Chinese",
+    city: "Constan?a",
+    address: "Strada ?tefan cel Mare, Constan?a",
+    rating: 4.6,
+    reviewCount: 340,
+    imageUrl: "https://via.placeholder.com/800?text=Cin+Cin",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 3.50,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 2.00,
+        serviceFeeMax: 8.00,
+        smallOrderFee: 5.00,
+        smallOrderThreshold: 60.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 35,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        platform: "bolt",
+        available: true,
+        deliveryFee: 2.99,
+        serviceFee: 3.00,
+        deliveryTime: 35,
+        deepLink: "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        platform: "wolt",
+        available: true,
+        deliveryFee: 4.00,
+        serviceFee: 2.00,
+        smallOrderFee: 3.00,
+        smallOrderThreshold: 50.0,
+        deliveryTime: 30,
+        deepLink: "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
 ];
 
 // ─── Funcții helper ───────────────────────────────────────────

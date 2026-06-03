@@ -94,5 +94,35 @@
         "available": true
       }
     }
+  },
+    "cin-cin-constanta": {
+       "glovo": {
+         "deliveryFee": 3.50,
+         "serviceFeePercent": 0.08,
+         "serviceFeeMin": 2.00,
+         "serviceFeeMax": 8.00,
+         "smallOrderFee": 5.00,
+         "smallOrderThreshold": 60.0,
+         "dynamicSmallOrderFee": true,
+         "deliveryTime": 35,
+         "available": true
+       },
+       "bolt": {
+         "deliveryFee": 2.99,
+         "serviceFee": 3.00,
+         "smallOrderFee": 0.0,
+         "smallOrderThreshold": 70.0,
+         "deliveryTime": 35,
+         "available": true
+       },
+       "wolt": {
+         "deliveryFee": 4.00,
+         "serviceFee": 2.00,
+         "smallOrderFee": 3.00,
+         "smallOrderThreshold": 50.0,
+         "deliveryTime": 30,
+         "available": true
+       }
+     }
   }
 }
