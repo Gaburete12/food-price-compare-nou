@@ -1,4 +1,5 @@
 import { useCallback, useState, useRef } from "react";
+import { useSearchCache } from "./useSearchCache";
 
 export interface UseProductSearchResult {
   results: any[];
@@ -8,7 +9,7 @@ export interface UseProductSearchResult {
 }
 
 /**
- * Hook pentru căutare de produse cu debounce
+ * Hook pentru căutare de produse cu debounce și caching
  * Comunică cu backend /api/products/search endpoint
  */
 export function useProductSearch(): UseProductSearchResult {
@@ -16,6 +17,7 @@ export function useProductSearch(): UseProductSearchResult {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const debounceTimer = useRef<NodeJS.Timeout>();
+  const { get: getCached, set: setCached } = useSearchCache<any[]>("productSearchCache");
 
   const search = useCallback((query: string) => {
     // Clear existing timer
@@ -27,6 +29,14 @@ export function useProductSearch(): UseProductSearchResult {
     if (!query.trim()) {
       setResults([]);
       setError(null);
+      return;
+    }
+
+    // Check cache first
+    const cached = getCached(query);
+    if (cached) {
+      setResults(cached);
+      setIsLoading(false);
       return;
     }
 
@@ -45,7 +55,11 @@ export function useProductSearch(): UseProductSearchResult {
         }
 
         const data = await response.json();
-        setResults(data.results || []);
+        const searchResults = data.results || [];
+        
+        // Cache the results
+        setCached(query, searchResults);
+        setResults(searchResults);
       } catch (err) {
         console.error("Search error:", err);
         setError(err instanceof Error ? err.message : "Unknown error");
@@ -54,7 +68,7 @@ export function useProductSearch(): UseProductSearchResult {
         setIsLoading(false);
       }
     }, 300);
-  }, []);
+  }, [getCached, setCached]);
 
   return { results, isLoading, search, error };
 }
