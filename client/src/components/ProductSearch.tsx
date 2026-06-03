@@ -7,8 +7,8 @@ import { Loader2, Search, ExternalLink } from "lucide-react";
 import type { ProductSearchResult } from "../shared/product-search";
 
 interface ProductSearchProps {
-  results: ProductSearchResult[];
-  isLoading: boolean;
+  results?: ProductSearchResult[];
+  isLoading?: boolean;
   onSearch: (query: string) => void;
 }
 
@@ -30,7 +30,7 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
     [onSearch]
   );
 
-  const filteredResults = useMemo(() => results.slice(0, 10), [results]);
+  const filteredResults = useMemo(() => (results || []).slice(0, 10), [results]);
 
   return (
     <div className="w-full space-y-4">

@@ -141,7 +141,11 @@ export default function Home() {
           <h2 className="text-2xl font-extrabold font-['Outfit'] mb-6 text-foreground">
             🔍 Comparare de Prețuri
           </h2>
-          <ProductSearch onSearch={searchProducts} />
+          <ProductSearch 
+            results={productResults} 
+            isLoading={isSearchingProducts} 
+            onSearch={searchProducts} 
+          />
           
           {productResults && productResults.length > 0 && (
             <motion.div
