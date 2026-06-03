@@ -13263,13 +13263,13 @@ export const RESTAURANTS: Restaurant[] = [
       { platform: "wolt", available: true, deliveryFee: 7.99, serviceFee: 0, deliveryTime: 25, deepLink: "https://wolt.com/ro/rou/brasov" },
     ],
   },
-  // ===== CIN CIN CONSTAN?A =====
+  // ===== CIN CIN CONSTANȚA =====
   {
     id: "cin-cin-constanta",
     name: "Cin Cin Restaurant",
     category: "Chinese",
-    city: "Constan?a",
-    address: "Strada ?tefan cel Mare, Constan?a",
+    city: "Constanța",
+    address: "Strada Ștefan cel Mare, Constanța",
     rating: 4.6,
     reviewCount: 340,
     imageUrl: "https://via.placeholder.com/800?text=Cin+Cin",
@@ -13306,7 +13306,25 @@ export const RESTAURANTS: Restaurant[] = [
         deliveryTime: 30,
         deepLink: "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
       }
+    ],
+    menu: [
+      { id: "cc-1", name: "Chow Mein cu Pui", description: "Tăieți cu sos de soia, pui, legume", category: "Mâncări Principale", imageUrl: "https://via.placeholder.com/320?text=Chow+Mein", prices: [{ platform: "glovo", available: true, price: 29.99, deepLink: "" }, { platform: "bolt", available: true, price: 28.50, deepLink: "" }, { platform: "wolt", available: true, price: 30.99, deepLink: "" }] },
+      { id: "cc-2", name: "Orez Prăjit cu Vită", description: "Orez prăjit cu ou, vită și legume", category: "Mâncări Principale", imageUrl: "https://via.placeholder.com/320?text=Fried+Rice", prices: [{ platform: "glovo", available: true, price: 28.99, deepLink: "" }, { platform: "bolt", available: true, price: 27.50, deepLink: "" }, { platform: "wolt", available: true, price: 29.99, deepLink: "" }] },
+      { id: "cc-3", name: "Ruladă Primăvară (6 buc)", description: "Rullade crocante cu legume și carne", category: "Aperitive", imageUrl: "https://via.placeholder.com/320?text=Spring+Rolls", prices: [{ platform: "glovo", available: true, price: 15.99, deepLink: "" }, { platform: "bolt", available: true, price: 15.50, deepLink: "" }, { platform: "wolt", available: true, price: 16.99, deepLink: "" }] },
+      { id: "cc-4", name: "Supă de Pui cu Usturoi", description: "Ciorba tradițională cu pui și usturoi", category: "Supe", imageUrl: "https://via.placeholder.com/320?text=Soup", prices: [{ platform: "glovo", available: true, price: 12.99, deepLink: "" }, { platform: "bolt", available: true, price: 12.50, deepLink: "" }, { platform: "wolt", available: true, price: 13.99, deepLink: "" }] },
+      { id: "cc-5", name: "Vită cu Sos de Stridii", description: "Vită prăjită cu sos de stridii și legume", category: "Mâncări Principale", imageUrl: "https://via.placeholder.com/320?text=Beef", prices: [{ platform: "glovo", available: true, price: 38.99, deepLink: "" }, { platform: "bolt", available: true, price: 37.50, deepLink: "" }, { platform: "wolt", available: true, price: 39.99, deepLink: "" }] },
+      { id: "cc-6", name: "Crevete Tempura", description: "Crevete în aluat ușor și crocant", category: "Aperitive", imageUrl: "https://via.placeholder.com/320?text=Shrimp", prices: [{ platform: "glovo", available: true, price: 32.99, deepLink: "" }, { platform: "bolt", available: true, price: 32.00, deepLink: "" }, { platform: "wolt", available: true, price: 34.00, deepLink: "" }] },
+      { id: "cc-7", name: "Rață Peking", description: "Rață crocantă servită cu lipie și sos dulce", category: "Specialități", imageUrl: "https://via.placeholder.com/320?text=Duck", prices: [{ platform: "glovo", available: true, price: 49.99, deepLink: "" }, { platform: "bolt", available: true, price: 48.50, deepLink: "" }, { platform: "wolt", available: true, price: 51.00, deepLink: "" }] },
+      { id: "cc-8", name: "Vită Mongolă", description: "Vită cu ceapă verde și sos dulce-picant", category: "Specialități", imageUrl: "https://via.placeholder.com/320?text=Mongolian", prices: [{ platform: "glovo", available: true, price: 42.99, deepLink: "" }, { platform: "bolt", available: true, price: 41.50, deepLink: "" }, { platform: "wolt", available: true, price: 44.00, deepLink: "" }] },
+      { id: "cc-9", name: "Mapo Tofu", description: "Tofu în sos picant tradițional", category: "Vegetariene", imageUrl: "https://via.placeholder.com/320?text=Tofu", prices: [{ platform: "glovo", available: true, price: 28.99, deepLink: "" }, { platform: "bolt", available: true, price: 27.99, deepLink: "" }, { platform: "wolt", available: true, price: 29.99, deepLink: "" }] },
+      { id: "cc-10", name: "Coca Cola 0.5L", description: "Băutură răcoritoare", category: "Băuturi", imageUrl: "https://via.placeholder.com/320?text=Coke", prices: [{ platform: "glovo", available: true, price: 6.99, deepLink: "" }, { platform: "bolt", available: true, price: 6.50, deepLink: "" }, { platform: "wolt", available: true, price: 7.00, deepLink: "" }] },
+      { id: "cc-11", name: "Noodle Crispy Pui", description: "Tăieți crocanti cu pui și legume în sos picant", category: "Mâncări Principale", imageUrl: "https://via.placeholder.com/320?text=Noodle", prices: [{ platform: "glovo", available: true, price: 26.99, deepLink: "" }, { platform: "bolt", available: true, price: 25.99, deepLink: "" }, { platform: "wolt", available: true, price: 27.99, deepLink: "" }] },
+      { id: "cc-12", name: "Pui cu Broccoli", description: "Piept de pui cu broccoli și sos de unt", category: "Mâncări Principale", imageUrl: "https://via.placeholder.com/320?text=Broccoli", prices: [{ platform: "glovo", available: true, price: 24.99, deepLink: "" }, { platform: "bolt", available: true, price: 24.00, deepLink: "" }, { platform: "wolt", available: true, price: 25.99, deepLink: "" }] },
+      { id: "cc-13", name: "Calamari Prăjiți", description: "Calamari crocanti cu sos dulce-acru", category: "Aperitive", imageUrl: "https://via.placeholder.com/320?text=Squid", prices: [{ platform: "glovo", available: true, price: 28.99, deepLink: "" }, { platform: "bolt", available: true, price: 28.00, deepLink: "" }, { platform: "wolt", available: true, price: 29.99, deepLink: "" }] },
+      { id: "cc-14", name: "Sushi Roll (6 buc)", description: "Mix de sushi cu pește și legume", category: "Aperitive", imageUrl: "https://via.placeholder.com/320?text=Sushi", prices: [{ platform: "glovo", available: true, price: 19.99, deepLink: "" }, { platform: "bolt", available: true, price: 19.50, deepLink: "" }, { platform: "wolt", available: true, price: 20.99, deepLink: "" }] },
+      { id: "cc-15", name: "Curry Pui Roșu", description: "Pui în sos curry roșu tradițional", category: "Specialități", imageUrl: "https://via.placeholder.com/320?text=Curry", prices: [{ platform: "glovo", available: true, price: 32.99, deepLink: "" }, { platform: "bolt", available: true, price: 32.00, deepLink: "" }, { platform: "wolt", available: true, price: 34.00, deepLink: "" }] }
     ]
+  }
 ];
 
 // ─── Funcții helper ───────────────────────────────────────────
