@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Loader2, Search, ExternalLink } from "lucide-react";
+import { Loader2, Search, ExternalLink, Filter } from "lucide-react";
 import type { ProductSearchResult } from "../shared/product-search";
 
 interface ProductSearchProps {
@@ -20,6 +20,11 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
   const [query, setQuery] = useState("");
   const [selectedProduct, setSelectedProduct] = useState<SelectedProduct | null>(null);
   const [showComparison, setShowComparison] = useState(false);
+  const [platforms, setPlatforms] = useState({
+    glovo: true,
+    bolt: true,
+    wolt: true,
+  });
 
   const handleSearch = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -30,7 +35,16 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
     [onSearch]
   );
 
-  const filteredResults = useMemo(() => (results || []).slice(0, 10), [results]);
+  const filteredResults = useMemo(() => {
+    const results_arr = results || [];
+    
+    // Filter by selected platforms
+    const platformFiltered = results_arr.filter((result) =>
+      result.prices.some((p) => platforms[p.platform as keyof typeof platforms] && p.available)
+    );
+
+    return platformFiltered.slice(0, 10);
+  }, [results, platforms]);
 
   return (
     <div className="w-full space-y-4">
@@ -47,6 +61,38 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
           <Loader2 className="absolute right-3 top-3 h-4 w-4 animate-spin text-muted-foreground" />
         )}
       </div>
+
+      {/* Platform Filters */}
+      {query && (
+        <div className="flex items-center gap-3 p-3 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700">
+          <Filter className="w-4 h-4 text-muted-foreground" />
+          <div className="flex gap-2 flex-wrap items-center">
+            <span className="text-sm font-medium text-muted-foreground">Platforme:</span>
+            {(["glovo", "bolt", "wolt"] as const).map((platform) => (
+              <button
+                key={platform}
+                onClick={() =>
+                  setPlatforms((prev) => ({
+                    ...prev,
+                    [platform]: !prev[platform],
+                  }))
+                }
+                className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
+                  platforms[platform]
+                    ? platform === "glovo"
+                      ? "bg-yellow-400 text-black"
+                      : platform === "bolt"
+                        ? "bg-green-500 text-white"
+                        : "bg-blue-500 text-white"
+                    : "bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 opacity-50"
+                }`}
+              >
+                {platform.charAt(0).toUpperCase() + platform.slice(1)}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Results List */}
       {query && filteredResults.length > 0 && (
