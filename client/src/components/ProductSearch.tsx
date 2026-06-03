@@ -1,9 +1,9 @@
-import React, { useState, useMemo, useCallback } from "react";
+import React, { useState, useMemo, useCallback, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Loader2, Search, ExternalLink, Filter } from "lucide-react";
+import { Loader2, Search, ExternalLink, Filter, Heart, ArrowUpDown, Clock } from "lucide-react";
 import type { ProductSearchResult } from "../shared/product-search";
 
 interface ProductSearchProps {
@@ -25,26 +25,70 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
     bolt: true,
     wolt: true,
   });
+  const [sortBy, setSortBy] = useState<"relevance" | "price-asc" | "price-desc">("relevance");
+  const [favorites, setFavorites] = useState<string[]>([]);
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [showRecent, setShowRecent] = useState(false);
+
+  // Load favorites and recent searches from localStorage
+  useEffect(() => {
+    const saved = localStorage.getItem("favorites");
+    if (saved) setFavorites(JSON.parse(saved));
+    
+    const recent = localStorage.getItem("recentSearches");
+    if (recent) setRecentSearches(JSON.parse(recent));
+  }, []);
+
+  // Save favorites to localStorage
+  const toggleFavorite = useCallback(
+    (productId: string) => {
+      setFavorites((prev) => {
+        const updated = prev.includes(productId)
+          ? prev.filter((id) => id !== productId)
+          : [...prev, productId];
+        localStorage.setItem("favorites", JSON.stringify(updated));
+        return updated;
+      });
+    },
+    []
+  );
 
   const handleSearch = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
       const value = e.target.value;
       setQuery(value);
       onSearch(value);
+
+      // Add to recent searches
+      if (value.trim()) {
+        setRecentSearches((prev) => {
+          const updated = [value, ...prev.filter((s) => s !== value)].slice(0, 5);
+          localStorage.setItem("recentSearches", JSON.stringify(updated));
+          return updated;
+        });
+      }
     },
     [onSearch]
   );
 
   const filteredResults = useMemo(() => {
-    const results_arr = results || [];
+    let results_arr = results || [];
     
     // Filter by selected platforms
     const platformFiltered = results_arr.filter((result) =>
       result.prices.some((p) => platforms[p.platform as keyof typeof platforms] && p.available)
     );
 
-    return platformFiltered.slice(0, 10);
-  }, [results, platforms]);
+    // Sort
+    let sorted = [...platformFiltered];
+    if (sortBy === "price-asc") {
+      sorted.sort((a, b) => a.cheapestOption.totalEstimated - b.cheapestOption.totalEstimated);
+    } else if (sortBy === "price-desc") {
+      sorted.sort((a, b) => b.cheapestOption.totalEstimated - a.cheapestOption.totalEstimated);
+    }
+
+    return sorted.slice(0, 10);
+  }, [results, platforms, sortBy]);
 
   return (
     <div className="w-full space-y-4">
@@ -91,6 +135,57 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
               </button>
             ))}
           </div>
+
+          {/* Sort Button */}
+          <div className="ml-auto flex gap-2">
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
+              className="px-3 py-1 rounded-lg text-sm bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 cursor-pointer hover:border-slate-300 dark:hover:border-slate-600"
+            >
+              <option value="relevance">📊 Relevanță</option>
+              <option value="price-asc">📈 Preț crescător</option>
+              <option value="price-desc">📉 Preț descrescător</option>
+            </select>
+          </div>
+        </div>
+      )}
+
+      {/* Recent Searches Dropdown */}
+      {!query && recentSearches.length > 0 && (
+        <div className="relative">
+          <button
+            onClick={() => setShowRecent(!showRecent)}
+            className="w-full flex items-center gap-2 p-3 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 transition-colors text-left"
+          >
+            <Clock className="w-4 h-4 text-muted-foreground" />
+            <span className="text-sm text-muted-foreground">Recent:</span>
+            <div className="flex gap-1 flex-wrap">
+              {recentSearches.slice(0, 3).map((search) => (
+                <Badge key={search} variant="secondary" className="text-xs">
+                  {search}
+                </Badge>
+              ))}
+            </div>
+          </button>
+          {showRecent && (
+            <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg shadow-lg z-50">
+              {recentSearches.map((search) => (
+                <button
+                  key={search}
+                  onClick={() => {
+                    setQuery(search);
+                    onSearch(search);
+                    setShowRecent(false);
+                  }}
+                  className="w-full text-left px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-700 text-sm transition-colors border-b last:border-b-0 border-slate-200 dark:border-slate-700"
+                >
+                  <Clock className="w-3 h-3 inline mr-2 text-muted-foreground" />
+                  {search}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       )}
 
@@ -121,7 +216,24 @@ export function ProductSearch({ results, isLoading, onSearch }: ProductSearchPro
                   }}
                 />
                 <div className="flex-1 min-w-0">
-                  <h4 className="font-semibold text-sm line-clamp-2">{result.name}</h4>
+                  <div className="flex items-start justify-between gap-2 mb-1">
+                    <h4 className="font-semibold text-sm line-clamp-2">{result.name}</h4>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleFavorite(result.id);
+                      }}
+                      className="flex-shrink-0 transition-colors"
+                    >
+                      <Heart
+                        className={`w-5 h-5 ${
+                          favorites.includes(result.id)
+                            ? "fill-red-500 text-red-500"
+                            : "text-muted-foreground hover:text-red-500"
+                        }`}
+                      />
+                    </button>
+                  </div>
                   <p className="text-xs text-muted-foreground line-clamp-1 mb-2">
                     {result.restaurant.name}
                   </p>
