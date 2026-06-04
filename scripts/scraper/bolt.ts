@@ -56,7 +56,8 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
       { id: "kfc-buc-1", url: "https://food.bolt.eu/ro-ro/462-constanta/p/135512-kfc-city-park-constanta/" },
       { id: "mcdonalds-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/97105-mcdonalds-tomis/" },
       { id: "dabo-doner-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/200293-dabo-doner-mircea-constanta/" },
-      { id: "sabroso-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/55329-sabroso/" }
+      { id: "sabroso-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/55329-sabroso/" },
+      { id: "cin-cin-constanta", url: "https://food.bolt.eu/ro/rou/constanta/cin-cin" }
     ];
 
     for (const rest of restaurantsToScrape) {
