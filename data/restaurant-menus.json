@@ -22022,7 +22022,7 @@
         "id": "cin-cin-1-chow-mein-pui",
         "name": "Chow Mein cu Pui",
         "description": "Taie?i cu sos de soia, pui, legume proaspete",
-        "category": "Mâncari Principale",
+        "category": "Mï¿½ncari Principale",
         "imageUrl": "https://via.placeholder.com/320?text=Chow+Mein",
         "prices": [
             { "platform": "glovo", "available": true, "price": 29.99, "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta" },
@@ -22034,7 +22034,7 @@
         "id": "cin-cin-1-fried-rice",
         "name": "Orez Prajit",
         "description": "Orez prajit cu ou, legume ?i carne la alegere",
-        "category": "Mâncari Principale",
+        "category": "Mï¿½ncari Principale",
         "imageUrl": "https://via.placeholder.com/320?text=Fried+Rice",
         "prices": [
             { "platform": "glovo", "available": true, "price": 25.99, "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta" },
@@ -22068,4 +22068,3 @@
     }
 ]
     }
-}
