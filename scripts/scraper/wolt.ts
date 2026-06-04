@@ -14,7 +14,8 @@ export async function scrapeWolt(context: BrowserContext, address: string) {
       { id: "kfc-buc-1", url: "https://wolt.com/en/rou/constanta/restaurant/kfc-city-park-67ee912b0231e21086424409" },
       { id: "mcdonalds-constanta", url: "https://wolt.com/en/rou/constanta/restaurant/mcdonalds-tomis-67ed2703c86a467a0cecf401" },
       { id: "dabo-doner-constanta", url: "https://wolt.com/en/rou/constanta/restaurant/dabo-doner-mircea-constana-00a224" },
-      { id: "sabroso-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/sabroso-67dac2825416f96b8fd40493" }
+      { id: "sabroso-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/sabroso-67dac2825416f96b8fd40493" },
+      { id: "cin-cin-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/cin-cin" }
     ];
 
     for (const rest of restaurantsToScrape) {
