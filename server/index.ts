@@ -89,7 +89,8 @@ async function startServer() {
         "dabo-doner-constanta",
         "burgerking-constanta",
         "sabroso-constanta",
-        "cin-cin-constanta"
+        "cin-cin-constanta",
+        "splendid-chicken"
       ];
       
       for (const restId of restaurantIds) {

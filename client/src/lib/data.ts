@@ -13324,6 +13324,50 @@ export const RESTAURANTS: Restaurant[] = [
       { id: "cc-14", name: "Sushi Roll (6 buc)", description: "Mix de sushi cu pește și legume", category: "Aperitive", imageUrl: "https://via.placeholder.com/320?text=Sushi", prices: [{ platform: "glovo", available: true, price: 19.99, deepLink: "" }, { platform: "bolt", available: true, price: 19.50, deepLink: "" }, { platform: "wolt", available: true, price: 20.99, deepLink: "" }] },
       { id: "cc-15", name: "Curry Pui Roșu", description: "Pui în sos curry roșu tradițional", category: "Specialități", imageUrl: "https://via.placeholder.com/320?text=Curry", prices: [{ platform: "glovo", available: true, price: 32.99, deepLink: "" }, { platform: "bolt", available: true, price: 32.00, deepLink: "" }, { platform: "wolt", available: true, price: 34.00, deepLink: "" }] }
     ]
+  },
+  // ===== SPLENDID CHICKEN CONSTANȚA =====
+  {
+    id: "splendid-chicken",
+    name: "Splendid Chicken",
+    category: "Fast Food",
+    city: "Constanța",
+    address: "Strada Dispensarului nr. 18 / Strada Dezrobirii nr. 82, Constanța",
+    rating: 4.7,
+    reviewCount: 512,
+    imageUrl: "https://resizer.deliverect.com/j3TiK6weujFJWf2t-dDeXKlv3s5p_qo9pLco_RN-Vl0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMSUyMFNwaWN5JTIwV2luZyUyMDE1MDB4MTUwMC02OTZmNGYzNjhjMGMwNzNjZDA0OWE5ODkucG5n",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 4.49,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 2.00,
+        serviceFeeMax: 8.00,
+        smallOrderFee: 5.00,
+        smallOrderThreshold: 50.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 30,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+      },
+      {
+        platform: "bolt",
+        available: false,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        deliveryTime: 0,
+        deepLink: ""
+      },
+      {
+        platform: "wolt",
+        available: false,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        deliveryTime: 0,
+        deepLink: ""
+      }
+    ],
+    menu: []
   }
 ];
 

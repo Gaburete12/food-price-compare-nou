@@ -25690,6 +25690,3221 @@
           }
         ]
       }
+    ],
+    "splendid-chicken": [
+      {
+        "id": "splendid-chicken-promotii-spicy-chicken-wing",
+        "name": "Spicy Chicken Wing",
+        "description": "1 aripioara de pui proaspata (marinata dupa reteta prorpie - picant), prajita in ulei de arahide - 24g",
+        "category": "Promoții",
+        "imageUrl": "https://resizer.deliverect.com/j3TiK6weujFJWf2t-dDeXKlv3s5p_qo9pLco_RN-Vl0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMSUyMFNwaWN5JTIwV2luZyUyMDE1MDB4MTUwMC02OTZmNGYzNjhjMGMwNzNjZDA0OWE5ODkucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 5.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-promotii-meniu-beefy-toast",
+        "name": "Meniu Beefy Toast",
+        "description": "Beefy Toast (300g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "Promoții",
+        "imageUrl": "https://resizer.deliverect.com/xB9y9GWg_oxIyFex3JNYiaCtxd3hDzatTlnJLNm5OCc/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBCZWVmeSUyMFRvYXN0JTIwMTUwMHgxNTAwLTY4Y2U5NDI0YWI5MjY4ZGQ4MGQ2MjI4MC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 75.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-promotii-double-oklahoma-slider",
+        "name": "Double Oklahoma Slider ",
+        "description": "Două felii de carne smashed de vită Angus proaspătă și suculentă (2x50g), ceapă caramelizată (2x15g), patru felii cremoase de brânză topită Cheddar (4x12g), toate așezate într-o chiflă brioche caramelizată cu unt (45g) - 220g",
+        "category": "Promoții",
+        "imageUrl": "https://resizer.deliverect.com/sTusTHvRRvqju9mzVDUljoMcEtrrPuBipdF0Jt2UIx0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRG91YmxlJTIwT2tsYWhvbWElMjBPbmlvbiUyMFNsaWRlci02OWYwNDhiYTQ4MWFkYTljNDc1MWZlMmYucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 30.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-specials-glovo-family-bundle",
+        "name": "GLOVO FAMILY BUNDLE ",
+        "description": "3 Burgeri la alegere ( Jr Chicken Sandwich / Jr Hamburger) + 3 portii mici de cartofi + 6 Chicken Tenders (alege aroma de tenders) + 1 sos SuperSize la alegere",
+        "category": "SPECIALS",
+        "imageUrl": "https://resizer.deliverect.com/nbb93jB9CTB0LcHV3KvWXQ8PGY1Zv6SbuxmovunBuz8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR0xPVk8lMjBGQU1JTFklMjBCVU5ETEUtNjk4NWVjNzZhOTkxMTdmMjU2MzI5MDU1LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 134.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-specials-glovo-bundle",
+        "name": "GLOVO BUNDLE ",
+        "description": "2 Burgeri la alegere (Chicken Sandwich Deluxe / Cheeseburger) + 2 portii mici de cartofi + 2 French Toast",
+        "category": "SPECIALS",
+        "imageUrl": "https://resizer.deliverect.com/VrV24QxlFhpclrBvZ_D6vTln9-6rCv_-YhvuqEkazi4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR0xPVk8lMjBCVU5ETEUtNjk4NWVjNDcxOWQ0MmEyZWVmN2U2MDA0LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 99.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-greek-feta-smashed-burger",
+        "name": "Greek Feta Smashed Burger",
+        "description": "Doua felii de carne smashed de vita Angus proaspata si suculenta (2x60g), salata proaspata din ardei copt, ceapa rosie, patrunjel (40g), spread cremos de maioneza cu usturoi si branza feta (40g), toate asezate intr-o chifla brioche caramelizata cu unt (75g) - 275g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/aZrmAmU2nNXNPEEE1YTE9egSnrqAWrYeWuF0Rh42x6A/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR3JlZWslMjBGZXRhJTIwU21hc2hlZCUyMEJ1cmdlci02YTE3ZTBjZmNjZGQyZmM0MjAyZDYwZTkucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 57.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-greek-feta-chicken-sandwich",
+        "name": "Greek Feta Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (100g), salata proaspata din ardei copt, ceapa rosie, patrunjel (40g), spread cremos de maioneza cu usturoi si branza feta (40g), toate asezate intr-o chifla brioche caramelizata cu unt (75g) - 255g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/_0zDJshkH_Q5XG0Uzpcaaz6x02JnWi3zBkUagbsjY80/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR3JlZWslMjBGZXRhJTIwQ2hpY2tlbiUyMFNhbmR3aWNoLTZhMTdkZmJhY2NkZDJmYzQyMDJkNjBlMy5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 40.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-greek-feta-loaded-fries",
+        "name": "Greek Feta Loaded Fries ",
+        "description": "Cartofi proaspeti in coaja, prajiti in ulei de arahide, condimentati cu cajun (150g), salata proaspata din ardei copt, ceapa rosie, patrunjel (40g), spread cremos de maioneza cu usturoi si branza feta (40g), oregano - 230g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/d-MPsSL9T_PrpiklM4JdLXfQ-JUwhKzzyCoN7DFQjko/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR3JlZWslMjBGZXRhJTIwTG9hZGVkJTIwZnJpZXMtNmExN2UxM2JkZjg0Y2RiNzQ1ZDJiNDM3LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 29.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-oklahoma-onion-slider",
+        "name": "Oklahoma Onion Slider ",
+        "description": "O felie de carne smashed de vită Angus proaspătă și suculentă (50g), ceapă caramelizată (15g), două felii cremoase de brânză topită Cheddar (2x12g), toate așezate într-o chiflă brioche caramelizată cu unt (45g) - 130g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/WTtgTOm8MfBt6hTPWzFaZRijBDlv1fs9h6SLWHTJAD0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvT2tsYWhvbWElMjBPbmlvbiUyMFNsaWRlci02OWYwNDhiYTQ4MWFkYTljNDc1MWZlMzAucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 21.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-garlic-parmesan-junior-chicken-sandwich",
+        "name": "Garlic Parmesan Junior Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide, glazurat cu sos garlic parmesan (55g), castraveti murati (10g), toate asezate intr-o chifla brioche caramelizata cu unt (45g) - 110g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/p5hut7LmdhZXYkvehPtI3oMa6HkzVWz3wSpXg3YhDTE/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR2FybGljJTIwUGFybWVzYW4lMjBKdW5pb3IlMjBDaGlja2VuJTIwU2FuZHdpY2glMjAxNTAweDE1MDAtNmEwMWMyYTcxNjE3NjM1NWM0OWMxZGUxLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 17.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-buffalo-junior-chicken-sandwich",
+        "name": "Buffalo Junior Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide, glazurat cu sos buffalo (55g), castraveti murati (10g), toate asezate intr-o chifla brioche caramelizata cu unt (45g) - 110g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/w6r3NxCbboRxz1V6-BVh2umoQEKDsqcTxpUarHy87OA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQnVmZmFsbyUyMEp1bmlvciUyMENoaWNrZW4lMjBTYW5kd2ljaCUyMDE1MDB4MTUwMC02YTAxYzJhNzE2MTc2MzU1YzQ5YzFkZTAucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 17.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-noutati-lemon-pepper-junior-chicken-sandwich",
+        "name": "Lemon Pepper Junior Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide, glazurat cu sos lemon pepper (55g), castraveti murati (10g), toate asezate intr-o chifla brioche caramelizata cu unt (45g) - 110g",
+        "category": "NOUTĂȚI",
+        "imageUrl": "https://resizer.deliverect.com/lM_0p96zNXQuJlsbtbfy7PAXpaqcfcpeg65ik6c8U60/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTGVtb24lMjBQZXBwZXIlMjBKdW5pb3IlMjBDaGlja2VuJTIwU2FuZHdpY2glMjAxNTAweDE1MDAtNmEwMWMyYTcxNjE3NjM1NWM0OWMxZGUyLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 17.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-combo-combo-junior-hamburger",
+        "name": "Combo Junior Hamburger ",
+        "description": "Junior Hamburger (130g) + Cartofi prăjiți portie mica (100g)",
+        "category": "COMBO ",
+        "imageUrl": "https://resizer.deliverect.com/rL7phmBk1FuTKNLus85wXhpKdafEmP66-fVU1DB75zM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ29tYm8lMjBKdW5pb3IlMjBIYW1idXJnZXItNjdhNGEzYTUxZTk3NmUxN2I4MGE4MTc0LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 25.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-combo-combo-junior-cheesy-chicken-sandwich",
+        "name": "Combo Junior Cheesy Chicken Sandwich",
+        "description": "Junior Cheesy Chicken Sandwich (120g) + Cartofi prajiti portie mica (100g)",
+        "category": "COMBO ",
+        "imageUrl": "https://resizer.deliverect.com/4caNl4bWo4cRVJ87umgAVmstST0Eh4a9GgcwgFOD0hg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ29tYm8lMjBKdW5pb3IlMjBDaGVlc3klMjBDaGlja2VuJTIwU2FuZHdpY2gtNjlmMzRiOTdlMWNkNTkzZDQ2ZWU1YjM3LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 25.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-combo-combo-spicy-wings",
+        "name": "Combo Spicy Wings",
+        "description": "3 Spicy Wings (100g) + o porție mica de cartofi (100g) / texas toast (70g)",
+        "category": "COMBO ",
+        "imageUrl": "https://resizer.deliverect.com/r1kGP80XLGZPQb-StG7ngIeOezzmrGsoAfOnG26NjXk/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvY29tYm8lMjB3aW5ncy02OTc4OTVhZTYxYWVlNWI5NWVkYjI1ZmEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 21.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-combo-combo-tenders",
+        "name": "Combo Tenders",
+        "description": "2 Chicken Tenders Nepicant / Picant / Cajun (100g) + o porție mica de cartofi (100g) / Texas Toast (70g)",
+        "category": "COMBO ",
+        "imageUrl": "https://resizer.deliverect.com/4G7rgB9oQvG3CNPDGeXAwmqEqBkfo32lWyi1TYT-4F0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvY29tYm8lMjB0ZW5kZXJzLTY5Nzg5NjE0ODQzYWQxNzc1MDc2YTlmMy5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 21.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-combo-coffee-combo",
+        "name": "Coffee Combo ",
+        "description": "O cafea la alegere (Espresso / Espresso Dublu / Caffe Americano / Cappuccino / Caffe Latte / Caffe Mocha) și un desert la alegere (Chocolate Brownie / Lemon Cake)",
+        "category": "COMBO ",
+        "imageUrl": "https://resizer.deliverect.com/K8NO3oPyB8zx98sjyPF6PNAz45nUH7jYq9UmdlsRCpQ/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ29mZmVlJTIwQ29tYm8tNjljZDE1YjgyMWVmYjg5YTgzNDZjODExLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 18.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-buckets-friends-bucket",
+        "name": "Friends Bucket ",
+        "description": "8 Chicken Tenders (Nepicanti / Picanti / Cajun) 400g, 10 Spicy Wings 240g, 2 portii mici de cartofi 2x100g - 900g",
+        "category": "BUCKETS ",
+        "imageUrl": "https://resizer.deliverect.com/YHSalxsaEUPdTkbLokV2DhXWlHH75GyE1nLJscdUHXw/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRnJpZW5kcyUyMEJ1Y2tldDI5MDEtNjdhNGE0M2UxZTk3NmUxN2I4MGE4MTkzLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 114.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-buckets-15-chicken-tenders-bucket",
+        "name": "15 Chicken Tenders Bucket ",
+        "description": "15 Chicken Tenders (Nepicanti / Picanti / Cajun) - 750g",
+        "category": "BUCKETS ",
+        "imageUrl": "https://resizer.deliverect.com/zguj5BCYvm057eIJk_hVrWeiRoU26CtN_CYhdIgFF94/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMTUlMjBUZW5kZXJzJTIwQnVja2V0LTY3YTRhNDNlMWU5NzZlMTdiODBhODE5MC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 114.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-buckets-20-spicy-wings-bucket",
+        "name": "20 Spicy Wings Bucket ",
+        "description": "20 Spicy Wings - 480g",
+        "category": "BUCKETS ",
+        "imageUrl": "https://resizer.deliverect.com/StICuvjh_7ZpZFzkZWpxcl9Js4sI57jhSbCCP3NewEg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMjAlMjBTcGljeSUyMFdpbmdzJTIwQnVja2V0LTY3YTRhNDNlMWU5NzZlMTdiODBhODE5MS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 79.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-buckets-garlic-parmesan-popcorn-bucket",
+        "name": "Garlic Parmesan Popcorn Bucket",
+        "description": "Bucatele din muschiulet de pui proaspat (marinat dupa reteta proprie), prajite in ulei de arahide si glazurate cu usturoi, parmezan si chives - 320g",
+        "category": "BUCKETS ",
+        "imageUrl": "https://resizer.deliverect.com/WQhe07gOjmXk_7LJII0ff1QqDnatTMWQ7qjklIOGxz0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR2FybGljJTIwUGFybWVzYW4lMjBQb3Bjb3JuJTIwMTUwMHgxNTAwLTY4Zjg5NDgyZDdhOWZmYTZlOTE5YjQzNS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 46.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-buckets-buffalo-chicken-popcorn-bucket",
+        "name": "Buffalo Chicken Popcorn Bucket",
+        "description": "Bucatele din muschiulet de pui proaspat (marinat dupa reteta proprie), prajite in ulei de arahide si glazurate cu sos Buffalo - 320g",
+        "category": "BUCKETS ",
+        "imageUrl": "https://resizer.deliverect.com/2aXfjSzpW-qraZEHfPwToSIWWIeiLMEck4DJSoMFAqM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQnVmZmFsbyUyMENoaWNrZW4lMjBQb3Bjb3JuJTIwQnVja2V0JTIwMTUwMHgxNTAwLTY5NmYyZDhmOGMwYzA3M2NkMDQ5YTkwOC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 46.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-buckets-popcorn-bucket",
+        "name": "Popcorn Bucket ",
+        "description": "Bucatele din muschiulet de pui proaspat (marinat dupa reteta proprie), date prin breading si prajite in ulei de arahide - 300g",
+        "category": "BUCKETS ",
+        "imageUrl": "https://resizer.deliverect.com/ooeseMFq0v5s7ERCvVqSGv8a42YfoY2vFchozwIt-QE/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvUG9wY29ybiUyMENoaWNrZW4lMjBCdWNrZXQtNjdhYjBkMDY4NWM4YjU4N2I3MWM2YzQzLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 38.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-meniu-chicken-tenders-nepicanti",
+        "name": "Meniu Chicken Tenders Nepicanti",
+        "description": "4 / 6 bucăți din mușchiuleț de pui proaspăt, marinat după rețetă proprie, dat prin breading si prăjit in ulei de arahide (200g / 300g) + o porție mica de cartofi (100g), texas toast (70g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/Nu9Fyi-4b8k38Cpo20Z5IqQpHezvKv3V8oDefM-Oy6k/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjA2JTIwQ2hpY2tlbiUyMFRlbmRlcnMlMjAxNTAweDE1MDAtNjhjN2RhNTVhYjkyNjhkZDgwZDYwNjU0LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 57.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-meniu-chicken-tenders-picanti",
+        "name": "Meniu Chicken Tenders Picanti",
+        "description": "4 / 6 bucăți din mușchiuleț de pui proaspăt, marinat după rețetă proprie (picant), dat prin breading si prăjit in ulei de arahide (200g / 300g) + o porție mica de cartofi (100g), texas toast (70g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/FIfnNDsMWqP4tOliYtv_Js0viPLAYkAB014H738S37M/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjA2JTIwQ2hpY2tlbiUyMFRlbmRlcnMlMjAxNTAweDE1MDAlMjAoMSktNjhjN2RhOWZiYTFhODdjYTcxNDA5N2U1LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 57.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-meniu-chicken-tenders-cajun",
+        "name": "Meniu Chicken Tenders Cajun ",
+        "description": "4 / 6 bucăți din mușchiuleț de pui proaspăt, marinat după rețetă proprie (cajun), dat prin breading si prăjit in ulei de arahide (200g / 300g) + o porție mica de cartofi (100g), texas toast (70g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/Nu9Fyi-4b8k38Cpo20Z5IqQpHezvKv3V8oDefM-Oy6k/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjA2JTIwQ2hpY2tlbiUyMFRlbmRlcnMlMjAxNTAweDE1MDAtNjhjN2RhNTVhYjkyNjhkZDgwZDYwNjU0LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 57.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-garlic-parmesan-tenders",
+        "name": "Garlic Parmesan Tenders",
+        "description": "4 bucăți din mușchiuleț de pui proaspăt (160g), marinat după rețetă proprie, dat prin breading (40g) și prăjit în ulei de arahide, glazurați cu usturoi, parmezan si chives - 200g",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/yS_xRB8c4lF45x-F0R2Fx1XNyNbtJ7S1b3JXx_H3p-w/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR2FybGljJTIwUGFybWVzYW4lMjBUZW5kZXJzJTIwMTUwMHgxNTAwLTY4Zjg5NDgyZDdhOWZmYTZlOTE5YjQzNi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 38.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-buffalo-tenders",
+        "name": "Buffalo Tenders",
+        "description": "4 bucati din muschiulet de pui proaspat, marinat dupa reteta proprie (nepicant), dat prin breading si prajit in ulei de arahide (240g), glazurate cu sos buffalo (20g)",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/IeywZby9KcisdYkIn5FfDwfijm3S-lGuRiIVIxR_TQA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQnVmZmFsbyUyMFRlbmRlcnMtNjkyODIxNWRmYmJkYzgxMGEzMmM5MDE2LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 38.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-lemon-pepper-tenders",
+        "name": "Lemon Pepper Tenders",
+        "description": "4 bucati din muschiulet de pui proaspat, marinat dupa reteta proprie (nepicant), dat prin breading si prajit in ulei de arahide (240g), glazurate cu sos lemon pepper (20g)",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/V9ODl9lIybE4G9Y5R415R_uUqSo6gmBuLHdudhYlyuM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTGVtb24lMjBQZXBwZXIlMjBUZW5kZXJzLTY5MjgyMTVkZmJiZGM4MTBhMzJjOTAxNy5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 38.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-chicken-tender-nepicant",
+        "name": "Chicken Tender Nepicant",
+        "description": "1 bucata de muschiulet de pui proaspat (marinat dupa reteta proprie), prajita in ulei de arahide - 50g",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/9M1JtfOMlhlvmic5SHdXXFFF6tH10sJWZSlR9LzpJYM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMSUyMFRlbmRlciUyMDE1MDB4MTUwMC02OTZmMmU0NjAyMDAzZTA3ZWNhMjg2OGEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-chicken-tender-picant",
+        "name": "Chicken Tender Picant",
+        "description": "1 bucata de muschiulet de pui proaspat (marinat dupa reteta proprie - picant), prajita in ulei de arahide - 50g",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/9M1JtfOMlhlvmic5SHdXXFFF6tH10sJWZSlR9LzpJYM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMSUyMFRlbmRlciUyMDE1MDB4MTUwMC02OTZmMmU0NjAyMDAzZTA3ZWNhMjg2OGEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-tenders-chicken-tender-cajun",
+        "name": "Chicken Tender Cajun",
+        "description": "1 bucata de muschiulet de pui proaspat (marinat dupa reteta proprie - cajun), prajita in ulei de arahide - 50g",
+        "category": "CHICKEN TENDERS",
+        "imageUrl": "https://resizer.deliverect.com/9M1JtfOMlhlvmic5SHdXXFFF6tH10sJWZSlR9LzpJYM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvMSUyMFRlbmRlciUyMDE1MDB4MTUwMC02OTZmMmU0NjAyMDAzZTA3ZWNhMjg2OGEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-wings-meniu-spicy-wings",
+        "name": "Meniu Spicy Wings ",
+        "description": "5 / 8 aripioare de pui proaspete, marinate după rețetă proprie (picant), date prin breading si prăjite in ulei de arahide (125g / 200g) + o porție mica de cartofi (100g), texas toast (70g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "CHICKEN WINGS ",
+        "imageUrl": "https://resizer.deliverect.com/0UrEfJ3sSfO024H1R6p312h1xqyCBQJCmbZfU29JUqs/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjA4JTIwQ2hpY2tlbiUyMFRlbmRlcnMlMjAxNTAweDE1MDAtNjhjN2RhZWUzYTI4OTQzZTFhZTIwMWM5LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 49.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-wings-spicy-garlic-parmesan-wings",
+        "name": "Spicy Garlic Parmesan Wings",
+        "description": "5 aripioare de pui proaspete, marinate dupa reteta proprie (picant), date prin breading si prajite in ulei de arahide (125g), glazurate cu sos garlic parmesan (20g)",
+        "category": "CHICKEN WINGS ",
+        "imageUrl": "https://resizer.deliverect.com/O09jpFab7mDR4PJgIzxuLPSoJlS_gXCU4Wn44w3JOlw/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU3BpY3klMjBHYXJsaWMlMjBQYXJtZXNhbiUyMFdpbmdzLTY5MjgyMTVkZmJiZGM4MTBhMzJjOTAxYy5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 30.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-wings-spicy-buffalo-wings",
+        "name": "Spicy Buffalo Wings",
+        "description": "5 aripioare de pui proaspete, marinate dupa reteta proprie (picant), date prin breading si prajite in ulei de arahide (125g), glazurate cu sos buffalo (20g)",
+        "category": "CHICKEN WINGS ",
+        "imageUrl": "https://resizer.deliverect.com/pCDVLsSeJr4lm2GslqqUYY5Lggm_i9y2hcPsUU8SR98/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU3BpY3klMjBCdWZmYWxvJTIwV2luZ3MtNjkyODIxNWRmYmJkYzgxMGEzMmM5MDFiLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 30.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-wings-spicy-lemon-pepper-wings",
+        "name": "Spicy Lemon Pepper Wings",
+        "description": "5 aripioare de pui proaspete, marinate dupa reteta proprie (picant), date prin breading si prajite in ulei de arahide (125g), glazurate cu sos lemon pepper (20g)",
+        "category": "CHICKEN WINGS ",
+        "imageUrl": "https://resizer.deliverect.com/W9fpRPH7w6uBSGdViJbqfoWWhQHWSwMWI8MgBF05NtU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU3BpY3klMjBMZW1vbiUyMFBlcHBlciUyMFdpbmdzLTY5MjgyMTVkZmJiZGM4MTBhMzJjOTAxZC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 30.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-meniu-hot-chicken-sandwich",
+        "name": "Meniu Hot Chicken Sandwich",
+        "description": "Hot Chicken Sandwich (220g), o portie mica de cartofi (100g) si o racoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 UP / Apa Plata Aqua Carpatica / Apa Minerala Aqua Carpatica)",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/NKduDLaEFoGurA9Ip84p0ZZj58ne6-5qJNLp0UjnNTM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBIb3QlMjBDaGlja2VuJTIwU2FuZHdpY2glMjBpY2ViZXJnLTY5YWE5YTU2YjNjODc0YTBjMmEzMmU5MC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 54.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-meniu-chicken-sandwich-deluxe",
+        "name": "Meniu Chicken Sandwich Deluxe",
+        "description": "Chicken Sandwich Deluxe (230g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/snVOLz3jJs33I6ezsHQC40LFDV0CnUjCQd8MOWrKCBc/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBDaGlja2VuJTIwU2FuZHdpY2glMjBEZWx1eGUtNjdhYjFmNTcyMWZkYzc2OTgyNjFhN2Y3LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 52.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-meniu-chicken-sandwich",
+        "name": "Meniu Chicken Sandwich",
+        "description": "Chicken Sandwich (185g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/kNjHKLnkmL2dbpOaaXtEa4UJw4zmIFeVM6_d2xDHHRM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBDaGlja2VuJTIwU2FuZHdpY2gtNjdhYjFmNTcyMWZkYzc2OTgyNjFhN2Y4LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 49.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-hot-chicken-sandwich",
+        "name": "Hot Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (100g), jalapenos (10g), o felie crocanta de bacon (15g), o felie cremoasa de branza topita cheddar (12g), sos samurai (15g), toate asezate intr-o chifla brioche caramelizata cu unt (75g) - 220g",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/NuywVx7Uv-oU7NocaeMrTHG6e0n6my_IyaN5zi4TwEI/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvSG90JTIwQ2hpY2tlbiUyMFNhbmR3aWNoJTIwaWNlYmVyZy02OWFhOWE1NmIzYzg3NGEwYzJhMzJlOGYucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 33.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-chicken-sandwich-deluxe",
+        "name": "Chicken Sandwich Deluxe",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (100g), castraveti murati (10g), salata iceberg (15g), rosie (20g), o felie cremoasa de branza topita cheddar (12g), maioneza (15g), toate asezate intr-o chifla brioche caramelizata cu unt (75g) - 240g",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/AfnsowdXSmmHuvMmkwXa-rXEQ_uVtEN5J2unxP6ODGQ/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2hpY2tlbiUyMERlbHV4ZSUyMFNhbmR3aWNoLTY3YWIzM2FjMWU5NzZlMTdiODBhOWQ2YS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 32.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-chicken-sandwich",
+        "name": "Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (100g), castraveti murati (10g), maioneza (15g), toate asezate intr-o chifla brioche caramelizata cu unt (75g) - 200g",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/k7zNAOH4BTwqbVh58y1jZTcrkke9d6TYv6UKA3dA2WU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2hpY2tlbiUyMFNhbmR3aWNoLTY3YWIzM2FjMWU5NzZlMTdiODBhOWQ2Yi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 29.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-junior-cheesy-chicken-sandwich",
+        "name": "Junior Cheesy Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (50g), salata iceberg (10g), sos cheddar (15g), toate asezate intr-o chifla brioche caramelizata cu unt (45g) - 120g",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/2XrBzf2z_jhIR__5Lj2sM00c7PyoipcJuhuwXS_4Xd8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvSnVuaW9yJTIwQ2hlZXN5JTIwQ2hpY2tlbiUyMFNhbmR3aWNoJTIwMzBhcHItNjlmMzRiODk1NjFlMTJmY2Y0MjRjNjczLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 19.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-chicken-sandwiches-junior-chicken-sandwich",
+        "name": "Junior Chicken Sandwich",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (50g), castraveti murati (10g), toate asezate intr-o chifla brioche caramelizata cu unt (45g) - 105g",
+        "category": "CHICKEN SANDWICHES",
+        "imageUrl": "https://resizer.deliverect.com/p4xIGumbpqTjNc40-dI8B-S6NOp420hXYF6zVw73qOk/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvSnVuaW9yJTIwQ2hpY2tlbiUyMFNhbmR3aWNoLTY3YWIzM2FjMWU5NzZlMTdiODBhOWQ2ZS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 15.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-brioche-toasts-meniu-ranch-chicken-toast",
+        "name": "Meniu Ranch Chicken Toast",
+        "description": "Ranch Chicken Toast (225g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "BRIOCHE TOASTS",
+        "imageUrl": "https://resizer.deliverect.com/xNDD45P8AWZxp9UmPjHNzmshmCMIJur9cD3hunCC_k8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBSYW5jaCUyMENoaWNrZW4lMjBUb2FzdC02N2FiMWY1NzIxZmRjNzY5ODI2MWE3ZmIucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 65.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-brioche-toasts-meniu-crunchy-chicken-toast",
+        "name": "Meniu Crunchy Chicken Toast",
+        "description": "Crunchy Chicken Toast (240g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "BRIOCHE TOASTS",
+        "imageUrl": "https://resizer.deliverect.com/-VCDY7fIaoS71onUve3l33MH103E_6XyJke53ChOA6I/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBDcnVuY2h5JTIwQ2hpY2tlbiUyMFRvYXN0JTIwMTUwMHgxNTAwLTY4Y2U5NGJhZDZhNWM2MzVmYWQzMmU4OC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 65.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-brioche-toasts-beefy-toast",
+        "name": "Beefy Toast",
+        "description": "Doua felii de carne smashed de vita angus proaspata si suculenta (2x60g), ceapa caramelizata (15g), salata iceberg (15g), rosie (20g), o felie cremoasa de branza topita cheddar (12g), o felie cremoasa de cascaval gouda (15g), sos burger (20g), toate asezate intr-un toast brioche caramelizat cu unt (80g) - 290g",
+        "category": "BRIOCHE TOASTS",
+        "imageUrl": "https://resizer.deliverect.com/B_WxOdGPTM0xBKgfslrwLSsXthRm-VUlcXxcOeRU7lA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQmVlZnklMjBUb2FzdCUyMDE1MDB4MTUwMC02OGNlOTFjMmQ2YTVjNjM1ZmFkMzJlODMucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 54.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-brioche-toasts-ranch-chicken-toast",
+        "name": "Ranch Chicken Toast",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (100g), salata iceberg (15g), rosie (20g), o felie cremoasa de cascaval gouda (15g), sos ranch (20g), toate asezate intr-un toast brioche caramelizat cu unt (80g) - 250g",
+        "category": "BRIOCHE TOASTS",
+        "imageUrl": "https://resizer.deliverect.com/n_AD5LvxiJhDVhwM9CnEcTl4Z-fNDVPrKriWbTv2D-k/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvUmFuY2glMjBDaGlja2VuJTIwVG9hc3QtNjdhYjMzYWMxZTk3NmUxN2I4MGE5ZDZmLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 44.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-brioche-toasts-crunchy-chicken-toast",
+        "name": "Crunchy Chicken Toast",
+        "description": "Muschiulet de pui proaspat (marinat dupa reteta proprie), prajit in ulei de arahide (100g), castraveti murati (10g), salata iceberg (15g), doua felii crocante de bacon (30g), o felie cremoasa de branza topita cheddar (12g), sos splendid (20g), toate asezate intr-un toast brioche caramelizat cu unt (80g) - 260g",
+        "category": "BRIOCHE TOASTS",
+        "imageUrl": "https://resizer.deliverect.com/cIh1B9XcDRMokDn21nys1EyFl6eZKIpBaG_2MgeejOE/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ3J1bmNoeSUyMENoaWNrZW4lMjBUb2FzdCUyMDE1MDB4MTUwMC02OGNlODk0YTUyNTczY2NhMjU4NmIwMDgucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 44.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-wagyu-burger",
+        "name": "Wagyu Burger",
+        "description": "Doua felii de carne smashed de vita wagyu proaspata si suculenta (2x60g), doua felii cremoase de brânză topita cheddar (2x12g), ceapa caramelizata (10g), castraveți murați (10g), muștar (10g), ketchup (10g), toate așezate într-o chifla brioche caramelizata cu unt (77g) - 260g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/00VsHUtpIlTUc0foaxEYfOnvw7KZGvrjLYhkQGequuM/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQnVyZ2VyJTIwV2FneXUlMjAyMjA2LTY4OGIxYTAyNTM5NjA5MDk5OWY0MDBlYi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 84.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-double-smoky-burger",
+        "name": "Meniu Double Smoky Burger",
+        "description": "Double Smoky Burger (270g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/VuiK2oze3s15_lsb8-nFqLrArXcl_LHIIk68PX4OVlI/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBEb3VibGUlMjBTbW9reSUyMEJ1cmdlci02N2FiMzQ2N2JlYTE3MjllOWI0Yzk3YmYucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 72.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-double-truffle-burger",
+        "name": "Meniu Double Truffle Burger",
+        "description": "Double Truffle Burger (270g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/KHjFK7-7ugFzzLE6yf-lB5em9zocH-GWT6LwTZD8JJg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBEb3VibGUlMjBUcnVmZmxlJTIwQnVyZ2VyLTY3YWIzNDY3YmVhMTcyOWU5YjRjOTdjMi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 71.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-double-cheeseburger",
+        "name": "Meniu Double Cheeseburger",
+        "description": "Double Cheeseburger (260g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/4ZLtJzCSv-GWb1i9FiFK_4upUUQp_UGdGOKvwuGOZpE/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBEb3VibGUlMjBDaGVlc2VidXJnZXItNjdhYjM0NjdiZWExNzI5ZTliNGM5N2JjLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 69.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-double-samurai-burger",
+        "name": "Meniu Double Samurai Burger",
+        "description": "Double Samurai Burger (260g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/Xbg4KQmvHAA7Djhsx-a2-kip5jht9CSgzPtHGOS18eY/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBEb3VibGUlMjBTYW11cmFpJTIwQnVyZ2VyLTY3YWIzNDY3YmVhMTcyOWU5YjRjOTdiZS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 69.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-smoky-burger",
+        "name": "Meniu Smoky Burger",
+        "description": "Smoky Burger (200g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/q622Apx39DIuR-Cy7xNiP4qTr_O2xukvAtpDwI3hCc4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBTbW9reSUyMEJ1cmdlci02N2FiMzQ2N2JlYTE3MjllOWI0Yzk3YzUucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 61.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-truffle-burger",
+        "name": "Meniu Truffle Burger",
+        "description": "Truffle Burger (200g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/LrhXKXzBawKWMC9_aW7SFTcx-nQLRmEoCXqxLx28lWU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBUcnVmZmxlJTIwQnVyZ2VyLTY3YWIzNDY3YmVhMTcyOWU5YjRjOTdjNy5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 60.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-cheeseburger",
+        "name": "Meniu Cheeseburger",
+        "description": "Cheeseburger (190g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/V3UDQs30OClRKMwyIFeCwml3eLBZ_5B6lhyRPsFWP08/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBDaGVlc2VidXJnZXItNjdhYjM0NjdiZWExNzI5ZTliNGM5N2JiLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 58.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-meniu-samurai-burger",
+        "name": "Meniu Samurai Burger",
+        "description": "Samurai Burger (190g) + o portie mica de cartofi (100g) si o răcoritoare la alegere (Pepsi / Pepsi Zero / Mirinda / 7 Up / Apa plata Aqua Carpatica / Apa minerala Aqua Carpatica)",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/C32woYUSqnrlVCSMbeQsJoOIFeRkszUJ11Iz8uDMkl8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWVuaXUlMjBTYW11cmFpJTIwQnVyZ2VyLTY3YWIzNDY3YmVhMTcyOWU5YjRjOTdjNC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 58.4,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-double-smoky-burger",
+        "name": "Double Smoky Burger ",
+        "description": "Doua felii de carne smashed de vită angus proaspătă si suculentă (2x60g), doua felii cremoase de brânză gouda (2x15g), doua felii crocante de bacon (2x15g), ceapă caramelizata (10g), sos barbecue (15g), toate așezate într-o chifla brioche caramelizată cu unt (77g) - 270g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/_0AJ8ouNdElLgjtw4hPsx9gLWvy-J-1Ec9fC-0a0QL8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRG91YmxlJTIwU21va3klMjBCdXJnZXItNjdhYjM1YjFiMTBiOTcxMmYxMWIwNmY1LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 52.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-double-truffle-burger",
+        "name": "Double Truffle Burger ",
+        "description": "Doua felii de carne smashed de vită angus proaspătă si suculentă (2x60g), doua felii cremoase de brânză gouda (2x15g), ciuperci champignon soté (15g), ceapă prăjită (15g), sos truffle mayo (15g), toate așezate într-o chiflă brioche caramelizată cu unt (77g) - 270g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/YZCQ6p_3uKngp7rBxT3QYG_jWw_N2tZ7Xa3chasBGnw/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRG91YmxlJTIwVHJ1ZmZsZSUyMEJ1cmdlcjI5MDEtNjdhYjM1YjFiMTBiOTcxMmYxMWIwNmY3LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 51.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-double-cheeseburger",
+        "name": "Double Cheeseburger",
+        "description": "Doua felii de carne smashed de vită angus proaspătă si suculentă (2x60g), doua felii cremoase de brânză topită cheddar (2x12g), ceapă caramelizată (10g), castraveți murați (10g), muștar (10g), ketchup (10g), toate așezate într-o chiflă brioche caramelizată cu unt (77g) - 260g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/MsfIw__uDNHujT4guLJPUfekSYymT2vbwd3AOu-cHwg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRG91YmxlJTIwQ2hlZXNlYnVyZ2VyLTY3YWIzNWIxYjEwYjk3MTJmMTFiMDZmMi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 49.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-double-samurai-burger",
+        "name": "Double Samurai Burger",
+        "description": "Doua felii de carne smashed de vită angus proaspătă si suculentă (2x60g), doua felii cremoase de brânză topită cheddar (2x12g), jalapenos (10g), ceapă prăjită (15g), sos samurai (15g), toate așezate într-o chifla brioche caramelizată cu unt (77g) - 260g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/ZCa6TYzm6AmVNkhfUFtxB-uWwZOAfgBz0HlaTZ_NK0s/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRG91YmxlJTIwU2FtdXJhaSUyMEJ1cmdlci02N2FiMzViMWIxMGI5NzEyZjExYjA2ZjQucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 49.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-smoky-burger",
+        "name": "Smoky Burger ",
+        "description": "O felie de carne smashed de vită angus proaspătă si suculentă (60g), o felie cremoasă de brânză gouda (15g), doua felii crocante de bacon (2x15g), ceapă caramelizată (10g), sos barbecue (15g), toate așezate într-o chifla brioche caramelizată cu unt (77g) - 200g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/q8xtcakeHaONm5FFdAnv2FRteHLfbd2ztwrKUyOraaQ/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU21va3klMjBCdXJnZXIyOTAxLTY3YWIzNWIxYjEwYjk3MTJmMTFiMDZmYi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 41.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-truffle-burger",
+        "name": "Truffle Burger ",
+        "description": "O felie de carne smashed de vită angus proaspătă si suculentă (60g), o felie cremoasă de brânză gouda (15g), ciuperci champignon soté (15g), ceapă prăjită (15g), sos truffle mayo (15g), toate așezate într-o chiflă brioche caramelizată cu unt (77g) - 200g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/iEmaWJi-f7z6OJ1BB9zOAk0BJ9X7YrHN1vFYBQqvVV8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvVHJ1ZmZsZSUyMEJ1cmdlcjI5MDEtNjdhYjM1YjFiMTBiOTcxMmYxMWIwNmZkLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 40.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-cheeseburger",
+        "name": "Cheeseburger ",
+        "description": "O felie de carne smashed de vită angus proaspătă si suculentă (60g), o felie cremoasă de brânză topită cheddar (12g), ceapă caramelizată (10g), castraveți murați (10g), muștar (10g), ketchup (10g), toate așezate într-o chiflă brioche caramelizată cu unt (77g) - 190g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/REpdeUSMdMcScBW0gzdyMeLwXxWBK-5ecTdhLNRZhp0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2hlZXNlYnVyZ2VyMjkwMS02N2FiMzViMWIxMGI5NzEyZjExYjA2ZjEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 38.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-samurai-burger",
+        "name": "Samurai Burger",
+        "description": "O felie de carne smashed de vită angus proaspătă si suculentă (60g), o felie cremoasă de brânză topită cheddar (12g), jalapenos (10g), ceapă prăjită (15g), sos samurai (15g), toate așezate într-o chifla brioche caramelizată cu unt (77g) - 190g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/nKSuc4zOfqFuIiQeykYy4btvLRR6gif7c1QWK9xWMrU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU2FtdXJhaSUyMEJ1cmdlcjI5MDEtNjdhYjM1YjFiMTBiOTcxMmYxMWIwNmZhLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 38.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-smashed-burgers-junior-hamburger",
+        "name": "Junior Hamburger ",
+        "description": "O felie de carne smashed de vită angus proaspătă si suculentă (45g), ceapă caramelizata (10g), castraveți murați (10g), sos burger (15g), toate așezate într-o chiflă brioche caramelizata cu unt (50g) - 130g",
+        "category": "SMASHED BURGERS",
+        "imageUrl": "https://resizer.deliverect.com/3SlCoKGzcxW6XZgKiF8DgnCeQHskueeAmcprNqm-4qw/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvSnVuaW9yJTIwSGFtYnVyZ2VyMjkwMS02N2FiMzViMWIxMGI5NzEyZjExYjA2ZjkucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 19.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-beef-loaded-fries",
+        "name": "Beef Loaded Fries",
+        "description": "Cartofi proaspeti in coaja, prajiti in ulei de arahide, condimentati cu cajun (150g), doua felii de carne smashed de vita proaspata si suculenta (2x50), ceapa caramelizata (15g), bacon crocant (15g), doua felii cremoase de branza topita cheddar (2x12g), sos burger (30g), chives (10g) - 340g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/yMdBW4oOhWhyXpFzahEr9cNktD8rjUxBHxDxGy3Fd3Q/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQmVlZiUyMExvYWRlZCUyMEZyaWVzJTIwMTUwMHgxNTAwLTY4Y2U5M2UyNjk4NzNhOWFkMTA2ZjcyYS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 48.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-truffle-loaded-fries",
+        "name": "Truffle Loaded Fries ",
+        "description": "Cartofi proaspeti in coaja, prajiti in ulei de arahide, condimentati cu cajun (150g), popcorn chicken (bucatele din muschiulet de pui proaspat, prajite in ulei de arahide) (100g), sos truffle mayo (30g), branza dura rasa (20g), chives (10g) - 310g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/Nx36q1kfXeYHZCWRnucEpbV7hgwf5kCJqRtOB1rLFxs/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvVHJ1ZmZsZSUyMExvYWRlZCUyMEZyaWVzJTIwTm91LTY5NmYzNGJlY2FmNGRhNmYwYTc5OWQzZC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 43.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-buffalo-loaded-fries",
+        "name": "Buffalo Loaded Fries",
+        "description": "Cartofi proaspeti in coaja, prajiti in ulei de arahide, condimentati cu cajun (150g), popcorn chicken (bucatele din muschiulet de pui proaspat, prajite in ulei de arahide) (100g), jalapenos (10g), sos buffalo (20g), sos ranch (20g) - 300g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/BDHtvKRNYc47QUGmsls6EyGoOf7INY_8TUG1xCouqt8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQnVmZmFsbyUyMExvYWRlZCUyMEZyaWVzLTY5MjgyMTVkZmJiZGM4MTBhMzJjOTAxNS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 41.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-loaded-fries",
+        "name": "Loaded Fries ",
+        "description": "Cartofi proaspeti in coaja, prajiti in ulei de arahide, condimentati cu cajun (150g), popcorn chicken (bucatele din muschiulet de pui proaspat, prajite in ulei de arahide) (100g), bacon crocant (15g), jalapenos (10g), ceapa crispy (15g), sos branza cheddar (20g) - 310g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/DfBE8zFZYqzrotGjMHlIC07E4o7uFagKFs6FLGDcCa8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTG9hZGVkJTIwRnJpZXMlMjBOb3UtNjk2ZjU5ZDkzNTkxODY4MzYyYzFlNWI2LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 43.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-cartofi-portie-supersize",
+        "name": "Cartofi portie SuperSize",
+        "description": "Cartofi proaspeți în coaja, prăjiți în ulei de arahide, condimentați cu cajun - 300 g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/MwV3LM_CctCOznbPZdoFSa9KkMaFzdmZEPyIf0k107A/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2FydG9maSUyMFBvcnRpZSUyMFN1cGVyc2l6ZS02N2FiM2MwNjg1YzhiNTg3YjcxYzZkYWQucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 29.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-garlic-parmesan-fries",
+        "name": "Garlic Parmesan Fries",
+        "description": "Cartofi proaspeți în coaja, prăjiți în ulei de arahide, condimentați cu cajun, usturoi, parmezan si chives - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/D0yx1civTR5Us_7IclJqj0Lz3i4Tqg1kUIW309y6a2w/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvR2FybGljJTIwUGFybWVzYW4lMjBGcmllcyUyMDE1MDB4MTUwMC02OGY4OTQ4MmQ3YTlmZmE2ZTkxOWI0MzQucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 25.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-splendid-supersize",
+        "name": "Sos Splendid SuperSize ",
+        "description": "Sos pe bază de maioneză, care combină note dulci-acrișoare - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/rpzWpDtlbpRpjXXyyZHyALywc8puCrz5MxFz470iyIc/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3VwZXIlMjBTaXplJTIwU3BsZW5kaWQtNjdhYjNjNzE1MjZjYmYxNDg4N2VkMWFlLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-ranch-supersize",
+        "name": "Sos Ranch SuperSize ",
+        "description": "Dressing cremos, pe bază de maioneză și smântână, aromat cu chives, usturoi, pătrunjel și mărar - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/nQs0e3oqfIY2mEk_zmRpd5gMEqZdK2X8YnP6xZrV-vU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3VwZXIlMjBTaXplJTIwUmFuY2gtNjdhYjNjNzE1MjZjYmYxNDg4N2VkMWFjLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-burger-supersize",
+        "name": "Sos Burger SuperSize",
+        "description": "Sos pe bază de maioneză, ketchup, muștar si zeamă de castraveți murați - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/sJ5xNnpOjS5t85ubw7tsLQRUTuPI3XEOG2bmGS1KE64/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3VwZXIlMjBTaXplJTIwQnVyZ2VyLTY3YWIzYzcxNTI2Y2JmMTQ4ODdlZDFhOS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-samurai-supersize",
+        "name": "Sos Samurai SuperSize ",
+        "description": "Sos picant pe bază de maioneză - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/YWREuMxJpb6Nd9nZ-AUBf0ujcTSgOIKkDTMf9E1layA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3VwZXIlMjBTaXplJTIwU2FtdXJhaS02N2FiM2M3MTUyNmNiZjE0ODg3ZWQxYWQucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-cheddar-supersize",
+        "name": "Sos Cheddar SuperSize ",
+        "description": "Sos de brânză cheddar - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/0wtrISjGOJFCIbp8FgylmhLb3FI1ZWvfRBBOBIudHY4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3VwZXIlMjBTaXplJTIwQ2hlZGRhci02N2FiM2M3MTUyNmNiZjE0ODg3ZWQxYWEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-trufflemayo-supersize",
+        "name": "Sos TruffleMayo SuperSize ",
+        "description": "Sos cremos pe bază de maioneză cu aromă de trufe - 200g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/yvf4a8T5WXSMGQgLuaKIgapX-zTR9E5_YvS3kO_qZjE/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3VwZXIlMjBTaXplJTIwVHJ1ZmZsZU1heW8lMjAxNTAweDE1MDAtNjhkZDE5ZWU3OTUzMzA4NzBiMGU0ZTI4LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-cartofi-portie-mare",
+        "name": "Cartofi portie mare",
+        "description": "Cartofi proaspeți în coaja, prăjiți în ulei de arahide, condimentați cu cajun - 150g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/sRf07-mkfNSeV0aME83eU-5KFAsoBLxlHHocDwQ7FsA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2FydG9maSUyMFBvcnRpZSUyME1hcmUtNjdhYjNjMDY4NWM4YjU4N2I3MWM2ZGFiLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 16.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-cartofi-portie-mica",
+        "name": "Cartofi portie mica",
+        "description": "Cartofi proaspeți în coaja, prăjiți în ulei de arahide, condimentați cu cajun - 100g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/Ut_o60STUx-LhfgdvtZTFhhEbVivnXosZt2GNWgMY0k/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2FydG9maSUyMFBvcnRpZSUyME1pY2EtNjdhYjNjMDY4NWM4YjU4N2I3MWM2ZGFjLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 13.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-splendid",
+        "name": "Sos Splendid",
+        "description": "Sos pe bază de maioneză, care combină note dulci-acrișoare - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/EcM3UsawCBMHRUeqIzbafsUUKUqT6n-e84mQbeK-4lU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU3BsZW5kaWQtNjdhYjNjNzE1MjZjYmYxNDg4N2VkMWE4LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-ranch",
+        "name": "Sos Ranch",
+        "description": "Dressing cremos, pe bază de maioneză și smântână, aromat cu chives, usturoi, pătrunjel și mărar - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/F5Y6EAoO45gnXiold-lFmrbF_fZ4h64YOyzv02kKpXI/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwUmFuY2gtNjdhYjNjNzE1MjZjYmYxNDg4N2VkMWE2LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-burger",
+        "name": "Sos Burger ",
+        "description": "Sos pe bază de maioneză, ketchup, muștar si zeamă de castraveți murați - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/wDUSJX_bttDJ931UrkxF4dDP_HSpIb_MboxnIaEjbok/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwQnVyZ2VyLTY3YWIzYzcxNTI2Y2JmMTQ4ODdlZDFhMy5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-samurai",
+        "name": "Sos Samurai",
+        "description": "Sos picant pe bază de maioneză - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/ISMjWZsVk3c_PG_gVjFCjq9P9xbDzrgzmvgRCYUMqcA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwU2FtdXJhaS02N2FiM2M3MTUyNmNiZjE0ODg3ZWQxYTcucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-cheddar",
+        "name": "Sos Cheddar",
+        "description": "Sos de brânză cheddar - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/LWZ2IEd1mvQyH9Ft6cXGhezrHqrsuV-hzHRHlmhKwlI/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwQ2hlZGRhci02N2FiM2M3MTUyNmNiZjE0ODg3ZWQxYTQucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-trufflemayo",
+        "name": "Sos TruffleMayo ",
+        "description": "Sos cremos pe bază de maioneză cu aromă de trufe - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/hmSbEVnlexSw_FEesBo03YaohaCEa-LGYrCpl57ETdk/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwVHJ1ZmZsZU1heW8lMjAxNTAweDE1MDAtNjhjZWFmMDdjMjI0ZDkyYWI3ZmUyZjllLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-barbecue",
+        "name": "Sos Barbecue ",
+        "description": "40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/rciJvD0ioYh0MkK5Shpxo_di0DfcwodBFcqZ1Pg6_jk/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ29weSUyMG9mJTIwU29zJTIwQmFyYmVjdWUlMjAxNTAweDE1MDAtNjkyYWFjNTY5ZWU2NDcyY2YzZDlkMTViLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-ketchup",
+        "name": "Ketchup",
+        "description": "40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/__jON9k4UNwuxluLoIaYl_j13Dlg6bqioq9Q74dKE9s/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvS2V0Y2h1cC02N2FiM2M3MTUyNmNiZjE0ODg3ZWQxYTAucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-maioneza",
+        "name": "Maioneza",
+        "description": "40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/1bP0jbnGFczS161Wce-42TqB8B0KB0Ypvoj8u1rAiu0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWFpb25lemEtNjdhYjNjNzE1MjZjYmYxNDg4N2VkMWExLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-sos-buffalo",
+        "name": "Sos Buffalo",
+        "description": "sos picant pe baza de ardei iute cu note acrisoare - 40g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/JlCUzRGBbqKFyHrfmzEhx9d0mVId694Gwr2g3tE7SJg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU29zJTIwQnVmZmFsbyUyME5vdS02OTI4MjE1ZGZiYmRjODEwYTMyYzkwMWEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 6.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sides-sauces-texas-toast",
+        "name": "Texas Toast",
+        "description": "O felie de pâine toast caramelizata cu unt -  70g",
+        "category": "SIDES & SAUCES",
+        "imageUrl": "https://resizer.deliverect.com/nLzh98QggTVjWjd7htNYxreyx2rIrpLY2uVYED3ufE8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvVGV4YXMlMjBUb2FzdC02OGNlYWZmZTk3N2UwYjM5MWI4Y2QzYWEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 5.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sweets-brownie-ciocolata",
+        "name": "Brownie Ciocolata",
+        "description": "Un desert intens de ciocolată, cu interior moale și ușor fondant, perfect echilibrat între gustul dulce si textura densă. - 100g",
+        "category": "SWEETS",
+        "imageUrl": "https://resizer.deliverect.com/Ud4Mgj0uwGWy0eZakqcYV40t0ZGs_xC7NRx3bpjcjtQ/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQlJPV05JRSUyMDEwMjR4MTAyNC02ODRjMzcyNTgyNTU4MDM0ZWEwZGU0ZTgucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sweets-lemon-cake",
+        "name": "Lemon Cake ",
+        "description": "",
+        "category": "SWEETS",
+        "imageUrl": "https://resizer.deliverect.com/inR4L8B71W0tqFPQ4dhcuavMrso5_qgSt-YD5cv8nS4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTGVtb24lMjBDYWtlJTIwMTUwMHgxNTAwLTY5Y2QxNWI4MjFlZmI4OWE4MzQ2YzgxMi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sweets-chocolate-burger",
+        "name": "Chocolate Burger",
+        "description": "Chiflă brioche caramelizată cu unt, nutella - 70g",
+        "category": "SWEETS",
+        "imageUrl": "https://resizer.deliverect.com/8KhCC1nd1iOkz3JtCMZJ3FY92PpFsqn_cPcWu3IGVtg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTnV0ZWxsYSUyMEJ1cmdlci02N2FiNDA1MTg1YzhiNTg3YjcxYzZkZTEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sweets-french-toast-sticks",
+        "name": "French Toast Sticks",
+        "description": "Toast înmuiat într-un amestec de ou cu lapte, servit cu nutella - 80g",
+        "category": "SWEETS",
+        "imageUrl": "https://resizer.deliverect.com/6yiOzh775fIzhPdebyo3vh3UZ4857S6zY5cgCLgGa3I/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRnJlbmNoJTIwVG9hc3QlMjBTdGlja3MtNjdhYjQwNTE4NWM4YjU4N2I3MWM2ZGRkLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sweets-chocolate-muffin",
+        "name": "Chocolate Muffin",
+        "description": "Brioșă cu umplutură de ciocolata intensă si bucăți de ciocolată - 110g",
+        "category": "SWEETS",
+        "imageUrl": "https://resizer.deliverect.com/SNTH6p84tYGcouoi2TE1mchNekoHVjlUufj8GRuMiA4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTXVmZmluJTIwQ2lvY29sYXRhLTY3YWI0MDUxODVjOGI1ODdiNzFjNmRkZS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-sweets-muffin-red-velvet",
+        "name": "Muffin Red Velvet ",
+        "description": "Brioșă cu gust delicat de vanilie, umplută cu ciocolată albă - 110g",
+        "category": "SWEETS",
+        "imageUrl": "https://resizer.deliverect.com/0vphZj4-rnaOuLPtjHyKY5Cjqm7uC-GtaqvqLt6pe-U/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTXVmZmluJTIwUmVkJTIwVmVsdmV0LTY3YWI0MDUxODVjOGI1ODdiNzFjNmRlMC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-milkshakes-oreo-milkshake",
+        "name": "Oreo Milkshake",
+        "description": "Milkshake rece și cremos cu Oreo crumbs - 250ml",
+        "category": "MILKSHAKES",
+        "imageUrl": "https://resizer.deliverect.com/YDOukEvc8NFvR8AOYNEFxNo7sNlvT0m0rc3Q55GQHl4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU2hha2UlMjBPcmVvLTY3YWI0MWE3ODVjOGI1ODdiNzFjNmUwOC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-milkshakes-kitkat-milkshake",
+        "name": "KitKat Milkshake",
+        "description": "Milkshake rece și cremos cu KitKat crumbs - 250ml",
+        "category": "MILKSHAKES",
+        "imageUrl": "https://resizer.deliverect.com/IkWPSscELjuUq_Dee8CBGsUJQRwcD8aXQ911yuscFSk/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWlsa3NoYWtlJTIwS0lUS0FUJTIwMTUwMHgxNTAwLTY5NmYzNGJlY2FmNGRhNmYwYTc5OWQzYi5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-milkshakes-lion-milkshake",
+        "name": "Lion Milkshake",
+        "description": "Milkshake rece și cremos cu Lion crumbs - 250ml",
+        "category": "MILKSHAKES",
+        "imageUrl": "https://resizer.deliverect.com/OSGrThM77lwF2cWwm29HBwadEo6RUcKVgIUj_C9razc/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWlsa3NoYWtlJTIwTElPTiUyMDE1MDB4MTUwMC02OTZmMzRiZWNhZjRkYTZmMGE3OTlkM2MucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 23.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-milkshakes-vanilla-milkshake",
+        "name": "Vanilla Milkshake",
+        "description": "Milkshake rece și cremos cu aromă de vanilie - 250ml",
+        "category": "MILKSHAKES",
+        "imageUrl": "https://resizer.deliverect.com/lAm0TQM_Y_3HTFulPaJWnoBHXpWJoEd2wt59PZ1Lvi4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU2hha2UlMjBWYW5pbGllLTY3YWI0MWE3ODVjOGI1ODdiNzFjNmUwOS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 22.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-milkshakes-milkshake-capsuni",
+        "name": "Milkshake Capsuni",
+        "description": "Milkshake rece și cremos cu aromă de căpșuni - 250ml",
+        "category": "MILKSHAKES",
+        "imageUrl": "https://resizer.deliverect.com/8xmcft9u0c3sLrl2NqStDLYTnAdAWpC3DsJ9juWeRoU/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvU2hha2UlMjBDYXBzdW5pLTY3YWI0MWE3ODVjOGI1ODdiNzFjNmUwNS5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 22.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-milkshakes-milkshake-afine",
+        "name": "Milkshake Afine",
+        "description": "Milkshake rece și cremos cu aromă de afine - 250ml",
+        "category": "MILKSHAKES",
+        "imageUrl": "https://resizer.deliverect.com/WKylKDvA43EzlYmSX7-3fsCRr6iSTiFO5Tdpn3KFjW0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTWlsa3NoYWtlJTIwQWZpbmUtNjhkZmFmODFlOGMxYThiMmEyY2M4ZTU3LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 22.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-limonada-zmeura",
+        "name": "Limonada Zmeura",
+        "description": "",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/z6l-N8ZPZBCkrt8npgU6pFXOBUH2ajzcsPLVuF-bgoA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTGltb25hZGElMjBSYXNwYmVycnktNjlmMzRiOWY1OTViM2ZhNzVhZTQ3ODRmLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-limonada-fructul-pasiunii",
+        "name": "Limonada Fructul Pasiunii",
+        "description": "",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/CWpbCF5PYpbvr-NBMOdaXUfpxgyurlUVvw6B5lMwcG8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTGltb25hZGElMjBQYXNzaW9uJTIwRnJ1aXQtNjlmMzRiOWY1OTViM2ZhNzVhZTQ3ODRlLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-limonada",
+        "name": "Limonada",
+        "description": "",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/ILhkk3js_41vo4QleQVig8ARWRcQzjL-rx3zEUH8zVo/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvTGltb25hZGEtNjdhYjQzYjYyMWZkYzc2OTgyNjFhOTNhLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 12.9,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-pepsi",
+        "name": "Pepsi",
+        "description": "330ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/y9F6QPP_Hl3zB8RvD3ox-JllvHqgZmi68Ugj5ICz71E/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvcGVwc2ktY29sYS02N2E0YWRiMjUyNmNiZjE0ODg3ZWI4MWIucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-pepsi-zero",
+        "name": "Pepsi Zero",
+        "description": "330ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/0nPD9VTf8aj23axbO1PYQUl1D1H5hv9ixe5mdUncafg/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvcGVwc2ktemVyby02N2E0YWQ2MzYwMTc1MGE4MzI0NmZiMjEucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-pepsi-twist",
+        "name": "Pepsi Twist",
+        "description": "330ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/pfdUAJR3ZY1aFRpm6niztbAY8VDLIMJNEp_g9jsDRIw/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvcGVwc2ktdHdpc3QtNjdhNGFkYjI1MjZjYmYxNDg4N2ViODFjLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-mirinda",
+        "name": "Mirinda",
+        "description": "330ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/r_Zk0hIWub9-U16eNjheeSAMefGsaOoqCIxe00w8mEA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvbWlyaW5kYS02N2E0YWRiMjUyNmNiZjE0ODg3ZWI4MWYucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-bautura-7-up",
+        "name": "Bautura 7 Up",
+        "description": "330ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/kL0YLr1WSgbAVN3y0vq9YteIAYKmMK7WUV-2xvB1-O0/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvN3VwLTY3YTRhZGIyNTI2Y2JmMTQ4ODdlYjgxZC5wbmc=",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-apa-plata",
+        "name": "Apa Plata",
+        "description": "500ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/8SGe69Wrj7vEuCb_Ivu1TEHayUhwO3DwCMQnr3EyNz4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvYXF1YS1jYXJwYXRpY2EtNjdhNGFkYjI1MjZjYmYxNDg4N2ViODFlLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-apa-minerala",
+        "name": "Apa Minerala",
+        "description": "500ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/8SGe69Wrj7vEuCb_Ivu1TEHayUhwO3DwCMQnr3EyNz4/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvYXF1YS1jYXJwYXRpY2EtNjdhNGFkYjI1MjZjYmYxNDg4N2ViODFlLnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 10.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-espresso-dublu",
+        "name": "Espresso Dublu",
+        "description": "120ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/ojFo32cG_CblaSd5q_K5ARLl1dIJLfjyvdITqxNmx-s/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRXNwcmVzc28tNjdhYjQzYjYyMWZkYzc2OTgyNjFhOTM5LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-cappucino",
+        "name": "Cappucino",
+        "description": "200ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/kRBkF4n4JsXqY_vnA50Ae-wcHCKqJDu6hJGRbGFojMw/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2FwcHVjY2luby02N2FiNDNiNjIxZmRjNzY5ODI2MWE5MzcucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-caffe-latte",
+        "name": "Caffe Latte",
+        "description": "200ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/Jqq9a8u4_NRURcifZMRxufJKt7RTqm7l2k--E59ecp8/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2FmZmUlMjBMYXR0ZS02N2FiNDNiNjIxZmRjNzY5ODI2MWE5MzUucG5n",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-caffe-americano",
+        "name": "Caffe Americano",
+        "description": "200ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/1U7UX6XIx7c39_2yP6t2yyHXezvLiyRkAs_Y-vSfCCA/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvQ2FmZmUlMjBBbWVyaWNhbm8tNjdhYjQzYjYyMWZkYzc2OTgyNjFhOTM0LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 8.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      },
+      {
+        "id": "splendid-chicken-bauturi-espresso",
+        "name": "Espresso",
+        "description": "60ml",
+        "category": "BAUTURI ",
+        "imageUrl": "https://resizer.deliverect.com/ojFo32cG_CblaSd5q_K5ARLl1dIJLfjyvdITqxNmx-s/rt:fill/w:1024/h:1024/g:ce/el:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2lrb25hLWJ1Y2tldC1wcm9kdWN0aW9uL2ltYWdlcy82NzhlMjc2ODFmNTM2NGJhZjhlMGRjMDkvRXNwcmVzc28tNjdhYjQzYjYyMWZkYzc2OTgyNjFhOTM5LnBuZw==",
+        "prices": [
+          {
+            "platform": "glovo",
+            "available": true,
+            "price": 7.5,
+            "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/wrap-n-go-cta"
+          },
+          {
+            "platform": "bolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          },
+          {
+            "platform": "wolt",
+            "available": false,
+            "price": 0,
+            "deepLink": ""
+          }
+        ]
+      }
     ]
   },
   "cin-cin-constanta": [
