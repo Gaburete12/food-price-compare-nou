@@ -16,6 +16,8 @@ import { MenuSection } from "@/components/restaurant/MenuSection";
 import { ComparisonModal } from "@/components/restaurant/ComparisonModal";
 import { ProductSearch } from "@/components/ProductSearch";
 import { useProductSearch } from "@/hooks/useProductSearch";
+import { useCart } from "@/contexts/CartContext";
+import { CartDrawer } from "@/components/cart/CartDrawer";
 
 export default function Home() {
   const [restaurants, setRestaurants] = useState<Restaurant[]>(RESTAURANTS);
@@ -28,6 +30,9 @@ export default function Home() {
   const [isSyncing, setIsSyncing] = useState(false);
   const [lastSyncTime, setLastSyncTime] = useState<string | null>(null);
   const [selectedMenuItem, setSelectedMenuItem] = useState<MenuItem | null>(null);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
+  const { cartItems } = useCart();
 
   // Product search hook
   const { results: productResults, isLoading: isSearchingProducts, search: searchProducts } = useProductSearch();
@@ -332,6 +337,7 @@ export default function Home() {
                   menu={selectedRestaurant.menu}
                   selectedMenuItem={selectedMenuItem}
                   onSelectItem={setSelectedMenuItem}
+                  restaurantId={selectedRestaurant.id}
                 />
               )}
             </motion.section>
@@ -487,6 +493,36 @@ export default function Home() {
         selectedRestaurant={selectedRestaurant}
         onClose={() => setSelectedMenuItem(null)}
       />
+
+      {/* Floating Cart Button */}
+      <AnimatePresence>
+        {selectedRestaurant && cartItems.length > 0 && (
+          <motion.button
+            initial={{ opacity: 0, scale: 0.8, y: 50 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.8, y: 50 }}
+            onClick={() => setIsCartOpen(true)}
+            className="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-ring hover:bg-orange-500 text-white font-extrabold px-6 py-4 rounded-full shadow-2xl shadow-ring/30 active:scale-95 transition-all group cursor-pointer"
+          >
+            <div className="relative">
+              <ShoppingBag className="w-5 h-5" />
+              <span className="absolute -top-2.5 -right-2.5 bg-white text-ring text-[10px] font-black w-5 h-5 rounded-full flex items-center justify-center border border-ring/10">
+                {cartItems.reduce((acc, i) => acc + i.quantity, 0)}
+              </span>
+            </div>
+            <span className="text-sm tracking-wide">Vezi Coș & Economii</span>
+          </motion.button>
+        )}
+      </AnimatePresence>
+
+      {/* Cart Drawer */}
+      {selectedRestaurant && (
+        <CartDrawer
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          restaurant={selectedRestaurant}
+        />
+      )}
     </div>
   );
 }

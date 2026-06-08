@@ -2,14 +2,19 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
 import { type MenuItem } from "@/lib/data";
+import { useCart } from "@/contexts/CartContext";
+import { toast } from "sonner";
 
 interface MenuSectionProps {
   menu: MenuItem[];
   selectedMenuItem: MenuItem | null;
   onSelectItem: (item: MenuItem | null) => void;
+  restaurantId: string;
 }
 
-export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectionProps) {
+export function MenuSection({ menu, selectedMenuItem, onSelectItem, restaurantId }: MenuSectionProps) {
+  const { cartItems, addToCart } = useCart();
+
   const categoryOrder = [
     "Promoții și Noutăți",
     "Meniuri și Buckets",
@@ -62,7 +67,7 @@ export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectio
               <button
                 key={cat}
                 onClick={() => scrollToCategory(cat)}
-                className={`px-4 py-3 rounded-xl text-xs font-bold whitespace-nowrap transition-all duration-300 flex-shrink-0 text-left ${
+                className={`px-4 py-3 rounded-xl text-xs font-bold whitespace-nowrap transition-all duration-300 flex-shrink-0 text-left cursor-pointer ${
                   activeCategory === cat
                     ? "bg-ring text-white shadow-lg shadow-ring/20 translate-x-1"
                     : "text-muted-foreground hover:bg-secondary hover:text-foreground"
@@ -89,18 +94,24 @@ export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectio
                     ? Math.min(...item.prices.filter(p => p.available && p.price > 0).map(p => p.price))
                     : null;
 
+                  const cartItem = cartItems.find((ci) => ci.menuItem.id === item.id);
+                  const quantity = cartItem ? cartItem.quantity : 0;
+
                   return (
-                    <motion.button
+                    <motion.div
                       key={item.id}
                       layoutId={item.id}
-                      onClick={() => onSelectItem(item)}
-                      className={`flex gap-5 p-4 rounded-2xl text-left border transition-all duration-300 group relative ${
+                      className={`flex gap-5 p-4 rounded-2xl border transition-all duration-300 group relative ${
                         selectedMenuItem?.id === item.id
                           ? "bg-secondary/50 border-ring shadow-xl shadow-ring/10 ring-1 ring-ring/50"
                           : "bg-card border-border hover:border-ring/40 hover:shadow-lg"
                       }`}
                     >
-                      <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden flex-shrink-0 shadow-md">
+                      {/* Left image part - Click triggers Compare modal */}
+                      <div
+                        onClick={() => onSelectItem(item)}
+                        className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden flex-shrink-0 shadow-md cursor-pointer relative"
+                      >
                         <img
                           src={item.imageUrl}
                           alt={item.name}
@@ -109,8 +120,9 @@ export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectio
                         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                       </div>
                       
+                      {/* Right info part */}
                       <div className="flex-1 py-1 flex flex-col justify-between">
-                        <div>
+                        <div onClick={() => onSelectItem(item)} className="cursor-pointer">
                           <div className="flex items-start justify-between gap-2 mb-1.5">
                             <p className={`font-bold text-sm leading-tight ${
                               selectedMenuItem?.id === item.id ? "text-ring" : "text-foreground"
@@ -127,17 +139,43 @@ export function MenuSection({ menu, selectedMenuItem, onSelectItem }: MenuSectio
                         </div>
                         
                         <div className="mt-3 flex items-center justify-between gap-2">
-                          {minPrice !== null && (
-                            <span className="text-xs font-extrabold text-ring font-['Outfit']">
-                              {minPrice.toFixed(2)} RON
-                            </span>
-                          )}
-                          <span className="text-[10px] font-bold bg-secondary text-secondary-foreground px-2.5 py-1 rounded-md uppercase tracking-wider group-hover:bg-ring/10 group-hover:text-ring transition-colors">
-                            Compară Preț
-                          </span>
+                          <div onClick={() => onSelectItem(item)} className="cursor-pointer">
+                            {minPrice !== null && (
+                              <span className="text-xs font-extrabold text-ring font-['Outfit']">
+                                {minPrice.toFixed(2)} RON
+                              </span>
+                            )}
+                          </div>
+
+                          <div className="flex items-center gap-2">
+                            <button
+                              onClick={() => onSelectItem(item)}
+                              className="text-[10px] font-bold bg-secondary text-secondary-foreground px-2.5 py-1.5 rounded-md uppercase tracking-wider hover:bg-ring/10 hover:text-ring transition-colors cursor-pointer"
+                            >
+                              Compară
+                            </button>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                addToCart(item, restaurantId);
+                                toast.success("Adăugat în coș!", {
+                                  description: `${item.name} a fost adăugat în coșul tău.`,
+                                  duration: 1500,
+                                });
+                              }}
+                              className="text-[10px] font-black bg-ring text-white px-2.5 py-1.5 rounded-md uppercase tracking-wider hover:bg-orange-500 transition-colors shadow-sm cursor-pointer flex items-center gap-1"
+                            >
+                              + Adaugă
+                              {quantity > 0 && (
+                                <span className="bg-white text-ring text-[9px] font-black px-1.5 py-0.5 rounded-full ml-0.5">
+                                  {quantity}
+                                </span>
+                              )}
+                            </button>
+                          </div>
                         </div>
                       </div>
-                    </motion.button>
+                    </motion.div>
                   );
                 })}
               </div>
