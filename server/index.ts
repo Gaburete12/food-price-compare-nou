@@ -90,7 +90,10 @@ async function startServer() {
         "burgerking-constanta",
         "sabroso-constanta",
         "cin-cin-constanta",
-        "splendid-chicken"
+        "splendid-chicken",
+        "tacos-king",
+        "mesopotamia-constanta",
+        "tacoseria-constanta"
       ];
       
       for (const restId of restaurantIds) {

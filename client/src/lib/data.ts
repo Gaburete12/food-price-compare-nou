@@ -13368,6 +13368,142 @@ export const RESTAURANTS: Restaurant[] = [
       }
     ],
     menu: []
+  },
+  // ===== TACOS KING CONSTANȚA =====
+  {
+    id: "tacos-king",
+    name: "Tacos King",
+    category: "Mexican",
+    city: "Constanța",
+    address: "Strada Ștefan cel Mare 118, Constanța",
+    rating: 4.5,
+    reviewCount: 280,
+    imageUrl: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 4.99,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 2.00,
+        serviceFeeMax: 8.00,
+        smallOrderFee: 5.00,
+        smallOrderThreshold: 45.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 35,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/tacos-king-cta"
+      },
+      {
+        platform: "bolt",
+        available: false,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        deliveryTime: 0,
+        deepLink: ""
+      },
+      {
+        platform: "wolt",
+        available: false,
+        deliveryFee: 0.00,
+        serviceFee: 0.00,
+        deliveryTime: 0,
+        deepLink: ""
+      }
+    ],
+    menu: []
+  },
+  // ===== MESOPOTAMIA CONSTANȚA =====
+  {
+    id: "mesopotamia-constanta",
+    name: "Mesopotamia",
+    category: "Fast Food",
+    city: "Constanța",
+    address: "Bulevardul Alexandru Lăpușneanu (City Park Mall), Constanța",
+    rating: 4.6,
+    reviewCount: 890,
+    imageUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 3.99,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 2.00,
+        serviceFeeMax: 8.00,
+        smallOrderFee: 5.00,
+        smallOrderThreshold: 55.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 30,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/mesopotamia-constanta"
+      },
+      {
+        platform: "bolt",
+        available: true,
+        deliveryFee: 3.49,
+        serviceFee: 2.50,
+        deliveryTime: 30,
+        deepLink: "https://food.bolt.eu/ro-ro/462-constanta/p/78413-mesopotamia-city/"
+      },
+      {
+        platform: "wolt",
+        available: true,
+        deliveryFee: 4.49,
+        serviceFee: 2.00,
+        smallOrderFee: 4.00,
+        smallOrderThreshold: 50.0,
+        deliveryTime: 25,
+        deepLink: "https://wolt.com/ro/rou/constanta/restaurant/mesopotamia-city-park-67e179195493f87b1eb0ce12"
+      }
+    ],
+    menu: []
+  },
+  // ===== TACOSERIA CONSTANȚA =====
+  {
+    id: "tacoseria-constanta",
+    name: "Tacoseria",
+    category: "Mexican",
+    city: "Constanța",
+    address: "Strada Mircea cel Bătrân 97, Constanța",
+    rating: 4.7,
+    reviewCount: 420,
+    imageUrl: "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?w=800&q=80",
+    platforms: [
+      {
+        platform: "glovo",
+        available: true,
+        deliveryFee: 4.49,
+        serviceFee: 2.00,
+        serviceFeePercent: 0.08,
+        serviceFeeMin: 2.00,
+        serviceFeeMax: 8.00,
+        smallOrderFee: 5.00,
+        smallOrderThreshold: 45.0,
+        dynamicSmallOrderFee: true,
+        deliveryTime: 35,
+        deepLink: "https://glovoapp.com/ro/ro/constanta/stores/tacoseria-cta"
+      },
+      {
+        platform: "bolt",
+        available: true,
+        deliveryFee: 3.99,
+        serviceFee: 2.50,
+        deliveryTime: 35,
+        deepLink: "https://food.bolt.eu/ro-ro/462-constanta/p/68860-tacoseria/"
+      },
+      {
+        platform: "wolt",
+        available: true,
+        deliveryFee: 4.99,
+        serviceFee: 2.00,
+        smallOrderFee: 3.00,
+        smallOrderThreshold: 45.0,
+        deliveryTime: 30,
+        deepLink: "https://wolt.com/ro/rou/constanta/restaurant/tacoseria-67e18559a54a3ee61d3b13ec"
+      }
+    ],
+    menu: []
   }
 ];
 
