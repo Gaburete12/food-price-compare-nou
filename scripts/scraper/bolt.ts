@@ -59,13 +59,34 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
       { id: "sabroso-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/55329-sabroso/" },
       { id: "cin-cin-constanta", url: "https://food.bolt.eu/ro/rou/constanta/cin-cin" },
       { id: "mesopotamia-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/78413-mesopotamia-city/" },
-      { id: "tacoseria-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/68860-tacoseria/" }
-    ];
+      { id: "tacoseria-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/68860-tacoseria/" },
+      { id: "burgerking-constanta", url: "https://food.bolt.eu/ro-ro/462-constanta/p/237190-burger-king-constanta-tom" },
+      { id: "splendid-chicken", url: "https://food.bolt.eu/ro-ro/462-constanta/p/splendid-chicken" },
+      { id: "tacos-king", url: "https://food.bolt.eu/ro-ro/462-constanta/p/tacos-king" }
+    ,
+  {
+    id: "shaormeria-baneasa-constanta",
+    url: "https://food.bolt.eu/ro-ro/462-constanta/p/56615-shaormeria-baneasa-cismelei/",
+    name: "Shaormeria Băneasa"
+  },
+  {
+    id: "new-dimico",
+    url: "https://food.bolt.eu/ro-ro/462-constanta/p/149785-new-dimico/",
+    name: "New Dimico"
+  },
+  {
+    id: "sarmola-street-food",
+    url: "https://food.bolt.eu/ro-ro/462-constanta/p/194320-sarmola-street-food/",
+    name: "Sarmola Street Food"
+  }
+
+];
 
     for (const rest of restaurantsToScrape) {
       console.log(`Deschidem pagina restaurantului Bolt: ${rest.id}`);
       // Folosim o pagină nouă izolată per restaurant pentru a evita cumularea coșului de cumpărături
       const restPage = await context.newPage();
+      restPage.on('console', msg => console.log(`[Browser Bolt] ${msg.text()}`));
 
       try {
         await restPage.goto(rest.url, { waitUntil: 'domcontentloaded' });
@@ -138,38 +159,122 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
         // --- Extragere Meniu ---
         console.log(`Începem extragerea meniului pentru ${rest.id} de pe Bolt...`);
 
-        // Scroll pentru a încărca produsele lazy-loaded
-        await restPage.evaluate(async () => {
-          for(let i = 0; i < 10; i++) {
-             window.scrollBy(0, 800);
-             await new Promise(r => setTimeout(r, 600));
-          }
-        });
+        const menuItemsMap = new Map<string, any>();
 
-        const menuItems = await restPage.evaluate((url) => {
-          const items: any[] = [];
+        // Focusăm body-ul pentru a permite mouse wheel nativ
+        const boundingBox = await restPage.locator('body').boundingBox();
+        if (boundingBox) {
+            await restPage.mouse.move(boundingBox.width / 2, boundingBox.height / 2);
+        }
+
+        let prevSize = 0;
+        let noChangeAttempts = 0;
+
+        for (let scrollStep = 0; scrollStep < 40; scrollStep++) {
+            const stepItems = await restPage.evaluate((url) => {
+                const items: any[] = [];
           // Bolt Food folosește structuri de produse în carduri
-          const productElements = Array.from(document.querySelectorAll('[class*="MenuItem"], [class*="ProductItem"], [class*="menu-item"], .product-card, .item-card'));
+          // Deoarece folosesc React Native Web, clasele sunt obfuscate (ex. css-1dbjc4n)
+          let productElements = Array.from(document.querySelectorAll('[data-testid="components.DishList.DishRow.view"]'));
+          if(productElements.length === 0) productElements = Array.from(document.querySelectorAll('div[role="button"], a, li'));
+          
+          // Păstrăm doar containerele care au un preț în interior (text rezonabil de scurt)
+          productElements = productElements.filter(card => {
+             const txt = card.textContent || "";
+             return (txt.includes('lei') || txt.includes('Lei') || txt.includes('RON')) && txt.length > 5 && txt.length < 1500;
+          });
+
+          // Dacă tot e 0, fallback: urcăm de la orice tag <img> până dăm de un preț
+          if (productElements.length === 0) {
+              console.log("Bolt: Folosim euristica pe bază de imagini pentru carduri...");
+              const allImages = Array.from(document.querySelectorAll('img'));
+              allImages.forEach(img => {
+                  // Excludem din start imaginile de cover, logo, banner
+                  const imgClasses = (img.getAttribute('class') || "").toLowerCase();
+                  const imgSrc = (img.getAttribute('src') || "").toLowerCase();
+                  if (imgClasses.includes("header") || imgClasses.includes("cover") || 
+                      imgClasses.includes("banner") || imgClasses.includes("logo") || 
+                      imgClasses.includes("avatar") || imgClasses.includes("hero") ||
+                      imgSrc.includes("logo") || imgSrc.includes("cover") || imgSrc.includes("banner")) {
+                      return; // Sărim peste această imagine
+                  }
+                  
+                  // Verificăm dimensiunile (ignoram imagini gigantice)
+                  if (img.width > 400 || img.height > 400) {
+                      return;
+                  }
+
+                  let parent = img.parentElement;
+                  let depth = 0;
+                  let inHeader = false;
+                  
+                  // Verificăm să nu fim în interiorul unui <header>
+                  let checkParent = parent;
+                  while(checkParent && depth < 10) {
+                      if (checkParent.tagName.toLowerCase() === 'header' || 
+                          (checkParent.getAttribute('class') || "").toLowerCase().includes("header")) {
+                          inHeader = true;
+                          break;
+                      }
+                      checkParent = checkParent.parentElement;
+                      depth++;
+                  }
+                  if (inHeader) return;
+                  
+                  depth = 0;
+                  while (parent && depth < 8) {
+                      const text = parent.textContent || "";
+                      if ((text.includes('lei') || text.includes('Lei') || text.includes('RON')) && text.length < 400) {
+                          if (!productElements.includes(parent)) {
+                              productElements.push(parent);
+                          }
+                          break;
+                      }
+                      parent = parent.parentElement;
+                      depth++;
+                  }
+              });
+          }
 
           console.log(`Bolt: Found ${productElements.length} product elements`);
 
           productElements.forEach(card => {
             // Numele produsului
-            const nameEl = card.querySelector('h3, h4, [class*="name"], [class*="title"], [class*="Name"], [class*="Title"]');
+            const nameEl = card.querySelector('[data-testid="components.DishList.DishRow.title"], h3, h4, [class*="name"], [class*="title"], [class*="Name"], [class*="Title"]');
             let name = nameEl ? nameEl.textContent?.trim() || "" : "";
+            
+            // Fallback dacă h3/h4 nu există: primul text semnificativ din card
+            if (!name) {
+                const allTexts = Array.from(card.querySelectorAll('div, span, p'))
+                    .map(el => el.textContent?.trim() || "")
+                    .filter(t => t.length > 2 && !t.includes('lei') && !t.includes('Lei') && !t.includes('RON') && !t.match(/^\d+$/));
+                if (allTexts.length > 0) {
+                    name = allTexts[0];
+                }
+            }
 
             // Prețul produsului
-            const priceEl = card.querySelector('[class*="price"], [class*="Price"], .price, span:has-text("RON")');
+            // Căutăm clasele clasice de preț
+            let priceEl = card.querySelector('[data-testid="components.Price.originalPrice"], [data-testid="components.Price.discountedPrice"], [class*="price"], [class*="Price"], .price');
+
+            // Dacă nu găsește clasa, căutăm manual un element care conține textul "lei" sau "RON"
+            if (!priceEl) {
+              const elements = Array.from(card.querySelectorAll('span, div, p'));
+              priceEl = elements.find(el => {
+                const txt = el.textContent || "";
+                return txt.includes('lei') || txt.includes('Lei') || txt.includes('RON');
+              }) || null;
+            }
             const priceText = priceEl ? priceEl.textContent?.trim() || "" : "";
             const priceMatch = priceText.match(/([\d,]+)/);
             const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
 
             // Descrierea
-            const descEl = card.querySelector('[class*="description"], [class*="Description"], p');
+            const descEl = card.querySelector('[data-testid="components.DishList.DishRow.description"], [class*="description"], [class*="Description"], p');
             const description = descEl ? descEl.textContent?.trim() || "" : "";
 
             // Imaginea
-            const imgEl = card.querySelector('img');
+            const imgEl = card.querySelector('[data-testid="components.DishList.DishRow.image"] img, img');
             const imageUrl = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || "") : "";
 
             // Categoria
@@ -204,20 +309,32 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
             }
           });
 
-          // Eliminăm duplicatele după id
-          const uniqueItems: any[] = [];
-          const seenIds = new Set();
-          for (const item of items) {
-            if (!seenIds.has(item.id)) {
-              seenIds.add(item.id);
-              uniqueItems.push(item);
-            }
-          }
-
-          return uniqueItems;
+          return items;
         }, rest.url);
 
-        console.log(`Au fost extrase ${menuItems.length} produse pentru ${rest.id} de pe Bolt.`);
+        for (const item of stepItems) {
+            if (!menuItemsMap.has(item.id)) {
+                menuItemsMap.set(item.id, item);
+            }
+        }
+
+        await restPage.mouse.wheel(0, 1000);
+        await restPage.waitForTimeout(400);
+
+        if (menuItemsMap.size === prevSize) {
+            noChangeAttempts++;
+            if (noChangeAttempts >= 6) {
+                console.log(`Bolt: Am ajuns la final, extragerea s-a oprit după ${scrollStep} scroll-uri.`);
+                break;
+            }
+        } else {
+            noChangeAttempts = 0;
+            prevSize = menuItemsMap.size;
+        }
+      }
+
+      const menuItems = Array.from(menuItemsMap.values());
+      console.log(`Au fost extrase ${menuItems.length} produse pentru ${rest.id} de pe Bolt.`);
         menus[rest.id] = menuItems;
 
       } catch (e) {

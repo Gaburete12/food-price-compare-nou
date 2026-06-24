@@ -1,0 +1,3674 @@
+[
+  {
+    "id": "cin-cin-1-produse-noi-mici-cu-cartofi-mustar-si-chifla",
+    "name": "Mici cu cartofi, mustar si chifla",
+    "description": "3 buc mici (vita+porc), cartofi, mustar, chifla - 400g",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 36.1,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 38.76,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-noi-shaorma-chicken-cheese-mare",
+    "name": "Shaorma chicken cheese mare",
+    "description": "Lipie, carne pui, cartofi prajiti, castraveti murati/proaspeti, varza, maioneza, ketchup - 650g",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 36.1,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 38.76,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-noi-shaorma-chicken-cheese-mica",
+    "name": "Shaorma chicken cheese mica",
+    "description": "Lipie, carne pui, cartofi prajiti, castraveti murati/proaspeti, varza, maioneza, ketchup - 450g",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-noi-hamsie-cu-mamaliga-si-mujdei",
+    "name": "Hamsie cu mamaliga si mujdei",
+    "description": "Hamsie, malai, usturoi, ,lamaie - 500g",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 33,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 31.35,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 33.66,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-noi-kebab-chicken-cheese",
+    "name": "Kebab chicken cheese",
+    "description": "Chifla,snitel pui,cartofi,ketchup,castraveti murat, varza, sos cheddar",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-noi-toast-kebab",
+    "name": "Toast kebab",
+    "description": "Chifla, carne pui, cartofi prajiti, castraveti murati/proaspeti, varza, maioneza, ketchup -400g",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 29,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 27.55,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 29.58,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-noi-ayran",
+    "name": "Ayran",
+    "description": "AYRAN 350G",
+    "category": "PRODUSE NOI",
+    "imageUrl": "",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 13,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 12.35,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 13.26,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-meniuri-1100-1600-meniu-4",
+    "name": "Meniu 4",
+    "description": "Ciorba de perisoare , tochitura, clatita finetti - 700g",
+    "category": "MENIURI (11:00-16:00)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/0b7879b5f7b216b715e05ce3d29b20ac72302c966724d661d88ecdabb78980cd",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-meniuri-1100-1600-meniu-5",
+    "name": "Meniu 5",
+    "description": "Ciorba de perisoare, cotlet de porc, cartofi prajiti, clatita fineti - 600g",
+    "category": "MENIURI (11:00-16:00)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/2679892e197844c1752d71571d533bbf07aca06a783ff521dbd15f34839a781f",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-meniuri-1100-1600-meniu-1",
+    "name": "Meniu 1",
+    "description": "Ciorba de pu a la grec (250g) + snitel pui (120g) + orez (100g) + 2 felii paine + clatita cu finetti (100g) - 570g",
+    "category": "MENIURI (11:00-16:00)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/9f89d118a74d6d5befaac1324bc8f07e3904c3e87f1194837d31bba5b4cad428",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-meniuri-1100-1600-meniu-2",
+    "name": "Meniu 2",
+    "description": "Ciorba perisoare pui (250g) + gujoane pui cu susan (120g) + piure de cartofi (100g) + 2 felii paine + tiramisu (120g)",
+    "category": "MENIURI (11:00-16:00)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/9f89d118a74d6d5befaac1324bc8f07e3904c3e87f1194837d31bba5b4cad428",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-meniuri-1100-1600-meniu-3",
+    "name": "Meniu 3",
+    "description": "Ciorba pui a la grec (250g) + piept de pui la gratar (120g) + cartofi prajiti (100g) + 2 felii paine + clatita cu finetti (100g) - 570g",
+    "category": "MENIURI (11:00-16:00)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/42c9e75824d48215ebb88cdbe6ae751f6b831e3d04438613320d14fe0e23c9fb",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-combo-31",
+    "name": "COMBO 3+1",
+    "description": "Alege o pizza GRATIS la 3 pizza comandate.",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/40bffa0e99bf236aa35178735553cb24498e6a7f8aa127782c38479ce30160ce",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 99,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 94.05,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 100.98,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-cu-fructe-de-mare",
+    "name": "Pizza cu fructe de mare",
+    "description": "Sos de rosii, cocktail fructe de mare, cascaval sau mozzarella, lamaie - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068110/4c279651-eaff-49e2-91af-9e26b376c752.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-bolognese",
+    "name": "Pizza Bolognese",
+    "description": "Sos de rosii, cascaval sau mozzarella, sos bolognese - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068068/206ce491-b7b1-473d-a170-6be3e1e87f61.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-prosciuto-crudo-e-gorgonzola",
+    "name": "Pizza Prosciuto Crudo e Gorgonzola",
+    "description": "Sos de rosii, cascaval sau mozzarella, prosciuto crudo, parmezan, gorgonzola - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068080/fa5d3cfb-6fce-4ded-b70e-11dd95bd3025.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-salmone",
+    "name": "Pizza Salmone",
+    "description": "Sos de rosii, cascaval sau mozzarella, file somon afumat, capere, lamaie - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/eefe97eda9f8c402be5d54030e798e54721dd4e11da3e7b0d0deeb9ef34160ad",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-calzone",
+    "name": "Pizza Calzone",
+    "description": "Sos de rosii, sunca, ciuperci, cascaval sau mozzarella - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/4f2bcb87f91aea09ddb792088c18a5dab61d4f69d17d503cb4ccc051e3fb8627",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 46,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 43.7,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 46.92,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-quattro-formaggi",
+    "name": "Pizza Quattro Formaggi",
+    "description": "Sos de rosii, branza gorgonzola, cascaval sau mozzarella - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/3487ff08e18b1177fb6d0edd7e2a1ad3c20ce5c3db3ebe974388038cce069dde",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-turceasca",
+    "name": "Pizza Turceasca",
+    "description": "Sos de rosii, cascaval sau mozzarella, ghiudem, babic, rosii, ceapa - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068053/a564144b-da39-4e12-b7bb-c8e63aaf5d7f.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-kebab",
+    "name": "Pizza Kebab",
+    "description": "Sos de rosii, pui, maioneza, salata verde, cascaval sau mozzarella - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068140/70839c7d-d478-44e9-851b-0a093a6482c9.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-capriciosa",
+    "name": "Pizza Capriciosa",
+    "description": "Sos rosii, sunca presata, cabanos, salam, ciuperci, masline, cascaval sau mozzarella - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/5eab460dea3b10ab6d64b4d3a89c94e834ec7ac443b7de1eba06da7279d14d47",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-casei",
+    "name": "Pizza casei",
+    "description": "Sos de rosii, salam, ciuperci, masline, cascaval sau mozzarella - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/e6c2b401fadd8c5a8c0c5e3246e5f80e5e0002892857f5f527d2660a4e1b52aa",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-cu-pui",
+    "name": "Pizza cu pui",
+    "description": "Sos de rosii, piept de pui, ciuperci, masline, ardei gras, cascaval sau mozzarella - 500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/d2eb895d74de347f42e9a6fa5c3745c6bdc3a60be2c5091d60e214b971b380ec",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-quattro-stagioni",
+    "name": "Pizza Quattro Stagioni",
+    "description": "Sos rosii, salam, sunca presata, ciuperci, masline, ardei gras, cascaval sau mozzarella-  500g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/5eab460dea3b10ab6d64b4d3a89c94e834ec7ac443b7de1eba06da7279d14d47",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-primavera",
+    "name": "Pizza Primavera",
+    "description": "Sos de rosii, cabanos, ardei gras, cascaval sau mozzarella - 490g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/437b4839e69cdbaaec0a07c9b401e4d8e7a6d5ddf3a9fd64a839974854882959",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-cu-ton",
+    "name": "Pizza cu ton",
+    "description": "Sos de rosii, ton, cascaval sau mozzarella, lamaie - 490g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/29263c7e14085fb433c14b1b90504f281518174f9d430057b67e62e02edf4683",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-salami",
+    "name": "Pizza Salami",
+    "description": "Sos de rosii, salam picant, cascaval sau mozzarella - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/5eab460dea3b10ab6d64b4d3a89c94e834ec7ac443b7de1eba06da7279d14d47",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-prosciutto",
+    "name": "Pizza Prosciutto",
+    "description": "Sos de rosii, sunca presata, cascaval sau mozzarella - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068060/0ea06092-37b6-4c2c-9e93-428663604bf1.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-vegetariana",
+    "name": "Pizza Vegetariana",
+    "description": "Sos de rosii, ciuperci, ardei gras, rosii, masline, cascaval sau mozzarella - 490g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/fdcd3bdafa5462d0cc4b5a3a7b53dd24eaa55890f91a3a5c9af24247997552b0",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-de-post",
+    "name": "Pizza de post",
+    "description": "Sos de rosii, ciuperci, ardei gras, rosii, masline sau cascaval din soia - 490g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/fdcd3bdafa5462d0cc4b5a3a7b53dd24eaa55890f91a3a5c9af24247997552b0",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-cu-ou",
+    "name": "Pizza cu ou",
+    "description": "Sos de rosii, sunca presata, ou, cascaval sau mozzarella - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/957abee2e7538731cc859696e8218c2c5fc2894af8bf98782f019bde72acd7d9",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-regina",
+    "name": "Pizza Regina",
+    "description": "Sos de rosii, sunca presata, ciuperci, cascaval sau mozzarella - 480g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/e6c2b401fadd8c5a8c0c5e3246e5f80e5e0002892857f5f527d2660a4e1b52aa",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-diablo",
+    "name": "Pizza Diablo",
+    "description": "Sos de rosii, salam, ardei gras, ardei iute, cascaval sau mozzarella - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/234048/PRODUCT/26296068054/7fd986de-68b5-496e-b133-d955bab3d558.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-hawaii",
+    "name": "Pizza Hawaii",
+    "description": "Sos de rosii, sunca, ananas, cascaval sau mozzarella, ciuperci - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/54efd3beec60b5d8daee572554130c0d3b4bb4f6542b87d6fd39d4c8d837b0a8",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-funghi",
+    "name": "Pizza Funghi",
+    "description": "Sos de rosii, cascaval sau mozzarella, ciuperci - 450g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068120/1b525da4-5f76-4340-aec0-891685b90941.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 39,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 37.05,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 39.78,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-pizza-margherita",
+    "name": "Pizza Margherita",
+    "description": "Sos de rosii, cascaval sau mozzarella, rosii - 400g",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/fdcd3bdafa5462d0cc4b5a3a7b53dd24eaa55890f91a3a5c9af24247997552b0",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 39,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 37.05,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 39.78,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-pizza-focaccia",
+    "name": "Focaccia",
+    "description": "Simpla, cu usturoi, cascaval sau mixta",
+    "category": "PIZZA",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/d73eeceae3f74c088b5d302e77428133b78145f777c460375819978c01b7cb0d",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 25,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 23.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 25.5,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-shaorma-cu-pui-la-farfurie",
+    "name": "Shaorma cu pui la farfurie",
+    "description": "Lipie mare, carne de pui, cartofi prajiti, catraveti murati sau castraveti proaspeti, varza, maioneza sau maioneza cu usturoi, ketchup dulce sau ketchup iute",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068099/f13dadf4-448c-428f-bece-688d3fc7c92d.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-shaorma-pui-mare",
+    "name": "Shaorma pui mare",
+    "description": "Lipie, carne de pui, cartofi prajiti, castraveti murati sau castraveti proaspeti, varza, maioneza simpla sau maioneza cu usturoi, ketchup iute sau ketchup dulce - 650g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/44503e56ed1dbe8ac14207642bd7be18c2520cb26d9411e7d6c4edca969e8772",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-shaorma-pui-mica",
+    "name": "Shaorma pui mica",
+    "description": "Lipie, carne de pui, cartofi prajiti, castraveti murati sau castraveti proaspeti, varza, maioneza sau maioneza cu usturoi, ketchup iute sau ketchup dulce - 450g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/44503e56ed1dbe8ac14207642bd7be18c2520cb26d9411e7d6c4edca969e8772",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-kebab-pui",
+    "name": "Kebab pui",
+    "description": "Chifla, carne de pui, cartofi prajiti, castraveti murati sau castraveti proaspeti, varza, maioneza sau maioneza cu usturoi, ketchup dulce sau ketchup iute",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/dc4b1afbc248cdb26a44a6806423066fc4c21122297d22e301c94ad36b9b85bd",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 31,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 29.45,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 31.62,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-sandwich-cu-pui-crocant",
+    "name": "Sandwich cu pui crocant",
+    "description": "Chifla, pui crocant, salata verde, rosii, castraveti - 300g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/423849eccc2c38cd4d47f64064ba65273f157bcf2fbf057fbbe91e39dda22c15",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-sandwich-cu-pui-gratar-cu-bacon",
+    "name": "Sandwich cu pui gratar cu bacon",
+    "description": "Chifla, piept pui, cascaval, bacon, salata verde, rosii, castraveti - 300g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/944ec8300979471a2f70a9d0aadfe9431ac77d3750ab55258baf9b7a256391db",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-sandwich-sunca-si-cascaval",
+    "name": "Sandwich sunca si cascaval",
+    "description": "Chifla, cascaval, sunca, salata verde, rosii, castraveti - 300g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/7f59eacbdee15dd65a30e9b595c9de720f06dfcca7ae3252536a0eb93dad0b3f",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-sandwich-cu-snitel-pui",
+    "name": "Sandwich cu snitel pui",
+    "description": "Chifla, piept pui, salata verde, rosii, castraveti - 300g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068150/16694310-4052-4e90-bfa3-197cc88b3daf.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-sandwich-pollo-parmegiano",
+    "name": "Sandwich pollo parmegiano",
+    "description": "Chifla, piept pui, mozzarella, sos de rosii, salata verde, rosii, castraveti - 350g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068112/7854335c-6615-4c31-b148-1f5f5d4c05b4.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sandwiches-sandwich-omleta-si-bacon",
+    "name": "Sandwich omleta si bacon",
+    "description": "Chifla, omleta, bacon, rosii, castraveti, salata verde - 300g",
+    "category": "SANDWICHES",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/6730c16e3c17e59e34e36e8d53598123a7480641e72225c9201117d639c0db36",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-porc-cartofi-prajiti-150g-tochitura-dobrogeana",
+    "name": "Tochitura dobrogeana",
+    "description": "Carne porc, cabanos, ciuperci, ou, branza, mamaliga - 530g",
+    "category": "PREPARATE PORC + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/93892e3d58558a62ca9fd8a3a0f48d8bb8d8c2a4a6c557e312d061a3fcd31508",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 52,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 49.4,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 53.04,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-porc-cartofi-prajiti-150g-pomana-porcului",
+    "name": "Pomana porcului",
+    "description": "Carne porc, vin alb, usturoi, mamaliga - 400g",
+    "category": "PREPARATE PORC + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068072/4e65acb3-88a3-4a2f-a531-4b903fd934bc.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-porc-cartofi-prajiti-150g-ceafa-de-porc",
+    "name": "Ceafa de porc",
+    "description": "Ceafa - 250g",
+    "category": "PREPARATE PORC + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068059/c13b897b-b8c9-42b9-bd95-93e551c088ca.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pui-la-ceaun",
+    "name": "Pui la ceaun",
+    "description": "Pui - 400g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/67ab83d9c6d61585a0037c462bb0409f3e4c3d890c2138de6c786879f110f541",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pollo-gorgonzola",
+    "name": "Pollo gorgonzola",
+    "description": "Piept pui, gorgonzola, cascaval, smantana - 350g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/4fe81dfe8df47b6747438509fddb8e15f4bcb55df53b3b8cf2be29339133ec85",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-scalopina-funghi-pui",
+    "name": "Scalopina funghi pui",
+    "description": "Piept pui, ciuperci, smantana - 300g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/33bc06a93a3f5f295ef3e5be811429bfc769c747db6906dcb6fa1e029f0fd8ee",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-ficatei-pui",
+    "name": "Ficatei pui",
+    "description": "Ficatei, usturoi, vin alb - 250g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/9807a8c2f2d49028b637a20ad61babb75dbd7b252e051a3112eb17708f53913e",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 41,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 41.82,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pui-gratinat",
+    "name": "Pui gratinat",
+    "description": "Piept pui , bacon, cascaval - 300g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068062/f3aae0a5-514f-4065-a728-ba956db6cbd7.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 39,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 37.05,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 39.78,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pulpa-pui-dezosata",
+    "name": "Pulpa pui dezosata",
+    "description": "250g meniu",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/efd116b30e001c367204d2c095f9d6cabe541bd1dbde38d7061ba1cbb128162c",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pui-cin-cin",
+    "name": "Pui Cin Cin",
+    "description": "Piept pui impesmetat, sos rosii picant, sos bechamel - 300g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/b2e4c1bba706897accdc2337f68285798e1448ced49ce80193b5aac7cdb5f784",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 36,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 34.2,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 36.72,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-aripioare-cu-susan",
+    "name": "Aripioare cu susan",
+    "description": "Aripioare de pui in sos bechamel, susan - 280g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/c69c196fa1dd02fe11579541f6bc7a05a02c6a5fd3cfae867158f4c7a746f742",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 36,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 34.2,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 36.72,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-aripioare-prajite",
+    "name": "Aripioare prajite",
+    "description": "250g meniu",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/25e54a11d9369b8547a0fa7b95283a252b560a0efaaa9df2ab5a91ce076c4f54",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 36,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 34.2,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 36.72,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pollo-parmegiano",
+    "name": "Pollo parmegiano",
+    "description": "Piept pui impesmetat, sos rosu, cascaval, sos bechamel - 300g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/772d734404d423a1c2ff3d4d854601c6e00cbb3637c6fba58f8716a9a3f2c609",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-pui-crocant",
+    "name": "Pui crocant",
+    "description": "Piept pui in fulgi, sos bechamel - 250g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068132/29ff79f8-3edd-4e5b-8073-736dd3ce9851.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-gujoane-de-pui-cu-susan",
+    "name": "Gujoane de pui cu susan",
+    "description": "Piept pui in sos bechamel, susan - 280g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068079/c45d8269-e620-4128-a6e1-0a5400b8e7f9.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-piept-pui-la-gratar",
+    "name": "Piept pui la gratar",
+    "description": "250g meniu",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/12ad5f88f02fb1b0c1b54839becebfeeede71b82a132afdb679fa01a4fb675e0",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 33,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 31.35,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 33.66,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-chicken-strips",
+    "name": "Chicken Strips",
+    "description": "Piept pui in fulgi, sos bechamel -  250g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068149/d4502eed-cc0e-491b-9857-9ae26c0b4eb8.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 33,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 31.35,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 33.66,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-preparate-pui-cartofi-prajiti-150g-snitel-parizian",
+    "name": "Snitel parizian",
+    "description": "Piept de pui in sos bechamel - 250g",
+    "category": "PREPARATE PUI + CARTOFI PRAJITI (150g)",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068147/bf0c3cd4-78c2-4959-b73f-ebfba77a5183.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 32,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 30.4,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 32.64,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-tagliatelle-cu-somon",
+    "name": "Tagliatelle cu somon",
+    "description": "Tagliatelle, somon, rosii cherry, sos alb - 550g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/3a07b80c510962e60a4ae184189d2c6c4ce1c075895367aa50ef534bda8c8b5d",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 50,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 47.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 51,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-spaghete-cu-fructe-de-mare",
+    "name": "Spaghete cu fructe de mare",
+    "description": "Mix fructe de mare, usturoi, sos rosii - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/e08fc34f330a20b90821dabc3683d1cafd3fe8339c63fa606bdca4e51a33b1ca",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-penne-quatro-formaggi",
+    "name": "Penne Quatro Formaggi",
+    "description": "Gorgonzola, cascaval, smantana, parmesan - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/d4446350e2090cea14347fbf87769692bde1753886c519cd43178e75939f18d5",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 47,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 44.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 47.94,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-rigatoni-al-forno",
+    "name": "Rigatoni al forno",
+    "description": "Kaiser, sos roze, cascaval, smantana - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068144/df52f703-f685-4265-b236-d1a3bedf3069.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-spaghete-cozze",
+    "name": "Spaghete Cozze",
+    "description": "Midii, vin alb, usturoi, unt - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/f253d54d80fc84d86df31433046ffc7f826e790f1d517d50499b51fddf19e80e",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-tagliatelle-cu-pui-sos-alb-si-parmezan",
+    "name": "Tagliatelle cu pui, sos alb si parmezan",
+    "description": "Pui, parmzan - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068125/d3edf45e-01e1-4fa5-bf1b-f3f822641a81.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 44,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 41.8,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 44.88,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-tagliatelle-cu-sunca-ciuperci-parmezan",
+    "name": "Tagliatelle cu sunca, ciuperci, parmezan",
+    "description": "Sunca, ciuperci, parmezan - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/9f5f4e17460394d68c5821f5827ac0c257b1bef731e130ce3438eb0d7c7cbe91",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 43,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 40.85,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 43.86,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-paste-carbonara",
+    "name": "Paste Carbonara",
+    "description": "Kaiser, usturoi, paste, smantana, parmezan - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/bc48e4f5cbb33d0298532e0f17023c03cbce3e8af4def5ff21687297ecbe7c19",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-paste-bolognese",
+    "name": "Paste Bolognese",
+    "description": "Sos bolognez carne vita si legume, parmezan, sos rosii, paste - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/dc330f41aa26b6edab395e4e3e15a194793c2f4db510a78e69c016703a01872c",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-paste-milaneze",
+    "name": "Paste Milaneze",
+    "description": "Kaiser, ciuperci, sos milanez, paste - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/1e453c74b1bbbc1f6d70b4e0d4d7dd92ffd968fc9788a64da609012435f27c6e",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-penne-arrabiata",
+    "name": "Penne Arrabiata",
+    "description": "Kaiser, usturoi, ardei iute, sos rosii - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068092/98878632-8a21-461b-8fd5-e4cab46320f4.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 42,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 39.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 42.84,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-penne-cu-sos-roze",
+    "name": "Penne cu sos roze",
+    "description": "Penne, sunca, ciuperci, sos roze - 500g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068104/387fb933-e08d-4a9a-8f85-d31676d11b81.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-paste-aop-aglio-olio-e-peperoncino",
+    "name": "AOP - Aglio, olio e peperoncino",
+    "description": "Usturoi, unt, peperoncino, ulei masline, oregano - 450g",
+    "category": "PASTE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/234048/PRODUCT/26296068128/0518d323-e420-477c-bb8c-1e63ed8d14ae.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-peste-si-fructe-de-mare-midii-pane",
+    "name": "Midii pane",
+    "description": "200g meniu",
+    "category": "PESTE SI FRUCTE DE MARE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/234048/PRODUCT/26296068101/4690441c-3050-4f0e-b8c0-2d23c0488fb6.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-peste-si-fructe-de-mare-midii-in-sos-de-vin-alb-cu-usturoi",
+    "name": "Midii in sos de vin alb cu usturoi",
+    "description": "200g meniu",
+    "category": "PESTE SI FRUCTE DE MARE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/641bf29f9b8140865a2097dcc996f4f391fb10fdaff4c6b9f21cc76aace4896a",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 45,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 42.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 45.9,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-de-post-farfalle-de-post",
+    "name": "Farfalle de post",
+    "description": "450g meniu",
+    "category": "PRODUSE DE POST",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/1073b14aec3c2794b91b50ddc2324888ef9107803654bfee758d0543616c0dfd",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 34,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 32.3,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 34.68,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-de-post-spaghete-cu-sos-rosu-si-ciuperci",
+    "name": "Spaghete cu sos rosu si ciuperci",
+    "description": "400g meniu",
+    "category": "PRODUSE DE POST",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068094/4b1a7d47-2c32-45b9-837e-62d126818a88.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 33,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 31.35,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 33.66,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-de-post-orez-cu-legume-si-ciuperci",
+    "name": "Orez cu legume si ciuperci",
+    "description": "250g meniu",
+    "category": "PRODUSE DE POST",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/5915cf5aacc4335faac225e80457f551db2b0cbcd81de221042ba4bc37f5c820",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 27,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 25.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 27.54,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-produse-de-post-broccoli-sote",
+    "name": "Broccoli sote",
+    "description": "200g meniu",
+    "category": "PRODUSE DE POST",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/f6c959775a2d9fcd09d47dc37c6458f1fd57da7bf45d1e4314b43c07b7bc7a76",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 25,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 23.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 25.5,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-cu-somon",
+    "name": "Salata cu somon",
+    "description": "Salata verde, rucola, somon fume, crutoane, lamaie, rosii cherry, capere - 400g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/bc62bbe61a9eeedb46a2d934313b9decea8d13549d18b68193d3e9aa0dc22c18",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 44,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 41.8,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 44.88,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-cin-cin",
+    "name": "Salata Cin Cin",
+    "description": "Salata verde, castraveti, ardei, ceapa, masline, sunca presata, porumb, mozzarella, piept pui, rosii - 400g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/bc6092abe5bc2dfec0afbdd1dfe7bd642e894cf27127fc7cdeb460ed6d14564a",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-greceasca",
+    "name": "Salata Greceasca",
+    "description": "Salata verde, rosii, castraveti, ardei, ceapa, masline, branza, oregano - 400g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/623ba2cef93b39667d7d714a276d07c1ece128fa6562609a55d56e20025387d9",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-ton",
+    "name": "Salata ton",
+    "description": "Salata verde, ton, masline, porumb, ceapa, lamaie - 400g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/42c9eaa1d903141341a8e372b3f6cdceece697fef13b5e4797e6044df4f35138",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-dobrogeana",
+    "name": "Salata dobrogeana",
+    "description": "Rosii, castraveti, ardei, ceapa, branza rasa - 200g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/0e826f58846b348d29bfa71c08829ada25e76aa08691a4a294caaf41002c0e57",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-bulgareasca",
+    "name": "Salata Bulgareasca",
+    "description": "Salata verde, rosii, castraveti, masline, ardei, sunca presata, cascaval, ou, ceapa - 250g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/6ca62c544ae4962c3624de6fa133b071da4bd0ef8dae5e0f0fcb660c359a10bb",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 40,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 38,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 40.8,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-caesar-de-pui",
+    "name": "Salata Caesar de pui",
+    "description": "Salata verde, crutoane, piept de pui, parmezan, dressing - 400g",
+    "category": "SALATE",
+    "imageUrl": "https://images.deliveryhero.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068086/77110f79-7549-4464-bc68-541751b0d3b2.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 39,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 37.05,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 39.78,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salate-salata-orientala",
+    "name": "Salata Orientala",
+    "description": "Cartofi, salata verde, masline, ceapa, castraveti murati - 250g",
+    "category": "SALATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/81d5d891857e0b875bc15ec339f730da24393d49625a181f25aaef6f1dfd86f6",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 33,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 31.35,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 33.66,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salata-de-insotire-salata-verde",
+    "name": "Salata verde",
+    "description": "150g",
+    "category": "SALATA DE INSOTIRE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/5382556a0ed8a629fe8d14a228f18508fd98239b875d97d8ce6e254f07170d1a",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 25,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 23.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 25.5,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salata-de-insotire-salata-rosii-si-castraveti",
+    "name": "Salata rosii si castraveti",
+    "description": "salate",
+    "category": "SALATA DE INSOTIRE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/fb119fe1fea38578c30a503b16b7a551b56b93bbeb0d96a2d9dfc12b35b929c8",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 25,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 23.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 25.5,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salata-de-insotire-salata-rosii",
+    "name": "Salata rosii",
+    "description": "salata rosii 200g",
+    "category": "SALATA DE INSOTIRE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/2f112f2f7f5a9d92c974dfdffee780bed07d5ca8c8a2979ec61ecbcf1e459bec",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 25,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 23.75,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 25.5,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salata-de-insotire-salata-muraturi",
+    "name": "Salata muraturi",
+    "description": "150g meniu",
+    "category": "SALATA DE INSOTIRE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/33ac056b11ae67c2799e1ea02c4908f6b1274da57669019c703b57ae31bea4f3",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 23,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 21.85,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 23.46,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-salata-de-insotire-salata-varza",
+    "name": "Salata varza",
+    "description": "100g varza",
+    "category": "SALATA DE INSOTIRE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/495f0e1e0cf51054eae4cf1a40182fe825a4e7adae478bb685f2aaf38bcfcb18",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 20,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 19,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 20.4,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-ciuperci-sote",
+    "name": "Ciuperci sote",
+    "description": "Ciuperci, usturoi, unt - 250g",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068136/86146af6-1383-4610-af21-7d724a4ced16.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 34,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 32.3,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 34.68,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-penne-in-sos-alb",
+    "name": "Penne in sos alb",
+    "description": "250g meniu",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068073/edbc7e03-2847-4989-b841-6decdd9b254c.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-broccoli-in-sos-alb",
+    "name": "Broccoli in sos alb",
+    "description": "Broccoli, smantana - 250g",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068074/89e6151d-d989-42a6-9356-152e0e238d44.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-piure-de-cartofi",
+    "name": "Piure de cartofi",
+    "description": "250g meniu",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/aa006f9c1b1f0c5c6088dedbce74db8569d40f98a08263accebc83105df410c0",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 23,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 21.85,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 23.46,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-mamaliga",
+    "name": "Mamaliga",
+    "description": "200g",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/347f23784af3caa11d32b7fd846f30c054830d8f8e930fd76b8be3e717bc4ddf",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 21,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 19.95,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 21.42,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-cartofi-natur",
+    "name": "Cartofi natur",
+    "description": "250g cartofi",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/0ef45fd2af8a10e291535f978b8506a02bc282ff46192f4af92db04260da59b4",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 18,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 17.1,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 18.36,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-cartofi-prajiti",
+    "name": "Cartofi prajiti",
+    "description": "150g cartofi",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/96873a9b072e0ad27a017e2ff54cf00cefefeb8832e5bfe9848133de1b1ae502",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 17,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 16.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 17.34,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-garnituri-chifla",
+    "name": "Chifla",
+    "description": "1buc",
+    "category": "GARNITURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/c303de7edccb6710864fc9aee16d1e7ebcf380540b01c638cba7e65a30234eeb",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 7,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 6.65,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 7.14,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-alte-preparate-mbs",
+    "name": "MBS",
+    "description": "Mamaliga, branza, smantana - 300g",
+    "category": "ALTE PREPARATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068174/448474b4-90ce-4f6f-8720-d513af172276.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-alte-preparate-cascaval-pane",
+    "name": "Cascaval pane",
+    "description": "250g cascaval",
+    "category": "ALTE PREPARATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068159/6e45f323-7c6d-4287-84e3-87d749f33488.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-alte-preparate-omleta-mixta",
+    "name": "Omleta mixta",
+    "description": "Rosii, ardei, ceapa, masline, bacon, cascaval, 3 oua - 200g",
+    "category": "ALTE PREPARATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/bde7544f57cd80353f82cd2a78e468c1f909ed7d3747cd3e16711238894400b5",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 30,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 28.5,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 30.6,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-alte-preparate-omleta-simpla",
+    "name": "Omleta simpla",
+    "description": "100g",
+    "category": "ALTE PREPARATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/bde7544f57cd80353f82cd2a78e468c1f909ed7d3747cd3e16711238894400b5",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 24,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 22.8,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 24.48,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-alte-preparate-oua-ochiuri",
+    "name": "Oua ochiuri",
+    "description": "2 buc oua",
+    "category": "ALTE PREPARATE",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068172/c836c57f-39bd-4f93-acee-0bd33b2b7dda.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 22,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 20.9,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 22.44,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sosuri-ketchup-dulce",
+    "name": "Ketchup dulce",
+    "description": "ketchup",
+    "category": "SOSURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/6a6985299154d06f014446944bfd120e0d2429c165afa9c647d4699e6d43d5d7",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 8,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 7.6,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 8.16,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sosuri-maioneza-usturoi",
+    "name": "Maioneza usturoi",
+    "description": "oua, usturoi",
+    "category": "SOSURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/6f7ab84e396195f1c6887256c85a27f91c44db595c04683c66deee9979c40f22",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 8,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 7.6,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 8.16,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sosuri-maioneza-simpla",
+    "name": "Maioneza simpla",
+    "description": "oua, ulei",
+    "category": "SOSURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068177/00280ca2-fed6-4fef-b094-eecdd940985e.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 8,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 7.6,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 8.16,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-sosuri-ketchup-picant",
+    "name": "Ketchup picant",
+    "description": "ketchup",
+    "category": "SOSURI",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/product/26296068186/5736b750-d1ec-44fe-bd3a-781c1de27273.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 8,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 7.6,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 8.16,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-desert-papanasi",
+    "name": "Papanasi",
+    "description": "papanasi 300g",
+    "category": "DESERT",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/d1d1b3e4c06bdb62b7d4d47114c87100cf383b291aeb6c88efdc2a5c4356b8ca",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 37,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 35.15,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 37.74,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-desert-tiramisu-cu-inghetata",
+    "name": "Tiramisu cu inghetata",
+    "description": "400g tiramisu",
+    "category": "DESERT",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068160/d6f1db4d-e3de-4e58-844b-d251eca3dca4.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 35,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 33.25,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 35.7,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-desert-tiramisu",
+    "name": "Tiramisu",
+    "description": "250g tiramisu",
+    "category": "DESERT",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/50cf0c4f16b2fd9e0eec5072979468d02fa3a7eb184eaced7cf76a6b30040e71",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 32,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 30.4,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 32.64,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-desert-clatite",
+    "name": "Clatite",
+    "description": "150g oua, faina",
+    "category": "DESERT",
+    "imageUrl": "https://glovo.dhmedia.io/image/global-menu-service/GV_RO/vendor/557868/PRODUCT/26296068156/30594e8c-35e7-4a72-9c1f-a4df7b16193c.jpg",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 23,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 21.85,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 23.46,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-pepsi-zero-zahar",
+    "name": "Pepsi Zero Zahar",
+    "description": "500ml pepsi",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/b50b12f4fbebdb0c2d36bc56e8766ad07ac1101e9914850414c8a57bb00977c1",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 12.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 11.88,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 12.75,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-pepsi",
+    "name": "Pepsi",
+    "description": " 250ml",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/9da88a2474ba1ec4995931766c45aa1bd32f2c381a3e409cd3befb886a6d847c",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-prigat-portocale",
+    "name": "Prigat Portocale",
+    "description": " 250ml",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/1bfef4f74e40bebf698ebf283c71e4ea14844fc8e2837820bc1d7c3eeff314a3",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-mirinda",
+    "name": "Mirinda",
+    "description": " 250ml",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/bb3a1870e6ef9551760cb48c3e5d599c2e63158c4925c23cede8cbd2031796f7",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 10.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 9.98,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 10.71,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-montain-dew",
+    "name": "Montain Dew",
+    "description": "500ml",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/3f72634a9dae34652f1d28028a2246f59928c8c57fbdfeb30e65c073e7baa580",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 10.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 9.98,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 10.71,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-pepsi-twist",
+    "name": "Pepsi Twist",
+    "description": " 250ml",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/6adfa21be818b6767e15c8502a85e74360b1ee4fcb3e1b755f56e66cec0199ae",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 9.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 9.03,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 9.69,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-non-alcoolice-evervess-tonic-water",
+    "name": "Evervess Tonic Water",
+    "description": "250ml",
+    "category": "BAUTURI NON-ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/a0fd987ec4c1566fee0186d83c58af365f0ae1d12c24d1c50e09a13365a50987",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 9.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 9.03,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 9.69,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-bucur",
+    "name": "Bucur",
+    "description": "330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/b1b7dfdf6e9cd18998a732890c58b6c8f15ea63c3bbbba5a6eb569a582855674",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 13.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 12.83,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 13.77,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-bucur-black",
+    "name": "Bucur black ",
+    "description": "330",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/cd0ce9d2e5019edaa7672d3bfb239f5179f9cf45f0a91204614641cf5784134a",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 13.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 12.83,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 13.77,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-somersby-apple",
+    "name": "Somersby apple",
+    "description": "330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/7f0c7b7a4dad5dd7cff6417975df604bb4697d74c5d8fe1edf3b947c932496ca",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-samersby-pear",
+    "name": "Samersby pear",
+    "description": "5% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/570b913cb12d6163519f33072ec2b5141a3bc6ac5d62d08914f72b1857a08c1b",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-somersby-blueberry",
+    "name": "Somersby blueberry",
+    "description": "5% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/072ca2a6008ec66c5e337a6114099af72683efdc31ddeb348f3d216f54b0a96a",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-somersby-blackberry",
+    "name": "Somersby blackberry",
+    "description": "5% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/ddaf35f25d1faa8dd7f343784d77900942428dc1afe5e1aafdc8393662f900a1",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-carlsberg",
+    "name": "Carlsberg",
+    "description": "5.0% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/b492628dcaf7c4b91ab671eccf5c9ca960fc128c797df5130de027235756ed67",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-carlsberg-non-alcoholic",
+    "name": "Carlsberg non alcoholic",
+    "description": "0% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://images.deliveryhero.io/image/menus-glovo/products/7c236c1120f4cc96c27483cbdd616b2240b6c1b7e2e42cb2ff0cccbe70c8d0f6?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 11.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 10.93,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 11.73,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-tuborg",
+    "name": "Tuborg",
+    "description": "5% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/64351466f635654eb758374c9616160244d5e979c1f8569c9ea8ef17cee263a6",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 10.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 9.98,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 10.71,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  },
+  {
+    "id": "cin-cin-1-bauturi-alcoolice-tuborg-non-alcoholic",
+    "name": "Tuborg non alcoholic",
+    "description": "0% - 330ml",
+    "category": "BAUTURI ALCOOLICE",
+    "imageUrl": "https://glovo.dhmedia.io/image/menus-glovo/products/becffb79e041d8300ba4b7736ecaafcd08a759fd4e42128fd8d496b6d6ad23cd",
+    "prices": [
+      {
+        "platform": "glovo",
+        "available": true,
+        "price": 10.5,
+        "deepLink": "https://glovoapp.com/ro/ro/constanta/stores/cin-cin-cta"
+      },
+      {
+        "platform": "bolt",
+        "available": true,
+        "price": 9.98,
+        "deepLink": "https://food.bolt.eu/ro/rou/constanta/cin-cin"
+      },
+      {
+        "platform": "wolt",
+        "available": true,
+        "price": 10.71,
+        "deepLink": "https://wolt.com/ro/rou/constanta/restaurant/cin-cin"
+      }
+    ]
+  }
+]

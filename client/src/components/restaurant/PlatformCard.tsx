@@ -50,10 +50,10 @@ export function PlatformCard({ platform, data, productPrice, isCheapest, index }
   const { totalFee, deliveryFee, serviceFee, smallOrderFee } = calculateTotalFees(data, productPrice ?? 0);
   const total = data.available ? (productPrice ?? 0) + totalFee : Infinity;
 
-  const platformColors: Record<Platform, { ring: string; badge: string; btn: string; btnHover: string; glow: string; bg: string }> = {
-    glovo: { ring: "ring-[#FFC244]/50", badge: "bg-[#FFC244] text-black", btn: "bg-[#FFC244] hover:bg-[#e5a822] text-black", btnHover: "hover:bg-[#FFC244]", glow: "shadow-[#FFC244]/20", bg: "bg-[#FFC244]/5" },
-    bolt: { ring: "ring-[#34D186]/50", badge: "bg-[#34D186] text-white", btn: "bg-[#34D186] hover:bg-[#2bb874] text-white", btnHover: "hover:bg-[#34D186]", glow: "shadow-[#34D186]/20", bg: "bg-[#34D186]/5" },
-    wolt: { ring: "ring-[#009DE0]/50", badge: "bg-[#009DE0] text-white", btn: "bg-[#009DE0] hover:bg-[#0089c4] text-white", btnHover: "hover:bg-[#009DE0]", glow: "shadow-[#009DE0]/20", bg: "bg-[#009DE0]/5" },
+  const platformColors: Record<Platform, { ring: string; badge: string; btn: string; btnHover: string; glow: string; bg: string; premiumGlow: string }> = {
+    glovo: { ring: "ring-[#FFC244]/50", badge: "bg-[#FFC244] text-black", btn: "bg-[#FFC244] hover:bg-[#e5a822] text-black", btnHover: "hover:bg-[#FFC244]", glow: "shadow-[#FFC244]/20", bg: "bg-[#FFC244]/5", premiumGlow: "border border-[#FFC244]/30 shadow-[0_0_25px_rgba(255,194,68,0.15)] bg-[#FFC244]/[0.02]" },
+    bolt: { ring: "ring-[#34D186]/50", badge: "bg-[#34D186] text-white", btn: "bg-[#34D186] hover:bg-[#2bb874] text-white", btnHover: "hover:bg-[#34D186]", glow: "shadow-[#34D186]/20", bg: "bg-[#34D186]/5", premiumGlow: "border border-[#34D186]/30 shadow-[0_0_25px_rgba(52,209,134,0.15)] bg-[#34D186]/[0.02]" },
+    wolt: { ring: "ring-[#009DE0]/50", badge: "bg-[#009DE0] text-white", btn: "bg-[#009DE0] hover:bg-[#0089c4] text-white", btnHover: "hover:bg-[#009DE0]", glow: "shadow-[#009DE0]/20", bg: "bg-[#009DE0]/5", premiumGlow: "border border-[#009DE0]/30 shadow-[0_0_25px_rgba(0,157,224,0.15)] bg-[#009DE0]/[0.02]" },
   };
 
   const colors = platformColors[platform];
@@ -65,7 +65,7 @@ export function PlatformCard({ platform, data, productPrice, isCheapest, index }
       transition={{ duration: 0.4, delay: index * 0.1, ease: "easeOut" }}
       className={`relative rounded-3xl transition-all duration-300 overflow-hidden ${
         isCheapest 
-          ? `bg-card border-2 border-[${info.color}] ring-4 ${colors.ring} ${colors.glow} scale-[1.02] z-10 shadow-2xl` 
+          ? `${colors.premiumGlow} scale-[1.02] z-10` 
           : `bg-card border border-border shadow-lg hover:shadow-xl hover:-translate-y-1`
       } ${!data.available ? "opacity-40 grayscale" : ""}`}
     >

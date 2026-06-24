@@ -82,7 +82,7 @@ export function HeroSection({
                   transition={{ duration: 0.15 }}
                   className="absolute top-full left-0 right-0 mt-1 bg-card rounded-xl shadow-xl border border-border z-50 overflow-hidden"
                 >
-                  <div className="overflow-y-auto" style={{ maxHeight: "220px" }}>
+                  <div className="overflow-y-auto p-1.5 space-y-0.5" style={{ maxHeight: "220px" }}>
                     {["Toate orașele", ...CITIES].map((c) => (
                       <button
                         key={c}
@@ -90,7 +90,7 @@ export function HeroSection({
                           setCity(c);
                           setCityOpen(false);
                         }}
-                        className={`w-full text-left px-4 py-2.5 text-sm transition-colors font-medium flex items-center gap-2 ${
+                        className={`w-full text-left px-3 py-2 text-sm transition-colors font-medium flex items-center gap-2 rounded-md ${
                           city === c
                             ? "bg-ring/10 text-ring"
                             : "text-foreground hover:bg-secondary"

@@ -1,0 +1,135 @@
+﻿{
+    "ok":  true,
+    "updatedAt":  "2026-05-12T17:36:05.101Z",
+    "source":  "playwright-scraper",
+    "restaurantCount":  16,
+    "scrapedData":  {
+                        "fees":  {
+                                     "glovo":  {
+                                                   "mcdonalds-constanta":  {
+                                                                               "deliveryFee":  8.99,
+                                                                               "serviceFeePercent":  0.06,
+                                                                               "serviceFeeMin":  2.49,
+                                                                               "serviceFeeMax":  7.99,
+                                                                               "smallOrderFee":  5.99,
+                                                                               "smallOrderThreshold":  40,
+                                                                               "dynamicSmallOrderFee":  true,
+                                                                               "deliveryTime":  30
+                                                                           }
+                                               },
+                                     "wolt":  {
+                                                  "pizzahut-constanta":  {
+                                                                             "wolt":  {
+                                                                                          "deliveryFee":  10.19,
+                                                                                          "serviceFeePercent":  0.07,
+                                                                                          "serviceFeeMin":  2.49,
+                                                                                          "serviceFeeMax":  7.99,
+                                                                                          "serviceFee":  0,
+                                                                                          "smallOrderFee":  0,
+                                                                                          "smallOrderThreshold":  35,
+                                                                                          "dynamicSmallOrderFee":  true,
+                                                                                          "deliveryTime":  20
+                                                                                      }
+                                                                         },
+                                                  "kfc-buc-1":  {
+                                                                    "wolt":  {
+                                                                                 "deliveryFee":  10.19,
+                                                                                 "serviceFeePercent":  0.07,
+                                                                                 "serviceFeeMin":  2.49,
+                                                                                 "serviceFeeMax":  7.99,
+                                                                                 "serviceFee":  0,
+                                                                                 "smallOrderFee":  0,
+                                                                                 "smallOrderThreshold":  35,
+                                                                                 "dynamicSmallOrderFee":  true,
+                                                                                 "deliveryTime":  20
+                                                                             }
+                                                                },
+                                                  "mcdonalds-constanta":  {
+                                                                              "wolt":  {
+                                                                                           "deliveryFee":  10.19,
+                                                                                           "serviceFeePercent":  0.07,
+                                                                                           "serviceFeeMin":  2.49,
+                                                                                           "serviceFeeMax":  7.99,
+                                                                                           "serviceFee":  0,
+                                                                                           "smallOrderFee":  0,
+                                                                                           "smallOrderThreshold":  35,
+                                                                                           "dynamicSmallOrderFee":  true,
+                                                                                           "deliveryTime":  20
+                                                                                       }
+                                                                          },
+                                                  "dabo-doner-constanta":  {
+                                                                               "wolt":  {
+                                                                                            "deliveryFee":  10.19,
+                                                                                            "serviceFeePercent":  0.07,
+                                                                                            "serviceFeeMin":  2.49,
+                                                                                            "serviceFeeMax":  7.99,
+                                                                                            "serviceFee":  0,
+                                                                                            "smallOrderFee":  0,
+                                                                                            "smallOrderThreshold":  35,
+                                                                                            "dynamicSmallOrderFee":  true,
+                                                                                            "deliveryTime":  20
+                                                                                        }
+                                                                           }
+                                              },
+                                     "bolt":  {
+                                                  "pizzahut-constanta":  {
+                                                                             "bolt":  {
+                                                                                          "deliveryFee":  7.99,
+                                                                                          "serviceFeePercent":  null,
+                                                                                          "serviceFee":  0,
+                                                                                          "smallOrderFee":  0,
+                                                                                          "smallOrderThreshold":  40,
+                                                                                          "dynamicSmallOrderFee":  false,
+                                                                                          "deliveryTime":  25
+                                                                                      }
+                                                                         },
+                                                  "kfc-buc-1":  {
+                                                                    "bolt":  {
+                                                                                 "deliveryFee":  7.99,
+                                                                                 "serviceFeePercent":  null,
+                                                                                 "serviceFee":  0,
+                                                                                 "smallOrderFee":  0,
+                                                                                 "smallOrderThreshold":  40,
+                                                                                 "dynamicSmallOrderFee":  false,
+                                                                                 "deliveryTime":  25
+                                                                             }
+                                                                },
+                                                  "mcdonalds-constanta":  {
+                                                                              "bolt":  {
+                                                                                           "deliveryFee":  7.99,
+                                                                                           "serviceFeePercent":  null,
+                                                                                           "serviceFee":  0,
+                                                                                           "smallOrderFee":  0,
+                                                                                           "smallOrderThreshold":  40,
+                                                                                           "dynamicSmallOrderFee":  false,
+                                                                                           "deliveryTime":  25
+                                                                                       }
+                                                                          },
+                                                  "dabo-doner-constanta":  {
+                                                                               "bolt":  {
+                                                                                            "deliveryFee":  7.99,
+                                                                                            "serviceFeePercent":  null,
+                                                                                            "serviceFee":  0,
+                                                                                            "smallOrderFee":  0,
+                                                                                            "smallOrderThreshold":  40,
+                                                                                            "dynamicSmallOrderFee":  false,
+                                                                                            "deliveryTime":  25
+                                                                                        }
+                                                                           }
+                                              }
+                                 },
+                        "menus":  {
+                                      "glovo":  {
+                                                    "mcdonalds-constanta":  [
+
+                                                                            ]
+                                                },
+                                      "wolt":  {
+
+                                               },
+                                      "bolt":  {
+
+                                               }
+                                  }
+                    }
+}

@@ -1,19 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Star, TrendingDown, ChevronRight } from "lucide-react";
+import { Star, TrendingDown, ChevronRight, Store, Heart } from "lucide-react";
+import { toast } from "sonner";
 import { type Restaurant, getCheapestPlatform, PLATFORM_INFO } from "@/lib/data";
 
 interface RestaurantCardProps {
   restaurant: Restaurant;
   onClick: () => void;
   index: number;
+  isFavorite?: boolean;
+  onToggleFavorite?: (e: React.MouseEvent) => void;
 }
 
-export function RestaurantCard({ restaurant, onClick, index }: RestaurantCardProps) {
+export function RestaurantCard({ restaurant, onClick, index, isFavorite, onToggleFavorite }: RestaurantCardProps) {
   const cheapest = getCheapestPlatform(restaurant.platforms);
   const availableCount = restaurant.platforms.filter((p) => p.available).length;
   const cheapestData = cheapest ? restaurant.platforms.find((p) => p.platform === cheapest) : null;
   const minTotal = cheapestData && cheapestData.available ? (cheapestData.deliveryFee + cheapestData.serviceFee) : null;
+  const isTotalValid = minTotal !== null && !Number.isNaN(minTotal);
 
   return (
     <motion.div
@@ -21,16 +25,38 @@ export function RestaurantCard({ restaurant, onClick, index }: RestaurantCardPro
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
       onClick={onClick}
-      className="bg-card rounded-2xl border border-border shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-ring/30 transition-all duration-300 cursor-pointer overflow-hidden group"
+      className="bg-card rounded-2xl border border-border shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.4)] hover:border-zinc-700/60 cursor-pointer overflow-hidden group"
     >
       <div className="flex items-center gap-4 p-5">
         <div className="relative w-20 h-20 rounded-xl overflow-hidden flex-shrink-0 shadow-md">
-          <img 
-            src={restaurant.imageUrl} 
-            alt={restaurant.name} 
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+          {restaurant.imageUrl ? (
+            <img 
+              src={restaurant.imageUrl} 
+              alt={restaurant.name} 
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+            />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center">
+              <Store className="w-8 h-8 text-zinc-500" />
+            </div>
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
+          
+          <button
+            onClick={(e) => {
+              if (isFavorite) {
+                toast(`Am eliminat ${restaurant.name} din favorite.`);
+              } else {
+                toast(`${restaurant.name} a fost adăugat la favorite! ❤️`);
+              }
+              onToggleFavorite?.(e);
+            }}
+            className="absolute top-1 right-1 p-1.5 rounded-full bg-black/40 backdrop-blur-sm hover:bg-black/60 transition-colors z-10"
+          >
+            <Heart 
+              className={`w-3.5 h-3.5 transition-colors ${isFavorite ? "fill-orange-500 text-orange-500" : "text-white/80"}`} 
+            />
+          </button>
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-2">
@@ -63,14 +89,20 @@ export function RestaurantCard({ restaurant, onClick, index }: RestaurantCardPro
                 {availableCount} surse
               </span>
             </div>
-            {minTotal && (
+            {isTotalValid ? (
               <div className="flex items-center gap-1.5 bg-emerald-500/10 px-2.5 py-1 rounded-lg border border-emerald-500/20">
                 <TrendingDown className="w-3.5 h-3.5 text-emerald-500" />
                 <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400">
                   de la {minTotal.toFixed(2)} lei
                 </span>
               </div>
-            )}
+            ) : minTotal !== null ? (
+              <div className="flex items-center gap-1.5 bg-secondary/50 px-2.5 py-1 rounded-lg border border-border">
+                <span className="text-xs font-medium text-muted-foreground">
+                  Taxă indisponibilă
+                </span>
+              </div>
+            ) : null}
           </div>
         </div>
         <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-ring group-hover:translate-x-1 transition-all flex-shrink-0 ml-2" />

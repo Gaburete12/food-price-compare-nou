@@ -1,6 +1,8 @@
 import React, { useState, useCallback, useEffect } from "react";
+import { useLocation } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, TrendingDown, ShoppingBag, Zap, ArrowRight, Settings } from "lucide-react";
+import { Search, TrendingDown, ShoppingBag, Zap, ArrowRight, Settings, Heart, SearchX } from "lucide-react";
+import { toast } from "sonner";
 import {
   RESTAURANTS,
   getCheapestPlatform,
@@ -11,26 +13,52 @@ import {
 import { Navbar } from "@/components/layout/Navbar";
 import { HeroSection } from "@/components/home/HeroSection";
 import { RestaurantCard } from "@/components/restaurant/RestaurantCard";
+import { RestaurantSkeleton } from "@/components/restaurant/RestaurantSkeleton";
 import { PlatformCard } from "@/components/restaurant/PlatformCard";
 import { MenuSection } from "@/components/restaurant/MenuSection";
 import { ComparisonModal } from "@/components/restaurant/ComparisonModal";
 import { ProductSearch } from "@/components/ProductSearch";
 import { useProductSearch } from "@/hooks/useProductSearch";
 import { useCart } from "@/contexts/CartContext";
-import { CartDrawer } from "@/components/cart/CartDrawer";
+
+type FilterType = "all" | "cheapest_delivery" | "fastest_time" | "under_5_lei";
 
 export default function Home() {
-  const [restaurants, setRestaurants] = useState<Restaurant[]>(RESTAURANTS);
+  const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [query, setQuery] = useState("");
   const [city, setCity] = useState("Constanța");
   const [results, setResults] = useState<Restaurant[]>([]);
   const [selectedRestaurant, setSelectedRestaurant] = useState<Restaurant | null>(null);
   const [hasSearched, setHasSearched] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [isSyncing, setIsSyncing] = useState(false);
   const [lastSyncTime, setLastSyncTime] = useState<string | null>(null);
   const [selectedMenuItem, setSelectedMenuItem] = useState<MenuItem | null>(null);
-  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [, setLocation] = useLocation();
+  const [favorites, setFavorites] = useState<string[]>([]);
+  const [activeFilter, setActiveFilter] = useState<FilterType>("all");
+
+  useEffect(() => {
+    const saved = localStorage.getItem("foodradar_favorites");
+    if (saved) {
+      try {
+        setFavorites(JSON.parse(saved));
+      } catch (e) {}
+    }
+  }, []);
+
+  const toggleFavorite = useCallback((id: string, e?: React.MouseEvent) => {
+    if (e) {
+      e.stopPropagation();
+      e.preventDefault();
+    }
+    setFavorites((prev) => {
+      const next = prev.includes(id) ? prev.filter((f) => f !== id) : [...prev, id];
+      localStorage.setItem("foodradar_favorites", JSON.stringify(next));
+      return next;
+    });
+  }, []);
 
   const { cartItems } = useCart();
 
@@ -67,6 +95,7 @@ export default function Home() {
   useEffect(() => {
     let isMounted = true;
     async function loadRestaurants() {
+      setIsLoading(true);
       try {
         const response = await fetch("/api/restaurants");
         if (response.ok) {
@@ -74,9 +103,16 @@ export default function Home() {
           if (isMounted && Array.isArray(payload.restaurants)) {
             setRestaurants(payload.restaurants);
           }
+        } else {
+          if (isMounted) setRestaurants(RESTAURANTS);
         }
       } catch (error) {
         console.warn("Falling back to bundled restaurant data.", error);
+        if (isMounted) setRestaurants(RESTAURANTS);
+      } finally {
+        if (isMounted) {
+          setTimeout(() => setIsLoading(false), 500);
+        }
       }
     }
     void loadRestaurants();
@@ -106,8 +142,59 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const popularRestaurants = restaurants.filter((r) => r.city === city).slice(0, 4);
+  const processRestaurants = useCallback((list: Restaurant[]) => {
+    let filtered = [...list];
+    
+    if (activeFilter === "under_5_lei") {
+      filtered = filtered.filter(r => r.platforms.some(p => p.available && p.deliveryFee < 5));
+    }
+    
+    if (activeFilter === "cheapest_delivery") {
+      filtered.sort((a, b) => {
+        const minA = Math.min(...a.platforms.filter(p => p.available).map(p => p.deliveryFee), Infinity);
+        const minB = Math.min(...b.platforms.filter(p => p.available).map(p => p.deliveryFee), Infinity);
+        return minA - minB;
+      });
+    } else if (activeFilter === "fastest_time") {
+      filtered.sort((a, b) => {
+        const minA = Math.min(...a.platforms.filter(p => p.available).map(p => p.deliveryTime), Infinity);
+        const minB = Math.min(...b.platforms.filter(p => p.available).map(p => p.deliveryTime), Infinity);
+        return minA - minB;
+      });
+    }
+
+    return filtered;
+  }, [activeFilter]);
+
+  const basePopular = restaurants.filter((r) => r.city === city || city === "Toate orașele");
+  const popularRestaurants = processRestaurants(basePopular);
+  const processedResults = processRestaurants(results);
+  const processedFavorites = processRestaurants(restaurants.filter(r => favorites.includes(r.id)));
+
   const cheapest = selectedRestaurant ? getCheapestPlatform(selectedRestaurant.platforms) : null;
+
+  const EmptyFilterState = () => (
+    <div className="col-span-full bg-card border border-border rounded-3xl p-12 text-center shadow-xl shadow-black/20 my-4">
+      <div className="w-16 h-16 bg-secondary/50 rounded-2xl flex items-center justify-center mx-auto mb-5 border border-border">
+        <SearchX className="w-8 h-8 text-zinc-600" />
+      </div>
+      <h3 className="font-bold text-lg text-foreground mb-2">Nu am găsit niciun restaurant care să se potrivească criteriilor tale.</h3>
+      <button
+        onClick={() => {
+          setActiveFilter("all");
+          setQuery("");
+          if (hasSearched) {
+            setHasSearched(false);
+            setResults([]);
+          }
+          toast("Filtrele au fost resetate cu succes! ⚡");
+        }}
+        className="mt-5 inline-flex items-center justify-center rounded-xl text-sm font-bold bg-ring text-white hover:bg-orange-500 px-6 py-2.5 transition-colors shadow-lg shadow-ring/20"
+      >
+        Resetează filtrele
+      </button>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-background text-foreground relative">
@@ -116,7 +203,7 @@ export default function Home() {
 
       <Navbar onReset={resetState} />
 
-      <main className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pb-20">
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 space-y-16 pt-8">
         <AnimatePresence mode="wait">
           {!hasSearched && !selectedRestaurant && (
             <motion.div
@@ -167,6 +254,56 @@ export default function Home() {
           )}
         </motion.section>
 
+        {/* Filter Bar */}
+        {!selectedRestaurant && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mb-8 flex items-center gap-3 overflow-x-auto no-scrollbar pb-4"
+          >
+            <button
+              onClick={() => setActiveFilter("all")}
+              className={`flex-shrink-0 px-5 py-2.5 rounded-full text-sm font-bold transition-all border ${
+                activeFilter === "all"
+                  ? "bg-foreground text-background border-foreground shadow-md"
+                  : "bg-secondary text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"
+              }`}
+            >
+              Toate
+            </button>
+            <button
+              onClick={() => setActiveFilter("cheapest_delivery")}
+              className={`flex-shrink-0 px-5 py-2.5 rounded-full text-sm font-bold transition-all border ${
+                activeFilter === "cheapest_delivery"
+                  ? "bg-ring text-white border-ring shadow-md shadow-ring/20"
+                  : "bg-secondary text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"
+              }`}
+            >
+              Cea mai ieftină livrare
+            </button>
+            <button
+              onClick={() => setActiveFilter("fastest_time")}
+              className={`flex-shrink-0 px-5 py-2.5 rounded-full text-sm font-bold transition-all border ${
+                activeFilter === "fastest_time"
+                  ? "bg-emerald-500 text-white border-emerald-500 shadow-md shadow-emerald-500/20"
+                  : "bg-secondary text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"
+              }`}
+            >
+              Cel mai rapid timp
+            </button>
+            <button
+              onClick={() => setActiveFilter("under_5_lei")}
+              className={`flex-shrink-0 px-5 py-2.5 rounded-full text-sm font-bold transition-all border ${
+                activeFilter === "under_5_lei"
+                  ? "bg-blue-500 text-white border-blue-500 shadow-md shadow-blue-500/20"
+                  : "bg-secondary text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"
+              }`}
+            >
+              Livrări sub 5 lei
+            </button>
+          </motion.div>
+        )}
+
         <AnimatePresence mode="wait">
           {hasSearched && !selectedRestaurant && (
             <motion.section
@@ -195,24 +332,24 @@ export default function Home() {
                   Șterge căutarea
                 </button>
               </div>
-              {results.length === 0 ? (
-                <div className="bg-card border border-border rounded-3xl p-12 text-center shadow-xl shadow-black/20">
-                  <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mx-auto mb-5 border border-border">
-                    <Search className="w-6 h-6 text-muted-foreground" />
-                  </div>
-                  <h3 className="font-bold text-xl text-foreground mb-2">Niciun restaurant găsit</h3>
-                  <p className="text-muted-foreground text-sm max-w-md mx-auto leading-relaxed">
-                    Încearcă un alt termen de căutare, corectează denumirea sau selectează un alt oraș din listă.
-                  </p>
+              {isSearching ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {Array.from({ length: 4 }).map((_, i) => (
+                    <RestaurantSkeleton key={`skeleton-search-${i}`} />
+                  ))}
                 </div>
+              ) : processedResults.length === 0 ? (
+                <EmptyFilterState />
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {results.map((r, i) => (
+                  {processedResults.map((r, i) => (
                     <RestaurantCard
                       key={r.id}
                       restaurant={r}
                       onClick={() => setSelectedRestaurant(r)}
                       index={i}
+                      isFavorite={favorites.includes(r.id)}
+                      onToggleFavorite={(e) => toggleFavorite(r.id, e)}
                     />
                   ))}
                 </div>
@@ -344,6 +481,51 @@ export default function Home() {
           )}
         </AnimatePresence>
 
+        {/* Favorite Restaurants */}
+        {!hasSearched && !selectedRestaurant && favorites.length > 0 && (
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.35 }}
+            className="mb-16"
+          >
+            <div className="flex items-center justify-between mb-6 pt-4">
+              <div>
+                <h2 className="text-2xl font-extrabold font-['Outfit'] text-foreground tracking-tight flex items-center gap-2">
+                  <Heart className="w-6 h-6 fill-orange-500 text-orange-500" /> Favoritele Tale
+                </h2>
+                <p className="text-xs text-muted-foreground mt-1">Localurile salvate pentru acces rapid</p>
+              </div>
+              <span className="text-xs bg-secondary border border-border font-bold px-3 py-1.5 rounded-lg text-muted-foreground">
+                {favorites.length} localuri
+              </span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {isLoading ? (
+                Array.from({ length: Math.min(2, processedFavorites.length || favorites.length) }).map((_, i) => (
+                  <RestaurantSkeleton key={`skeleton-fav-${i}`} />
+                ))
+              ) : processedFavorites.length === 0 ? (
+                <EmptyFilterState />
+              ) : (
+                processedFavorites.map((r, i) => (
+                    <RestaurantCard
+                      key={r.id}
+                      restaurant={r}
+                      onClick={() => {
+                        setSelectedRestaurant(r);
+                        setHasSearched(false);
+                      }}
+                      index={i}
+                      isFavorite={true}
+                      onToggleFavorite={(e) => toggleFavorite(r.id, e)}
+                    />
+                  ))
+              )}
+            </div>
+          </motion.section>
+        )}
+
         {/* Popular Restaurants (Initially visible) */}
         {!hasSearched && !selectedRestaurant && (
           <motion.section
@@ -364,17 +546,27 @@ export default function Home() {
               </span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {popularRestaurants.map((r, i) => (
-                <RestaurantCard
-                  key={r.id}
-                  restaurant={r}
-                  onClick={() => {
-                    setSelectedRestaurant(r);
-                    setHasSearched(false);
-                  }}
-                  index={i}
-                />
-              ))}
+              {isLoading ? (
+                Array.from({ length: 4 }).map((_, i) => (
+                  <RestaurantSkeleton key={`skeleton-popular-${i}`} />
+                ))
+              ) : popularRestaurants.length === 0 ? (
+                <EmptyFilterState />
+              ) : (
+                popularRestaurants.map((r, i) => (
+                  <RestaurantCard
+                    key={r.id}
+                    restaurant={r}
+                    onClick={() => {
+                      setSelectedRestaurant(r);
+                      setHasSearched(false);
+                    }}
+                    index={i}
+                    isFavorite={favorites.includes(r.id)}
+                    onToggleFavorite={(e) => toggleFavorite(r.id, e)}
+                  />
+                ))
+              )}
             </div>
           </motion.section>
         )}
@@ -459,7 +651,7 @@ export default function Home() {
       </main>
 
       <footer className="bg-card border-t border-border/50 py-12 mt-20 relative z-10">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-border/50 pb-8 mb-8">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-xl bg-ring flex items-center justify-center shadow-lg shadow-ring/25">
@@ -501,7 +693,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8, y: 50 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 50 }}
-            onClick={() => setIsCartOpen(true)}
+            onClick={() => setLocation("/checkout")}
             className="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-ring hover:bg-orange-500 text-white font-extrabold px-6 py-4 rounded-full shadow-2xl shadow-ring/30 active:scale-95 transition-all group cursor-pointer"
           >
             <div className="relative">
@@ -514,15 +706,6 @@ export default function Home() {
           </motion.button>
         )}
       </AnimatePresence>
-
-      {/* Cart Drawer */}
-      {selectedRestaurant && (
-        <CartDrawer
-          isOpen={isCartOpen}
-          onClose={() => setIsCartOpen(false)}
-          restaurant={selectedRestaurant}
-        />
-      )}
     </div>
   );
 }

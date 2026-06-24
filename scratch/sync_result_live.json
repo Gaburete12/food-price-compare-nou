@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "updatedAt": "2026-05-21T15:17:40.870Z",
+  "source": "playwright-scraper-merged",
+  "restaurantCount": 17,
+  "scrapedData": {
+    "fees": {
+      "glovo": {},
+      "wolt": {
+        "pizzahut-constanta": {
+          "wolt": {
+            "deliveryFee": 10.19,
+            "serviceFeePercent": 0.07,
+            "serviceFeeMin": 2.49,
+            "serviceFeeMax": 7.99,
+            "serviceFee": 0,
+            "smallOrderFee": 0,
+            "smallOrderThreshold": 35,
+            "dynamicSmallOrderFee": true,
+            "deliveryTime": 20
+          }
+        },
+        "kfc-buc-1": {
+          "wolt": {
+            "deliveryFee": 10.19,
+            "serviceFeePercent": 0.07,
+            "serviceFeeMin": 2.49,
+            "serviceFeeMax": 7.99,
+            "serviceFee": 0,
+            "smallOrderFee": 0,
+            "smallOrderThreshold": 35,
+            "dynamicSmallOrderFee": true,
+            "deliveryTime": 20
+          }
+        },
+        "mcdonalds-constanta": {
+          "wolt": {
+            "deliveryFee": 10.19,
+            "serviceFeePercent": 0.07,
+            "serviceFeeMin": 2.49,
+            "serviceFeeMax": 7.99,
+            "serviceFee": 0,
+            "smallOrderFee": 0,
+            "smallOrderThreshold": 35,
+            "dynamicSmallOrderFee": true,
+            "deliveryTime": 20
+          }
+        },
+        "dabo-doner-constanta": {
+          "wolt": {
+            "deliveryFee": 10.19,
+            "serviceFeePercent": 0.07,
+            "serviceFeeMin": 2.49,
+            "serviceFeeMax": 7.99,
+            "serviceFee": 0,
+            "smallOrderFee": 0,
+            "smallOrderThreshold": 35,
+            "dynamicSmallOrderFee": true,
+            "deliveryTime": 20
+          }
+        }
+      },
+      "bolt": {
+        "pizzahut-constanta": {
+          "deliveryFee": 7.82,
+          "serviceFeePercent": null,
+          "serviceFee": 3,
+          "smallOrderFee": 0,
+          "smallOrderThreshold": 40,
+          "dynamicSmallOrderFee": true,
+          "deliveryTime": 40,
+          "available": true
+        },
+        "kfc-buc-1": {
+          "deliveryFee": 8.82,
+          "serviceFeePercent": null,
+          "serviceFee": 3,
+          "smallOrderFee": 0,
+          "smallOrderThreshold": 40,
+          "dynamicSmallOrderFee": true,
+          "deliveryTime": 40,
+          "available": true
+        },
+        "mcdonalds-constanta": {
+          "deliveryFee": 2.99,
+          "serviceFeePercent": null,
+          "serviceFee": 3,
+          "smallOrderFee": 0,
+          "smallOrderThreshold": 40,
+          "dynamicSmallOrderFee": true,
+          "deliveryTime": 20,
+          "available": true
+        },
+        "dabo-doner-constanta": {
+          "deliveryFee": 3.99,
+          "serviceFeePercent": null,
+          "serviceFee": 3,
+          "smallOrderFee": 0,
+          "smallOrderThreshold": 40,
+          "dynamicSmallOrderFee": true,
+          "deliveryTime": 30,
+          "available": true
+        }
+      }
+    },
+    "menus": {
+      "glovo": {},
+      "wolt": {},
+      "bolt": {}
+    }
+  }
+}

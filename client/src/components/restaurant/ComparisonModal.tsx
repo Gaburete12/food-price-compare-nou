@@ -1,6 +1,8 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { type MenuItem, type Restaurant, getCheapestForProduct } from "@/lib/data";
+import { type MenuItem, type Restaurant, calculateTotalFees } from "@/lib/data";
+import { Input } from "@/components/ui/input";
+import { Calculator } from "lucide-react";
 import { PlatformCard } from "./PlatformCard";
 
 interface ComparisonModalProps {
@@ -14,6 +16,14 @@ export function ComparisonModal({
   selectedRestaurant,
   onClose,
 }: ComparisonModalProps) {
+  const [customPriceStr, setCustomPriceStr] = React.useState<string>("");
+
+  React.useEffect(() => {
+    if (selectedMenuItem) {
+      const defaultPrice = selectedMenuItem.prices.find((p) => p.available)?.price || 0;
+      setCustomPriceStr(defaultPrice.toString());
+    }
+  }, [selectedMenuItem]);
   return (
     <AnimatePresence>
       {selectedMenuItem && selectedRestaurant && (
@@ -26,10 +36,10 @@ export function ComparisonModal({
             className="absolute inset-0 bg-slate-950/60 backdrop-blur-md"
           />
           <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: 20 }}
+            initial={{ opacity: 0, scale: 0.96, y: 8 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            transition={{ type: "spring", damping: 25, stiffness: 300 }}
+            exit={{ opacity: 0, scale: 0.96, y: 8 }}
+            transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative w-full max-w-4xl bg-card border border-border rounded-3xl shadow-2xl shadow-black/50 overflow-hidden flex flex-col max-h-[90vh]"
           >
             <div className="absolute top-4 right-4 z-10">
@@ -64,27 +74,58 @@ export function ComparisonModal({
                 </div>
               </div>
 
+              <div className="mb-6 bg-secondary/30 p-5 rounded-2xl border border-border">
+                <label className="flex items-center gap-2 text-sm font-bold text-foreground mb-3">
+                  <Calculator className="w-4 h-4 text-ring" /> Simulează valoarea totală a produselor (RON)
+                </label>
+                <Input 
+                  type="number" 
+                  min="0" 
+                  step="0.01" 
+                  value={customPriceStr} 
+                  onChange={(e) => setCustomPriceStr(e.target.value)} 
+                  className="bg-card font-bold text-lg max-w-xs h-12 border-border/50 focus-visible:ring-ring"
+                />
+              </div>
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                {selectedRestaurant.platforms.map((platformData, i) => {
-                  const productPriceData = selectedMenuItem.prices.find(
-                    (p) => p.platform === platformData.platform
-                  );
-                  const effectiveAvailable =
-                    (productPriceData?.available ?? false) && platformData.available;
-                  const isCheapest =
-                    getCheapestForProduct(selectedMenuItem, selectedRestaurant) ===
-                      platformData.platform && effectiveAvailable;
-                  return (
-                    <PlatformCard
-                      key={platformData.platform}
-                      platform={platformData.platform}
-                      data={{ ...platformData, available: effectiveAvailable }}
-                      productPrice={productPriceData?.price}
-                      isCheapest={isCheapest}
-                      index={i}
-                    />
-                  );
-                })}
+                {(() => {
+                  const simulatedPrice = parseFloat(customPriceStr) || 0;
+                  let minTotal = Infinity;
+                  let cheapestPlatform: string | null = null;
+
+                  const platformsWithTotals = selectedRestaurant.platforms.map((platformData) => {
+                    const productPriceData = selectedMenuItem.prices.find(
+                      (p) => p.platform === platformData.platform
+                    );
+                    const effectiveAvailable =
+                      (productPriceData?.available ?? false) && platformData.available;
+
+                    if (effectiveAvailable) {
+                      const { totalFee } = calculateTotalFees(platformData, simulatedPrice);
+                      const total = simulatedPrice + totalFee;
+                      if (total < minTotal) {
+                        minTotal = total;
+                        cheapestPlatform = platformData.platform;
+                      }
+                    }
+                    return { platformData, effectiveAvailable };
+                  });
+
+                  return platformsWithTotals.map(({ platformData, effectiveAvailable }, i) => {
+                    const isCheapest = cheapestPlatform === platformData.platform;
+                    return (
+                      <PlatformCard
+                        key={platformData.platform}
+                        platform={platformData.platform}
+                        data={{ ...platformData, available: effectiveAvailable }}
+                        productPrice={simulatedPrice}
+                        isCheapest={isCheapest}
+                        index={i}
+                      />
+                    );
+                  });
+                })()}
               </div>
 
               <motion.p

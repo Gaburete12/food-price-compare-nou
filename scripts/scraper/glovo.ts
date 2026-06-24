@@ -14,6 +14,11 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
   const debugLogs: string[] = [];
   const log = (msg: string) => { console.log(msg); debugLogs.push(msg); };
 
+  const randomWait = async (p: any, min = 500, max = 1500) => {
+    const delay = Math.floor(Math.random() * (max - min + 1)) + min;
+    await p.waitForTimeout(delay);
+  };
+
   try {
     // PASUL 1: Mergem pe pagina principală Glovo pentru a seta adresa corectă în cookie-uri
     log("Navigating to Glovo homepage to set the address cookie...");
@@ -26,7 +31,7 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         if (await cookieBtn.count() > 0) {
            log("Accepting cookies...");
            await cookieBtn.click();
-           await page.waitForTimeout(1000);
+           await randomWait(page);
         }
     } catch(e) {}
 
@@ -43,14 +48,14 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
             if (await firstSuggestion.count() > 0) {
                 log("Clicking address suggestion...");
                 await firstSuggestion.click();
-                await page.waitForTimeout(3000);
+                await randomWait(page, 2000, 3000);
             }
 
             // Confirmare tip
             const typeBtn = page.locator('button:has-text("Altele"), button:has-text("Other"), button:has-text("Acasă"), button:has-text("Home"), button:has-text("Casă")').first();
             if (await typeBtn.count() > 0) {
                 await typeBtn.click();
-                await page.waitForTimeout(1500);
+                await randomWait(page);
             }
 
             // Confirmare finală
@@ -58,7 +63,7 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
             if (await confirmBtn.count() > 0) {
                 log("Confirming address!");
                 await confirmBtn.click();
-                await page.waitForTimeout(4000);
+                await randomWait(page, 3000, 4500);
             }
         } else {
             log("Warning: No address input found on homepage!");
@@ -111,7 +116,7 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
             const cookieBtn = page.locator('button:has-text("Acceptați toate"), button:has-text("Accept all"), #onetrust-accept-btn-handler').first();
             if (await cookieBtn.count() > 0) {
                await cookieBtn.click();
-               await page.waitForTimeout(1000);
+               await randomWait(page);
             }
         } catch(e) {}
 
@@ -119,13 +124,13 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         const firstAddButton = page.locator('button[data-test-id="add-button"]').first();
         if (await firstAddButton.count() > 0) {
           await firstAddButton.click();
-          await page.waitForTimeout(1500);
+          await randomWait(page);
           
           // Dacă apare un modal cu opțiuni, dăm adaugă în coș
           const addToCartModalBtn = page.locator('button[data-test-id="add-to-cart-button"]').first();
           if (await addToCartModalBtn.count() > 0) {
             await addToCartModalBtn.click();
-            await page.waitForTimeout(1000);
+            await randomWait(page);
           }
         }
 
@@ -134,17 +139,17 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         const infoButton = page.locator('[data-test-id="service-fee-info"], .store-service-fee-info-icon, button:has-text("Cum calculăm")').first();
         if (await infoButton.count() > 0) {
           await infoButton.click();
-          await page.waitForTimeout(1000);
+          await randomWait(page);
         } else {
           // Alternative: click pe sumarul de taxe din coș
           const cartSummary = page.locator('[data-test-id="cart-summary-total"]').first();
           if (await cartSummary.count() > 0) {
              await cartSummary.click();
-             await page.waitForTimeout(1000);
+             await randomWait(page);
              const innerInfoBtn = page.locator('[data-test-id="service-fee-info"]').first();
              if (await innerInfoBtn.count() > 0) {
                  await innerInfoBtn.click();
-                 await page.waitForTimeout(1000);
+                 await randomWait(page);
              }
           }
         }
@@ -241,13 +246,14 @@ export async function scrapeGlovo(context: BrowserContext, address: string) {
         
         // Închidem modalul de taxe apasând de mai multe ori pe X sau oriunde pe ecran
         await page.mouse.click(10, 10);
-        await page.waitForTimeout(1000);
+        await randomWait(page);
 
         // Scroll mai lent și mai profund pentru a permite imaginilor lazy-loaded să se încarce
         await page.evaluate(async () => {
           for(let i = 0; i < 15; i++) {
              window.scrollBy(0, 900);
-             await new Promise(r => setTimeout(r, 900));
+             const delay = Math.floor(Math.random() * (1200 - 600 + 1)) + 600;
+             await new Promise(r => setTimeout(r, delay));
           }
         });
 

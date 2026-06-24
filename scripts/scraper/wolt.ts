@@ -17,14 +17,36 @@ export async function scrapeWolt(context: BrowserContext, address: string) {
       { id: "sabroso-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/sabroso-67dac2825416f96b8fd40493" },
       { id: "cin-cin-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/cin-cin" },
       { id: "mesopotamia-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/mesopotamia-city-park-67e179195493f87b1eb0ce12" },
-      { id: "tacoseria-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/tacoseria-67e18559a54a3ee61d3b13ec" }
-    ];
+      { id: "tacoseria-constanta", url: "https://wolt.com/ro/rou/constanta/restaurant/tacoseria-67e18559a54a3ee61d3b13ec" },
+      { id: "burgerking-constanta", url: "https://wolt.com/en/rou/constanta/restaurant/burger-king-constanta-tom" },
+      { id: "splendid-chicken", url: "https://wolt.com/ro/rou/constanta/restaurant/splendid-chicken" },
+      { id: "tacos-king", url: "https://wolt.com/ro/rou/constanta/restaurant/tacos-king" }
+    ,
+  {
+    id: "shaormeria-baneasa-constanta",
+    url: "https://wolt.com/en/rou/constanta/restaurant/shaormeria-baneasa-constanta",
+  },
+  {
+    id: "new-dimico",
+    url: "https://wolt.com/en/rou/constanta/restaurant/new-dimico",
+  },
+
+];
 
     for (const rest of restaurantsToScrape) {
       await page.goto(rest.url, { waitUntil: 'domcontentloaded' });
       await page.waitForTimeout(2000);
 
       try {
+        // 0. Accept cookies if banner is present
+        try {
+          const cookieBtn = page.locator('button[data-test-id="cookie-consent-accept"], button:has-text("Accept"), button:has-text("Acceptă"), button:has-text("Accept all")').first();
+          if (await cookieBtn.count() > 0) {
+            await cookieBtn.click();
+            await page.waitForTimeout(1000);
+          }
+        } catch(e) {}
+
         // 1. Apăsăm pe primul produs
         const firstProduct = page.locator('div[data-test-id="MenuItem"]').first();
         if (await firstProduct.count() > 0) {
@@ -88,19 +110,26 @@ export async function scrapeWolt(context: BrowserContext, address: string) {
         const menuItems = await page.evaluate((url) => {
           const items: any[] = [];
           // Wolt folosește data-test-id pentru produse
-          const productElements = Array.from(document.querySelectorAll('[data-test-id="MenuItem"], [class*="MenuItem"], [class*="ProductItem"], .product-card, .item-card'));
+          const productElements = Array.from(document.querySelectorAll('[data-test-id="MenuItem"], [data-test-id="MenuProduct"], [data-test-id="horizontal-item-card"], [data-test-id="product-card"], article, div[role="listitem"], .product-card'));
 
           console.log(`Wolt: Found ${productElements.length} product elements`);
 
           productElements.forEach(card => {
             // Numele produsului
-            const nameEl = card.querySelector('[data-test-id="MenuItemName"], h3, h4, [class*="name"], [class*="title"]');
+            const nameEl = card.querySelector('[data-test-id="MenuItemName"], [data-test-id="MenuProductName"], h3, h4, [class*="name"], [class*="title"]');
             let name = nameEl ? nameEl.textContent?.trim() || "" : "";
 
             // Prețul produsului
-            const priceEl = card.querySelector('[data-test-id="MenuItemPrice"], [class*="price"], .price');
+            let priceEl = card.querySelector('[data-test-id="MenuItemPrice"], [data-test-id="MenuProductPrice"], [class*="price"], .price');
+            if (!priceEl) {
+                const spans = Array.from(card.querySelectorAll('span, p, div'));
+                priceEl = spans.find(el => {
+                    const txt = el.textContent || "";
+                    return txt.includes("lei") || txt.includes("RON") || txt.includes("Lei");
+                }) || null;
+            }
             const priceText = priceEl ? priceEl.textContent?.trim() || "" : "";
-            const priceMatch = priceText.match(/([\d,]+)/);
+            const priceMatch = priceText.match(/([\d,.]+)/);
             const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
 
             // Descrierea

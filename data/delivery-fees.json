@@ -1,127 +1,148 @@
 {
-  "updatedAt": "2026-05-18T19:22:00.000Z",
-  "source": "manual-constanta-tomis-47",
+  "updatedAt": "2026-06-18T16:01:37.839Z",
+  "source": "local-scraper",
   "fees": {
-    "mcdonalds-constanta": {
-      "glovo": {
-        "deliveryFee": 0.0,
-        "serviceFeePercent": 0.08,
-        "serviceFeeMin": 1.99,
-        "serviceFeeMax": 9.99,
-        "smallOrderFee": 5.99,
-        "smallOrderThreshold": 40.0,
+    "bolt": {
+      "pizzahut-constanta": {
+        "deliveryFee": 7.82,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 40,
+        "available": true
+      },
+      "kfc-buc-1": {
+        "deliveryFee": 8.82,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 40,
+        "available": true
+      },
+      "mcdonalds-constanta": {
+        "deliveryFee": 2.99,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 20,
+        "available": true
+      },
+      "dabo-doner-constanta": {
+        "deliveryFee": 3.99,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
         "deliveryTime": 25,
         "available": true
       },
-      "bolt": {
-        "deliveryFee": 3.08,
-        "serviceFee": 3.00,
-        "smallOrderFee": 0.0,
-        "smallOrderThreshold": 40.0,
+      "sabroso-constanta": {
+        "deliveryFee": 4.87,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 20,
-        "available": true
-      },
-      "wolt": {
-        "deliveryFee": 5.79,
-        "serviceFeePercent": 0.08,
-        "serviceFeeMin": 2.49,
-        "serviceFeeMax": 7.99,
-        "smallOrderFee": 7.50,
-        "smallOrderThreshold": 35.0,
-        "dynamicSmallOrderFee": true,
-        "deliveryTime": 20,
-        "available": true
-      }
-    },
-    "kfc-buc-1": {
-      "glovo": {
-        "deliveryFee": 0.0,
-        "serviceFeePercent": 0.08,
-        "serviceFeeMin": 1.99,
-        "serviceFeeMax": 9.99,
-        "smallOrderFee": 5.99,
-        "smallOrderThreshold": 40.0,
-        "dynamicSmallOrderFee": true,
-        "deliveryTime": 35,
-        "available": true
-      },
-      "bolt": {
-        "deliveryFee": 0.0,
-        "serviceFee": 0.62,
-        "smallOrderFee": 5.99,
-        "smallOrderThreshold": 40.0,
-        "deliveryTime": 35,
-        "available": true
-      },
-      "wolt": {
-        "deliveryFee": 4.69,
-        "serviceFee": 2.65,
-        "smallOrderFee": 0.0,
-        "smallOrderThreshold": 0.0,
-        "deliveryTime": 30,
-        "available": true
-      }
-    },
-    "pizzahut-constanta": {
-      "glovo": {
-        "deliveryFee": 0.0,
-        "serviceFeePercent": 0.08,
-        "serviceFeeMin": 1.99,
-        "serviceFeeMax": 9.99,
-        "smallOrderFee": 4.62,
-        "smallOrderThreshold": 40.0,
-        "dynamicSmallOrderFee": false,
-        "deliveryTime": 45,
-        "available": true
-      },
-      "bolt": {
-        "deliveryFee": 7.95,
-        "serviceFee": 0.99,
-        "smallOrderFee": 4.62,
-        "smallOrderThreshold": 40.0,
-        "dynamicSmallOrderFee": false,
         "deliveryTime": 50,
         "available": true
       },
-      "wolt": {
-        "deliveryFee": 0.0,
-        "serviceFee": 2.49,
-        "smallOrderFee": 4.0,
-        "smallOrderThreshold": 35.0,
+      "cin-cin-constanta": {
+        "deliveryFee": 3,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 25,
+        "available": true
+      },
+      "mesopotamia-constanta": {
+        "deliveryFee": 8.81,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 35,
+        "available": true
+      },
+      "tacoseria-constanta": {
+        "deliveryFee": 3.99,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 30,
+        "available": true
+      },
+      "burgerking-constanta": {
+        "deliveryFee": 3,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 25,
+        "available": true
+      },
+      "splendid-chicken": {
+        "deliveryFee": 3,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 25,
+        "available": true
+      },
+      "tacos-king": {
+        "deliveryFee": 3,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 25,
+        "available": true
+      },
+      "shaormeria-baneasa-constanta": {
+        "deliveryFee": 7,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 35,
+        "available": true
+      },
+      "new-dimico": {
+        "deliveryFee": 6.24,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
+        "deliveryTime": 35,
+        "available": true
+      },
+      "sarmola-street-food": {
+        "deliveryFee": 4.75,
+        "serviceFee": 3,
+        "serviceFeePercent": null,
+        "smallOrderFee": 0,
+        "smallOrderThreshold": 40,
+        "dynamicSmallOrderFee": true,
         "deliveryTime": 35,
         "available": true
       }
     }
-  },
-    "cin-cin-constanta": {
-       "glovo": {
-         "deliveryFee": 3.50,
-         "serviceFeePercent": 0.08,
-         "serviceFeeMin": 2.00,
-         "serviceFeeMax": 8.00,
-         "smallOrderFee": 5.00,
-         "smallOrderThreshold": 60.0,
-         "dynamicSmallOrderFee": true,
-         "deliveryTime": 35,
-         "available": true
-       },
-       "bolt": {
-         "deliveryFee": 2.99,
-         "serviceFee": 3.00,
-         "smallOrderFee": 0.0,
-         "smallOrderThreshold": 70.0,
-         "deliveryTime": 35,
-         "available": true
-       },
-       "wolt": {
-         "deliveryFee": 4.00,
-         "serviceFee": 2.00,
-         "smallOrderFee": 3.00,
-         "smallOrderThreshold": 50.0,
-         "deliveryTime": 30,
-         "available": true
-       }
-     }
   }
+}
