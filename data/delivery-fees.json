@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T18:15:36.649Z",
+  "updatedAt": "2026-08-10T18:44:08.958Z",
   "source": "local-scraper",
   "fees": {
     "bolt": {
@@ -20,7 +20,7 @@
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 45,
+        "deliveryTime": 50,
         "available": true
       },
       "mcdonalds-constanta": {
@@ -40,11 +40,11 @@
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 25,
+        "deliveryTime": 30,
         "available": true
       },
       "sabroso-constanta": {
-        "deliveryFee": 4.19,
+        "deliveryFee": 4.89,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
@@ -74,7 +74,7 @@
         "available": true
       },
       "tacoseria-constanta": {
-        "deliveryFee": 4.39,
+        "deliveryFee": 3.99,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
@@ -134,7 +134,7 @@
         "available": true
       },
       "sarmola-street-food": {
-        "deliveryFee": 5.39,
+        "deliveryFee": 5.09,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,

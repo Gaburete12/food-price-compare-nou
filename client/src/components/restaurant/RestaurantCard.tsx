@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Star, TrendingDown, ChevronRight, Store, Heart } from "lucide-react";
 import { toast } from "sonner";
-import { type Restaurant, getCheapestPlatform, PLATFORM_INFO } from "@/lib/data";
+import { type Restaurant, getCheapestPlatform, PLATFORM_INFO, calculateTotalFees } from "@/lib/data";
 
 interface RestaurantCardProps {
   restaurant: Restaurant;
@@ -16,8 +16,19 @@ export function RestaurantCard({ restaurant, onClick, index, isFavorite, onToggl
   const cheapest = getCheapestPlatform(restaurant.platforms);
   const availableCount = restaurant.platforms.filter((p) => p.available).length;
   const cheapestData = cheapest ? restaurant.platforms.find((p) => p.platform === cheapest) : null;
-  const minTotal = cheapestData && cheapestData.available ? (cheapestData.deliveryFee + cheapestData.serviceFee) : null;
-  const isTotalValid = minTotal !== null && !Number.isNaN(minTotal);
+  
+  let minTotal = null;
+  if (cheapestData && cheapestData.available) {
+    // Dacă ambele taxe lipsesc sau sunt undefined, considerăm indisponibil (NaN protection)
+    if (cheapestData.deliveryFee == null && cheapestData.serviceFee == null) {
+      minTotal = null;
+    } else {
+      const fees = calculateTotalFees(cheapestData, 0);
+      minTotal = fees.totalFee;
+    }
+  }
+  
+  const isTotalValid = minTotal !== null && !Number.isNaN(minTotal) && minTotal > 0;
 
   return (
     <motion.div

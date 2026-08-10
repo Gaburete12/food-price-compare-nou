@@ -81,7 +81,7 @@ export function Navbar({ onReset }: NavbarProps) {
               <p className="text-[9px] font-black text-emerald-500 uppercase tracking-wider">
                 Status Scannere
               </p>
-              <p className="text-xs font-black font-['Outfit'] text-foreground">Prețuri Live (Glovo, Bolt)</p>
+              <p className="text-xs font-black font-['Outfit'] text-foreground">Prețuri Live (Glovo, Bolt, Wolt)</p>
             </div>
           </div>
           
