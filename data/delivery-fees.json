@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-18T16:01:37.839Z",
+  "updatedAt": "2026-08-10T18:15:36.649Z",
   "source": "local-scraper",
   "fees": {
     "bolt": {
       "pizzahut-constanta": {
-        "deliveryFee": 7.82,
+        "deliveryFee": 8.19,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
@@ -14,13 +14,13 @@
         "available": true
       },
       "kfc-buc-1": {
-        "deliveryFee": 8.82,
+        "deliveryFee": 5.69,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 40,
+        "deliveryTime": 45,
         "available": true
       },
       "mcdonalds-constanta": {
@@ -44,13 +44,13 @@
         "available": true
       },
       "sabroso-constanta": {
-        "deliveryFee": 4.87,
+        "deliveryFee": 4.19,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 50,
+        "deliveryTime": 40,
         "available": true
       },
       "cin-cin-constanta": {
@@ -64,7 +64,7 @@
         "available": true
       },
       "mesopotamia-constanta": {
-        "deliveryFee": 8.81,
+        "deliveryFee": 5.79,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
@@ -74,13 +74,13 @@
         "available": true
       },
       "tacoseria-constanta": {
-        "deliveryFee": 3.99,
+        "deliveryFee": 4.39,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 30,
+        "deliveryTime": 25,
         "available": true
       },
       "burgerking-constanta": {
@@ -114,17 +114,17 @@
         "available": true
       },
       "shaormeria-baneasa-constanta": {
-        "deliveryFee": 7,
+        "deliveryFee": 7.29,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 35,
+        "deliveryTime": 45,
         "available": true
       },
       "new-dimico": {
-        "deliveryFee": 6.24,
+        "deliveryFee": 6.49,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
@@ -134,13 +134,13 @@
         "available": true
       },
       "sarmola-street-food": {
-        "deliveryFee": 4.75,
+        "deliveryFee": 5.39,
         "serviceFee": 3,
         "serviceFeePercent": null,
         "smallOrderFee": 0,
         "smallOrderThreshold": 40,
         "dynamicSmallOrderFee": true,
-        "deliveryTime": 35,
+        "deliveryTime": 40,
         "available": true
       }
     }

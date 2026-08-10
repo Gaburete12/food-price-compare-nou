@@ -95,21 +95,45 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
         let deliveryFee = 3.00; // Valoare inițială fallback rezonabilă
         let deliveryTime = 25;
 
-        // --- Extragere Taxă Livrare folosind strategia relațională cu Text-Content ---
+        // --- Extragere Taxă Livrare ---
         try {
-          const deliveryLabel = restPage.locator('div').filter({ hasText: /^(livrare|delivery)$/i }).first();
-          if (await deliveryLabel.count() > 0) {
-            const parent = deliveryLabel.locator('xpath=..');
-            const feeEl = parent.locator('div').first();
-            const text = await feeEl.innerText() || "";
-            console.log(`[Bolt] Raw delivery text for ${rest.id}:`, text);
-            
-            if (text.toLowerCase().includes('gratuit') || text.toLowerCase().includes('free')) {
-              deliveryFee = 0;
+          // Strategia 1: data-testid explicit pentru fee
+          const feeTestId = restPage.locator('[data-testid*="delivery"][data-testid*="fee"], [data-testid*="DeliveryFee"]').first();
+          if (await feeTestId.count() > 0) {
+            const text = (await feeTestId.innerText()) || "";
+            const match = text.match(/([\d,.]+)/);
+            if (match) deliveryFee = parseFloat(match[1].replace(',', '.'));
+            console.log(`[Bolt] Delivery fee via data-testid: ${text} => ${deliveryFee}`);
+          } else {
+            // Strategia 2: label-parent (caută textul "livrare" / "delivery" și extrage prețul din parent)
+            const deliveryLabel = restPage.locator('[data-testid="screens.Provider.MenuHeader.deliveryInfoRow.infoBlock.view.delivery"]').first();
+            if (await deliveryLabel.count() > 0) {
+              const text = (await deliveryLabel.innerText()) || "";
+              console.log(`[Bolt] Raw delivery info block: ${text}`);
+              if (text.toLowerCase().includes('gratuit') || text.toLowerCase().includes('free')) {
+                deliveryFee = 0;
+              } else {
+                const match = text.match(/([\d,.]+)/);
+                if (match) deliveryFee = parseFloat(match[1].replace(',', '.'));
+              }
             } else {
-              const match = text.match(/([\d,.]+)/);
-              if (match) {
-                deliveryFee = parseFloat(match[1].replace(',', '.'));
+              // Strategia 3: text "lei" în apropierea cuvântului "livrare"
+              const feeEl = await restPage.evaluate(() => {
+                const allEls = Array.from(document.querySelectorAll('span, div, p'));
+                const el = allEls.find(e => {
+                  const t = e.textContent || '';
+                  return (t.includes('livrare') || t.includes('delivery')) && (t.includes('lei') || t.includes('RON')) && t.length < 80;
+                });
+                return el ? el.textContent?.trim() : null;
+              });
+              if (feeEl) {
+                console.log(`[Bolt] Raw delivery text (fallback): ${feeEl}`);
+                if (feeEl.toLowerCase().includes('gratuit') || feeEl.toLowerCase().includes('free')) {
+                  deliveryFee = 0;
+                } else {
+                  const match = feeEl.match(/([\d,.]+)/);
+                  if (match) deliveryFee = parseFloat(match[1].replace(',', '.'));
+                }
               }
             }
           }
@@ -167,170 +191,134 @@ export async function scrapeBolt(context: BrowserContext, address: string) {
             await restPage.mouse.move(boundingBox.width / 2, boundingBox.height / 2);
         }
 
+        // --- Auto-scroll bidirectional pentru VirtualizedList ---
+        // Bolt Food folosește un VirtualizedList care reciclează noduri DOM.
+        // Strategia: scroll progresiv în jos (pas mare) + scroll înapoi în sus la final,
+        // acumulând toate produsele vizibile la fiecare pas într-un Map pentru deduplicare.
+        const MAX_SCROLL_STEPS = 80;  // mai multe scroll-uri pentru meniuri mari
+        const SCROLL_STEP_PX = 800;   // pas mai mare pentru a avansa rapid
+        const NO_CHANGE_LIMIT = 8;    // oprim după 8 iterații fără produs nou
+
         let prevSize = 0;
         let noChangeAttempts = 0;
 
-        for (let scrollStep = 0; scrollStep < 40; scrollStep++) {
+        // PASUL A: Scroll în jos
+        for (let scrollStep = 0; scrollStep < MAX_SCROLL_STEPS; scrollStep++) {
             const stepItems = await restPage.evaluate((url) => {
                 const items: any[] = [];
-          // Bolt Food folosește structuri de produse în carduri
-          // Deoarece folosesc React Native Web, clasele sunt obfuscate (ex. css-1dbjc4n)
           let productElements = Array.from(document.querySelectorAll('[data-testid="components.DishList.DishRow.view"]'));
-          if(productElements.length === 0) productElements = Array.from(document.querySelectorAll('div[role="button"], a, li'));
           
-          // Păstrăm doar containerele care au un preț în interior (text rezonabil de scurt)
-          productElements = productElements.filter(card => {
-             const txt = card.textContent || "";
-             return (txt.includes('lei') || txt.includes('Lei') || txt.includes('RON')) && txt.length > 5 && txt.length < 1500;
-          });
-
-          // Dacă tot e 0, fallback: urcăm de la orice tag <img> până dăm de un preț
+          // Fallback dacă selectorii primari lipsesc
           if (productElements.length === 0) {
-              console.log("Bolt: Folosim euristica pe bază de imagini pentru carduri...");
-              const allImages = Array.from(document.querySelectorAll('img'));
-              allImages.forEach(img => {
-                  // Excludem din start imaginile de cover, logo, banner
-                  const imgClasses = (img.getAttribute('class') || "").toLowerCase();
-                  const imgSrc = (img.getAttribute('src') || "").toLowerCase();
-                  if (imgClasses.includes("header") || imgClasses.includes("cover") || 
-                      imgClasses.includes("banner") || imgClasses.includes("logo") || 
-                      imgClasses.includes("avatar") || imgClasses.includes("hero") ||
-                      imgSrc.includes("logo") || imgSrc.includes("cover") || imgSrc.includes("banner")) {
-                      return; // Sărim peste această imagine
-                  }
-                  
-                  // Verificăm dimensiunile (ignoram imagini gigantice)
-                  if (img.width > 400 || img.height > 400) {
-                      return;
-                  }
-
-                  let parent = img.parentElement;
-                  let depth = 0;
-                  let inHeader = false;
-                  
-                  // Verificăm să nu fim în interiorul unui <header>
-                  let checkParent = parent;
-                  while(checkParent && depth < 10) {
-                      if (checkParent.tagName.toLowerCase() === 'header' || 
-                          (checkParent.getAttribute('class') || "").toLowerCase().includes("header")) {
-                          inHeader = true;
-                          break;
-                      }
-                      checkParent = checkParent.parentElement;
-                      depth++;
-                  }
-                  if (inHeader) return;
-                  
-                  depth = 0;
-                  while (parent && depth < 8) {
-                      const text = parent.textContent || "";
-                      if ((text.includes('lei') || text.includes('Lei') || text.includes('RON')) && text.length < 400) {
-                          if (!productElements.includes(parent)) {
-                              productElements.push(parent);
-                          }
-                          break;
-                      }
-                      parent = parent.parentElement;
-                      depth++;
-                  }
-              });
+            productElements = Array.from(document.querySelectorAll('div, li, article')).filter(card => {
+               const txt = card.textContent || "";
+               return (txt.includes('lei') || txt.includes('Lei') || txt.includes('RON')) && txt.length > 5 && txt.length < 800;
+            });
           }
 
           console.log(`Bolt: Found ${productElements.length} product elements`);
 
           productElements.forEach(card => {
-            // Numele produsului
             const nameEl = card.querySelector('[data-testid="components.DishList.DishRow.title"], h3, h4, [class*="name"], [class*="title"], [class*="Name"], [class*="Title"]');
             let name = nameEl ? nameEl.textContent?.trim() || "" : "";
             
-            // Fallback dacă h3/h4 nu există: primul text semnificativ din card
             if (!name) {
                 const allTexts = Array.from(card.querySelectorAll('div, span, p'))
                     .map(el => el.textContent?.trim() || "")
                     .filter(t => t.length > 2 && !t.includes('lei') && !t.includes('Lei') && !t.includes('RON') && !t.match(/^\d+$/));
-                if (allTexts.length > 0) {
-                    name = allTexts[0];
-                }
+                if (allTexts.length > 0) name = allTexts[0];
             }
 
-            // Prețul produsului
-            // Căutăm clasele clasice de preț
-            let priceEl = card.querySelector('[data-testid="components.Price.originalPrice"], [data-testid="components.Price.discountedPrice"], [class*="price"], [class*="Price"], .price');
-
-            // Dacă nu găsește clasa, căutăm manual un element care conține textul "lei" sau "RON"
+            // Preț: selector primar cu data-testid, fallback pe text "lei"
+            let priceEl: Element | null = card.querySelector('[data-testid="components.Price.originalPrice"], [data-testid="components.Price.discountedPrice"], [class*="price"], [class*="Price"]');
             if (!priceEl) {
-              const elements = Array.from(card.querySelectorAll('span, div, p'));
-              priceEl = elements.find(el => {
+              priceEl = Array.from(card.querySelectorAll('span, div, p')).find(el => {
                 const txt = el.textContent || "";
-                return txt.includes('lei') || txt.includes('Lei') || txt.includes('RON');
+                return (txt.includes('lei') || txt.includes('Lei') || txt.includes('RON')) && txt.length < 25;
               }) || null;
             }
             const priceText = priceEl ? priceEl.textContent?.trim() || "" : "";
-            const priceMatch = priceText.match(/([\d,]+)/);
+            const priceMatch = priceText.match(/([\d,.]+)/);
             const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
 
-            // Descrierea
-            const descEl = card.querySelector('[data-testid="components.DishList.DishRow.description"], [class*="description"], [class*="Description"], p');
+            const descEl = card.querySelector('[data-testid="components.DishList.DishRow.description"], [class*="description"], p');
             const description = descEl ? descEl.textContent?.trim() || "" : "";
 
-            // Imaginea
             const imgEl = card.querySelector('[data-testid="components.DishList.DishRow.image"] img, img');
             const imageUrl = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || "") : "";
 
-            // Categoria
             let category = "Meniu";
             let parent = card.parentElement;
             let depth = 0;
             while(parent && depth < 8) {
               const heading = parent.querySelector('h2, h3, [class*="category"], [class*="Category"]');
-              if (heading && heading.textContent) {
-                category = heading.textContent.trim();
-                break;
-              }
+              if (heading && heading.textContent) { category = heading.textContent.trim(); break; }
               parent = parent.parentElement;
               depth++;
             }
 
             if (name && price > 0 && name.length < 100) {
               const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-              items.push({
-                id,
-                name,
-                description,
-                category,
-                imageUrl,
-                prices: [{
-                  platform: "bolt",
-                  available: true,
-                  price: price,
-                  deepLink: url
-                }]
-              });
+              items.push({ id, name, description, category, imageUrl, prices: [{ platform: "bolt", available: true, price, deepLink: url }] });
             }
           });
-
           return items;
         }, rest.url);
 
         for (const item of stepItems) {
-            if (!menuItemsMap.has(item.id)) {
-                menuItemsMap.set(item.id, item);
-            }
+            if (!menuItemsMap.has(item.id)) menuItemsMap.set(item.id, item);
         }
 
-        await restPage.mouse.wheel(0, 1000);
-        await restPage.waitForTimeout(400);
+        await restPage.mouse.wheel(0, SCROLL_STEP_PX);
+        await restPage.waitForTimeout(350);
 
         if (menuItemsMap.size === prevSize) {
             noChangeAttempts++;
-            if (noChangeAttempts >= 6) {
-                console.log(`Bolt: Am ajuns la final, extragerea s-a oprit după ${scrollStep} scroll-uri.`);
+            if (noChangeAttempts >= NO_CHANGE_LIMIT) {
+                console.log(`Bolt: Scroll jos oprit după ${scrollStep} pași (${menuItemsMap.size} produse acumulate).`);
                 break;
             }
         } else {
             noChangeAttempts = 0;
             prevSize = menuItemsMap.size;
         }
+      }
+
+      // PASUL B: Scroll înapoi la top și re-colectare (pentru itemele VirtualizedList reciclate)
+      console.log(`Bolt: Scroll înapoi la top pentru a recupera itemele reciclate...`);
+      await restPage.evaluate(() => window.scrollTo(0, 0));
+      await restPage.waitForTimeout(600);
+      
+      // Re-colectăm itemele de la top (acum afișate din nou)
+      for (let upStep = 0; upStep < 5; upStep++) {
+        const topItems = await restPage.evaluate((url) => {
+          const items: any[] = [];
+          const productElements = Array.from(document.querySelectorAll('[data-testid="components.DishList.DishRow.view"]'));
+          productElements.forEach(card => {
+            const nameEl = card.querySelector('[data-testid="components.DishList.DishRow.title"], h3, h4');
+            let name = nameEl ? nameEl.textContent?.trim() || "" : "";
+            let priceEl: Element | null = card.querySelector('[data-testid="components.Price.originalPrice"], [data-testid="components.Price.discountedPrice"]');
+            if (!priceEl) {
+              priceEl = Array.from(card.querySelectorAll('span, div, p')).find(el => {
+                const t = el.textContent || "";
+                return (t.includes('lei') || t.includes('RON')) && t.length < 25;
+              }) || null;
+            }
+            const priceText = priceEl?.textContent?.trim() || "";
+            const priceMatch = priceText.match(/([\d,.]+)/);
+            const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
+            if (name && price > 0 && name.length < 100) {
+              const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+              items.push({ id, name, description: '', category: 'Meniu', imageUrl: '', prices: [{ platform: 'bolt', available: true, price, deepLink: url }] });
+            }
+          });
+          return items;
+        }, rest.url);
+        for (const item of topItems) {
+          if (!menuItemsMap.has(item.id)) menuItemsMap.set(item.id, item);
+        }
+        await restPage.mouse.wheel(0, 500);
+        await restPage.waitForTimeout(300);
       }
 
       const menuItems = Array.from(menuItemsMap.values());

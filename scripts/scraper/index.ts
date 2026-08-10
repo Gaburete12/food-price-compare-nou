@@ -52,12 +52,11 @@ export async function runScrapers(address: string) {
     console.log("-> Sărim peste scraping pe Glovo (pauză anti-bot)...");
     const glovoData = { fees: {}, menus: {} };
 
-    console.log("-> Începem scraping pe Wolt...");
-    // const woltData = await scrapeWolt(context, address).catch(e => {
-    //   console.error("Eroare la Wolt:", e.message);
-    //   return { fees: {}, menus: {} };
-    // });
-    const woltData = { fees: {}, menus: {} };
+    console.log("--> Începem scraping pe Wolt...");
+    const woltData = await scrapeWolt(context, address).catch(e => {
+      console.error("Eroare la Wolt:", e.message);
+      return { fees: {}, menus: {} };
+    });
 
     console.log("-> Începem scraping pe Bolt Food...");
     const boltData = await scrapeBolt(context, address).catch(e => {
